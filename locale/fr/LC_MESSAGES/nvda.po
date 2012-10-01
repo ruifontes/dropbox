@@ -1,0 +1,54 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: sayStatedropbox.mo\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-07-30 15:57+0200\n"
+"PO-Revision-Date: 2012-07-30 16:14+0100\n"
+"Last-Translator: Patrick ZAJDA <webmaster@gansta93.com>\n"
+"Language-Team: FR <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: \n"
+"X-Poedit-Language: French\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-Country: FRANCE\n"
+
+#: appModules\dropbox.py:7
+msgid "Account"
+msgstr "Compte"
+
+#: appModules\dropbox.py:7
+msgid "Advanced"
+msgstr "Avancé"
+
+#: globalPlugins\SayStatedropbox.py:68
+msgid "Announce Dropbox' status"
+msgstr "Annonce le statut de Dropbox"
+
+#: appModules\dropbox.py:7
+msgid "Bandwidth"
+msgstr "Bande passante"
+
+#: appModules\dropbox.py:62
+#: appModules\dropbox.py:67
+msgid "Cancel"
+msgstr "Annuler"
+
+#: appModules\dropbox.py:7
+msgid "General"
+msgstr "Général"
+
+#: appModules\dropbox.py:7
+msgid "Proxies"
+msgstr "Proxy"
+
+#: globalPlugins\SayStatedropbox.py:46
+msgid "drop box not found"
+msgstr "Dropbox non trouvé"
+
