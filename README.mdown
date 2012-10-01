@@ -1,0 +1,21 @@
+[[!meta title="dropbox"]]
+
+* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos
+* Download: [[version 2.0][downloadLink]
+
+This plugin will announce Dropbox status, version or open the Dropbox systray menu.
+Also page tabs working on the preferences dialog with tab and Ctrl+Tab.
+To conclude, make the cancel button working with escape.
+
+* Shortcut: NVDA+Shift+D
+* Ctrl+Alt+T announce the active tab.
+
+## Changes for 2.0 ##
+
+* New languages: Italian
+
+## Changes for 1.0 ##
+
+* Initial Release
+
+[downloadLink]: http://patrick.zajda.fr/nvda/DropboxPlugin.nvda-addon
