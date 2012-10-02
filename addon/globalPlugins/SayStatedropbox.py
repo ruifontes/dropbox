@@ -10,6 +10,7 @@ import ctypes
 import NVDAObjects
 from api import getFocusObject
 import winUser
+from NVDAObjects.IAccessible import controlTypes
 
 # We initialize translation support
 addonHandler.initTranslation()
@@ -60,7 +61,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		else:
 			objFocused = getFocusObject()
 			currentProcess = objFocused.appModule.appName.lower()
-			if currentProcess != u'dropbox' and objFocused.windowClassName.lower() != u'#32768':
+			if (currentProcess.lower() == u'dropbox' and objFocused.windowClassName.lower() == u'#32768') and (objFocused.role == controlTypes.ROLE_POPUPMENU or objFocused.role == controlTypes.ROLE_MENUITEM):
+				return
+			else:
 				rightMouseButton (o)
 			return
 		message (name)
