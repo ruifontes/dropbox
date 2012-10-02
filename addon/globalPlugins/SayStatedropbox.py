@@ -59,6 +59,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		elif isSameScript ==1:
 			name = " ".join(name[0:2])
 		else:
+			# If we are already inside of the context menu, stop the script
 			objFocused = getFocusObject()
 			currentProcess = objFocused.appModule.appName.lower()
 			if (currentProcess.lower() == u'dropbox' and objFocused.windowClassName.lower() == u'#32768') and (objFocused.role == controlTypes.ROLE_POPUPMENU or objFocused.role == controlTypes.ROLE_MENUITEM):
