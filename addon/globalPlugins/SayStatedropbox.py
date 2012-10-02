@@ -10,7 +10,7 @@ import ctypes
 import NVDAObjects
 from api import getFocusObject
 import winUser
-from NVDAObjects.IAccessible import controlTypes
+import controlTypes
 
 # We initialize translation support
 addonHandler.initTranslation()
