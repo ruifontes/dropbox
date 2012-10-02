@@ -13,6 +13,7 @@ To conclude, make the cancel button working with escape.
 ## Changes for 2.0 ##
 
 * New languages: Italian
+* Pressing the shortcut three times or more when already being in the context menu doesn't cause problem anymore.
 
 ## Changes for 1.0 ##
 
