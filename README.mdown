@@ -12,7 +12,7 @@ To conclude, make the cancel button working with escape.
 
 ## Changes for 2.1 ##
 
-* Minor correction in the main manifest file.
+* Minor correction in the main manifest file (authors are correctly displayed).
 * Improved context menu detection when pressing Shift+NVDA+D three times.
 
 ## Changes for 2.0 ##
