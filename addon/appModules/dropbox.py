@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # Dropbox appModule for NVDA
 # Make preferences tabs accessible.
-# Authors: mainly Filaos, Patrick ZAJDA to make it translatable
+# Authors: mainly Filaos, Patrick ZAJDA <patrick@zajda.fr> to make it translatable
 
 import appModuleHandler,ctypes,NVDAObjects,controlTypes,addonHandler
 from ui import message
