@@ -4,19 +4,28 @@
 # Authors: mainly Filaos, Patrick ZAJDA <patrick@zajda.fr> to make it translatable
 
 import appModuleHandler,ctypes,NVDAObjects,controlTypes,addonHandler
+
 from ui import message
 from winUser  import  mouse_event,MOUSEEVENTF_LEFTUP,MOUSEEVENTF_LEFTDOWN,isWindowVisible,setCursorPos,sendMessage,setFocus,getWindowText,isWindowEnabled
 from api import getFocusObject
-addonHandler.initTranslation()
-listPageTab=(_("General"),_("Account"),_("Bandwidth"),_("Proxies"),_("Advanced"))
-def getHandlePageTab():
 
+# We initialize translations
+addonHandler.initTranslation()
+
+# List of Dropbox preferences tabs
+# Tab texts are translatables
+listPageTab=(_("General"),_("Account"),_("Bandwidth"),_("Proxies"),_("Advanced"))
+
+def getHandlePageTab():
+	""" Get the tab pannel handle """
 	FindWindowExA=ctypes.windll.user32.FindWindowExA
 	h=int ()
 	for i in range (4):
 		h=FindWindowExA(h,None,"wxWindowClassNR",None)
 	return h
+
 def getPageTabActive ():
+	""" Get the handle of the active tab """
 	firstChild,next=5,2
 	GetWindow=ctypes.windll.user32.GetWindow
 	h=getHandlePageTab()
@@ -32,6 +41,8 @@ def getPageTabActive ():
 	return listPageTab[i-1]
 
 def changePageTab (sens):
+	""" Change the active tab
+	@param sens : string, next or preview """
 	#index =getPageTabActive ()[-1]
 	index=listPageTab.index (getPageTabActive())
 	if sens =="next":
@@ -50,7 +61,7 @@ def changePageTab (sens):
 	mouse_event(MOUSEEVENTF_LEFTDOWN,0,0,None,None)
 	mouse_event (MOUSEEVENTF_LEFTUP,0,0,None,None)
 
-	#annonce le nouvel onglet
+	#announces the new tab
 	message (listPageTab[index])
 
 
@@ -75,15 +86,15 @@ class AppModule(appModuleHandler.AppModule):
 		if obj.windowHandle ==getHandlePageTab():
 			obj.name=getPageTabActive()
 			obj.role=controlTypes.ROLE_TABCONTROL
-
-
 		nextHandler()
 
 
 	def script_sayPageTabActive(self,gesture,):
 		message (getPageTabActive())
+
 	def script_priorPageTab(self,gesture):
 		changePageTab("prior")
+
 	def script_nextPageTab (self,gesture):
 		changePageTab("next")
 

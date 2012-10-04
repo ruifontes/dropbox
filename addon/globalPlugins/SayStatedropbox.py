@@ -16,24 +16,25 @@ import controlTypes
 addonHandler.initTranslation()
 
 def rightMouseButton(o):
-	#simulation du bouton droit de la souris
-	#récupération de l'identifiant de l'objet ,car on ne pourra pas agir directement sur l'objet 
+	""" make a right click """
+	# We get the object idea because we cannot act to the object dirrectly
 	IDChild =o.IAccessibleChildID
-	#on remonte d'un niveau pour récupérer les coordonnées de l'objet ceci est une particularité
+	# We have to get the parent, this is a particularity.
 	o=o.parent
-	#on récupère les coordonnées de l'objet enfant de o dont l'identifiant est IDChild
+	# We get the shild object location which has IDChild as id
 	(x,y,l,h)=o.IAccessibleObject.accLocation(IDChild)
-	#on calcul le centre de l'objet enfant
+	#We calculate the center of the shild object
 	x,y=int (x+l/2),int (y+h/2)
-	#on déplace le curseur
+	# We move the cursor
 	winUser.setCursorPos (x,y)
-	#on simule l'appuie sur le click droit de la souris 
+	# We make the right click event
 	winUser.mouse_event(winUser.MOUSEEVENTF_RIGHTDOWN,0,0,None,None)
-	#on simule le relâchement du bouton droit de la souris
+	# Then, the release button event
 	winUser.mouse_event(winUser.MOUSEEVENTF_RIGHTUP,0,0,None,None)
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def script_announceDropbox(self, gesture):
+		# We get the systray
 		l=("shell_TrayWnd","TrayNotifyWnd","SysPager","ToolbarWindow32")
 		h,FindWindowExA =0,ctypes.windll.user32.FindWindowExA
 		for element in l:
@@ -51,7 +52,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 
 		name =name.split ()
-		#stockage du nombre de fois que le script a été appelé
+		# We get the number of call of this script
 		isSameScript =scriptHandler.getLastScriptRepeatCount()
 		if isSameScript ==0 :
 			del (name[1])
