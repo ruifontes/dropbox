@@ -6,7 +6,6 @@
 import globalPluginHandler,IAccessibleHandler,addonHandler
 import scriptHandler
 from ui import message
-import ctypes
 import NVDAObjects
 from api import getFocusObject
 import winUser
@@ -36,7 +35,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	def script_announceDropbox(self, gesture):
 		# We get the systray
 		l=("shell_TrayWnd","TrayNotifyWnd","SysPager","ToolbarWindow32")
-		h,FindWindowExA =0,ctypes.windll.user32.FindWindowExA
+		h,FindWindowExA =0,winUser.user32.FindWindowExA
 		for element in l:
 			h=FindWindowExA(h,0,element,0)
 
