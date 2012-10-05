@@ -59,27 +59,25 @@ def changePageTab (h,sens):
 class AppModule(appModuleHandler.AppModule):
 	# The tab page handle
 	tabPageHandle = 0
-
-	def script_clickButtonCancel (self,gesture):
-		h=getFocusObject().windowHandle
-		GetParent =winUser.user32.GetParent
-		while GetParent(h) and winUser.isWindowEnabled(GetParent (h)):
-			h=GetParent(h)
-
-		FindWindowExA=winUser.user32.FindWindowExA
-		while FindWindowExA (h,None,"Button",_("Cancel"))==False :
-			h=winUser.getWindow (h,5)
-			if not h :
-				gesture.send()
-				return
-		h=FindWindowExA(h,None,"Button",_("Cancel"))
-		NVDAObjects.IAccessible.getNVDAObjectFromEvent (h,-4,0).IAccessibleObject.accDoDefaultAction (0)
+	# The Cancel button
+	cancelButton = None
 
 	def event_NVDAObject_init(self, obj):
 		if obj.name == u'buttonPanel':
 			obj.role=controlTypes.ROLE_TABCONTROL
 			self.tabPageHandle = obj.windowHandle
 			obj.name=getPageTabActive(self.tabPageHandle)
+		elif obj.name == _('Cancel') and obj.windowClassName == u'Button':
+			self.cancelButton = obj
+
+	def script_clickButtonCancel (self,gesture):
+		if self.cancelButton == None:
+			gesture.send()
+		else:
+			(x,y,l,h) = self.cancelButton.IAccessibleObject.accLocation (0)
+			winUser.setCursorPos (x,y)
+			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN,0,0,None,None)
+			winUser.mouse_event (winUser.MOUSEEVENTF_LEFTUP,0,0,None,None)
 
 	def script_sayPageTabActive(self,gesture,):
 		message (getPageTabActive(self.tabPageHandle))
