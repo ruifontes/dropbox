@@ -10,10 +10,12 @@ To conclude, make the cancel button working with escape.
 * Shortcut: NVDA+Shift+D
 * Ctrl+Alt+T announce the active tab.
 
-## Changes for 2.1 ##
+## Changes for 3.0 ##
 
 * Minor correction in the main manifest file (authors are correctly displayed).
 * Improved context menu detection when pressing Shift+NVDA+D three times.
+* The escape button now works (only when using Dropbox in the same language NVDA uses).
+* A lot of corrections in the code.
 
 ## Changes for 2.0 ##
 
