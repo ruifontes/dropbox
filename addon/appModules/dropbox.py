@@ -72,21 +72,26 @@ class AppModule(appModuleHandler.AppModule):
 
 	def script_clickButtonCancel (self,gesture):
 		if self.cancelButton == None:
+			message(_("Cancel button not found"))
 			gesture.send()
 		else:
 			(x,y,l,h) = self.cancelButton.IAccessibleObject.accLocation (0)
 			winUser.setCursorPos (x,y)
 			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN,0,0,None,None)
 			winUser.mouse_event (winUser.MOUSEEVENTF_LEFTUP,0,0,None,None)
+	script_clickButtonCancel.__doc__=_("Click on the Cancel button of the Dropbox preferences dialog")
 
 	def script_sayPageTabActive(self,gesture,):
 		message (getPageTabActive(self.tabPageHandle))
+	script_sayPageTabActive.__doc__=_("Announce the active tab of the Dropbox preferences dialog")
 
 	def script_priorPageTab(self,gesture):
 		changePageTab(self.tabPageHandle,"prior")
+	script_priorPageTab.__doc__=_("Activate the prior tab of the Dropbox preferences dialog")
 
 	def script_nextPageTab (self,gesture):
 		changePageTab(self.tabPageHandle,"next")
+	script_nextPageTab.__doc__=_("Activate the next tab of the Dropbox preferences dialog")
 
 	__gestures={
 "kb:control+tab":"nextPageTab",
