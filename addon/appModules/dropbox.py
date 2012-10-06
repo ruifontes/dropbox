@@ -41,12 +41,10 @@ def changePageTab (h,sens):
 		index+=1
 	else:
 		index-=1
-	if index >=5:
-		index =0
-	elif index<=-1:
-		index=4
 
-	(x,y,l,h) = NVDAObjects.IAccessible.getNVDAObjectFromEvent(h,-4,0).IAccessibleObject.accLocation (0)
+	index %= len(listPageTab )
+
+	(x,y,l,h) = NVDAObjects.IAccessible.getNVDAObjectFromEvent(h,-4,0).location
 	x=x+(1,3,5,7,9)[index]*l/10
 	y=y+h/2
 	winUser.setCursorPos (x,y)
