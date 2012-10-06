@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # Dropbox announcement Global Plugin for NVDA
-# Authors: Filaos, Patrick ZAJDA
+# Authors: Filaos, Patrick ZAJDA <patrick@zajda.fr> and other contributors
 # Shortcut: NVDA+Shift+D
 
 import globalPluginHandler,IAccessibleHandler,addonHandler
