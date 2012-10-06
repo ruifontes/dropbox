@@ -15,7 +15,8 @@ import controlTypes
 addonHandler.initTranslation()
 
 def rightMouseButton(o):
-	""" make a right click """
+	""" make a right click
+	@param o the object to click on"""
 	# We get the object idea because we cannot act to the object dirrectly
 	IDChild =o.IAccessibleChildID
 	# We have to get the parent, this is a particularity.
@@ -69,7 +70,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			return
 		message (name)
 	# Documentation
-	script_announceDropbox.__doc__ = _("Announce Dropbox' status")
+	script_announceDropbox.__doc__ = _("If pressed once, announces Dropbox status. If pressed twice, reports the Dropbox version. If pressed three times, open the Dropbox context menu by clicking on its systray icon")
 
 	__gestures={
 		"kb:NVDA+shift+d": "announceDropbox",
