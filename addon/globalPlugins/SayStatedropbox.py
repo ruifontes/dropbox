@@ -42,7 +42,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 		o=NVDAObjects.IAccessible.getNVDAObjectFromEvent(h,-4,1)
 		name=o.name
-		while (name[0:7].lower()).find ("dropbox")==-1:
+		while not name.lower().startswith("dropbox"):
 			o=o.next
 			if not o :
 				message(_("drop box not found"))
