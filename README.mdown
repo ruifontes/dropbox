@@ -16,6 +16,7 @@ To conclude, make the cancel button working with escape.
 * Improved context menu detection when pressing Shift+NVDA+D three times.
 * The escape button now works (only when using Dropbox in the same language NVDA uses).
 * A lot of corrections in the code.
+* Added/updated documentations of all scripts.
 
 ## Changes for 2.0 ##
 
