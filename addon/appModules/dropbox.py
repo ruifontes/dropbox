@@ -1,12 +1,17 @@
 # -*- coding: utf-8 -*-
 # Dropbox appModule for NVDA
-# Make preferences tabs accessible.
-# Authors: Filaos, Patrick ZAJDA <patrick@zajda.fr> and other contributors
+# Make preferences tabs accessible and allow pressing escape to quit the preferences dialog.
+# Copyright (C) 2012 Filaos, Patrick ZAJDA <patrick@zajda.fr> and other contributors
+# This file is covered by the GNU General Public License.
+# You can read the licence by clicking Help->Licence in the NVDA menu
+# or by visiting http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
-import addonHandler,appModuleHandler,NVDAObjects,controlTypes,winUser
-
-from ui import message
-from api import getFocusObject
+import addonHandler,appModuleHandler
+import api
+import NVDAObjects
+import controlTypes
+import winUser
+import ui
 
 # We initialize translations
 addonHandler.initTranslation()
@@ -52,7 +57,7 @@ def changePageTab (h,sens):
 	winUser.mouse_event (winUser.MOUSEEVENTF_LEFTUP,0,0,None,None)
 
 	#announces the new tab
-	message (listPageTab[index])
+	ui.message (listPageTab[index])
 
 class AppModule(appModuleHandler.AppModule):
 	# The tab page handle
@@ -69,8 +74,11 @@ class AppModule(appModuleHandler.AppModule):
 			self.cancelButton = obj
 
 	def script_clickButtonCancel (self,gesture):
+		if api.getFocusObject().windowText == u'DropboxTrayIcon' or api.getFocusObject().windowClassName == u'#32768':
+			gesture.send()
+			return
 		if self.cancelButton == None:
-			message(_("Cancel button not found"))
+			ui.message(_("Cancel button not found"))
 			gesture.send()
 		else:
 			(x,y,l,h) = self.cancelButton.IAccessibleObject.accLocation (0)
@@ -80,7 +88,7 @@ class AppModule(appModuleHandler.AppModule):
 	script_clickButtonCancel.__doc__=_("Click on the Cancel button of the Dropbox preferences dialog")
 
 	def script_sayPageTabActive(self,gesture,):
-		message (getPageTabActive(self.tabPageHandle))
+		ui.message (getPageTabActive(self.tabPageHandle))
 	script_sayPageTabActive.__doc__=_("Announce the active tab of the Dropbox preferences dialog")
 
 	def script_priorPageTab(self,gesture):

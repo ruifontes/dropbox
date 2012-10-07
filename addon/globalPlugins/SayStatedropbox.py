@@ -1,13 +1,15 @@
 # -*- coding: utf-8 -*-
 # Dropbox announcement Global Plugin for NVDA
-# Authors: Filaos, Patrick ZAJDA <patrick@zajda.fr> and other contributors
+# Copyright (C) 2012 Filaos, Patrick ZAJDA <patrick@zajda.fr> and other contributors
+# This file is covered by the GNU General Public License.
+# You can read the licence by clicking Help->Licence in the NVDA menu
+# or by visiting http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 # Shortcut: NVDA+Shift+D
 
-import globalPluginHandler,IAccessibleHandler,addonHandler
-import scriptHandler
-from ui import message
+import globalPluginHandler,IAccessibleHandler,addonHandler,scriptHandler
+import ui
 import NVDAObjects
-from api import getFocusObject
+import api
 import winUser
 import controlTypes
 
@@ -45,7 +47,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		while not name.lower().startswith("dropbox"):
 			o=o.next
 			if not o :
-				message(_("drop box not found"))
+				ui.message(_("drop box not found"))
 				return
 			else:
 				name=o.name
@@ -53,22 +55,22 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 		name =name.split ()
 		# We get the number of call of this script
-		isSameScript =scriptHandler.getLastScriptRepeatCount()
-		if isSameScript ==0 :
+		repeatCount =scriptHandler.getLastScriptRepeatCount()
+		if repeatCount ==0 :
 			del (name[1])
 			name=" ".join (name)
-		elif isSameScript ==1:
+		elif repeatCount ==1:
 			name = " ".join(name[0:2])
 		else:
 			# If we are already inside of the context menu, stop the script
-			objFocused = getFocusObject()
+			objFocused = api.getFocusObject()
 			currentProcess = objFocused.appModule.appName.lower()
 			if (currentProcess.lower() == u'dropbox' and objFocused.windowClassName.lower() == u'#32768') and (objFocused.role == controlTypes.ROLE_POPUPMENU or objFocused.role == controlTypes.ROLE_MENUITEM):
 				return
 			else:
 				rightMouseButton (o)
 			return
-		message (name)
+		ui.message (name)
 	# Documentation
 	script_announceDropbox.__doc__ = _("If pressed once, announces Dropbox status. If pressed twice, reports the Dropbox version. If pressed three times, open the Dropbox context menu by clicking on its systray icon")
 
