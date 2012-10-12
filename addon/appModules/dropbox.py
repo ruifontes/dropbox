@@ -17,8 +17,19 @@ import ui
 addonHandler.initTranslation()
 
 # List of Dropbox preferences tabs
-# Tab texts are translatables
-listPageTab=(_("General"),_("Account"),_("Bandwidth"),_("Proxies"),_("Advanced"))
+# Tab texts are translatable
+listPageTab=(
+	# Translators: the name of the dropbox general tab.
+	_("General"),
+	# Translators: the name of the dropbox account tab.
+	_("Account"),
+	# Translators: the name of the dropbox bandwidth tab.
+	_("Bandwidth"),
+	# Translators: the name of the dropbox proxies tab.
+	_("Proxies"),
+	# Translators: the name of the dropbox advanced tab.
+	_("Advanced")
+)
 
 def getPageTabActive (h):
 	""" Get the handle of the active tab
@@ -41,15 +52,15 @@ def changePageTab (h,sens):
 	@param h the handle of tab page
 	@param sens : string, next or prior """
 	#index =getPageTabActive ()[-1]
-	index=listPageTab.index (getPageTabActive(h))
+	index=listPageTab.index(getPageTabActive(h))
 	if sens =="next":
 		index+=1
 	else:
 		index-=1
 
-	index %= len(listPageTab )
+	index %= len(listPageTab)
 
-	(x,y,l,h) = NVDAObjects.IAccessible.getNVDAObjectFromEvent(h,-4,0).location
+	(x, y, l, h) = NVDAObjects.IAccessible.getNVDAObjectFromEvent(h,-4,0).location
 	x=x+(1,3,5,7,9)[index]*l/10
 	y=y+h/2
 	winUser.setCursorPos (x,y)
@@ -57,7 +68,7 @@ def changePageTab (h,sens):
 	winUser.mouse_event (winUser.MOUSEEVENTF_LEFTUP,0,0,None,None)
 
 	#announces the new tab
-	ui.message (listPageTab[index])
+	ui.message(listPageTab[index])
 
 class AppModule(appModuleHandler.AppModule):
 	# The tab page handle
@@ -70,6 +81,7 @@ class AppModule(appModuleHandler.AppModule):
 			obj.role=controlTypes.ROLE_TABCONTROL
 			self.tabPageHandle = obj.windowHandle
 			obj.name=getPageTabActive(self.tabPageHandle)
+		# Translators the name of the dropbox preferences cancel button, it is important to have the same caplitilization/spelling as in the dropbox gui.
 		elif obj.name == _('Cancel') and obj.windowClassName == u'Button':
 			self.cancelButton = obj
 
@@ -85,19 +97,24 @@ class AppModule(appModuleHandler.AppModule):
 			winUser.setCursorPos (x,y)
 			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN,0,0,None,None)
 			winUser.mouse_event (winUser.MOUSEEVENTF_LEFTUP,0,0,None,None)
-	script_clickButtonCancel.__doc__=_("Click on the Cancel button of the Dropbox preferences dialog")
+	# Translators: message presented when user performs input help for this shortcut.
+	script_clickButtonCancel.__doc__=_("Clicks the Cancel button of the Dropbox preferences dialog")
 
 	def script_sayPageTabActive(self,gesture,):
-		ui.message (getPageTabActive(self.tabPageHandle))
-	script_sayPageTabActive.__doc__=_("Announce the active tab of the Dropbox preferences dialog")
+		ui.message(getPageTabActive(self.tabPageHandle))
+	# Translators: message presented when user performs input help for this shortcut.
+	script_sayPageTabActive.__doc__=_("announce active Dropbox preferences dialog tab")
+
 
 	def script_priorPageTab(self,gesture):
 		changePageTab(self.tabPageHandle,"prior")
-	script_priorPageTab.__doc__=_("Activate the prior tab of the Dropbox preferences dialog")
+	# Translators: message presented when user performs input help for this shortcut.
+	script_priorPageTab.__doc__=_("Activate previous Dropbox preferences dialog tab")
 
 	def script_nextPageTab (self,gesture):
 		changePageTab(self.tabPageHandle,"next")
-	script_nextPageTab.__doc__=_("Activate the next tab of the Dropbox preferences dialog")
+	# Translators: message presented when user performs input help for this shortcut.
+	script_nextPageTab.__doc__=_("Activate next Dropbox preferences dialog tab")
 
 	__gestures={
 "kb:control+tab":"nextPageTab",
