@@ -81,7 +81,7 @@ class AppModule(appModuleHandler.AppModule):
 			obj.role=controlTypes.ROLE_TABCONTROL
 			self.tabPageHandle = obj.windowHandle
 			obj.name=getPageTabActive(self.tabPageHandle)
-		# Translators the name of the dropbox preferences cancel button, it is important to have the same caplitilization/spelling as in the dropbox gui.
+		# Translators: the name of the dropbox preferences cancel button, it is important to have the same caplitilization/spelling as in the dropbox gui.
 		elif obj.name == _('Cancel') and obj.windowClassName == u'Button':
 			self.cancelButton = obj
 
