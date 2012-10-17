@@ -17,7 +17,7 @@ To conclude, make the cancel button working with escape.
 * The escape button now works (only when using Dropbox in the same language NVDA uses).
 * A lot of corrections in the code.
 * Added/updated documentations of all scripts.
-* New languages: Brazilian Portuguese, Finnish, Galician, Hungarian, Japanese, Nepali, Spanish, Russian, Tamil, Turkish.
+* New languages: Brazilian Portuguese, Finnish, Galician, German, Hungarian, Japanese, Nepali, Spanish, Russian, Tamil, Turkish.
 
 ## Changes for 2.0 ##
 
