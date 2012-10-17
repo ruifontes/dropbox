@@ -1,0 +1,87 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: DropboxPlugin 3.0\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2012-10-13 13:43+0100\n"
+"PO-Revision-Date: 2012-10-14 11:34+0200\n"
+"Last-Translator: Çağrı Doğan <cagrid@hotmail.com>\n"
+"Language-Team: Turkish <cagrid@hotmail.com>\n"
+"Language: TR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#. Translators: the name of the dropbox general tab.
+#: addon/appModules/dropbox.py:23
+msgid "General"
+msgstr "Genel"
+
+#. Translators: the name of the dropbox account tab.
+#: addon/appModules/dropbox.py:25
+msgid "Account"
+msgstr "Hesap"
+
+#. Translators: the name of the dropbox bandwidth tab.
+#: addon/appModules/dropbox.py:27
+msgid "Bandwidth"
+msgstr "Band genişliği"
+
+#. Translators: the name of the dropbox proxies tab.
+#: addon/appModules/dropbox.py:29
+msgid "Proxies"
+msgstr "Proxy"
+
+#. Translators: the name of the dropbox advanced tab.
+#: addon/appModules/dropbox.py:31
+msgid "Advanced"
+msgstr "Gelişmiş"
+
+#. Translators: the name of the dropbox preferences cancel button, it is important to have the same caplitilization/spelling as in the dropbox gui.
+#: addon/appModules/dropbox.py:85
+msgid "Cancel"
+msgstr "İptal"
+
+#: addon/appModules/dropbox.py:93
+msgid "Cancel button not found"
+msgstr "İptal düğmesi bulunamadı"
+
+#. Translators: message presented when user performs input help for this shortcut.
+#: addon/appModules/dropbox.py:101
+msgid "Clicks the Cancel button of the Dropbox preferences dialog"
+msgstr "Dropbox tercihler iletişim kutusunda iptal düğmesini etkinleştirir"
+
+#. Translators: message presented when user performs input help for this shortcut.
+#: addon/appModules/dropbox.py:106
+msgid "announce active Dropbox preferences dialog tab"
+msgstr "Tercihler iletişim kutusunda aktif sekmeyi seslendirir"
+
+#. Translators: message presented when user performs input help for this shortcut.
+#: addon/appModules/dropbox.py:112
+msgid "Activate previous Dropbox preferences dialog tab"
+msgstr "Önceki sekmeye geçer"
+
+#. Translators: message presented when user performs input help for this shortcut.
+#: addon/appModules/dropbox.py:117
+msgid "Activate next Dropbox preferences dialog tab"
+msgstr "SOnraki sekmeye geçer"
+
+#: addon/globalPlugins/SayStatedropbox.py:50
+msgid "drop box not found"
+msgstr "Dropbox bulunamadı"
+
+#. Documentation
+#: addon/globalPlugins/SayStatedropbox.py:75
+msgid ""
+"If pressed once, announces Dropbox status. If pressed twice, reports the "
+"Dropbox version. If pressed three times, open the Dropbox context menu by "
+"clicking on its systray icon"
+msgstr ""
+"Bir kez basıldığında dropbox durumunu, iki kez basıldığında dropbox "
+"versiyonunu söyler. Üç kez basılırsa dropbox menüsünü açar."
