@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: sayStatedropbox.mo\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-04-29 01:52+0200\n"
-"PO-Revision-Date: 2012-05-20 23:04+0100\n"
-"Last-Translator: Chris <leochristian75@tiscali.it>\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2012-10-13 14:34+0100\n"
+"PO-Revision-Date: 2012-10-15 12:26+0100\n"
+"Last-Translator: Simone Dal Maso <simone.dalmaso@juvox.it>\n"
 "Language-Team: \n"
 "Language: \n"
 "MIME-Version: 1.0\n"
@@ -14,10 +14,70 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-Country: ITALY\n"
 
-msgid "Announce Dropbox' status"
-msgstr ""
-"Annuncia lo stato di DropBox. Premuto due volte annuncia la versione: "
-"Premuto tre volte apre il menù contestuale"
+#. Translators: the name of the dropbox general tab.
+#: addon/appModules/dropbox.py:23
+msgid "General"
+msgstr "Generale"
 
+#. Translators: the name of the dropbox account tab.
+#: addon/appModules/dropbox.py:25
+msgid "Account"
+msgstr "Account"
+
+#. Translators: the name of the dropbox bandwidth tab.
+#: addon/appModules/dropbox.py:27
+msgid "Bandwidth"
+msgstr "Larghezza di banda"
+
+#. Translators: the name of the dropbox proxies tab.
+#: addon/appModules/dropbox.py:29
+msgid "Proxies"
+msgstr "Proxy"
+
+#. Translators: the name of the dropbox advanced tab.
+#: addon/appModules/dropbox.py:31
+msgid "Advanced"
+msgstr "Avanzate"
+
+#. Translators: the name of the dropbox preferences cancel button, it is important to have the same caplitilization/spelling as in the dropbox gui.
+#: addon/appModules/dropbox.py:85
+msgid "Cancel"
+msgstr "Annulla"
+
+#: addon/appModules/dropbox.py:93
+msgid "Cancel button not found"
+msgstr "Pulsante Annulla non trovato"
+
+#. Translators: message presented when user performs input help for this shortcut.
+#: addon/appModules/dropbox.py:101
+msgid "Clicks the Cancel button of the Dropbox preferences dialog"
+msgstr "Clicca il bottone Annulla della finestra preferenze di Dropbox"
+
+#. Translators: message presented when user performs input help for this shortcut.
+#: addon/appModules/dropbox.py:106
+msgid "announce active Dropbox preferences dialog tab"
+msgstr "Legge la scheda attiva della finestra preferenze di Dropbox"
+
+#. Translators: message presented when user performs input help for this shortcut.
+#: addon/appModules/dropbox.py:112
+msgid "Activate previous Dropbox preferences dialog tab"
+msgstr "Attiva la scheda precedente delle preferenze di Dropbox"
+
+#. Translators: message presented when user performs input help for this shortcut.
+#: addon/appModules/dropbox.py:117
+msgid "Activate next Dropbox preferences dialog tab"
+msgstr "Attiva la scheda successiva delle preferense di Dropbox"
+
+#: addon/globalPlugins/SayStatedropbox.py:50
 msgid "drop box not found"
-msgstr "Errore DropBox nessuna icona in systemTray..."
+msgstr "Dropbox non trovato"
+
+#. Documentation
+#: addon/globalPlugins/SayStatedropbox.py:75
+msgid "If pressed once, announces Dropbox status. If pressed twice, reports the Dropbox version. If pressed three times, open the Dropbox context menu by clicking on its systray icon"
+msgstr "Se premuto una volta, legge lo stato di Dropbox. Se premuto due volte, annuncia la versione di Dropbox. Infine una tripla pressione, apre il menu di contesto di Dropbox presente sul System Tray"
+
+#~ msgid "Announce Dropbox' status"
+#~ msgstr ""
+#~ "Annuncia lo stato di DropBox. Premuto due volte annuncia la versione: "
+#~ "Premuto tre volte apre il menù contestuale"
