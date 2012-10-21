@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: DropboxPlugin 3.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2012-10-13 13:43+0100\n"
-"PO-Revision-Date: 2012-10-17 20:25+0530\n"
+"PO-Revision-Date: 2012-10-18 20:22+0530\n"
 "Last-Translator: DINAKAR T.D. <td.dinkar@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -53,24 +53,22 @@ msgstr "ரத்து பொத்தான் காணப்படவில�
 #. Translators: message presented when user performs input help for this shortcut.
 #: addon/appModules/dropbox.py:101
 msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-msgstr ""
-"விடுபெட்டியின் முன்னுரிமை விருப்பங்கள் உரையாடலில் காணப்படும் ரத்து பொத்தானை அழுத்தும்;"
+msgstr "விடுபெட்டியின் முதன்மை விருப்பங்கள் உரையாடலில் காணப்படும் ரத்து பொத்தானை அழுத்தும்;"
 
 #. Translators: message presented when user performs input help for this shortcut.
 #: addon/appModules/dropbox.py:106
 msgid "announce active Dropbox preferences dialog tab"
-msgstr ""
-"இயக்கத்திலிருக்கும் விடுபெட்டி முன்னுரிமை விருப்பங்கள் உரையாடலின் தத்தலை அறிவிக்கும்;"
+msgstr "இயக்கத்திலிருக்கும் விடுபெட்டி முதன்மை விருப்பங்கள் உரையாடலின் தத்தலை அறிவிக்கும்;"
 
 #. Translators: message presented when user performs input help for this shortcut.
 #: addon/appModules/dropbox.py:112
 msgid "Activate previous Dropbox preferences dialog tab"
-msgstr "முந்தைய விடுபெட்டி முன்னுரிமை விருப்பங்கள் உரையாடல் தத்தலை இயக்கு;"
+msgstr "முந்தைய விடுபெட்டி முதன்மை விருப்பங்கள் உரையாடல் தத்தலை இயக்கு;"
 
 #. Translators: message presented when user performs input help for this shortcut.
 #: addon/appModules/dropbox.py:117
 msgid "Activate next Dropbox preferences dialog tab"
-msgstr "அடுத்த விடுபெட்டி முன்னுரிமை விருப்பங்கள் உரையாடல் தத்தலை இயக்கு;"
+msgstr "அடுத்த விடுபெட்டி முதன்மை விருப்பங்கள் உரையாடல் தத்தலை இயக்கு;"
 
 #: addon/globalPlugins/SayStatedropbox.py:50
 msgid "drop box not found"
