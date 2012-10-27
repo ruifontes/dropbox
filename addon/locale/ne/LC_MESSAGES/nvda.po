@@ -1,4 +1,3 @@
-# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -8,13 +7,13 @@ msgstr ""
 "Project-Id-Version: DropboxPlugin 3.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2012-10-13 13:43+0100\n"
-"PO-Revision-Date: 2012-10-14 07:37+0545\n"
+"PO-Revision-Date: 2012-10-19 16:15+0545\n"
 "Last-Translator:  \n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Nepali\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.3\n"
+"X-Generator: Poedit 1.5.4\n"
 
 #. Translators: the name of the dropbox general tab.
 #: addon/appModules/dropbox.py:23
@@ -29,7 +28,7 @@ msgstr "खाता"
 #. Translators: the name of the dropbox bandwidth tab.
 #: addon/appModules/dropbox.py:27
 msgid "Bandwidth"
-msgstr "Bandwidth"
+msgstr "ब्याण्ड चौडाई"
 
 #. Translators: the name of the dropbox proxies tab.
 #: addon/appModules/dropbox.py:29
@@ -53,26 +52,26 @@ msgstr "रद्द टाँक फेला परेन।"
 #. Translators: message presented when user performs input help for this shortcut.
 #: addon/appModules/dropbox.py:101
 msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-msgstr "भण्डार-पेटीकाप्राथमिकता पाटीको रद्द टाँकलाई किटिक्क पार्छ ।"
+msgstr "कन्तुरप्राथमिकता पाटीको रद्द टाँकलाई किटिक्क पार्छ ।"
 
 #. Translators: message presented when user performs input help for this shortcut.
 #: addon/appModules/dropbox.py:106
 msgid "announce active Dropbox preferences dialog tab"
-msgstr "सक्रिय भण्डार-पेटीका प्राथमिकता पाटीको tab बताउ छ ।"
+msgstr "सक्रिय कन्तुर प्राथमिकता पाटीको tab बताउ छ ।"
 
 #. Translators: message presented when user performs input help for this shortcut.
 #: addon/appModules/dropbox.py:112
 msgid "Activate previous Dropbox preferences dialog tab"
-msgstr "पछिल्लो भण्डार-पेटीका प्राथमिकता पाटीको tab लाई सक्रिय पार्छ ।"
+msgstr "पछिल्लो कन्तुर प्राथमिकता पाटीको tab लाई सक्रिय पार्छ ।"
 
 #. Translators: message presented when user performs input help for this shortcut.
 #: addon/appModules/dropbox.py:117
 msgid "Activate next Dropbox preferences dialog tab"
-msgstr "अघिल्लो भण्डार-पेटीका प्राथमिकता पाटीको tab लाई सक्रिय पार्छ ।"
+msgstr "अघिल्लो कन्तुर प्राथमिकता पाटीको tab लाई सक्रिय पार्छ ।"
 
 #: addon/globalPlugins/SayStatedropbox.py:50
 msgid "drop box not found"
-msgstr "भण्डार-पेटीका फेला परेन ।"
+msgstr "कन्तुर फेला परेन ।"
 
 #. Documentation
 #: addon/globalPlugins/SayStatedropbox.py:75
@@ -81,6 +80,5 @@ msgid ""
 "Dropbox version. If pressed three times, open the Dropbox context menu by "
 "clicking on its systray icon"
 msgstr ""
-"एक पटक दबाएमा भण्टार-पेटीकाको स्थिति बताउने छ, यदि दुई पटक दबाएमा भण्डार-पेटीकाको "
-"संस्करण बताउने छ र यदि लगातार तीन पटक दबाएमा थाली प्रतिमालाई किटिक्क पारेर भण्डार-"
-"पेटीका सन्दर्भ मेनु देखाउने छ ।"
+"एक पटक दबाएमा कन्तुरको स्थिति बताउने छ, यदि दुई पटक दबाएमा कन्तुरको संस्करण बताउने छ र "
+"यदि लगातार तीन पटक दबाएमा थाली प्रतिमालाई किटिक्क पारेर कन्तुर सन्दर्भ मेनु देखाउने छ ।"
