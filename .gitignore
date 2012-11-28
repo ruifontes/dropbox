@@ -1,3 +1,5 @@
 *.pyc
 *.mo
 .sconsign.dblite
+*.nvda-addon
+*.pot
