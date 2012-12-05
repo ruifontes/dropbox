@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sayStatedropbox.mo\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
-"POT-Creation-Date: 2012-10-15 11:30+0200\n"
-"PO-Revision-Date: 2012-10-15 11:40+0100\n"
+"POT-Creation-Date: 2012-12-05 08:50+0100\n"
+"PO-Revision-Date: 2012-12-05 10:07+0100\n"
 "Last-Translator: Patrick ZAJDA <webmaster@gansta93.com>\n"
 "Language-Team: FR <LL@li.org>\n"
 "Language: fr_FR\n"
@@ -89,6 +89,32 @@ msgid ""
 msgstr ""
 "Une simple pression de ce raccourci annonce le statut de Dropbox, deux sa "
 "version, trois clique droit sur l'icône Dropbox dans la zone de notification"
+
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+#: buildVars.py:13
+msgid "Announce Dropbox state and make preferences tabs accessible"
+msgstr "Annonce le statut de Dropbox et rend les préférences accessibles"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+#: buildVars.py:16
+msgid ""
+"Announces Dropbox status, version or open the Dropbox systray menu.\n"
+"Shortcut: NVDA+Shift+D\n"
+"Page tabs are also working in the preferences dialog with Ctrl+tab and Shift"
+"+Ctrl+Tab.\n"
+"Ctrl+Alt+T announce the active tab.\n"
+"You can activate cancel by pressing the escape key."
+msgstr ""
+"Annonce le statut ou la version de Dropbox, ou ouvre le menu contextuel de "
+"l'icône Dropbox dans la zone de notification.\n"
+"Raccourci : Maj+NVDA+D\n"
+"Rend également les onglets utilisables dans les préférences avec Ctrl+Tab et "
+"Ctrl+Maj+Tab.\n"
+"Presser Alt+Ctrl+Tab annonce l'onglet actif.\n"
+"Enfin, ce plugin permet de pouvoir cliquer sur Annuler en utilisant la "
+"touche Echapp."
 
 #~ msgid "Announce Dropbox' status"
 #~ msgstr "Annonce le statut de Dropbox"
