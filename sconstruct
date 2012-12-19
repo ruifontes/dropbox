@@ -61,7 +61,7 @@ def createAddonBundleFromPath(path, dest):
 			for filename in filenames:
 				pathInBundle = os.path.join(relativePath, filename)
 				absPath = os.path.join(dir, filename)
-				z.write(absPath, pathInBundle)
+				if pathInBundle not in buildVars.excludedFiles: z.write(absPath, pathInBundle)
 	return dest
 
 def generateManifest(source, dest):
