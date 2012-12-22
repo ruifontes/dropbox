@@ -73,27 +73,27 @@ def changePageTab (h,sens):
 class AppModule(appModuleHandler.AppModule):
 	# The tab page handle
 	tabPageHandle = 0
-	# The Cancel button
-	cancelButton = None
 
 	def event_NVDAObject_init(self, obj):
 		if obj.name == u'buttonPanel':
 			obj.role=controlTypes.ROLE_TABCONTROL
 			self.tabPageHandle = obj.windowHandle
 			obj.name=getPageTabActive(self.tabPageHandle)
-		# Translators: the name of the dropbox preferences cancel button, it is important to have the same caplitilization/spelling as in the dropbox gui.
-		elif obj.name == _('Cancel') and obj.windowClassName == u'Button':
-			self.cancelButton = obj
 
 	def script_clickButtonCancel (self,gesture):
-		if api.getFocusObject().windowText == u'DropboxTrayIcon' or api.getFocusObject().windowClassName == u'#32768':
+		# Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui.
+		if api.getFocusObject().windowText == u'DropboxTrayIcon' or api.getFocusObject().windowClassName == u'#32768' or api.getForegroundObject().name != _("Dropbox Preferences"):
 			gesture.send()
 			return
-		if self.cancelButton == None:
+		cancelButton=api.getForegroundObject().simpleLastChild
+		# Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui.
+		if cancelButton.name != _('Cancel'):
+			cancelButton=cancelButton.previous if cancelButton.name == _('Cancel') else None
+		if cancelButton == None:
 			ui.message(_("Cancel button not found"))
 			gesture.send()
 		else:
-			(x,y,l,h) = self.cancelButton.IAccessibleObject.accLocation (0)
+			(x,y,l,h) = cancelButton.IAccessibleObject.accLocation (0)
 			winUser.setCursorPos (x,y)
 			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN,0,0,None,None)
 			winUser.mouse_event (winUser.MOUSEEVENTF_LEFTUP,0,0,None,None)
