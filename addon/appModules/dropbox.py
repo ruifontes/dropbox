@@ -71,14 +71,10 @@ def changePageTab (h,sens):
 	ui.message(listPageTab[index])
 
 class AppModule(appModuleHandler.AppModule):
-	# The tab page handle
-	tabPageHandle = 0
-
 	def event_NVDAObject_init(self, obj):
 		if obj.name == u'buttonPanel':
 			obj.role=controlTypes.ROLE_TABCONTROL
-			self.tabPageHandle = obj.windowHandle
-			obj.name=getPageTabActive(self.tabPageHandle)
+			obj.name=getPageTabActive(obj.windowHandle)
 
 	def script_clickButtonCancel (self,gesture):
 		# Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui.
@@ -88,7 +84,7 @@ class AppModule(appModuleHandler.AppModule):
 		cancelButton=api.getForegroundObject().simpleLastChild
 		# Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui.
 		if cancelButton.name != _('Cancel'):
-			cancelButton=cancelButton.previous if cancelButton.name == _('Cancel') else None
+			cancelButton=cancelButton.simplePrevious if cancelButton.simplePrevious.name == _('Cancel') else None
 		if cancelButton == None:
 			ui.message(_("Cancel button not found"))
 			gesture.send()
@@ -101,18 +97,37 @@ class AppModule(appModuleHandler.AppModule):
 	script_clickButtonCancel.__doc__=_("Clicks the Cancel button of the Dropbox preferences dialog")
 
 	def script_sayPageTabActive(self,gesture,):
-		ui.message(getPageTabActive(self.tabPageHandle))
+		if api.getFocusObject().windowText == u'DropboxTrayIcon' or api.getFocusObject().windowClassName == u'#32768' or api.getForegroundObject().name != _("Dropbox Preferences"):
+			gesture.send()
+			return
+		tabPageHandle = api.getForegroundObject().simpleFirstChild.windowHandle
+		ui.message(getPageTabActive(tabPageHandle))
 	# Translators: message presented when user performs input help for this shortcut.
 	script_sayPageTabActive.__doc__=_("announce active Dropbox preferences dialog tab")
 
-
 	def script_priorPageTab(self,gesture):
-		changePageTab(self.tabPageHandle,"prior")
+		if api.getFocusObject().windowText == u'DropboxTrayIcon' or api.getFocusObject().windowClassName == u'#32768' or api.getForegroundObject().name != _("Dropbox Preferences"):
+			gesture.send()
+			return
+		tabPage = api.getForegroundObject().simpleFirstChild
+		tabPageHandle = tabPage.windowHandle
+		changePageTab(tabPageHandle,"prior")
+		api.setFocusObject(tabPage.simpleNext)
+		tabPage.simpleNext.setFocus()
+		api.setFocusObject(tabPage.simpleNext)
 	# Translators: message presented when user performs input help for this shortcut.
 	script_priorPageTab.__doc__=_("Activate previous Dropbox preferences dialog tab")
 
 	def script_nextPageTab (self,gesture):
-		changePageTab(self.tabPageHandle,"next")
+		if api.getFocusObject().windowText == u'DropboxTrayIcon' or api.getFocusObject().windowClassName == u'#32768' or api.getForegroundObject().name != _("Dropbox Preferences"):
+			gesture.send()
+			return
+		tabPage = api.getForegroundObject().simpleFirstChild
+		tabPageHandle = tabPage.windowHandle
+		changePageTab(tabPageHandle,"next")
+		api.setFocusObject(tabPage.simpleNext)
+		tabPage.simpleNext.setFocus()
+		api.setFocusObject(tabPage.simpleNext)
 	# Translators: message presented when user performs input help for this shortcut.
 	script_nextPageTab.__doc__=_("Activate next Dropbox preferences dialog tab")
 
