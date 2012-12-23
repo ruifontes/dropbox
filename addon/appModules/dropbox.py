@@ -96,7 +96,7 @@ class AppModule(appModuleHandler.AppModule):
 	# Translators: message presented when user performs input help for this shortcut.
 	script_clickButtonCancel.__doc__=_("Clicks the Cancel button of the Dropbox preferences dialog")
 
-	def script_sayPageTabActive(self,gesture,):
+	def script_sayPageTabActive(self,gesture):
 		if api.getFocusObject().windowText == u'DropboxTrayIcon' or api.getFocusObject().windowClassName == u'#32768' or api.getForegroundObject().name != _("Dropbox Preferences"):
 			gesture.send()
 			return
