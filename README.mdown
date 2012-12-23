@@ -10,6 +10,13 @@ To conclude, make the cancel button working with escape.
 * Shortcut: NVDA+Shift+D
 * Ctrl+Alt+T announce the active tab.
 
+## Changes for 3.1 ##
+
+* Use another way to get cancel button and page tab. Now we don't have to focus them before using shortcuts.
+* When changing the active tab, the focus move to the tab page so when pressing tab, the first item of the tab is activated instead of staying to the previous used tab even if it is not activated anymore.
+* All localized manifest files should now be OK.
+* Minor corrections.
+
 ## Changes for 3.0 ##
 
 * Minor correction in the main manifest file (authors are correctly displayed).
