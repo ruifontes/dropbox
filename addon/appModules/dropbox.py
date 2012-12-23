@@ -112,9 +112,10 @@ class AppModule(appModuleHandler.AppModule):
 		tabPage = api.getForegroundObject().simpleFirstChild
 		tabPageHandle = tabPage.windowHandle
 		changePageTab(tabPageHandle,"prior")
-		api.setFocusObject(tabPage.simpleNext)
-		tabPage.simpleNext.setFocus()
-		api.setFocusObject(tabPage.simpleNext)
+		objToFocus = tabPage.simpleNext
+		while objToFocus.isFocusable == False or objToFocus.role == controlTypes.ROLE_GROUPING:
+			objToFocus = objToFocus.simpleNext
+		objToFocus.setFocus()
 	# Translators: message presented when user performs input help for this shortcut.
 	script_priorPageTab.__doc__=_("Activate previous Dropbox preferences dialog tab")
 
@@ -125,9 +126,10 @@ class AppModule(appModuleHandler.AppModule):
 		tabPage = api.getForegroundObject().simpleFirstChild
 		tabPageHandle = tabPage.windowHandle
 		changePageTab(tabPageHandle,"next")
-		api.setFocusObject(tabPage.simpleNext)
-		tabPage.simpleNext.setFocus()
-		api.setFocusObject(tabPage.simpleNext)
+		objToFocus = tabPage.simpleNext
+		while objToFocus.isFocusable == False or objToFocus.role == controlTypes.ROLE_GROUPING:
+			objToFocus = objToFocus.simpleNext
+		objToFocus.setFocus()
 	# Translators: message presented when user performs input help for this shortcut.
 	script_nextPageTab.__doc__=_("Activate next Dropbox preferences dialog tab")
 
