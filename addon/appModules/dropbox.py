@@ -135,7 +135,9 @@ class AppModule(appModuleHandler.AppModule):
 
 	__gestures={
 "kb:control+tab":"nextPageTab",
+"kb:control+pageDown":"nextPageTab",
 "kb:control+shift+tab":"priorPageTab",
+"kb:control+pageUp":"priorPageTab",
 "kb:control+alt+t":"sayPageTabActive",
 "kb:escape":"clickButtonCancel"
 }
