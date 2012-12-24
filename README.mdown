@@ -14,6 +14,7 @@ To conclude, make the cancel button working with escape.
 
 * Use another way to get cancel button and page tab. Now we don't have to focus them before using shortcuts.
 * When changing the active tab, the focus move to the tab page so when pressing tab, the first item of the tab is activated instead of staying to the previous used tab even if it is not activated anymore.
+* In the preferences dialog, it is now possible to press control+page up/down to switch between tabs. Control+tab and control+shift+tab still work.
 * All localized manifest files should now be OK.
 * Minor corrections.
 
