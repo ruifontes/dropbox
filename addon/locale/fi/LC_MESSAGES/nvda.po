@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DropboxPlugin 3.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2012-10-13 13:43+0100\n"
-"PO-Revision-Date: 2012-10-13 21:27+0200\n"
+"POT-Creation-Date: 2013-01-06 13:12+0100\n"
+"PO-Revision-Date: 2013-01-07 07:31+0200\n"
 "Last-Translator: Jani Kinnunen\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -41,17 +41,23 @@ msgstr "Välityspalvelimet"
 msgid "Advanced"
 msgstr "Lisäasetukset"
 
-#. Translators: the name of the dropbox preferences cancel button, it is important to have the same caplitilization/spelling as in the dropbox gui.
-#: addon/appModules/dropbox.py:85
+#. Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui.
+#: addon/appModules/dropbox.py:81 addon/appModules/dropbox.py:100
+#: addon/appModules/dropbox.py:109 addon/appModules/dropbox.py:123
+msgid "Dropbox Preferences"
+msgstr "Dropboxin asetukset"
+
+#. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui.
+#: addon/appModules/dropbox.py:86 addon/appModules/dropbox.py:87
 msgid "Cancel"
 msgstr "Peruuta"
 
-#: addon/appModules/dropbox.py:93
+#: addon/appModules/dropbox.py:89
 msgid "Cancel button not found"
 msgstr "Peruuta-painiketta ei löydy"
 
 #. Translators: message presented when user performs input help for this shortcut.
-#: addon/appModules/dropbox.py:101
+#: addon/appModules/dropbox.py:97
 msgid "Clicks the Cancel button of the Dropbox preferences dialog"
 msgstr "Napsauttaa Dropboxin asetusvalintaikkunan Peruuta-painiketta"
 
@@ -61,12 +67,12 @@ msgid "announce active Dropbox preferences dialog tab"
 msgstr "Kertoo aktiivisen Dropboxin asetusvalintaikkunan välilehden"
 
 #. Translators: message presented when user performs input help for this shortcut.
-#: addon/appModules/dropbox.py:112
+#: addon/appModules/dropbox.py:120
 msgid "Activate previous Dropbox preferences dialog tab"
 msgstr "Aktivoi Dropboxin asetusvalintaikkunan edellisen välilehden"
 
 #. Translators: message presented when user performs input help for this shortcut.
-#: addon/appModules/dropbox.py:117
+#: addon/appModules/dropbox.py:134
 msgid "Activate next Dropbox preferences dialog tab"
 msgstr "Aktivoi Dropboxin asetusvalintaikkunan seuraavan välilehden"
 
@@ -84,3 +90,28 @@ msgstr ""
 "Lukee kerran painettaessa Dropboxin tilan. Ilmoittaa kahdesti painettaessa "
 "Dropboxin version. Avaa kolmasti painettaessa Dropboxin pikavalikon "
 "napsauttamalla ilmoitusalueella olevaa kuvaketta."
+
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+#: buildVars.py:13
+msgid "Announce Dropbox state and make preferences tabs accessible"
+msgstr "Ilmoittaa Dropboxin tilan ja tekee asetusvälilehdistä saavutettavia"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+#: buildVars.py:16
+msgid ""
+"Announces Dropbox status, version or open the Dropbox systray menu.\n"
+"Shortcut: NVDA+Shift+D\n"
+"Page tabs are also working in the preferences dialog with Ctrl+tab and Shift"
+"+Ctrl+Tab.\n"
+"Ctrl+Alt+T announce the active tab.\n"
+"You can activate cancel by pressing the escape key."
+msgstr ""
+"Ilmoittaa Dropboxin tilan ja version tai avaa ilmoitusalueella olevan "
+"valikon.\n"
+"Pikanäppäin: NVDA+Shift+D\n"
+"Välilehdet toimivat Asetukset-valintaikkunassa myös Ctrl+sarkain- ja Shift"
+"+Ctrl+sarkain-näppäimillä.\n"
+"Ctrl+Alt+T ilmoittaa aktiivisen välilehden.\n"
+"Peruuta-painike voidaan aktivoida painamalla Esc-näppäintä."

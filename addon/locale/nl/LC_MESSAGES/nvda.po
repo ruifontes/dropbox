@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Dropbox add-on, 3.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2012-10-13 13:43+0100\n"
-"PO-Revision-Date: 2012-10-17 10:26+0100\n"
+"POT-Creation-Date: 2013-01-06 13:12+0100\n"
+"PO-Revision-Date: 2013-01-06 13:49+0100\n"
 "Last-Translator: Bram Duvigneau <bram@bramd.nl>\n"
 "Language-Team: NVDA Nederlandstalig vertaalteam <nvda-nl@googlegroups.com>\n"
 "Language: nl\n"
@@ -21,7 +21,7 @@ msgstr ""
 #. Translators: the name of the dropbox general tab.
 #: addon/appModules/dropbox.py:23
 msgid "General"
-msgstr "Algemeen"
+msgstr "General"
 
 #. Translators: the name of the dropbox account tab.
 #: addon/appModules/dropbox.py:25
@@ -31,7 +31,7 @@ msgstr "Account"
 #. Translators: the name of the dropbox bandwidth tab.
 #: addon/appModules/dropbox.py:27
 msgid "Bandwidth"
-msgstr "Bandbreedte"
+msgstr "Bandwidth"
 
 #. Translators: the name of the dropbox proxies tab.
 #: addon/appModules/dropbox.py:29
@@ -41,19 +41,26 @@ msgstr "Proxies"
 #. Translators: the name of the dropbox advanced tab.
 #: addon/appModules/dropbox.py:31
 msgid "Advanced"
-msgstr "Geavanceerd"
+msgstr "Advanced"
 
-#. Translators: the name of the dropbox preferences cancel button, it is important to have the same caplitilization/spelling as in the dropbox gui.
-#: addon/appModules/dropbox.py:85
+# Dropbox is not available in Dutch at the moment, assuming the English version here.
+#. Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui.
+#: addon/appModules/dropbox.py:81 addon/appModules/dropbox.py:100
+#: addon/appModules/dropbox.py:109 addon/appModules/dropbox.py:123
+msgid "Dropbox Preferences"
+msgstr "Dropbox Preferences"
+
+#. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui.
+#: addon/appModules/dropbox.py:86 addon/appModules/dropbox.py:87
 msgid "Cancel"
-msgstr "Annuleren"
+msgstr "Cancel"
 
-#: addon/appModules/dropbox.py:93
+#: addon/appModules/dropbox.py:89
 msgid "Cancel button not found"
 msgstr "Annuleren knop niet gevonden"
 
 #. Translators: message presented when user performs input help for this shortcut.
-#: addon/appModules/dropbox.py:101
+#: addon/appModules/dropbox.py:97
 msgid "Clicks the Cancel button of the Dropbox preferences dialog"
 msgstr "Klikt op de Annuleren knop van het Dropbox instellingen venster"
 
@@ -63,14 +70,14 @@ msgid "announce active Dropbox preferences dialog tab"
 msgstr "Meld actief tabblad in de Dropbox instellingen"
 
 #. Translators: message presented when user performs input help for this shortcut.
-#: addon/appModules/dropbox.py:112
+#: addon/appModules/dropbox.py:120
 msgid "Activate previous Dropbox preferences dialog tab"
-msgstr "Activeer vorige tabblad in de Dropbox instellingen"
+msgstr "Activeer vorig tabblad in de Dropbox instellingen"
 
 #. Translators: message presented when user performs input help for this shortcut.
-#: addon/appModules/dropbox.py:117
+#: addon/appModules/dropbox.py:134
 msgid "Activate next Dropbox preferences dialog tab"
-msgstr "Activeer volgend tabblad in de Dropbox instellingend"
+msgstr "Activeer volgend tabblad in de Dropbox instellingen"
 
 #: addon/globalPlugins/SayStatedropbox.py:50
 msgid "drop box not found"
@@ -86,3 +93,27 @@ msgstr ""
 "Bij eenmaal drukken wordt de Dropbox status gemeld, bij twee maal drukken de "
 "Dropbox versie en bij drie maal drukken wordt het Dropbox menu geopend door "
 "op het systeemvakicoon te klikken"
+
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+#: buildVars.py:13
+msgid "Announce Dropbox state and make preferences tabs accessible"
+msgstr "Meld Dropbox status en maak tabbladen in de instellingen toegankelijk"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+#: buildVars.py:16
+msgid ""
+"Announces Dropbox status, version or open the Dropbox systray menu.\n"
+"Shortcut: NVDA+Shift+D\n"
+"Page tabs are also working in the preferences dialog with Ctrl+tab and Shift"
+"+Ctrl+Tab.\n"
+"Ctrl+Alt+T announce the active tab.\n"
+"You can activate cancel by pressing the escape key."
+msgstr ""
+"Meld Dropbox status, versie of opent het Dropbox systray menu.\n"
+"Sneltoets: NVDA+Shift+D\n"
+"Ook kunt u wisselen tussen tabbladen met Ctrl+tab en Shift+Ctrl+Tab in het "
+"Preferences venster.\n"
+"Ctrl+Alt+T meldt het actieve tabblad.\n"
+"U kunt de Annuleren knop activeren met de escape toets."

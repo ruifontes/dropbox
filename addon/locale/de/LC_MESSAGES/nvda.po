@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DropboxPlugin 3.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2012-10-18 22:09+0100\n"
-"PO-Revision-Date: 2012-10-18 22:09+0100\n"
+"POT-Creation-Date: 2013-01-06 13:12+0100\n"
+"PO-Revision-Date: 2013-01-04 17:44+0100\n"
 "Last-Translator: David Parduhn <xkill85@gmx.net>\n"
 "Language-Team: German <bernd_dorer@yahoo.de>\n"
 "Language: German\n"
@@ -22,70 +22,74 @@ msgstr ""
 "X-Poedit-SearchPath-0: C:\\Dokumente und Einstellungen\\Berned"
 "\\Anwendungsdaten\\nvda\\addons\\dropbox\n"
 
-#: C:\Dokumente und
-#: Einstellungen\Berned\Anwendungsdaten\nvda\addons\dropbox/appModules/dropbox.py:23
+#. Translators: the name of the dropbox general tab.
+#: addon/appModules/dropbox.py:23
 msgid "General"
 msgstr "allgemein"
 
-#: C:\Dokumente und
-#: Einstellungen\Berned\Anwendungsdaten\nvda\addons\dropbox/appModules/dropbox.py:25
+#. Translators: the name of the dropbox account tab.
+#: addon/appModules/dropbox.py:25
 msgid "Account"
 msgstr "Konto"
 
-#: C:\Dokumente und
-#: Einstellungen\Berned\Anwendungsdaten\nvda\addons\dropbox/appModules/dropbox.py:27
+#. Translators: the name of the dropbox bandwidth tab.
+#: addon/appModules/dropbox.py:27
 msgid "Bandwidth"
 msgstr "Bandbreite"
 
-#: C:\Dokumente und
-#: Einstellungen\Berned\Anwendungsdaten\nvda\addons\dropbox/appModules/dropbox.py:29
+#. Translators: the name of the dropbox proxies tab.
+#: addon/appModules/dropbox.py:29
 msgid "Proxies"
 msgstr "Proxys"
 
-#: C:\Dokumente und
-#: Einstellungen\Berned\Anwendungsdaten\nvda\addons\dropbox/appModules/dropbox.py:31
+#. Translators: the name of the dropbox advanced tab.
+#: addon/appModules/dropbox.py:31
 msgid "Advanced"
 msgstr "erweitert"
 
-#: C:\Dokumente und
-#: Einstellungen\Berned\Anwendungsdaten\nvda\addons\dropbox/appModules/dropbox.py:85
+#. Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui.
+#: addon/appModules/dropbox.py:81 addon/appModules/dropbox.py:100
+#: addon/appModules/dropbox.py:109 addon/appModules/dropbox.py:123
+msgid "Dropbox Preferences"
+msgstr "Dropbox-Einstellungen"
+
+#. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui.
+#: addon/appModules/dropbox.py:86 addon/appModules/dropbox.py:87
 msgid "Cancel"
 msgstr "abbrechen"
 
-#: C:\Dokumente und
-#: Einstellungen\Berned\Anwendungsdaten\nvda\addons\dropbox/appModules/dropbox.py:93
+#: addon/appModules/dropbox.py:89
 msgid "Cancel button not found"
 msgstr "Der Schalter \"abbrechen\" wurde nicht gefunden."
 
-#: C:\Dokumente und
-#: Einstellungen\Berned\Anwendungsdaten\nvda\addons\dropbox/appModules/dropbox.py:101
+#. Translators: message presented when user performs input help for this shortcut.
+#: addon/appModules/dropbox.py:97
 msgid "Clicks the Cancel button of the Dropbox preferences dialog"
 msgstr "Klickt den Schalter \"Abbrechen\" in den Dropbox-Einstellungen an."
 
-#: C:\Dokumente und
-#: Einstellungen\Berned\Anwendungsdaten\nvda\addons\dropbox/appModules/dropbox.py:106
+#. Translators: message presented when user performs input help for this shortcut.
+#: addon/appModules/dropbox.py:106
 msgid "announce active Dropbox preferences dialog tab"
 msgstr ""
 "Gibt an, welche Registerkarte in den Dropbox-Einstellungen momentan aktiv "
 "ist."
 
-#: C:\Dokumente und
-#: Einstellungen\Berned\Anwendungsdaten\nvda\addons\dropbox/appModules/dropbox.py:112
+#. Translators: message presented when user performs input help for this shortcut.
+#: addon/appModules/dropbox.py:120
 msgid "Activate previous Dropbox preferences dialog tab"
 msgstr "aktiviert die vorige Registerkarte in den Dropbox-Einstellungen."
 
-#: C:\Dokumente und
-#: Einstellungen\Berned\Anwendungsdaten\nvda\addons\dropbox/appModules/dropbox.py:117
+#. Translators: message presented when user performs input help for this shortcut.
+#: addon/appModules/dropbox.py:134
 msgid "Activate next Dropbox preferences dialog tab"
 msgstr "aktiviert die nächste Registerkarte in den Dropbox-Einstellungen."
 
-#: C:\Dokumente und
-#: Einstellungen\Berned\Anwendungsdaten\nvda\addons\dropbox/globalPlugins/SayStatedropbox.py:50
+#: addon/globalPlugins/SayStatedropbox.py:50
 msgid "drop box not found"
 msgstr "Dropbox wurde nicht gefunden."
 
-#: C:\Dokumente und
-#: Einstellungen\Berned\Anwendungsdaten\nvda\addons\dropbox/globalPlugins/SayStatedropbox.py:75
+#. Documentation
+#: addon/globalPlugins/SayStatedropbox.py:75
 msgid ""
 "If pressed once, announces Dropbox status. If pressed twice, reports the "
 "Dropbox version. If pressed three times, open the Dropbox context menu by "
@@ -94,3 +98,30 @@ msgstr ""
 "bei einmaligem Drücken wird der Dropbox-Status ausgegeben. Zweimaliges "
 "Drücken gibt die Dropbox-Version aus, dreimaliges Drücken öffnet das "
 "Kontextmenü des Infobereichssymbols."
+
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+#: buildVars.py:13
+msgid "Announce Dropbox state and make preferences tabs accessible"
+msgstr ""
+"Gibt den Status von Dropbox aus und macht die Registerkarten in den "
+"Einstellungen von Dropbox zugänglich."
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+#: buildVars.py:16
+msgid ""
+"Announces Dropbox status, version or open the Dropbox systray menu.\n"
+"Shortcut: NVDA+Shift+D\n"
+"Page tabs are also working in the preferences dialog with Ctrl+tab and Shift"
+"+Ctrl+Tab.\n"
+"Ctrl+Alt+T announce the active tab.\n"
+"You can activate cancel by pressing the escape key."
+msgstr ""
+"Gibt den Status und die Versionsnummer von Dropbox an oder öffnet das Menü "
+"des Infobereichssymbols.\n"
+"Tastenkombination: NVDA+umschalt+D\n"
+"Die Registerkarten in den Einstellungen können mit strg+tab und strg+umschalt"
+"+tab gewechselt werden.\n"
+"strg+Alt+T gibt den Namen der aktiven Registerkarte an.\n"
+"Sie können den Schalter Abbrechen betätigen, indem Sie Escape drücken."

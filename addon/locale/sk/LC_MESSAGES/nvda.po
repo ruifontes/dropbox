@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DropboxPlugin 3.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2012-10-13 13:43+0100\n"
-"PO-Revision-Date: 2012-10-19 08:14+0100\n"
+"POT-Creation-Date: 2013-01-06 13:12+0100\n"
+"PO-Revision-Date: 2013-01-08 11:52+0100\n"
 "Last-Translator: Ondrej Rosík <ondrej.rosik@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -41,17 +41,26 @@ msgstr "Proxies"
 msgid "Advanced"
 msgstr "Advanced"
 
-#. Translators: the name of the dropbox preferences cancel button, it is important to have the same caplitilization/spelling as in the dropbox gui.
-#: addon/appModules/dropbox.py:85
+#. Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui.
+#: addon/appModules/dropbox.py:81
+#: addon/appModules/dropbox.py:100
+#: addon/appModules/dropbox.py:109
+#: addon/appModules/dropbox.py:123
+msgid "Dropbox Preferences"
+msgstr "Dropbox Preferences"
+
+#. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui.
+#: addon/appModules/dropbox.py:86
+#: addon/appModules/dropbox.py:87
 msgid "Cancel"
 msgstr "Cancel"
 
-#: addon/appModules/dropbox.py:93
+#: addon/appModules/dropbox.py:89
 msgid "Cancel button not found"
 msgstr "Nepodarilos a nájsť tlačidlo zrušiť"
 
 #. Translators: message presented when user performs input help for this shortcut.
-#: addon/appModules/dropbox.py:101
+#: addon/appModules/dropbox.py:97
 msgid "Clicks the Cancel button of the Dropbox preferences dialog"
 msgstr "Aktivuje tlačidlo zrušiť v okne s možnosťami programu Dropbox"
 
@@ -61,12 +70,12 @@ msgid "announce active Dropbox preferences dialog tab"
 msgstr "prečítať aktuálnu záložku  v nastaveniach Dropboxu"
 
 #. Translators: message presented when user performs input help for this shortcut.
-#: addon/appModules/dropbox.py:112
+#: addon/appModules/dropbox.py:120
 msgid "Activate previous Dropbox preferences dialog tab"
 msgstr "prejsť na predchádzajúcu záložku v nastaveniach Dropboxu"
 
 #. Translators: message presented when user performs input help for this shortcut.
-#: addon/appModules/dropbox.py:117
+#: addon/appModules/dropbox.py:134
 msgid "Activate next Dropbox preferences dialog tab"
 msgstr "prejsť na nasledujúcu záložku v nastaveniach Dropboxu"
 
@@ -78,4 +87,26 @@ msgstr "Dropbox nebol nájdený"
 #: addon/globalPlugins/SayStatedropbox.py:75
 msgid "If pressed once, announces Dropbox status. If pressed twice, reports the Dropbox version. If pressed three times, open the Dropbox context menu by clicking on its systray icon"
 msgstr "Oznámi stav Dropboxu. Stlačené dvakrát rýchlo zasebou prečíta verziu Dropboxu. Stlačené rýchlo trikrát otvorí kontextové menu Dropboxu."
+
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+#: buildVars.py:13
+msgid "Announce Dropbox state and make preferences tabs accessible"
+msgstr "Modul pre Dropbox"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+#: buildVars.py:16
+msgid ""
+"Announces Dropbox status, version or open the Dropbox systray menu.\n"
+"Shortcut: NVDA+Shift+D\n"
+"Page tabs are also working in the preferences dialog with Ctrl+tab and Shift+Ctrl+Tab.\n"
+"Ctrl+Alt+T announce the active tab.\n"
+"You can activate cancel by pressing the escape key."
+msgstr ""
+"Oznamuje stav Dropboxu, jeho verziu a umožňuje otvoriť kontextové menu programu z klávesnice.\n"
+"Klávesová skratka: NVDA+Shift+D\n"
+"Môžete sa tiež pohybovať po záložkách v možnostiach programu pomocou ctrl+tab a  Shift+Ctrl+Tab.\n"
+"Ctrl+Alt+T prečíta názov aktuálnej záložky.\n"
+"Nastavenia Dropboxu zatvoríte klávesom Escape."
 
