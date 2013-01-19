@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DropboxPlugin 3.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2012-10-13 13:43+0100\n"
+"POT-Creation-Date: 2013-01-06 13:12+0100\n"
 "PO-Revision-Date: 2012-10-19 12:30+0100\n"
 "Last-Translator: Hubert Meyer <killer@tyflonet.com>\n"
 "Language-Team: Hubert Meyer <killer@tyflonet.com>\n"
@@ -43,17 +43,23 @@ msgstr "servery proksy"
 msgid "Advanced"
 msgstr "zaawansowane"
 
-#. Translators: the name of the dropbox preferences cancel button, it is important to have the same caplitilization/spelling as in the dropbox gui.
-#: addon/appModules/dropbox.py:85
+#. Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui.
+#: addon/appModules/dropbox.py:81 addon/appModules/dropbox.py:100
+#: addon/appModules/dropbox.py:109 addon/appModules/dropbox.py:123
+msgid "Dropbox Preferences"
+msgstr ""
+
+#. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui.
+#: addon/appModules/dropbox.py:86 addon/appModules/dropbox.py:87
 msgid "Cancel"
 msgstr "anuluj"
 
-#: addon/appModules/dropbox.py:93
+#: addon/appModules/dropbox.py:89
 msgid "Cancel button not found"
 msgstr "brak przycisku anulowania"
 
 #. Translators: message presented when user performs input help for this shortcut.
-#: addon/appModules/dropbox.py:101
+#: addon/appModules/dropbox.py:97
 msgid "Clicks the Cancel button of the Dropbox preferences dialog"
 msgstr "klika przycisk anuluj w oknie dialogowym ustawień dropboks"
 
@@ -63,12 +69,12 @@ msgid "announce active Dropbox preferences dialog tab"
 msgstr "zgłasza aktywną zakładkę w ustawieniach dropboks"
 
 #. Translators: message presented when user performs input help for this shortcut.
-#: addon/appModules/dropbox.py:112
+#: addon/appModules/dropbox.py:120
 msgid "Activate previous Dropbox preferences dialog tab"
 msgstr "aktywuje poprzednią zakładkę w oknie dialogowym ustawień dropboks"
 
 #. Translators: message presented when user performs input help for this shortcut.
-#: addon/appModules/dropbox.py:117
+#: addon/appModules/dropbox.py:134
 msgid "Activate next Dropbox preferences dialog tab"
 msgstr "aktywuje następną zakładkę w ustawieniach dropboks"
 
@@ -78,6 +84,29 @@ msgstr "nie odnaleziono dropboksa"
 
 #. Documentation
 #: addon/globalPlugins/SayStatedropbox.py:75
-msgid "If pressed once, announces Dropbox status. If pressed twice, reports the Dropbox version. If pressed three times, open the Dropbox context menu by clicking on its systray icon"
-msgstr "pojedyńcze wciśnięcie zgłasza aktualny status dropboksa. Podwujne wciśnięcie podaje wersję programu. Potrujne otwiera menu kontekstowe dropboksa"
+msgid ""
+"If pressed once, announces Dropbox status. If pressed twice, reports the "
+"Dropbox version. If pressed three times, open the Dropbox context menu by "
+"clicking on its systray icon"
+msgstr ""
+"pojedyńcze wciśnięcie zgłasza aktualny status dropboksa. Podwujne wciśnięcie "
+"podaje wersję programu. Potrujne otwiera menu kontekstowe dropboksa"
 
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+#: buildVars.py:13
+#, fuzzy
+msgid "Announce Dropbox state and make preferences tabs accessible"
+msgstr "zgłasza aktywną zakładkę w ustawieniach dropboks"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+#: buildVars.py:16
+msgid ""
+"Announces Dropbox status, version or open the Dropbox systray menu.\n"
+"Shortcut: NVDA+Shift+D\n"
+"Page tabs are also working in the preferences dialog with Ctrl+tab and Shift"
+"+Ctrl+Tab.\n"
+"Ctrl+Alt+T announce the active tab.\n"
+"You can activate cancel by pressing the escape key."
+msgstr ""

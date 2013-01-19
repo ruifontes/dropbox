@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: DropboxPlugin 3.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2012-10-13 13:43+0100\n"
-"PO-Revision-Date: 2012-10-19 20:48-0000\n"
+"POT-Creation-Date: 2013-01-06 13:12+0100\n"
+"PO-Revision-Date: 2013-01-07 01:31+0200\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -40,17 +40,23 @@ msgstr "Proxies"
 msgid "Advanced"
 msgstr "متقدم"
 
-#. Translators: the name of the dropbox preferences cancel button, it is important to have the same caplitilization/spelling as in the dropbox gui.
-#: addon/appModules/dropbox.py:85
+#. Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui.
+#: addon/appModules/dropbox.py:81 addon/appModules/dropbox.py:100
+#: addon/appModules/dropbox.py:109 addon/appModules/dropbox.py:123
+msgid "Dropbox Preferences"
+msgstr "قائمة تفضيلات DropBox"
+
+#. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui.
+#: addon/appModules/dropbox.py:86 addon/appModules/dropbox.py:87
 msgid "Cancel"
 msgstr "إلغاء"
 
-#: addon/appModules/dropbox.py:93
+#: addon/appModules/dropbox.py:89
 msgid "Cancel button not found"
 msgstr "لم يتم العثور على زر الإلغاء"
 
 #. Translators: message presented when user performs input help for this shortcut.
-#: addon/appModules/dropbox.py:101
+#: addon/appModules/dropbox.py:97
 msgid "Clicks the Cancel button of the Dropbox preferences dialog"
 msgstr "تنفيذ زر الإلغاء بمحاورة التفضيلات ببرنامج DropBox"
 
@@ -60,12 +66,12 @@ msgid "announce active Dropbox preferences dialog tab"
 msgstr "الإعلان عن الصحيفة النشطة بمحاورة التفضيلات ببرنامج DropBox"
 
 #. Translators: message presented when user performs input help for this shortcut.
-#: addon/appModules/dropbox.py:112
+#: addon/appModules/dropbox.py:120
 msgid "Activate previous Dropbox preferences dialog tab"
 msgstr "تنشيط الصحيفة النشطة بمحاورة التفضيلات ببرنامج DropBox"
 
 #. Translators: message presented when user performs input help for this shortcut.
-#: addon/appModules/dropbox.py:117
+#: addon/appModules/dropbox.py:134
 msgid "Activate next Dropbox preferences dialog tab"
 msgstr "تنشيط الصحيفة التالية بمحاورة التفضيلات لبرنامج DropBox"
 
@@ -83,3 +89,26 @@ msgstr ""
 "بالضغط عليه مرة, يعلن عن حالة DropBox. بالضغط عليه مرتين, يعلن عن إصداره. "
 "بالضغط عليه ثلاث مرات, يفتح قائمته بالنقر على الأيقونة الخاصة به على صينية "
 "النظام"
+
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+#: buildVars.py:13
+msgid "Announce Dropbox state and make preferences tabs accessible"
+msgstr "الإعلان عن حالة برنامج DropBox وإتاحة التجول بين تبويباته"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+#: buildVars.py:16
+msgid ""
+"Announces Dropbox status, version or open the Dropbox systray menu.\n"
+"Shortcut: NVDA+Shift+D\n"
+"Page tabs are also working in the preferences dialog with Ctrl+tab and Shift"
+"+Ctrl+Tab.\n"
+"Ctrl+Alt+T announce the active tab.\n"
+"You can activate cancel by pressing the escape key."
+msgstr ""
+"الإعلان عن حالة برنامج رفع الملفات DropBox, أو إصداره أو فتح قائمته.\n"
+"مفتاح الاختصار: NVDA+Shift+D\n"
+"كما تعمل تبويبات محاورة التفضيلات بالضغط على Ctrl+tab أو Shift+Ctrl+Tab.\n"
+"يعلن مفتاح الاختصار Ctrl+Alt+t عن التبويب النشط.\n"
+"يمكنك تنشيط زر الإلغاء بالضغط على مفتاح Escape."
