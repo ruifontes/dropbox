@@ -7,10 +7,9 @@ msgstr ""
 "Project-Id-Version: DropboxPlugin 3.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-01-06 13:12+0100\n"
-"PO-Revision-Date: 2012-10-19 16:15+0545\n"
-"Last-Translator:  \n"
+"PO-Revision-Date: 2013-02-10 21:08+0400\n"
+"Last-Translator: \n"
 "Language-Team: Nepali\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -45,12 +44,12 @@ msgstr "विकसित"
 #: addon/appModules/dropbox.py:81 addon/appModules/dropbox.py:100
 #: addon/appModules/dropbox.py:109 addon/appModules/dropbox.py:123
 msgid "Dropbox Preferences"
-msgstr ""
+msgstr "Dropbox Preferences"
 
 #. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui.
 #: addon/appModules/dropbox.py:86 addon/appModules/dropbox.py:87
 msgid "Cancel"
-msgstr "रद्द"
+msgstr "Cancel"
 
 #: addon/appModules/dropbox.py:89
 msgid "Cancel button not found"

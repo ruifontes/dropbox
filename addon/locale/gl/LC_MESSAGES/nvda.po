@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: DropboxPlugin 3.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-01-06 13:12+0100\n"
-"PO-Revision-Date: 2013-01-06 21:41+0100\n"
+"PO-Revision-Date: 2013-02-10 21:07+0400\n"
 "Last-Translator: Juan C. Buño <quetzatl@eresmas.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -45,7 +45,7 @@ msgstr "Avanzado"
 #: addon/appModules/dropbox.py:81 addon/appModules/dropbox.py:100
 #: addon/appModules/dropbox.py:109 addon/appModules/dropbox.py:123
 msgid "Dropbox Preferences"
-msgstr "Preferencias do Dropbox"
+msgstr "Dropbox Preferences"
 
 #. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui.
 #: addon/appModules/dropbox.py:86 addon/appModules/dropbox.py:87
