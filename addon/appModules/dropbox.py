@@ -77,12 +77,12 @@ class AppModule(appModuleHandler.AppModule):
 			obj.name=getPageTabActive(obj.windowHandle)
 
 	def script_clickButtonCancel (self,gesture):
-		# Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui.
+		# Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
 		if api.getFocusObject().windowText == u'DropboxTrayIcon' or api.getFocusObject().windowClassName == u'#32768' or api.getForegroundObject().name != _("Dropbox Preferences"):
 			gesture.send()
 			return
 		cancelButton=api.getForegroundObject().simpleLastChild
-		# Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui.
+		# Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
 		if cancelButton.name != _('Cancel'):
 			cancelButton=cancelButton.simplePrevious if cancelButton.simplePrevious.name == _('Cancel') else None
 		if cancelButton == None:
