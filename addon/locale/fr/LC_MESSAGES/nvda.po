@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dropbox.nvda-addon version 3.0\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
-"POT-Creation-Date: 2012-12-23 01:58+0100\n"
-"PO-Revision-Date: 2012-12-23 01:59+0100\n"
-"Last-Translator: Patrick ZAJDA <patrick@zajda.fr>\n"
+"POT-Creation-Date: 2013-02-12 15:46+0100\n"
+"PO-Revision-Date: 2013-02-12 15:48+0100\n"
+"Last-Translator: patrick ZAJDA <patrick@zajda.fr>\n"
 "Language-Team: FR <remy.ruiz@gmail.com>\n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: fr_FR\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #. Translators: the name of the dropbox general tab.
 #: addon\appModules\dropbox.py:23
@@ -43,17 +43,14 @@ msgstr "Proxy"
 msgid "Advanced"
 msgstr "Avancé"
 
-#. Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui.
-#: addon\appModules\dropbox.py:81
-#: addon\appModules\dropbox.py:100
-#: addon\appModules\dropbox.py:109
-#: addon\appModules\dropbox.py:122
+#. Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
+#: addon\appModules\dropbox.py:81 addon\appModules\dropbox.py:100
+#: addon\appModules\dropbox.py:109 addon\appModules\dropbox.py:123
 msgid "Dropbox Preferences"
 msgstr "Préférences Dropbox"
 
-#. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui.
-#: addon\appModules\dropbox.py:86
-#: addon\appModules\dropbox.py:87
+#. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
+#: addon\appModules\dropbox.py:86 addon\appModules\dropbox.py:87
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -64,22 +61,28 @@ msgstr "Bouton Annuler introuvable"
 #. Translators: message presented when user performs input help for this shortcut.
 #: addon\appModules\dropbox.py:97
 msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-msgstr "Cliquez sur le bouton Annuler de la boîte de dialogue des préférences de Dropbox"
+msgstr ""
+"Cliquez sur le bouton Annuler de la boîte de dialogue des préférences de "
+"Dropbox"
 
 #. Translators: message presented when user performs input help for this shortcut.
 #: addon\appModules\dropbox.py:106
 msgid "announce active Dropbox preferences dialog tab"
-msgstr "Annoncer l'onglet actif dans la boîte de dialogue des préférences de Dropbox"
+msgstr ""
+"Annoncer l'onglet actif dans la boîte de dialogue des préférences de Dropbox"
 
 #. Translators: message presented when user performs input help for this shortcut.
-#: addon\appModules\dropbox.py:119
+#: addon\appModules\dropbox.py:120
 msgid "Activate previous Dropbox preferences dialog tab"
-msgstr "Activer l'onglet précédent dans la boîte de dialogue des préférences de Dropbox"
+msgstr ""
+"Activer l'onglet précédent dans la boîte de dialogue des préférences de "
+"Dropbox"
 
 #. Translators: message presented when user performs input help for this shortcut.
-#: addon\appModules\dropbox.py:132
+#: addon\appModules\dropbox.py:134
 msgid "Activate next Dropbox preferences dialog tab"
-msgstr "Activer l'onglet suivant dans la boîte de dialogue des préférences de Dropbox"
+msgstr ""
+"Activer l'onglet suivant dans la boîte de dialogue des préférences de Dropbox"
 
 #: addon\globalPlugins\SayStatedropbox.py:50
 msgid "drop box not found"
@@ -87,14 +90,22 @@ msgstr "drop box introuvable"
 
 #. Documentation
 #: addon\globalPlugins\SayStatedropbox.py:75
-msgid "If pressed once, announces Dropbox status. If pressed twice, reports the Dropbox version. If pressed three times, open the Dropbox context menu by clicking on its systray icon"
-msgstr "Si vous appuyez une fois il annonce le statut de Dropbox. Si vous appuyez deux fois il signale la version de Dropbox. Si vous appuyez trois fois il ouvre le menu contextuel de Dropbox en cliquant sur l'icône de Dropbox dans la zone de notification"
+msgid ""
+"If pressed once, announces Dropbox status. If pressed twice, reports the "
+"Dropbox version. If pressed three times, open the Dropbox context menu by "
+"clicking on its systray icon"
+msgstr ""
+"Si vous appuyez une fois il annonce le statut de Dropbox. Si vous appuyez "
+"deux fois il signale la version de Dropbox. Si vous appuyez trois fois il "
+"ouvre le menu contextuel de Dropbox en cliquant sur l'icône de Dropbox dans "
+"la zone de notification"
 
 #. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
 #: buildVars.py:13
 msgid "Announce Dropbox state and make preferences tabs accessible"
-msgstr "Annonce le statut de Dropbox et rend les onglets des préférences accessibles"
+msgstr ""
+"Annonce le statut de Dropbox et rend les onglets des préférences accessibles"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
@@ -102,13 +113,16 @@ msgstr "Annonce le statut de Dropbox et rend les onglets des préférences acces
 msgid ""
 "Announces Dropbox status, version or open the Dropbox systray menu.\n"
 "Shortcut: NVDA+Shift+D\n"
-"Page tabs are also working in the preferences dialog with Ctrl+tab and Shift+Ctrl+Tab.\n"
+"Page tabs are also working in the preferences dialog with Ctrl+tab and Shift"
+"+Ctrl+Tab.\n"
 "Ctrl+Alt+T announce the active tab.\n"
 "You can activate cancel by pressing the escape key."
 msgstr ""
-"Annonce le statut ou la version de Dropbox, ou ouvre le menu de Dropbox dans la zone de notification.\n"
+"Annonce le statut ou la version de Dropbox, ou ouvre le menu de Dropbox dans "
+"la zone de notification.\n"
 "Raccourci : NVDA+Maj+D\n"
-"Les onglets fonctionnent aussi dans la boîte de dialogue des Préférences avec Ctrl+Tab et Maj+Ctrl+Tab.\n"
+"Les onglets fonctionnent aussi dans la boîte de dialogue des Préférences "
+"avec Ctrl+Tab et Maj+Ctrl+Tab.\n"
 "Ctrl+Alt+T annonce l'onglet actif.\n"
 "Vous pouvez activer annuler en appuyant sur la touche Echap."
 
