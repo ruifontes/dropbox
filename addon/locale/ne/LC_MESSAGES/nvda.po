@@ -7,13 +7,13 @@ msgstr ""
 "Project-Id-Version: DropboxPlugin 3.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-01-06 13:12+0100\n"
-"PO-Revision-Date: 2013-02-10 21:08+0400\n"
+"PO-Revision-Date: 2013-02-11 08:09+0545\n"
 "Last-Translator: \n"
 "Language-Team: Nepali\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #. Translators: the name of the dropbox general tab.
 #: addon/appModules/dropbox.py:23
@@ -33,23 +33,23 @@ msgstr "ब्याण्ड चौडाई"
 #. Translators: the name of the dropbox proxies tab.
 #: addon/appModules/dropbox.py:29
 msgid "Proxies"
-msgstr "अवास्तविक"
+msgstr "लाक्षणीक"
 
 #. Translators: the name of the dropbox advanced tab.
 #: addon/appModules/dropbox.py:31
 msgid "Advanced"
-msgstr "विकसित"
+msgstr "समृद्ध"
 
 #. Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui.
 #: addon/appModules/dropbox.py:81 addon/appModules/dropbox.py:100
 #: addon/appModules/dropbox.py:109 addon/appModules/dropbox.py:123
 msgid "Dropbox Preferences"
-msgstr "Dropbox Preferences"
+msgstr "खुत्रुकेका प्राथमिकताहरू"
 
 #. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui.
 #: addon/appModules/dropbox.py:86 addon/appModules/dropbox.py:87
 msgid "Cancel"
-msgstr "Cancel"
+msgstr "रद्द"
 
 #: addon/appModules/dropbox.py:89
 msgid "Cancel button not found"
@@ -58,26 +58,26 @@ msgstr "रद्द टाँक फेला परेन।"
 #. Translators: message presented when user performs input help for this shortcut.
 #: addon/appModules/dropbox.py:97
 msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-msgstr "कन्तुरप्राथमिकता पाटीको रद्द टाँकलाई किटिक्क पार्छ ।"
+msgstr "खुत्रुकेप्राथमिकता पाटीको रद्द टाँकलाई किटिक्क पार्छ ।"
 
 #. Translators: message presented when user performs input help for this shortcut.
 #: addon/appModules/dropbox.py:106
 msgid "announce active Dropbox preferences dialog tab"
-msgstr "सक्रिय कन्तुर प्राथमिकता पाटीको tab बताउ छ ।"
+msgstr "सक्रिय खुत्रुके प्राथमिकता पाटीको tab बताउ छ ।"
 
 #. Translators: message presented when user performs input help for this shortcut.
 #: addon/appModules/dropbox.py:120
 msgid "Activate previous Dropbox preferences dialog tab"
-msgstr "पछिल्लो कन्तुर प्राथमिकता पाटीको tab लाई सक्रिय पार्छ ।"
+msgstr "पछिल्लो खुत्रुके प्राथमिकता पाटीको tab लाई सक्रिय पार्छ ।"
 
 #. Translators: message presented when user performs input help for this shortcut.
 #: addon/appModules/dropbox.py:134
 msgid "Activate next Dropbox preferences dialog tab"
-msgstr "अघिल्लो कन्तुर प्राथमिकता पाटीको tab लाई सक्रिय पार्छ ।"
+msgstr "अघिल्लो खुत्रुके प्राथमिकता पाटीको tab लाई सक्रिय पार्छ ।"
 
 #: addon/globalPlugins/SayStatedropbox.py:50
 msgid "drop box not found"
-msgstr "कन्तुर फेला परेन ।"
+msgstr "खुत्रुके फेला परेन ।"
 
 #. Documentation
 #: addon/globalPlugins/SayStatedropbox.py:75
@@ -86,15 +86,14 @@ msgid ""
 "Dropbox version. If pressed three times, open the Dropbox context menu by "
 "clicking on its systray icon"
 msgstr ""
-"एक पटक दबाएमा कन्तुरको स्थिति बताउने छ, यदि दुई पटक दबाएमा कन्तुरको संस्करण बताउने छ र "
-"यदि लगातार तीन पटक दबाएमा थाली प्रतिमालाई किटिक्क पारेर कन्तुर सन्दर्भ मेनु देखाउने छ ।"
+"एक पटक दबाएमा खुत्रुकेको स्थिति बताउने छ, यदि दुई पटक दबाएमा खुत्रुकेको संस्करण बताउने छ र "
+"यदि लगातार तीन पटक दबाएमा थाली प्रतिमालाई किटिक्क पारेर खुत्रुके सन्दर्भ मेनु देखाउने छ ।"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on informaiton.
 #: buildVars.py:13
-#, fuzzy
 msgid "Announce Dropbox state and make preferences tabs accessible"
-msgstr "सक्रिय कन्तुर प्राथमिकता पाटीको tab बताउ छ ।"
+msgstr "खुत्रुकेको अवस्था  बताएर प्राथमिकता विकल्पलाई पहुँच योग्य बनाउ छ ।"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
@@ -107,3 +106,7 @@ msgid ""
 "Ctrl+Alt+T announce the active tab.\n"
 "You can activate cancel by pressing the escape key."
 msgstr ""
+"खुत्रुकेको स्थिति र संस्करण  बताउने छ अथवा  यसको प्रणाली थालीमा भएका सुची देखाउने छ ।द्रुत "
+"मार्ग: नेत्रवानी +Shift+Dप्राथमिकता पातोमा Ctrl+tab र  Shift+Ctrl+Tab कुञ्जी "
+"दबाएमा पृष्ट tabs ले पनि काम गर्छ ।.Ctrl+Alt+T ले सक्रिय रहेको Tab बताउने छ ।कृपया, "
+"रद्द गर्नका लागी escape कुञ्जी दबाउनु होला ।"
