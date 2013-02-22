@@ -23,7 +23,7 @@ You can activate cancel by pressing the escape key."""),
 	# Author(s)
 	"addon-author" : "Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors",
 # URL for the add-on documentation support
-"addon-url" : None
+"addon-url" : "http://addons.nvda-project.org/"
 }
 
 import os.path
