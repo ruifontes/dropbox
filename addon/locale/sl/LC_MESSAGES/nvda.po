@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: DropboxPlugin 3.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-01-06 13:12+0100\n"
-"PO-Revision-Date: 2013-02-17 18:34+0400\n"
-"Last-Translator: Jožef Gregorc <jozko.gregorc[@]guest.arnes.si>\n"
+"PO-Revision-Date: 2013-02-20 18:52+0100\n"
+"Last-Translator: Jožef Gregorc <jozko.gregorc[@]guest.arnes.si\n"
 "Language-Team:  <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #. Translators: the name of the dropbox general tab.
 #: addon/appModules/dropbox.py:23
@@ -59,22 +59,26 @@ msgstr "Gumb Prekliči se ni našel"
 #. Translators: message presented when user performs input help for this shortcut.
 #: addon/appModules/dropbox.py:97
 msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-msgstr "klikne gumb Prekliči na obrazcu Nastavitve Dropboxa"
+msgstr ""
+"klikne gumb Prekliči v pogovornem oknu  prednostnih nastavitev DropBoxa"
 
 #. Translators: message presented when user performs input help for this shortcut.
 #: addon/appModules/dropbox.py:106
 msgid "announce active Dropbox preferences dialog tab"
-msgstr "Naznani aktiven Dropbox zavihek z obrazcem za nastavitve"
+msgstr ""
+"Naznani aktiven DropBox zavihek s pogovornim oknom prednostnih nastavitev"
 
 #. Translators: message presented when user performs input help for this shortcut.
 #: addon/appModules/dropbox.py:120
 msgid "Activate previous Dropbox preferences dialog tab"
-msgstr "Sproži prejšnji zavihek z obrazcem Nastavitve Dropboxa"
+msgstr ""
+"Sproži prejšnji zavihek s pogovornim oknom prednostnih nastavitev DropBoxa"
 
 #. Translators: message presented when user performs input help for this shortcut.
 #: addon/appModules/dropbox.py:134
 msgid "Activate next Dropbox preferences dialog tab"
-msgstr "Sproži naslednji zavihek z obrazcem nastavitve Dropboxa"
+msgstr ""
+"Sproži naslednji zavihek s pogovornim oknom prednostnih nastavitev DropBoxa"
 
 #: addon/globalPlugins/SayStatedropbox.py:50
 msgid "drop box not found"
@@ -109,3 +113,10 @@ msgid ""
 "Ctrl+Alt+T announce the active tab.\n"
 "You can activate cancel by pressing the escape key."
 msgstr ""
+"Napove status DropBoxa, njegovo različico ali odpre DropBox meni v območju "
+"obvestil.\n"
+"Bližnjica: NVDA+Shift+D\n"
+"Zavihki strani delujejo tudi v pogovornem oknu prednostnih nastavitev s Ctrl"
+"+tab in Shift+Ctrl+Tab.\n"
+"Ctrl+Alt+T naznani aktivni zavihek.\n"
+"Gumb Prekliči lahko aktivirate s pritiskom tipke Escape.."
