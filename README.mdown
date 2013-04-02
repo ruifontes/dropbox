@@ -1,6 +1,6 @@
 [[!meta title="dropbox"]]
 
-* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
+* Authors: Patrick ZAJDA, Filaos and other contributors
 * Download: [version 3.1][1]
 
 This plugin will add a shortcut to announce Dropbox status, version or open the Dropbox systray menu.
@@ -14,6 +14,8 @@ To conclude, make the cancel button working with escape.
 
 * If you switch between tabs using the shortcuts, when you'll close the preferences window, NVDA won't be able to know the windows doesn't exist anymore.
 It is a known issue on NVDA and cannot be fixed.
+## Changes for 3.1.1-dev ##
+* New languages: Croatian, Slovenian, Simplified Chinese
 
 ## Changes for 3.1 ##
 
