@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: DropboxPlugin 3.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-01-06 13:12+0100\n"
-"PO-Revision-Date: 2013-01-04 17:44+0100\n"
+"PO-Revision-Date: 2013-02-14 16:27+0100\n"
 "Last-Translator: David Parduhn <xkill85@gmx.net>\n"
 "Language-Team: German <bernd_dorer@yahoo.de>\n"
 "Language:de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.5.5\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-Basepath: C:\\Dokumente und Einstellungen\\Berned\\Anwendungsdaten"
 "\\nvda\\addons\\dropbox\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #. Translators: the name of the dropbox general tab.
 msgid "General"
-msgstr "allgemein"
+msgstr "Allgemein"
 
 #. Translators: the name of the dropbox account tab.
 msgid "Account"
@@ -40,7 +40,7 @@ msgstr "Proxys"
 
 #. Translators: the name of the dropbox advanced tab.
 msgid "Advanced"
-msgstr "erweitert"
+msgstr "Erweitert"
 
 #. Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
 msgid "Dropbox Preferences"
@@ -48,10 +48,10 @@ msgstr "Dropbox-Einstellungen"
 
 #. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
 msgid "Cancel"
-msgstr "abbrechen"
+msgstr "Abbrechen"
 
 msgid "Cancel button not found"
-msgstr "Der Schalter \"abbrechen\" wurde nicht gefunden."
+msgstr "Der Schalter \"Abbrechen\" wurde nicht gefunden."
 
 #. Translators: message presented when user performs input help for this shortcut.
 msgid "Clicks the Cancel button of the Dropbox preferences dialog"
@@ -65,7 +65,7 @@ msgstr ""
 
 #. Translators: message presented when user performs input help for this shortcut.
 msgid "Activate previous Dropbox preferences dialog tab"
-msgstr "aktiviert die vorige Registerkarte in den Dropbox-Einstellungen."
+msgstr "aktiviert die vorherige Registerkarte in den Dropbox-Einstellungen."
 
 #. Translators: message presented when user performs input help for this shortcut.
 msgid "Activate next Dropbox preferences dialog tab"
@@ -82,14 +82,14 @@ msgid ""
 msgstr ""
 "bei einmaligem Drücken wird der Dropbox-Status ausgegeben. Zweimaliges "
 "Drücken gibt die Dropbox-Version aus, dreimaliges Drücken öffnet das "
-"Kontextmenü des Infobereichssymbols."
+"Kontextmenü im Infobereich."
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
 msgid "Announce Dropbox state and make preferences tabs accessible"
 msgstr ""
-"Gibt den Status von Dropbox aus und macht die Registerkarten in den "
-"Einstellungen von Dropbox zugänglich."
+"Gibt den Status von Dropbox aus und ermöglicht den Zugriff auf die "
+"Registerkarten in den Einstellungen."
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
@@ -101,10 +101,10 @@ msgid ""
 "Ctrl+Alt+T announce the active tab.\n"
 "You can activate cancel by pressing the escape key."
 msgstr ""
-"Gibt den Status und die Versionsnummer von Dropbox an oder öffnet das Menü "
+"Gibt den Status und die Versionsnummer von Dropbox aus oder öffnet das Menü "
 "des Infobereichssymbols.\n"
-"Tastenkombination: NVDA+umschalt+D\n"
-"Die Registerkarten in den Einstellungen können mit strg+tab und strg+umschalt"
-"+tab gewechselt werden.\n"
-"strg+Alt+T gibt den Namen der aktiven Registerkarte an.\n"
+"Tastenkombination: NVDA+Umschalt+D\n"
+"Die Registerkarten in den Einstellungen können mit STRG+Tab und STRG+Umschalt"
+"+Tab gewechselt werden.\n"
+"STRG+Alt+T gibt den Namen der aktiven Registerkarte an.\n"
 "Sie können den Schalter Abbrechen betätigen, indem Sie Escape drücken."
