@@ -17,7 +17,7 @@ It is a known issue on NVDA and cannot be fixed.
 
 ## Changes for 3.2 ##
 
-* New languages: Aragonese, Croatian, Slovenian, Simplified Chinese
+* Translations update.
 
 ## Changes for 3.1 ##
 
