@@ -76,13 +76,14 @@ def changePageTab (h,sens):
 # Class for Dropbox items in the metro app
 class dropboxitem(UIA.ListItem):
 	def _get_name(self):
+		l = list()
 		obj = self.firstChild
-		s = obj.name
+		if obj.name != u'': l.append(obj.name)
 		while (obj != self.lastChild):
 			if obj.role == controlTypes.ROLE_STATICTEXT:
-				s = s +obj.name
+				if obj.name != u'': l.append(obj.name)
 			obj = obj.next
-		return s
+		return '; '.join(l)
 
 class AppModule(appModuleHandler.AppModule):
 	def event_NVDAObject_init(self, obj):
