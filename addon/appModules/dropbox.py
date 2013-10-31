@@ -86,6 +86,9 @@ class dropboxitem(UIA.ListItem):
 		return '; '.join(l)
 
 class AppModule(appModuleHandler.AppModule):
+	# We set the scripts category shown on input gestures dialog
+	scriptCategory = u'Dropbox'
+
 	def event_NVDAObject_init(self, obj):
 		if obj.name == u'buttonPanel':
 			obj.role=controlTypes.ROLE_TABCONTROL
