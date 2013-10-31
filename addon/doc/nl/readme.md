@@ -1,8 +1,8 @@
 # Dropbox #
 
 * Auteurs: Patrick ZAJDA, Filaos en anderen
-* Download [stable version][1]
-* Download [development version][2]
+* Download [stabiele versie][1]
+* Download [ontwikkelversie][2]
 
 Deze add-on voegt een sneltoets toe om de status, versie en het contextmenu
 van Dropbox op te vragen. Verder werkt het wisselen van tabbladen in de
@@ -17,10 +17,10 @@ geactiveerd.
 * Als u van tabbladen wisselt met de sneltoetsen en het venster sluit, zal NVDA niet weten dat het venster gesloten is.
 Dit is een bekend probleem in NVDA en kan niet worden opgelost.
 
-## Changes for 4.0 ##
+## Veranderingen voor 4.0 ##
 
-* Translations update.
-* Fixed issues with windows 8 metro app.
+* Vertalingen bijgewerkt.
+* Problemen opgelost met Windows 8 metro-app.
 
 ## Veranderingen voor 3.1 ##
 

@@ -1,8 +1,8 @@
-# Dropbox #
+# dropbox #
 
 * Tekijät: Patrick ZAJDA, Filaos ja muut
-* Download [stable version][1]
-* Download [development version][2]
+* Lataa [vakaa versio][1]
+* Lataa [kehitysversio][2]
 
 Tämä lisäosa lisää pikanäppäimen Dropboxin tilan ja version ilmoittamiseksi
 tai ilmoitusalueella olevan valikon avaamiseksi.  Lisäksi välilehdet
@@ -17,10 +17,10 @@ Ctrl+Page up/down-näppäimillä, ja Peruuta-painike toimii Esc-näppäimellä.
 * Jos välilehtiä vaihdetaan pikanäppäimillä, NVDA ei voi tietää Asetukset-ikkunaa suljettaessa, että välilehtiä ei enää ole.
 Tämä on tunnettu NVDA:n ongelma, eikä sitä voida korjata.
 
-## Changes for 4.0 ##
+## Muutokset versiossa 4.0 ##
 
-* Translations update.
-* Fixed issues with windows 8 metro app.
+* Käännöksiä päivitetty.
+* Korjattu Windows 8:n metro-sovelluksen ongelmia.
 
 ## Muutokset versiossa 3.1 ##
 
