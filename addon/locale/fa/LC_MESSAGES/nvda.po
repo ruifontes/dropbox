@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: dropbox 3.2-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-07-14 19:20+0200\n"
-"PO-Revision-Date: 2013-07-17 03:13-0800\n"
+"PO-Revision-Date: 2013-08-23 01:47+0330\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fa\n"
@@ -20,12 +20,12 @@ msgstr ""
 #. Translators: the name of the dropbox general tab.
 #: addon/appModules/dropbox.py:23
 msgid "General"
-msgstr "عمومی"
+msgstr "همگانی"
 
 #. Translators: the name of the dropbox account tab.
 #: addon/appModules/dropbox.py:25
 msgid "Account"
-msgstr "حساب کاربری"
+msgstr "کاربری"
 
 #. Translators: the name of the dropbox bandwidth tab.
 #: addon/appModules/dropbox.py:27
@@ -51,31 +51,31 @@ msgstr "Dropbox Preferences"
 #. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
 #: addon/appModules/dropbox.py:86 addon/appModules/dropbox.py:87
 msgid "Cancel"
-msgstr "Cancel"
+msgstr "دست کشیدن"
 
 #: addon/appModules/dropbox.py:89
 msgid "Cancel button not found"
-msgstr "دکمه لغو پیدا نشد"
+msgstr "دکمه‌ی «دست کشیدن» یافت نشد"
 
 #. Translators: message presented when user performs input help for this shortcut.
 #: addon/appModules/dropbox.py:97
 msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-msgstr "دکمه لغو در صفحه تنظیمات Dropbox را کلیک میکند"
+msgstr "دکمه‌ی «دست کشیدن» در برگه‌ی سامان‌دهی Dropbox را کلیک میکند"
 
 #. Translators: message presented when user performs input help for this shortcut.
 #: addon/appModules/dropbox.py:106
 msgid "announce active Dropbox preferences dialog tab"
-msgstr "صفحه فعال را داخل تنظیمات Dropbox اعلام میکند"
+msgstr "برگه‌ی کارا را درون سامان‌دهی Dropbox گزارش می‌دهد"
 
 #. Translators: message presented when user performs input help for this shortcut.
 #: addon/appModules/dropbox.py:120
 msgid "Activate previous Dropbox preferences dialog tab"
-msgstr "صفحه قبلی داخل تنظیمات Dropbox را فعال میکند"
+msgstr "برگه‌ی پیشین درون سامان‌دهی Dropbox را کارا می‌کند"
 
 #. Translators: message presented when user performs input help for this shortcut.
 #: addon/appModules/dropbox.py:134
 msgid "Activate next Dropbox preferences dialog tab"
-msgstr "صفحه بعدی داخل تنظیمات Dropbox را فعال میکند"
+msgstr "برگه‌ی پسین درون سامان‌دهی Dropbox را کارا می‌کند"
 
 #: addon/globalPlugins/SayStatedropbox.py:50
 msgid "drop box not found"
