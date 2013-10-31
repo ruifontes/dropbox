@@ -1,7 +1,8 @@
 [[!meta title="dropbox"]]
 
 * Authors: Patrick ZAJDA, Filaos and other contributors
-* Download: [version 3.2][1]
+* Download [stable version][1]
+* Download [development version][2]
 
 This plugin will add a shortcut to announce Dropbox status, version or open the Dropbox systray menu.
 Also page tabs working on the preferences dialog with Ctrl+tab / Ctrl+Shift+Tab and Ctrl+PageUp/Down.
@@ -15,9 +16,10 @@ To conclude, make the cancel button working with escape.
 * If you switch between tabs using the shortcuts, when you'll close the preferences window, NVDA won't be able to know the windows doesn't exist anymore.
 It is a known issue on NVDA and cannot be fixed.
 
-## Changes for 3.2 ##
+## Changes for 4.0 ##
 
 * Translations update.
+* Fixed issues with windows 8 metro app.
 
 ## Changes for 3.1 ##
 
@@ -45,4 +47,8 @@ It is a known issue on NVDA and cannot be fixed.
 
 * Initial Release
 
+[[!tag dev stable]]
+
 [1]: http://addons.nvda-project.org/files/get.php?file=dx
+
+[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev
