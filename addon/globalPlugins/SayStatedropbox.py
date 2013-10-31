@@ -35,6 +35,9 @@ def rightMouseButton(o):
 	winUser.mouse_event(winUser.MOUSEEVENTF_RIGHTUP,0,0,None,None)
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
+	# We initialize the scripts category shown on input gestures dialog
+	scriptCategory = u'Dropbox'
+
 	def script_announceDropbox(self, gesture):
 		# We get the systray
 		l=("shell_TrayWnd","TrayNotifyWnd","SysPager","ToolbarWindow32")
