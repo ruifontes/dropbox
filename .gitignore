@@ -2,10 +2,9 @@ addon/doc/*.css
 addon/doc/en/
 *_docHandler.py
 *.html
-*.pyc
-*.mo
-.sconsign.dblite
-*.nvda-addon
-*.pot
 *.ini
-*.exe
+*.mo
+*.pot
+*.pyc
+*.nvda-addon
+.sconsign.dblite
