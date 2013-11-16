@@ -1,8 +1,8 @@
 # dropbox #
 
 * Geliştiriciler: Patrick ZAJDA, Filaos ve diğer katkıda bulunanlar
-* Download [stable version][1]
-* Download [development version][2]
+* İndir [kararlı sürüm][1]
+* İndir [geliştirme sürümü][2]
 
 Bu eklenti dropbox durumunun, versiyonunun söylenmesi ve dropbox menüsünün
 açılması için bir kısayol tuşu ekler.  Aynı zamanda, sekme sayfaları
@@ -19,10 +19,10 @@ basar.
 * Eğer sekmeler arasında kısayol tuşlarıyla dolaşırsanız, tercihler iletişim kutusunu kapattığınızda, NVDA bunu bilemeyecektir.
 Bu, NVDA hakkında bilinen bir problemdir ve çözümü bulunmamaktadır.
 
-## Changes for 4.0 ##
+## 4.0 için değişiklikler ##
 
-* Translations update.
-* Fixed issues with windows 8 metro app.
+* Çeviriler güncellendi.
+* Windows 8 Metro uygulaması ile ilgili bir sorun çözüldü.
 
 ## 3.1 versiyonundaki değişiklikler ##
 

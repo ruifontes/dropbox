@@ -19,7 +19,7 @@ Ctrl+Tab и Shift+Ctrl+Tab.Вы можете активировать кнопк
 
 ## Changes for 4.0 ##
 
-* Translations update.
+* Обновлены переводы.
 * Fixed issues with windows 8 metro app.
 
 ## Изменения в версии 3.1 ##

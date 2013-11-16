@@ -1,8 +1,8 @@
 # dropbox #
 
 * Autori: Patrick ZAJDA, Filaos a ďalší
-* Download [stable version][1]
-* Download [development version][2]
+* Stiahnuť [stabilná verzia][1]
+* Stiahnuť [verzia vo vývoji][2]
 
 Oznamuje stav Dropboxu, jeho verziu a umožňuje otvoriť kontextové menu
 programu z klávesnice. Môžete sa tiež pohybovať po záložkách v možnostiach
@@ -18,12 +18,12 @@ nastaveniami sa dá zatvoriť tlačidlom Escape.
 * Ak sa presúvate medzi záložkami pomocou klávesových skratiek a zatvoríte okno s bnastaveniami Dropboxu, NVDA si nevšimne, že okno je zatvorené.
 Toto je známa chyba a nedá sa odstrániť.
 
-## Changes for 4.0 ##
+## Zmeny vo verzii 4.0 ##
 
-* Translations update.
-* Fixed issues with windows 8 metro app.
+* Aktualizované preklady
+* opravené chyby v Metro aplikácii pre Windows 8.
 
-## Zmeny pre 3.1 ##
+## Zmeny vo verzii 3.1 ##
 
 * Používa sa lepší spôsob na získanie cesty k tlačidlu zrušiť (cancel). Nie
   je viac potrebné naň prejsť a záložká. Nemusia viac získať fokus pred
@@ -35,7 +35,7 @@ Toto je známa chyba a nedá sa odstrániť.
 * Všetky manifest súbory by mali byť v poriadku.
 * Drobné úpravy.
 
-## Zmeny pre 3.0 ##
+## Zmeny vo verzii 3.0 ##
 
 * Úprava v súbore manifest (autori sa zobrazujú správne)
 * Zlepšená podpora pre zobrazenie kontextovej ponuky po trojitom stlačení
@@ -47,13 +47,13 @@ Toto je známa chyba a nedá sa odstrániť.
   Fínčina, Galijcíčina, Nemčina, Maďarčina, japončina, Nepálčina, Poľština,
   Ruština, Španielčina, Slovenčina, Tamilčina, Turečtina.
 
-## Zmeny pre 2.0 ##
+## Zmeny vo verzii 2.0 ##
 
 * Preložený do Taliančiny
 * Stlačenie NVDA+Shift+D trikrát alebo viac, ak je fokus už v kontextovom
   menu nespôsobuje problémy.
 
-## Zmeny pre 1.0 ##
+## Zmeny vo verzii 1.0 ##
 
 * Prvé vydanie
 

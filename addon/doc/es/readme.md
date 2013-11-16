@@ -1,8 +1,8 @@
 # dropbox #
 
 * Autores: Patrick ZAJDA, Filaos y otros colaboradores
-* Download [stable version][1]
-* Download [development version][2]
+* Descarga [versión estable][1]
+* Descarga [versión de desarrollo][2]
 
 Este plugin añadirá un atajo de teclado para anunciar el estado de Dropbox,
 la versión o abrirá el menú de Dropbox de la bandeja del sistema.  También
@@ -18,10 +18,10 @@ botón cancelar con escape.
 * Si cambias entre las pestañas utilizando los atajos de teclado, cuando cierres la ventana preferencias, NVDA no podrá saber si las ventanas ya no existen.
 Es un problema conocido en NVDA y no puede corregirse.
 
-## Changes for 4.0 ##
+## Cambios para 4.0 ##
 
-* Translations update.
-* Fixed issues with windows 8 metro app.
+* Traducciones actualizadas.
+* Corregidos problemas con la aplicación windows 8 metro.
 
 ## Cambios para 3.1 ##
 

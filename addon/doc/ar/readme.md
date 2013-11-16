@@ -1,8 +1,8 @@
 # dropbox #
 
 * مطورو الإضافة: Patrick ZAJDA, Filaos وآخرون
-* Download [stable version][1]
-* Download [development version][2]
+* تحميل [[الإصدار النهائي][1]
+* تحميل [[الإصدار التجريبي ][2]
 
 ستضيف هذه الإضافة البرمجية مفتاح اختصار للإعلان عن حالة برنامج رفع الملفات
 dropBox, وإصدارهأو لفتح قائمته الموجودة على صينية النظام. كما أنها ستتيح
@@ -18,10 +18,10 @@ escape.
 إذا انتقلت بين مختلف التبويبات باستخدام مفاتيح الاختصار, عند إغلاق نافذة التفضيلات, لم يستطع NVDA التعرف على أن النافذة لم تعد غير موجودة.
 فهذا خطأ برمجي معروف ب NVDA ولا يمكن إصلاحه من جانبنا.
 
-## Changes for 4.0 ##
+## تعديلات الإصدار 4.0 ##
 
-* Translations update.
-* Fixed issues with windows 8 metro app.
+* تحديث ترجمة الإضافة.
+* إصلاح بعض المشكلات بمتجر ويندوز 8.
 
 ## تعديلات الإصدار 3.1 ##
 
@@ -57,8 +57,9 @@ escape.
 
 * النسخة الأولى
 
-[[!tag dev stable]]
+[[!tag dev  stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=dx
 
-[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev
+[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev[1]:
+http://addons.nvda-project.org/files/get.php?file=dx

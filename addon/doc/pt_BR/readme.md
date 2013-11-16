@@ -1,8 +1,8 @@
 # dropbox #
 
 * Autores: Patrick ZAJDA, Filaos e outros colaboradores
-* Download [stable version][1]
-* Download [development version][2]
+* Baixe a [versão estável][1]
+* Baixe a [versão de desenvolvimento][2]
 
 Este plug-in adiciona um atalho para anunciar o status ou a versão do
 Dropbox ou abrir o menu dele na área de notificação. Também torna possível
@@ -18,10 +18,10 @@ cancelar seja ativado com escape.
 * Se você mudar de guia usando os atalhos, quando fechar a janela de preferências o NVDA não saberá que a janela deixou de existir.
 Isso é um problema do NVDA que não tem como corrigir.
 
-## Changes for 4.0 ##
+## Mudanças na 4.0 ##
 
-* Translations update.
-* Fixed issues with windows 8 metro app.
+* Traduções atualizadas.
+* Consertados problemas com o aplicativo em metro para Windows 8.
 
 ## Mudanças na 3.1 ##
 

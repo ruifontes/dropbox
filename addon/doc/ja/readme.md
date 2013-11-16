@@ -15,7 +15,7 @@
 
 * ショートカットキーでタブを切り替えて、設定ウィンドウを閉じると、NVDAはウィンドウが閉じてしまったことを判断できません。これはNVDAの既知の問題で、修正できません。
 
-## Changes for 4.0 ##
+## 4.0 での変更点 ##
 
 * Translations update.
 * Fixed issues with windows 8 metro app.
