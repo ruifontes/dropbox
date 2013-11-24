@@ -12,7 +12,7 @@ addon_info = {
 	"addon-name" : "dropbox",
 	# Add-on description
 	# TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
-	"addon-summary" : _("Announce Dropbox state and make preferences tabs accessible"),
+	"addon-summary" : _("Dropbox"),
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on installation and add-on information
 	"addon-description" : _("""Announces Dropbox status, version or open the Dropbox systray menu.
