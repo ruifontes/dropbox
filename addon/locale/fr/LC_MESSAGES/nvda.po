@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dropbox.nvda-addon version 3.0\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
-"POT-Creation-Date: 2013-02-12 15:46+0100\n"
-"PO-Revision-Date: 2013-02-12 15:48+0100\n"
+"POT-Creation-Date: 2013-12-02 15:04+0100\n"
+"PO-Revision-Date: 2013-12-02 15:06+0100\n"
 "Last-Translator: patrick ZAJDA <patrick@zajda.fr>\n"
 "Language-Team: FR <remy.ruiz@gmail.com>\n"
 "Language: fr_FR\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #. Translators: the name of the dropbox general tab.
 msgid "General"
@@ -87,9 +87,8 @@ msgstr ""
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
-msgid "Announce Dropbox state and make preferences tabs accessible"
-msgstr ""
-"Annonce le statut de Dropbox et rend les onglets des préférences accessibles"
+msgid "Dropbox"
+msgstr "Dropbox"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
@@ -108,6 +107,11 @@ msgstr ""
 "avec Ctrl+Tab et Maj+Ctrl+Tab.\n"
 "Ctrl+Alt+T annonce l'onglet actif.\n"
 "Vous pouvez activer annuler en appuyant sur la touche Echap."
+
+#~ msgid "Announce Dropbox state and make preferences tabs accessible"
+#~ msgstr ""
+#~ "Annonce le statut de Dropbox et rend les onglets des préférences "
+#~ "accessibles"
 
 #~ msgid "Announce Dropbox' status"
 #~ msgstr "Annonce le statut de Dropbox"
