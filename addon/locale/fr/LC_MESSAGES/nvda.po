@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dropbox.nvda-addon version 3.0\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
-"POT-Creation-Date: 2013-12-02 15:04+0100\n"
-"PO-Revision-Date: 2013-12-02 15:06+0100\n"
+"POT-Creation-Date: 2013-12-02 15:16+0100\n"
+"PO-Revision-Date: 2013-12-02 15:16+0100\n"
 "Last-Translator: patrick ZAJDA <patrick@zajda.fr>\n"
 "Language-Team: FR <remy.ruiz@gmail.com>\n"
 "Language: fr_FR\n"
@@ -86,11 +86,6 @@ msgstr ""
 "la zone de notification"
 
 #. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
-msgid "Dropbox"
-msgstr "Dropbox"
-
-#. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
 msgid ""
 "Announces Dropbox status, version or open the Dropbox systray menu.\n"
@@ -107,6 +102,9 @@ msgstr ""
 "avec Ctrl+Tab et Maj+Ctrl+Tab.\n"
 "Ctrl+Alt+T annonce l'onglet actif.\n"
 "Vous pouvez activer annuler en appuyant sur la touche Echap."
+
+#~ msgid "Dropbox"
+#~ msgstr "Dropbox"
 
 #~ msgid "Announce Dropbox state and make preferences tabs accessible"
 #~ msgstr ""
