@@ -6,7 +6,7 @@
 # or by visiting http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 # Shortcut: NVDA+Shift+D
 
-import os
+# import os
 import globalPluginHandler,IAccessibleHandler,addonHandler,scriptHandler
 import ui
 import NVDAObjects
@@ -14,9 +14,10 @@ import api
 import winUser
 import controlTypes
 
-_addonDir = os.path.join(os.path.dirname(__file__), "..").decode("mbcs")
-_curAddon = addonHandler.Addon(_addonDir)
-_addonSummary = _curAddon.manifest['summary']
+# We keep it for the same reason as in the app module
+# _addonDir = os.path.join(os.path.dirname(__file__), "..").decode("mbcs")
+# _curAddon = addonHandler.Addon(_addonDir)
+# _addonSummary = _curAddon.manifest['summary']
 
 # We initialize translation support
 addonHandler.initTranslation()
@@ -41,7 +42,8 @@ def rightMouseButton(o):
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	# We initialize the scripts category shown on input gestures dialog
-	scriptCategory = unicode(_addonSummary)
+	# scriptCategory = unicode(_addonSummary)
+	scriptCategory = u"Dropbox"
 
 	def script_announceDropbox(self, gesture):
 		# We get the systray

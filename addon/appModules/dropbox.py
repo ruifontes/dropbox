@@ -14,12 +14,13 @@ import NVDAObjects
 import controlTypes
 import winUser
 import ui
-import os
+# import os
 from NVDAObjects import UIA
 
-_addonDir = os.path.join(os.path.dirname(__file__), "..").decode("mbcs")
-_curAddon = addonHandler.Addon(_addonDir)
-_addonSummary = _curAddon.manifest['summary']
+# We keep it in the case it would finally be necessary to change add-on summary by language
+# _addonDir = os.path.join(os.path.dirname(__file__), "..").decode("mbcs")
+# _curAddon = addonHandler.Addon(_addonDir)
+# _addonSummary = _curAddon.manifest['summary']
 
 # We initialize translations
 addonHandler.initTranslation()
@@ -92,7 +93,8 @@ class dropboxitem(UIA.ListItem):
 
 class AppModule(appModuleHandler.AppModule):
 	# We set the scripts category shown on input gestures dialog
-	scriptCategory = unicode(_addonSummary)
+	# scriptCategory = unicode(_addonSummary)
+	scriptCategory = u"Dropbox"
 
 	def event_NVDAObject_init(self, obj):
 		if obj.name == u'buttonPanel':
