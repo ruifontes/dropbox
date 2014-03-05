@@ -48,7 +48,7 @@ def getPageTabActive (h):
 	h=winUser.user32.GetParent(h)
 	h=GetWindow(GetWindow(h,next),next)
 	h=GetWindow(h,firstChild)
-	i=1
+	i=0
 	while winUser.isWindowVisible (h)==False:
 		h=GetWindow(h,next)
 		i+=1
