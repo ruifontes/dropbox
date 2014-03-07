@@ -1,8 +1,7 @@
 [[!meta title="dropbox"]]
 
 * Authors: Patrick ZAJDA, Filaos and other contributors
-* Download [stable version][1]
-* Download [development version][2]
+[[!inline pages="./download_meta.en" raw=yes]]
 
 This plugin will add a shortcut to announce Dropbox status, version or open the Dropbox systray menu.
 Also page tabs working on the preferences dialog with Ctrl+tab / Ctrl+Shift+Tab and Ctrl+PageUp/Down.
@@ -47,8 +46,4 @@ It is a known issue on NVDA and cannot be fixed.
 
 * Initial Release
 
-[[!tag dev stable]]
-
-[1]: http://addons.nvda-project.org/files/get.php?file=dx
-
-[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev
+[[!inline pages="./dropbox_meta" raw=yes]]
