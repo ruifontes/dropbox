@@ -12,6 +12,11 @@ import NVDAObjects
 import api
 import winUser
 import controlTypes
+import wx
+import time
+from keyboardHandler import KeyboardInputGesture
+import eventHandler
+import speech
 
 # We keep it for the same reason as in the app module
 # _addonDir = os.path.join(os.path.dirname(__file__), "..").decode("mbcs")
@@ -44,44 +49,100 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	# scriptCategory = unicode(_addonSummary)
 	scriptCategory = u"Dropbox"
 
-	def script_announceDropbox(self, gesture):
-		# We get the systray
-		l=("shell_TrayWnd","TrayNotifyWnd","SysPager","ToolbarWindow32")
-		h,FindWindowExA =0,winUser.user32.FindWindowExA
-		for element in l:
-			h=FindWindowExA(h,0,element,0)
+	def __init__(self, *args, **kwargs):
+		super(GlobalPlugin,  self).__init__(*args, **kwargs)
+		self.taskTimer = None
 
-		o=NVDAObjects.IAccessible.getNVDAObjectFromEvent(h,-4,1)
-		name=o.name
-		while not name.lower().startswith("dropbox"):
-			o=o.next
+	def script_announceDropbox(self, gesture):
+				def findDropBoxObject():
+			# We get the systray
+			l=("shell_TrayWnd","TrayNotifyWnd","SysPager","ToolbarWindow32")
+			h,FindWindowExA =0,winUser.user32.FindWindowExA
+			for element in l:
+				h=FindWindowExA(h,0,element,0)
+				if h == None:
+					continue
+				
+				obj=NVDAObjects.IAccessible.getNVDAObjectFromEvent(h,-4,0)
+				o = obj.firstChild
+				while o:
+					name=o.name
+					if  name != None and name.lower().startswith("dropbox"):
+						# dropbox object found , quit while loop
+						break
+	
+					o=o.next
+					
+				if o:
+					#dropbox object found, quit for loop
+					break
+			return o
+
+		def callback2 (o, repeat, oldSpeechMode):
+
+			self.taskTimer = None
+			oFocus = api.getFocusObject()
+			role = oFocus.role
+			name = oFocus.name
+			if role == controlTypes.ROLE_BUTTON  and "dropbox" in name.lower():
+				speech.speechMode = oldSpeechMode
+				KeyboardInputGesture.fromName("Enter").send()
+				KeyboardInputGesture.fromName("DownArrow").send()
+
+			else:
+				if repeat:
+					KeyboardInputGesture.fromName("escape").send()
+					time.sleep(0.2)
+					rightMouseButton (o)
+					self.taskTimer = wx.CallLater(300, callback2,o, repeat-1, oldSpeechMode)
+					
+				else:
+					speech.speechMode = oldSpeechMode
+					ui.message(_("Impossible to open DropBox context menu"))
+				
+				
+		def callback(repeatCount):
+			self.taskTimer = None
+			o = findDropBoxObject()
 			if not o :
 				ui.message(_("drop box not found"))
 				return
+
+			name=o.name.split()
+			if repeatCount ==0 :
+				# announce dropbox state
+				del (name[1])
+				name=" ".join (name)
+				ui.message (name)
+				
+			elif repeatCount == 1:
+				# activate dropbox icon
+				# If we are already inside of the context menu, stop the script
+				objFocused = api.getFocusObject()
+				currentProcess = objFocused.appModule.appName.lower()
+				if (currentProcess.lower() == u'dropbox' and objFocused.windowClassName.lower() == u'#32768') and (objFocused.role == controlTypes.ROLE_POPUPMENU or objFocused.role == controlTypes.ROLE_MENUITEM):
+					eventHandler.queueEvent("gainFocus",objFocused)
+
+				else:
+					oldSpeechMode = speech.speechMode
+					speech.speechMode = speech.speechMode_off
+					rightMouseButton (o)
+					self.taskTimer = wx.CallLater(200, callback2, o, 2, oldSpeechMode)
+
 			else:
-				name=o.name
+				# say Dropbox version
+				ui.message(" ".join(name[0:2]))
 
-
-		name =name.split ()
+			
+		if self.taskTimer!= None:
+			self.taskTimer.Stop()
+			self.taskTimer = None
 		# We get the number of call of this script
 		repeatCount =scriptHandler.getLastScriptRepeatCount()
-		if repeatCount ==0 :
-			del (name[1])
-			name=" ".join (name)
-		elif repeatCount ==1:
-			name = " ".join(name[0:2])
-		else:
-			# If we are already inside of the context menu, stop the script
-			objFocused = api.getFocusObject()
-			currentProcess = objFocused.appModule.appName.lower()
-			if (currentProcess.lower() == u'dropbox' and objFocused.windowClassName.lower() == u'#32768') and (objFocused.role == controlTypes.ROLE_POPUPMENU or objFocused.role == controlTypes.ROLE_MENUITEM):
-				return
-			else:
-				rightMouseButton (o)
-			return
-		ui.message (name)
+		self.taskTimer = wx.CallLater(400, callback, repeatCount)
+
 	# Documentation
-	script_announceDropbox.__doc__ = _("If pressed once, announces Dropbox status. If pressed twice, reports the Dropbox version. If pressed three times, open the Dropbox context menu by clicking on its systray icon")
+	script_announceDropbox.__doc__ = _("If pressed once, announces Dropbox status. If pressed twice, open the Dropbox context menu by clicking on its systray icon. If pressed three times, reports the Dropbox version")
 
 	__gestures={
 		"kb:NVDA+shift+d": "announceDropbox",

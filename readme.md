@@ -16,6 +16,7 @@ It is a known issue on NVDA and cannot be fixed.
 
 ## Changes for 4.0 ##
 
+* Change Shift+NVDA+D behavior: if pressed once announce Dropbox status, twice open the context menu, three announce the version.
 * Translations update.
 * Fixed issues with windows 8 metro app.
 
