@@ -98,6 +98,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 					
 				else:
 					speech.speechMode = oldSpeechMode
+					# Translators: message announced if it is impossible to find the Dropbox systray icon
 					ui.message(_("Impossible to open DropBox context menu"))
 				
 				
@@ -141,7 +142,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		repeatCount =scriptHandler.getLastScriptRepeatCount()
 		self.taskTimer = wx.CallLater(400, callback, repeatCount)
 
-	# Documentation
+	# Translators: message presented when user performes input help for the Shift+NVDA+D script
 	script_announceDropbox.__doc__ = _("If pressed once, announces Dropbox status. If pressed twice, open the Dropbox context menu by clicking on its systray icon. If pressed three times, reports the Dropbox version")
 
 	__gestures={
