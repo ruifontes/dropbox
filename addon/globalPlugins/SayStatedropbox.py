@@ -60,7 +60,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			h,FindWindowExA =0,winUser.user32.FindWindowExA
 			for element in l:
 				h=FindWindowExA(h,0,element,0)
-				if h == None:
+				if not h:
 					continue
 				
 				obj=NVDAObjects.IAccessible.getNVDAObjectFromEvent(h,-4,0)
@@ -121,7 +121,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				# If we are already inside of the context menu, stop the script
 				objFocused = api.getFocusObject()
 				currentProcess = objFocused.appModule.appName.lower()
-				if (currentProcess.lower() == u'dropbox' and objFocused.windowClassName.lower() == u'#32768') and (objFocused.role == controlTypes.ROLE_POPUPMENU or objFocused.role == controlTypes.ROLE_MENUITEM):
+				if (currentProcess.lower() == u'dropbox' and objFocused.windowClassName.lower() == u'#32768') and objFocused.role in ({controlTypes.ROLE_POPUPMENU, controlTypes.ROLE_MENUITEM}):
 					eventHandler.queueEvent("gainFocus",objFocused)
 
 				else:
