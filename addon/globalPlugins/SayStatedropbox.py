@@ -1,12 +1,11 @@
 # -*- coding: utf-8 -*-
 # Dropbox announcement Global Plugin for NVDA
-# Copyright (C) 2012 Filaos, Patrick ZAJDA <patrick@zajda.fr> and other contributors
+# Copyright (C) 2014 Filaos, Patrick ZAJDA <patrick@zajda.fr> and other contributors
 # This file is covered by the GNU General Public License.
 # You can read the licence by clicking Help->Licence in the NVDA menu
 # or by visiting http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 # Shortcut: NVDA+Shift+D
 
-# import os
 import globalPluginHandler,IAccessibleHandler,addonHandler,scriptHandler
 import ui
 import NVDAObjects
