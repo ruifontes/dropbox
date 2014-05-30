@@ -54,7 +54,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		self.taskTimer = None
 
 	def script_announceDropbox(self, gesture):
-				def findDropBoxObject():
+		def findDropBoxObject():
 			# We get the systray
 			l=("shell_TrayWnd","TrayNotifyWnd","SysPager","ToolbarWindow32")
 			h,FindWindowExA =0,winUser.user32.FindWindowExA
