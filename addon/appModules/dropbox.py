@@ -32,12 +32,12 @@ listPageTab=(
 	_("General"),
 	# Translators: the name of the dropbox account tab.
 	_("Account"),
+	# Translators: the name of the dropbox Import tab.
+	_("Import"),
 	# Translators: the name of the dropbox bandwidth tab.
 	_("Bandwidth"),
 	# Translators: the name of the dropbox proxies tab.
 	_("Proxies"),
-	# Translators: the name of the dropbox advanced tab.
-	_("Advanced")
 )
 
 def getPageTabActive (h):
