@@ -2,7 +2,7 @@
 # Dropbox appModule for NVDA
 # Make preferences tabs accessible and allow pressing escape to quit the preferences dialog.
 # Also improves accessibility of the Dropbox Metro app for Windows 8
-# Copyright (C) 2013 Filaos, Patrick ZAJDA <patrick@zajda.fr> and other contributors
+# Copyright (C) 2014 Filaos, Patrick ZAJDA <patrick@zajda.fr> and other contributors
 # Windows 8 compatibility contributed by David Parduhn <xkill85@gmx.net>
 # This file is covered by the GNU General Public License.
 # You can read the licence by clicking Help->Licence in the NVDA menu
