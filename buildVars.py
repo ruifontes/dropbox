@@ -1,37 +1,43 @@
+# -*- coding: UTF-8 -*-
+
 # Build customizations
-# Change this file instead of sconstruct, whenever possible.
+# Change this file instead of sconstruct or manifest files, whenever possible.
 
 # Full getext (please don't change)
 _ = lambda x : x
 
 # Add-on information variables
 addon_info = {
-# add-on Name
-	"addon-name" : "dropbox",
+	# for previously unpublished addons, please follow the community guidelines at:
+	# https://bitbucket.org/nvdaaddonteam/todo/raw/master/guideLines.txt
+	# add-on Name, internal for nvda
+	"addon_name" : "dropbox",
+	# Add-on summary, usually the user visible name of the addon.
+	# Translators: Summary for this add-on to be shown on installation and add-on information.
+	"addon_summary" : _("Announce Dropbox state and make preferences tabs accessible"),
 	# Add-on description
-	# TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
-	"addon-summary" : _("Announce Dropbox state and make preferences tabs accessible"),
-	# Add-on description
-	# Translators: Long description to be shown for this add-on on installation and add-on information
-	"addon-description" : _("""Announces Dropbox status, version or open the Dropbox systray menu.
+	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+	"addon_description" : _("""Announces Dropbox status, version or open the Dropbox systray menu.
 Shortcut: NVDA+Shift+D
 Page tabs are also working in the preferences dialog with Ctrl+tab and Shift+Ctrl+Tab.
 Ctrl+Alt+T announce the active tab.
 You can activate cancel by pressing the escape key."""),
 	# version
-	"addon-version" : "3.1",
+	"addon_version" : "4.0",
 	# Author(s)
-	"addon-author" : "Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors",
-# URL for the add-on documentation support
-"addon-url" : None
+	"addon_author" : u"Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors",
+	# URL for the add-on documentation support
+	"addon_url" : "http://addons.nvda-project.org",
+	# Documentation file name
+	"addon_docFileName" : "readme.html",
 }
+
 
 import os.path
 
 # Define the python files that are the sources of your add-on.
 # You can use glob expressions here, they will be expanded.
-pythonSources = [os.path.join("addon", "appModules", "*.py"),
-    os.path.join("addon", "globalPlugins", "*.py")]
+pythonSources = []
 
 # Files that contain strings for translation. Usually your python sources
 i18nSources = pythonSources + ["buildVars.py"]
