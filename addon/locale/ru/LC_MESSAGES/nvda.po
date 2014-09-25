@@ -17,73 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#. Translators: the name of the dropbox general tab.
-msgid "General"
-msgstr "Общие"
-
-#. Translators: the name of the dropbox account tab.
-msgid "Account"
-msgstr "Учетная запись"
-
-#. Translators: the name of the dropbox bandwidth tab.
-msgid "Bandwidth"
-msgstr "Трафик"
-
-#. Translators: the name of the dropbox proxies tab.
-msgid "Proxies"
-msgstr "Прокси"
-
-#. Translators: the name of the dropbox advanced tab.
-msgid "Advanced"
-msgstr "Дополнительно"
-
-#. Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Dropbox Preferences"
-msgstr "Dropbox Preferences"
-
-#. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Cancel"
-msgstr "Cancel"
-
-msgid "Cancel button not found"
-msgstr "Кнопка отмена не найдена"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-msgstr "Нажимает кнопку отмена в параметрах dropbox"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "announce active Dropbox preferences dialog tab"
-msgstr "Объявляет активную вкладку в диалоге параметрах dropbox"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate previous Dropbox preferences dialog tab"
-msgstr "Активировать предыдущую вкладку в диалоге параметрах dropbox"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate next Dropbox preferences dialog tab"
-msgstr "Активировать следущую вкладку в диалоге параметрах dropbox"
-
-msgid "drop box not found"
-msgstr "dropbox не найден"
-
-#. Documentation
-msgid ""
-"If pressed once, announces Dropbox status. If pressed twice, reports the "
-"Dropbox version. If pressed three times, open the Dropbox context menu by "
-"clicking on its systray icon"
-msgstr ""
-"При однократном нажатии, объявляет о статусе Dropbox. ;Если нажать дважды, "
-"сообщает версию Dropbox. ;При нажатии три раза, открывается контекстное меню "
-"Dropbox, нажав на соответствующий значок на системном трее"
-
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Announce Dropbox state and make preferences tabs accessible"
 msgstr "Читает состояние Drobox и делает вкладку настроек доступным "
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Announces Dropbox status, version or open the Dropbox systray menu.\n"
 "Shortcut: NVDA+Shift+D\n"
@@ -99,3 +39,52 @@ msgstr ""
 "Shift+Ctrl+Tab.\n"
 ";Ctrl+Alt+T читать активную вкладк.\n"
 ";Вы можете активировать кнопку \"cancel\", нажав клавишу \"escape\"."
+
+#~ msgid "General"
+#~ msgstr "Общие"
+
+#~ msgid "Account"
+#~ msgstr "Учетная запись"
+
+#~ msgid "Bandwidth"
+#~ msgstr "Трафик"
+
+#~ msgid "Proxies"
+#~ msgstr "Прокси"
+
+#~ msgid "Advanced"
+#~ msgstr "Дополнительно"
+
+#~ msgid "Dropbox Preferences"
+#~ msgstr "Dropbox Preferences"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancel"
+
+#~ msgid "Cancel button not found"
+#~ msgstr "Кнопка отмена не найдена"
+
+#~ msgid "Clicks the Cancel button of the Dropbox preferences dialog"
+#~ msgstr "Нажимает кнопку отмена в параметрах dropbox"
+
+#~ msgid "announce active Dropbox preferences dialog tab"
+#~ msgstr "Объявляет активную вкладку в диалоге параметрах dropbox"
+
+#~ msgid "Activate previous Dropbox preferences dialog tab"
+#~ msgstr "Активировать предыдущую вкладку в диалоге параметрах dropbox"
+
+#~ msgid "Activate next Dropbox preferences dialog tab"
+#~ msgstr "Активировать следущую вкладку в диалоге параметрах dropbox"
+
+#~ msgid "drop box not found"
+#~ msgstr "dropbox не найден"
+
+#~ msgid ""
+#~ "If pressed once, announces Dropbox status. If pressed twice, reports the "
+#~ "Dropbox version. If pressed three times, open the Dropbox context menu by "
+#~ "clicking on its systray icon"
+#~ msgstr ""
+#~ "При однократном нажатии, объявляет о статусе Dropbox. ;Если нажать "
+#~ "дважды, сообщает версию Dropbox. ;При нажатии три раза, открывается "
+#~ "контекстное меню Dropbox, нажав на соответствующий значок на системном "
+#~ "трее"

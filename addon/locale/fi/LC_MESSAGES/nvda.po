@@ -17,73 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#. Translators: the name of the dropbox general tab.
-msgid "General"
-msgstr "Yleiset"
-
-#. Translators: the name of the dropbox account tab.
-msgid "Account"
-msgstr "Tili"
-
-#. Translators: the name of the dropbox bandwidth tab.
-msgid "Bandwidth"
-msgstr "Kaistanleveys"
-
-#. Translators: the name of the dropbox proxies tab.
-msgid "Proxies"
-msgstr "Välityspalvelimet"
-
-#. Translators: the name of the dropbox advanced tab.
-msgid "Advanced"
-msgstr "Lisäasetukset"
-
-#. Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Dropbox Preferences"
-msgstr "Dropbox Preferences"
-
-#. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Cancel"
-msgstr "Cancel"
-
-msgid "Cancel button not found"
-msgstr "Peruuta-painiketta ei löydy"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-msgstr "Napsauttaa Dropboxin asetusvalintaikkunan Peruuta-painiketta"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "announce active Dropbox preferences dialog tab"
-msgstr "Kertoo aktiivisen Dropboxin asetusvalintaikkunan välilehden"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate previous Dropbox preferences dialog tab"
-msgstr "Aktivoi Dropboxin asetusvalintaikkunan edellisen välilehden"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate next Dropbox preferences dialog tab"
-msgstr "Aktivoi Dropboxin asetusvalintaikkunan seuraavan välilehden"
-
-msgid "drop box not found"
-msgstr "Dropboxia ei löydy"
-
-#. Documentation
-msgid ""
-"If pressed once, announces Dropbox status. If pressed twice, reports the "
-"Dropbox version. If pressed three times, open the Dropbox context menu by "
-"clicking on its systray icon"
-msgstr ""
-"Lukee kerran painettaessa Dropboxin tilan. Ilmoittaa kahdesti painettaessa "
-"Dropboxin version. Avaa kolmasti painettaessa Dropboxin pikavalikon "
-"napsauttamalla ilmoitusalueella olevaa kuvaketta."
-
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Announce Dropbox state and make preferences tabs accessible"
 msgstr "Ilmoittaa Dropboxin tilan ja tekee asetusvälilehdistä saavutettavia"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Announces Dropbox status, version or open the Dropbox systray menu.\n"
 "Shortcut: NVDA+Shift+D\n"
@@ -99,3 +39,51 @@ msgstr ""
 "+Ctrl+sarkain-näppäimillä.\n"
 "Ctrl+Alt+T ilmoittaa aktiivisen välilehden.\n"
 "Peruuta-painike voidaan aktivoida painamalla Esc-näppäintä."
+
+#~ msgid "General"
+#~ msgstr "Yleiset"
+
+#~ msgid "Account"
+#~ msgstr "Tili"
+
+#~ msgid "Bandwidth"
+#~ msgstr "Kaistanleveys"
+
+#~ msgid "Proxies"
+#~ msgstr "Välityspalvelimet"
+
+#~ msgid "Advanced"
+#~ msgstr "Lisäasetukset"
+
+#~ msgid "Dropbox Preferences"
+#~ msgstr "Dropbox Preferences"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancel"
+
+#~ msgid "Cancel button not found"
+#~ msgstr "Peruuta-painiketta ei löydy"
+
+#~ msgid "Clicks the Cancel button of the Dropbox preferences dialog"
+#~ msgstr "Napsauttaa Dropboxin asetusvalintaikkunan Peruuta-painiketta"
+
+#~ msgid "announce active Dropbox preferences dialog tab"
+#~ msgstr "Kertoo aktiivisen Dropboxin asetusvalintaikkunan välilehden"
+
+#~ msgid "Activate previous Dropbox preferences dialog tab"
+#~ msgstr "Aktivoi Dropboxin asetusvalintaikkunan edellisen välilehden"
+
+#~ msgid "Activate next Dropbox preferences dialog tab"
+#~ msgstr "Aktivoi Dropboxin asetusvalintaikkunan seuraavan välilehden"
+
+#~ msgid "drop box not found"
+#~ msgstr "Dropboxia ei löydy"
+
+#~ msgid ""
+#~ "If pressed once, announces Dropbox status. If pressed twice, reports the "
+#~ "Dropbox version. If pressed three times, open the Dropbox context menu by "
+#~ "clicking on its systray icon"
+#~ msgstr ""
+#~ "Lukee kerran painettaessa Dropboxin tilan. Ilmoittaa kahdesti "
+#~ "painettaessa Dropboxin version. Avaa kolmasti painettaessa Dropboxin "
+#~ "pikavalikon napsauttamalla ilmoitusalueella olevaa kuvaketta."

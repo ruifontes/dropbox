@@ -17,74 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.7\n"
 
-#. Translators: the name of the dropbox general tab.
-msgid "General"
-msgstr "General"
-
-#. Translators: the name of the dropbox account tab.
-msgid "Account"
-msgstr "Account"
-
-#. Translators: the name of the dropbox bandwidth tab.
-msgid "Bandwidth"
-msgstr "Bandwidth"
-
-#. Translators: the name of the dropbox proxies tab.
-msgid "Proxies"
-msgstr "Proxies"
-
-#. Translators: the name of the dropbox advanced tab.
-msgid "Advanced"
-msgstr "Advanced"
-
-#. Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Dropbox Preferences"
-msgstr "Dropbox Preferences"
-
-#. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Cancel"
-msgstr "Cancel"
-
-msgid "Cancel button not found"
-msgstr "Cancel-knap ikke fundet"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-msgstr "Klikker på Cancel-knappen i Dropbox Preferences dialogen"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "announce active Dropbox preferences dialog tab"
-msgstr "Oplæs det aktive faneblad i Dropbox Preferences dialogen"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate previous Dropbox preferences dialog tab"
-msgstr "Aktiverer forrige faneblad i Dropbox preferences dialogen"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate next Dropbox preferences dialog tab"
-msgstr "Aktiverer næste faneblad i Dropbox preferences dialogen"
-
-msgid "drop box not found"
-msgstr "Dropbox ikke fundet"
-
-#. Documentation
-msgid ""
-"If pressed once, announces Dropbox status. If pressed twice, reports the "
-"Dropbox version. If pressed three times, open the Dropbox context menu by "
-"clicking on its systray icon"
-msgstr ""
-"Tryk en enkelt gang for at høre Dropbox status. Tryk to gange for at få "
-"oplæst Dropbox versionsnummeret. Tryk tre gange for at åbne Dropbox context-"
-"menuen ved at klikke på ikonet i systembakken"
-
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Announce Dropbox state and make preferences tabs accessible"
 msgstr ""
 "Oplæser Dropbox status og gør fanebladene i Preferences dialogen tilgængelige"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Announces Dropbox status, version or open the Dropbox systray menu.\n"
 "Shortcut: NVDA+Shift+D\n"
@@ -99,3 +39,51 @@ msgstr ""
 "Skift-Kontrol-Tab.\n"
 "Kontrol+alt+t oplæser navnet på det aktive faneblad.\n"
 "Du kan aktivere Cancel-knappen ved at trykke på Escape."
+
+#~ msgid "General"
+#~ msgstr "General"
+
+#~ msgid "Account"
+#~ msgstr "Account"
+
+#~ msgid "Bandwidth"
+#~ msgstr "Bandwidth"
+
+#~ msgid "Proxies"
+#~ msgstr "Proxies"
+
+#~ msgid "Advanced"
+#~ msgstr "Advanced"
+
+#~ msgid "Dropbox Preferences"
+#~ msgstr "Dropbox Preferences"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancel"
+
+#~ msgid "Cancel button not found"
+#~ msgstr "Cancel-knap ikke fundet"
+
+#~ msgid "Clicks the Cancel button of the Dropbox preferences dialog"
+#~ msgstr "Klikker på Cancel-knappen i Dropbox Preferences dialogen"
+
+#~ msgid "announce active Dropbox preferences dialog tab"
+#~ msgstr "Oplæs det aktive faneblad i Dropbox Preferences dialogen"
+
+#~ msgid "Activate previous Dropbox preferences dialog tab"
+#~ msgstr "Aktiverer forrige faneblad i Dropbox preferences dialogen"
+
+#~ msgid "Activate next Dropbox preferences dialog tab"
+#~ msgstr "Aktiverer næste faneblad i Dropbox preferences dialogen"
+
+#~ msgid "drop box not found"
+#~ msgstr "Dropbox ikke fundet"
+
+#~ msgid ""
+#~ "If pressed once, announces Dropbox status. If pressed twice, reports the "
+#~ "Dropbox version. If pressed three times, open the Dropbox context menu by "
+#~ "clicking on its systray icon"
+#~ msgstr ""
+#~ "Tryk en enkelt gang for at høre Dropbox status. Tryk to gange for at få "
+#~ "oplæst Dropbox versionsnummeret. Tryk tre gange for at åbne Dropbox "
+#~ "context-menuen ved at klikke på ikonet i systembakken"

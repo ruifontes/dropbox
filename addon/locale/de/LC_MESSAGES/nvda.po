@@ -22,77 +22,15 @@ msgstr ""
 "X-Poedit-SearchPath-0: C:\\Dokumente und Einstellungen\\Berned"
 "\\Anwendungsdaten\\nvda\\addons\\dropbox\n"
 
-#. Translators: the name of the dropbox general tab.
-msgid "General"
-msgstr "Allgemein"
-
-#. Translators: the name of the dropbox account tab.
-msgid "Account"
-msgstr "Konto"
-
-#. Translators: the name of the dropbox bandwidth tab.
-msgid "Bandwidth"
-msgstr "Bandbreite"
-
-#. Translators: the name of the dropbox proxies tab.
-msgid "Proxies"
-msgstr "Proxys"
-
-#. Translators: the name of the dropbox advanced tab.
-msgid "Advanced"
-msgstr "Erweitert"
-
-#. Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Dropbox Preferences"
-msgstr "Dropbox-Einstellungen"
-
-#. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Cancel"
-msgstr "Abbrechen"
-
-msgid "Cancel button not found"
-msgstr "Der Schalter \"Abbrechen\" wurde nicht gefunden."
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-msgstr "Klickt den Schalter \"Abbrechen\" in den Dropbox-Einstellungen an."
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "announce active Dropbox preferences dialog tab"
-msgstr ""
-"Gibt an, welche Registerkarte in den Dropbox-Einstellungen momentan aktiv "
-"ist."
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate previous Dropbox preferences dialog tab"
-msgstr "Aktiviert die vorherige Registerkarte in den Dropbox-Einstellungen."
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate next Dropbox preferences dialog tab"
-msgstr "Aktiviert die nächste Registerkarte in den Dropbox-Einstellungen."
-
-msgid "drop box not found"
-msgstr "Dropbox wurde nicht gefunden."
-
-#. Documentation
-msgid ""
-"If pressed once, announces Dropbox status. If pressed twice, reports the "
-"Dropbox version. If pressed three times, open the Dropbox context menu by "
-"clicking on its systray icon"
-msgstr ""
-"Bei einmaligem Drücken wird der Dropbox-Status ausgegeben. Zweimaliges "
-"Drücken gibt die Dropbox-Version aus und dreimaliges Drücken öffnet das "
-"Kontextmenü des Symbols im Infobereich."
-
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Announce Dropbox state and make preferences tabs accessible"
 msgstr ""
 "Gibt den Status von Dropbox aus und macht die Registerkarten in den "
 "Einstellungen von Dropbox zugänglich."
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Announces Dropbox status, version or open the Dropbox systray menu.\n"
 "Shortcut: NVDA+Shift+D\n"
@@ -109,3 +47,53 @@ msgstr ""
 "Strg+Alt+T gibt den Namen der aktiven Registerkarte an.\n"
 "Mit der Escape-Taste schließen Sie das Fenster ohne die Einstellungen zu "
 "speichern."
+
+#~ msgid "General"
+#~ msgstr "Allgemein"
+
+#~ msgid "Account"
+#~ msgstr "Konto"
+
+#~ msgid "Bandwidth"
+#~ msgstr "Bandbreite"
+
+#~ msgid "Proxies"
+#~ msgstr "Proxys"
+
+#~ msgid "Advanced"
+#~ msgstr "Erweitert"
+
+#~ msgid "Dropbox Preferences"
+#~ msgstr "Dropbox-Einstellungen"
+
+#~ msgid "Cancel"
+#~ msgstr "Abbrechen"
+
+#~ msgid "Cancel button not found"
+#~ msgstr "Der Schalter \"Abbrechen\" wurde nicht gefunden."
+
+#~ msgid "Clicks the Cancel button of the Dropbox preferences dialog"
+#~ msgstr "Klickt den Schalter \"Abbrechen\" in den Dropbox-Einstellungen an."
+
+#~ msgid "announce active Dropbox preferences dialog tab"
+#~ msgstr ""
+#~ "Gibt an, welche Registerkarte in den Dropbox-Einstellungen momentan aktiv "
+#~ "ist."
+
+#~ msgid "Activate previous Dropbox preferences dialog tab"
+#~ msgstr "Aktiviert die vorherige Registerkarte in den Dropbox-Einstellungen."
+
+#~ msgid "Activate next Dropbox preferences dialog tab"
+#~ msgstr "Aktiviert die nächste Registerkarte in den Dropbox-Einstellungen."
+
+#~ msgid "drop box not found"
+#~ msgstr "Dropbox wurde nicht gefunden."
+
+#~ msgid ""
+#~ "If pressed once, announces Dropbox status. If pressed twice, reports the "
+#~ "Dropbox version. If pressed three times, open the Dropbox context menu by "
+#~ "clicking on its systray icon"
+#~ msgstr ""
+#~ "Bei einmaligem Drücken wird der Dropbox-Status ausgegeben. Zweimaliges "
+#~ "Drücken gibt die Dropbox-Version aus und dreimaliges Drücken öffnet das "
+#~ "Kontextmenü des Symbols im Infobereich."

@@ -17,72 +17,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#. Translators: the name of the dropbox general tab.
-msgid "General"
-msgstr "General"
-
-#. Translators: the name of the dropbox account tab.
-msgid "Account"
-msgstr "Account"
-
-#. Translators: the name of the dropbox bandwidth tab.
-msgid "Bandwidth"
-msgstr "Bandwidth"
-
-#. Translators: the name of the dropbox proxies tab.
-msgid "Proxies"
-msgstr "Proxies"
-
-#. Translators: the name of the dropbox advanced tab.
-msgid "Advanced"
-msgstr "Advanced"
-
-#. Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Dropbox Preferences"
-msgstr "Dropbox Preferences"
-
-#. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Cancel"
-msgstr "Cancel"
-
-msgid "Cancel button not found"
-msgstr "Nepodarilo sa nájsť tlačidlo zrušiť"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-msgstr "Aktivuje tlačidlo zrušiť v okne s možnosťami programu Dropbox"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "announce active Dropbox preferences dialog tab"
-msgstr "prečítať aktuálnu záložku  v nastaveniach Dropboxu"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate previous Dropbox preferences dialog tab"
-msgstr "prejsť na predchádzajúcu záložku v nastaveniach Dropboxu"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate next Dropbox preferences dialog tab"
-msgstr "prejsť na nasledujúcu záložku v nastaveniach Dropboxu"
-
-msgid "drop box not found"
-msgstr "Dropbox nebol nájdený"
-
-#. Documentation
-msgid ""
-"If pressed once, announces Dropbox status. If pressed twice, reports the "
-"Dropbox version. If pressed three times, open the Dropbox context menu by "
-"clicking on its systray icon"
-msgstr ""
-"Oznámi stav Dropboxu. Stlačené dvakrát rýchlo zasebou prečíta verziu "
-"Dropboxu. Stlačené rýchlo trikrát otvorí kontextové menu Dropboxu."
-
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Announce Dropbox state and make preferences tabs accessible"
-msgstr "Oznamuje stav dropboxu a sprístupňuje navigáciu po záložkách v okne s možnosťami programu dropbox"
+msgstr ""
+"Oznamuje stav dropboxu a sprístupňuje navigáciu po záložkách v okne s "
+"možnosťami programu dropbox"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Announces Dropbox status, version or open the Dropbox systray menu.\n"
 "Shortcut: NVDA+Shift+D\n"
@@ -98,3 +41,50 @@ msgstr ""
 "+tab a  Shift+Ctrl+Tab.\n"
 "Ctrl+Alt+T prečíta názov aktuálnej záložky.\n"
 "Nastavenia Dropboxu zatvoríte klávesom Escape."
+
+#~ msgid "General"
+#~ msgstr "General"
+
+#~ msgid "Account"
+#~ msgstr "Account"
+
+#~ msgid "Bandwidth"
+#~ msgstr "Bandwidth"
+
+#~ msgid "Proxies"
+#~ msgstr "Proxies"
+
+#~ msgid "Advanced"
+#~ msgstr "Advanced"
+
+#~ msgid "Dropbox Preferences"
+#~ msgstr "Dropbox Preferences"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancel"
+
+#~ msgid "Cancel button not found"
+#~ msgstr "Nepodarilo sa nájsť tlačidlo zrušiť"
+
+#~ msgid "Clicks the Cancel button of the Dropbox preferences dialog"
+#~ msgstr "Aktivuje tlačidlo zrušiť v okne s možnosťami programu Dropbox"
+
+#~ msgid "announce active Dropbox preferences dialog tab"
+#~ msgstr "prečítať aktuálnu záložku  v nastaveniach Dropboxu"
+
+#~ msgid "Activate previous Dropbox preferences dialog tab"
+#~ msgstr "prejsť na predchádzajúcu záložku v nastaveniach Dropboxu"
+
+#~ msgid "Activate next Dropbox preferences dialog tab"
+#~ msgstr "prejsť na nasledujúcu záložku v nastaveniach Dropboxu"
+
+#~ msgid "drop box not found"
+#~ msgstr "Dropbox nebol nájdený"
+
+#~ msgid ""
+#~ "If pressed once, announces Dropbox status. If pressed twice, reports the "
+#~ "Dropbox version. If pressed three times, open the Dropbox context menu by "
+#~ "clicking on its systray icon"
+#~ msgstr ""
+#~ "Oznámi stav Dropboxu. Stlačené dvakrát rýchlo zasebou prečíta verziu "
+#~ "Dropboxu. Stlačené rýchlo trikrát otvorí kontextové menu Dropboxu."

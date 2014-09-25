@@ -17,74 +17,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#. Translators: the name of the dropbox general tab.
-msgid "General"
-msgstr "பொது;"
-
-#. Translators: the name of the dropbox account tab.
-msgid "Account"
-msgstr "கணக்கு;"
-
-#. Translators: the name of the dropbox bandwidth tab.
-msgid "Bandwidth"
-msgstr "பட்டையகலம்;"
-
-#. Translators: the name of the dropbox proxies tab.
-msgid "Proxies"
-msgstr "நிகர் வழங்கிகள்;"
-
-#. Translators: the name of the dropbox advanced tab.
-msgid "Advanced"
-msgstr "மேம்பட்ட;"
-
-#. Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Dropbox Preferences"
-msgstr "Dropbox Preferences"
-
-#. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Cancel"
-msgstr "Cancel"
-
-msgid "Cancel button not found"
-msgstr "ரத்து பொத்தான் காணப்படவில்லை;"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-msgstr "விடுபெட்டியின் முதன்மை விருப்பங்கள் உரையாடலில் காணப்படும் ரத்து பொத்தானை அழுத்தும்;"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "announce active Dropbox preferences dialog tab"
-msgstr "இயக்கத்திலிருக்கும் விடுபெட்டி முதன்மை விருப்பங்கள் உரையாடலின் கீற்றினை அறிவிக்கும்;"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate previous Dropbox preferences dialog tab"
-msgstr "முந்தைய விடுபெட்டி முதன்மை விருப்பங்கள் உரையாடல் கீற்றினை இயக்கு;"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate next Dropbox preferences dialog tab"
-msgstr "அடுத்த விடுபெட்டி முதன்மை விருப்பங்கள் உரையாடல் கீற்றினை இயக்கு;"
-
-msgid "drop box not found"
-msgstr "விடுபெட்டி காணப்படவில்லை;"
-
-#. Documentation
-msgid ""
-"If pressed once, announces Dropbox status. If pressed twice, reports the "
-"Dropbox version. If pressed three times, open the Dropbox context menu by "
-"clicking on its systray icon"
-msgstr ""
-"ஒருமுறை அழுத்தினால், விடுபெட்டியின் நிலையை அறிவிக்கும். இருமுறை அழுத்தினால், "
-"விடுபெட்டியின் பதிப்பினை அறிவிக்கும். மும்முறை அழுத்தினால், கணினித் தட்டில் இருக்கும் "
-"விடுபெட்டி படவுருவின் மீது சொடுக்கி, விடுபெட்டியின் பட்டியலை உருவாக்கும்."
-
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Announce Dropbox state and make preferences tabs accessible"
 msgstr ""
 "விடுபெட்டியின் நிலையை அறிவிப்பதுடன், முதன்மை விருப்பங்கள் கீற்றுகளை அணுக உதவுகிறது"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Announces Dropbox status, version or open the Dropbox systray menu.\n"
 "Shortcut: NVDA+Shift+D\n"
@@ -100,3 +40,53 @@ msgstr ""
 "விசைகளைக் கொண்டு பக்கங்களுக்கு ஊடாக நகரலாம்.\n"
 "கட்டுப்பாடு+நிலைமாற்றி+T செயலில் இருக்கும் கீற்றினை அறிவிக்கும்.\n"
 "விடுபடு விசையை அழுத்துவதன் மூலம், ரத்து பொத்தானை இயக்கலாம்."
+
+#~ msgid "General"
+#~ msgstr "பொது;"
+
+#~ msgid "Account"
+#~ msgstr "கணக்கு;"
+
+#~ msgid "Bandwidth"
+#~ msgstr "பட்டையகலம்;"
+
+#~ msgid "Proxies"
+#~ msgstr "நிகர் வழங்கிகள்;"
+
+#~ msgid "Advanced"
+#~ msgstr "மேம்பட்ட;"
+
+#~ msgid "Dropbox Preferences"
+#~ msgstr "Dropbox Preferences"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancel"
+
+#~ msgid "Cancel button not found"
+#~ msgstr "ரத்து பொத்தான் காணப்படவில்லை;"
+
+#~ msgid "Clicks the Cancel button of the Dropbox preferences dialog"
+#~ msgstr ""
+#~ "விடுபெட்டியின் முதன்மை விருப்பங்கள் உரையாடலில் காணப்படும் ரத்து பொத்தானை அழுத்தும்;"
+
+#~ msgid "announce active Dropbox preferences dialog tab"
+#~ msgstr ""
+#~ "இயக்கத்திலிருக்கும் விடுபெட்டி முதன்மை விருப்பங்கள் உரையாடலின் கீற்றினை அறிவிக்கும்;"
+
+#~ msgid "Activate previous Dropbox preferences dialog tab"
+#~ msgstr "முந்தைய விடுபெட்டி முதன்மை விருப்பங்கள் உரையாடல் கீற்றினை இயக்கு;"
+
+#~ msgid "Activate next Dropbox preferences dialog tab"
+#~ msgstr "அடுத்த விடுபெட்டி முதன்மை விருப்பங்கள் உரையாடல் கீற்றினை இயக்கு;"
+
+#~ msgid "drop box not found"
+#~ msgstr "விடுபெட்டி காணப்படவில்லை;"
+
+#~ msgid ""
+#~ "If pressed once, announces Dropbox status. If pressed twice, reports the "
+#~ "Dropbox version. If pressed three times, open the Dropbox context menu by "
+#~ "clicking on its systray icon"
+#~ msgstr ""
+#~ "ஒருமுறை அழுத்தினால், விடுபெட்டியின் நிலையை அறிவிக்கும். இருமுறை அழுத்தினால், "
+#~ "விடுபெட்டியின் பதிப்பினை அறிவிக்கும். மும்முறை அழுத்தினால், கணினித் தட்டில் இருக்கும் "
+#~ "விடுபெட்டி படவுருவின் மீது சொடுக்கி, விடுபெட்டியின் பட்டியலை உருவாக்கும்."

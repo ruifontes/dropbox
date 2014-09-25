@@ -16,72 +16,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.5\n"
 
-#. Translators: the name of the dropbox general tab.
-msgid "General"
-msgstr "सामान्य"
-
-#. Translators: the name of the dropbox account tab.
-msgid "Account"
-msgstr "खाता"
-
-#. Translators: the name of the dropbox bandwidth tab.
-msgid "Bandwidth"
-msgstr "ब्याण्ड चौडाई"
-
-#. Translators: the name of the dropbox proxies tab.
-msgid "Proxies"
-msgstr "लाक्षणीक"
-
-#. Translators: the name of the dropbox advanced tab.
-msgid "Advanced"
-msgstr "समृद्ध"
-
-#. Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Dropbox Preferences"
-msgstr "Dropbox Preferences"
-
-#. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Cancel"
-msgstr "Cancel"
-
-msgid "Cancel button not found"
-msgstr "रद्द टाँक फेला परेन।"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-msgstr "खुत्रुकेप्राथमिकता पाटीको रद्द टाँकलाई किटिक्क पार्छ ।"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "announce active Dropbox preferences dialog tab"
-msgstr "सक्रिय खुत्रुके प्राथमिकता पाटीको tab बताउ छ ।"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate previous Dropbox preferences dialog tab"
-msgstr "पछिल्लो खुत्रुके प्राथमिकता पाटीको tab लाई सक्रिय पार्छ ।"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate next Dropbox preferences dialog tab"
-msgstr "अघिल्लो खुत्रुके प्राथमिकता पाटीको tab लाई सक्रिय पार्छ ।"
-
-msgid "drop box not found"
-msgstr "खुत्रुके फेला परेन ।"
-
-#. Documentation
-msgid ""
-"If pressed once, announces Dropbox status. If pressed twice, reports the "
-"Dropbox version. If pressed three times, open the Dropbox context menu by "
-"clicking on its systray icon"
-msgstr ""
-"एक पटक दबाएमा खुत्रुकेको स्थिति बताउने छ, यदि दुई पटक दबाएमा खुत्रुकेको संस्करण बताउने छ र "
-"यदि लगातार तीन पटक दबाएमा थाली प्रतिमालाई किटिक्क पारेर खुत्रुके सन्दर्भ मेनु देखाउने छ ।"
-
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Announce Dropbox state and make preferences tabs accessible"
 msgstr "खुत्रुकेको अवस्था  बताएर प्राथमिकता विकल्पलाई पहुँच योग्य बनाउ छ ।"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Announces Dropbox status, version or open the Dropbox systray menu.\n"
 "Shortcut: NVDA+Shift+D\n"
@@ -94,3 +35,51 @@ msgstr ""
 "मार्ग: नेत्रवानी +Shift+D प्राथमिकता पातोमा Ctrl+tab र  Shift+Ctrl+Tab कुञ्जी "
 "दबाएमा पृष्ट tabs ले पनि काम गर्छ । Ctrl+Alt+T ले सक्रिय रहेको Tab बताउने छ ।कृपया, "
 "रद्द गर्नका लागी escape कुञ्जी दबाउनु होला ।"
+
+#~ msgid "General"
+#~ msgstr "सामान्य"
+
+#~ msgid "Account"
+#~ msgstr "खाता"
+
+#~ msgid "Bandwidth"
+#~ msgstr "ब्याण्ड चौडाई"
+
+#~ msgid "Proxies"
+#~ msgstr "लाक्षणीक"
+
+#~ msgid "Advanced"
+#~ msgstr "समृद्ध"
+
+#~ msgid "Dropbox Preferences"
+#~ msgstr "Dropbox Preferences"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancel"
+
+#~ msgid "Cancel button not found"
+#~ msgstr "रद्द टाँक फेला परेन।"
+
+#~ msgid "Clicks the Cancel button of the Dropbox preferences dialog"
+#~ msgstr "खुत्रुकेप्राथमिकता पाटीको रद्द टाँकलाई किटिक्क पार्छ ।"
+
+#~ msgid "announce active Dropbox preferences dialog tab"
+#~ msgstr "सक्रिय खुत्रुके प्राथमिकता पाटीको tab बताउ छ ।"
+
+#~ msgid "Activate previous Dropbox preferences dialog tab"
+#~ msgstr "पछिल्लो खुत्रुके प्राथमिकता पाटीको tab लाई सक्रिय पार्छ ।"
+
+#~ msgid "Activate next Dropbox preferences dialog tab"
+#~ msgstr "अघिल्लो खुत्रुके प्राथमिकता पाटीको tab लाई सक्रिय पार्छ ।"
+
+#~ msgid "drop box not found"
+#~ msgstr "खुत्रुके फेला परेन ।"
+
+#~ msgid ""
+#~ "If pressed once, announces Dropbox status. If pressed twice, reports the "
+#~ "Dropbox version. If pressed three times, open the Dropbox context menu by "
+#~ "clicking on its systray icon"
+#~ msgstr ""
+#~ "एक पटक दबाएमा खुत्रुकेको स्थिति बताउने छ, यदि दुई पटक दबाएमा खुत्रुकेको संस्करण बताउने "
+#~ "छ र यदि लगातार तीन पटक दबाएमा थाली प्रतिमालाई किटिक्क पारेर खुत्रुके सन्दर्भ मेनु "
+#~ "देखाउने छ ।"

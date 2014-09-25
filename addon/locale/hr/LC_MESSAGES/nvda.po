@@ -17,75 +17,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.5\n"
 
-#. Translators: the name of the dropbox general tab.
-msgid "General"
-msgstr "Općenito"
-
-#. Translators: the name of the dropbox account tab.
-msgid "Account"
-msgstr "Račun"
-
-#. Translators: the name of the dropbox bandwidth tab.
-msgid "Bandwidth"
-msgstr "Propusnost"
-
-#. Translators: the name of the dropbox proxies tab.
-msgid "Proxies"
-msgstr "Proxy"
-
-#. Translators: the name of the dropbox advanced tab.
-msgid "Advanced"
-msgstr "Napredno"
-
-#. Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Dropbox Preferences"
-msgstr "Dropbox Postavke"
-
-#. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Cancel"
-msgstr "Odustani"
-
-msgid "Cancel button not found"
-msgstr "Gumb Odustani nije pronađen"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-msgstr "Aktivira gumb Odustani unutar dijaloga za Dropbox postavke"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "announce active Dropbox preferences dialog tab"
-msgstr "Najavi aktivnu karticu unutar dijaloga za Dropbox postavke"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate previous Dropbox preferences dialog tab"
-msgstr "Aktiviraj prethodnu karticu unutar dijaloga za Dropbox postavke"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate next Dropbox preferences dialog tab"
-msgstr "Aktiviraj sljedeću karticu unutar dijaloga za Dropbox postavke"
-
-msgid "drop box not found"
-msgstr "drop box nije pronađen"
-
-#. Documentation
-msgid ""
-"If pressed once, announces Dropbox status. If pressed twice, reports the "
-"Dropbox version. If pressed three times, open the Dropbox context menu by "
-"clicking on its systray icon"
-msgstr ""
-"Jednim pritiskom najavljuje stanje Dropbox servisa. Dvostrukim pritiskom "
-"izvještava o trenutnoj Dropbox inačici. Trostrukim pritiskom otvara Dropbox "
-"kontekstni izbornik klikom na njegovu ikonu u području obavijesti."
-
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Announce Dropbox state and make preferences tabs accessible"
 msgstr ""
 "Izgovori stanje Dropbox servisa i učini dijalog za Dropbox postavke "
 "pristupačnijim"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Announces Dropbox status, version or open the Dropbox systray menu.\n"
 "Shortcut: NVDA+Shift+D\n"
@@ -101,3 +41,51 @@ msgstr ""
 "pomoću prečaca Ctrl+tab i Shift+Ctrl+Tab.\n"
 "Prečac Ctrl+Alt+T služi za najavu trenutne kartice.\n"
 "Gumb Odustani možete aktivirati pritiskom tipke Escape."
+
+#~ msgid "General"
+#~ msgstr "Općenito"
+
+#~ msgid "Account"
+#~ msgstr "Račun"
+
+#~ msgid "Bandwidth"
+#~ msgstr "Propusnost"
+
+#~ msgid "Proxies"
+#~ msgstr "Proxy"
+
+#~ msgid "Advanced"
+#~ msgstr "Napredno"
+
+#~ msgid "Dropbox Preferences"
+#~ msgstr "Dropbox Postavke"
+
+#~ msgid "Cancel"
+#~ msgstr "Odustani"
+
+#~ msgid "Cancel button not found"
+#~ msgstr "Gumb Odustani nije pronađen"
+
+#~ msgid "Clicks the Cancel button of the Dropbox preferences dialog"
+#~ msgstr "Aktivira gumb Odustani unutar dijaloga za Dropbox postavke"
+
+#~ msgid "announce active Dropbox preferences dialog tab"
+#~ msgstr "Najavi aktivnu karticu unutar dijaloga za Dropbox postavke"
+
+#~ msgid "Activate previous Dropbox preferences dialog tab"
+#~ msgstr "Aktiviraj prethodnu karticu unutar dijaloga za Dropbox postavke"
+
+#~ msgid "Activate next Dropbox preferences dialog tab"
+#~ msgstr "Aktiviraj sljedeću karticu unutar dijaloga za Dropbox postavke"
+
+#~ msgid "drop box not found"
+#~ msgstr "drop box nije pronađen"
+
+#~ msgid ""
+#~ "If pressed once, announces Dropbox status. If pressed twice, reports the "
+#~ "Dropbox version. If pressed three times, open the Dropbox context menu by "
+#~ "clicking on its systray icon"
+#~ msgstr ""
+#~ "Jednim pritiskom najavljuje stanje Dropbox servisa. Dvostrukim pritiskom "
+#~ "izvještava o trenutnoj Dropbox inačici. Trostrukim pritiskom otvara "
+#~ "Dropbox kontekstni izbornik klikom na njegovu ikonu u području obavijesti."

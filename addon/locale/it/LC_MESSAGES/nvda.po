@@ -13,75 +13,15 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#. Translators: the name of the dropbox general tab.
-msgid "General"
-msgstr "Generale"
-
-#. Translators: the name of the dropbox account tab.
-msgid "Account"
-msgstr "Account"
-
-#. Translators: the name of the dropbox bandwidth tab.
-msgid "Bandwidth"
-msgstr "Larghezza di banda"
-
-#. Translators: the name of the dropbox proxies tab.
-msgid "Proxies"
-msgstr "Proxy"
-
-#. Translators: the name of the dropbox advanced tab.
-msgid "Advanced"
-msgstr "Avanzate"
-
-#. Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Dropbox Preferences"
-msgstr "Preferenze Dropbox"
-
-#. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Cancel"
-msgstr "Annulla"
-
-msgid "Cancel button not found"
-msgstr "Pulsante Annulla non trovato"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-msgstr "Clicca il bottone Annulla della finestra preferenze di Dropbox"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "announce active Dropbox preferences dialog tab"
-msgstr "Legge la scheda attiva della finestra preferenze di Dropbox"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate previous Dropbox preferences dialog tab"
-msgstr "Attiva la scheda precedente delle preferenze di Dropbox"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate next Dropbox preferences dialog tab"
-msgstr "Attiva la scheda successiva delle preferense di Dropbox"
-
-msgid "drop box not found"
-msgstr "Dropbox non trovato"
-
-#. Documentation
-msgid ""
-"If pressed once, announces Dropbox status. If pressed twice, reports the "
-"Dropbox version. If pressed three times, open the Dropbox context menu by "
-"clicking on its systray icon"
-msgstr ""
-"Se premuto una volta, legge lo stato di Dropbox. Se premuto due volte, "
-"annuncia la versione di Dropbox. Infine una tripla pressione, apre il menu "
-"di contesto di Dropbox presente sul System Tray"
-
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Announce Dropbox state and make preferences tabs accessible"
 msgstr ""
 "Legge lo stato di Dropbox e rende accessibili le varie schede nel menu "
 "preferenze"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Announces Dropbox status, version or open the Dropbox systray menu.\n"
 "Shortcut: NVDA+Shift+D\n"
@@ -97,6 +37,54 @@ msgstr ""
 "Shift+Ctrl+Tab.\n"
 "Ctrl+Alt+T annuncia la scheda attiva.\n"
 "Per attivare il pulsante annulla premere il tasto esc."
+
+#~ msgid "General"
+#~ msgstr "Generale"
+
+#~ msgid "Account"
+#~ msgstr "Account"
+
+#~ msgid "Bandwidth"
+#~ msgstr "Larghezza di banda"
+
+#~ msgid "Proxies"
+#~ msgstr "Proxy"
+
+#~ msgid "Advanced"
+#~ msgstr "Avanzate"
+
+#~ msgid "Dropbox Preferences"
+#~ msgstr "Preferenze Dropbox"
+
+#~ msgid "Cancel"
+#~ msgstr "Annulla"
+
+#~ msgid "Cancel button not found"
+#~ msgstr "Pulsante Annulla non trovato"
+
+#~ msgid "Clicks the Cancel button of the Dropbox preferences dialog"
+#~ msgstr "Clicca il bottone Annulla della finestra preferenze di Dropbox"
+
+#~ msgid "announce active Dropbox preferences dialog tab"
+#~ msgstr "Legge la scheda attiva della finestra preferenze di Dropbox"
+
+#~ msgid "Activate previous Dropbox preferences dialog tab"
+#~ msgstr "Attiva la scheda precedente delle preferenze di Dropbox"
+
+#~ msgid "Activate next Dropbox preferences dialog tab"
+#~ msgstr "Attiva la scheda successiva delle preferense di Dropbox"
+
+#~ msgid "drop box not found"
+#~ msgstr "Dropbox non trovato"
+
+#~ msgid ""
+#~ "If pressed once, announces Dropbox status. If pressed twice, reports the "
+#~ "Dropbox version. If pressed three times, open the Dropbox context menu by "
+#~ "clicking on its systray icon"
+#~ msgstr ""
+#~ "Se premuto una volta, legge lo stato di Dropbox. Se premuto due volte, "
+#~ "annuncia la versione di Dropbox. Infine una tripla pressione, apre il "
+#~ "menu di contesto di Dropbox presente sul System Tray"
 
 #~ msgid "Announce Dropbox' status"
 #~ msgstr ""

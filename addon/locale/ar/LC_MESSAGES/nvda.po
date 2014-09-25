@@ -17,73 +17,13 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#. Translators: the name of the dropbox general tab.
-msgid "General"
-msgstr "عام"
-
-#. Translators: the name of the dropbox account tab.
-msgid "Account"
-msgstr "حساب"
-
-#. Translators: the name of the dropbox bandwidth tab.
-msgid "Bandwidth"
-msgstr "عرض نطاق التردد"
-
-#. Translators: the name of the dropbox proxies tab.
-msgid "Proxies"
-msgstr "Proxies"
-
-#. Translators: the name of the dropbox advanced tab.
-msgid "Advanced"
-msgstr "متقدم"
-
-#. Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Dropbox Preferences"
-msgstr "Dropbox Preferences"
-
-#. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Cancel"
-msgstr "Cancel"
-
-msgid "Cancel button not found"
-msgstr "لم يتم العثور على زر الإلغاء"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-msgstr "تنفيذ زر الإلغاء بمحاورة التفضيلات ببرنامج DropBox"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "announce active Dropbox preferences dialog tab"
-msgstr "الإعلان عن الصحيفة النشطة بمحاورة التفضيلات ببرنامج DropBox"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate previous Dropbox preferences dialog tab"
-msgstr "تنشيط الصحيفة النشطة بمحاورة التفضيلات ببرنامج DropBox"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate next Dropbox preferences dialog tab"
-msgstr "تنشيط الصحيفة التالية بمحاورة التفضيلات لبرنامج DropBox"
-
-msgid "drop box not found"
-msgstr "لم يتم العثور على DropBox"
-
-#. Documentation
-msgid ""
-"If pressed once, announces Dropbox status. If pressed twice, reports the "
-"Dropbox version. If pressed three times, open the Dropbox context menu by "
-"clicking on its systray icon"
-msgstr ""
-"بالضغط عليه مرة, يعلن عن حالة DropBox. بالضغط عليه مرتين, يعلن عن إصداره. "
-"بالضغط عليه ثلاث مرات, يفتح قائمته بالنقر على الأيقونة الخاصة به على صينية "
-"النظام"
-
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Announce Dropbox state and make preferences tabs accessible"
 msgstr "الإعلان عن حالة برنامج DropBox وإتاحة التجول بين تبويباته"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Announces Dropbox status, version or open the Dropbox systray menu.\n"
 "Shortcut: NVDA+Shift+D\n"
@@ -97,3 +37,51 @@ msgstr ""
 "كما تعمل تبويبات محاورة التفضيلات بالضغط على Ctrl+tab أو Shift+Ctrl+Tab.\n"
 "يعلن مفتاح الاختصار Ctrl+Alt+t عن التبويب النشط.\n"
 "يمكنك تنشيط زر الإلغاء بالضغط على مفتاح Escape."
+
+#~ msgid "General"
+#~ msgstr "عام"
+
+#~ msgid "Account"
+#~ msgstr "حساب"
+
+#~ msgid "Bandwidth"
+#~ msgstr "عرض نطاق التردد"
+
+#~ msgid "Proxies"
+#~ msgstr "Proxies"
+
+#~ msgid "Advanced"
+#~ msgstr "متقدم"
+
+#~ msgid "Dropbox Preferences"
+#~ msgstr "Dropbox Preferences"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancel"
+
+#~ msgid "Cancel button not found"
+#~ msgstr "لم يتم العثور على زر الإلغاء"
+
+#~ msgid "Clicks the Cancel button of the Dropbox preferences dialog"
+#~ msgstr "تنفيذ زر الإلغاء بمحاورة التفضيلات ببرنامج DropBox"
+
+#~ msgid "announce active Dropbox preferences dialog tab"
+#~ msgstr "الإعلان عن الصحيفة النشطة بمحاورة التفضيلات ببرنامج DropBox"
+
+#~ msgid "Activate previous Dropbox preferences dialog tab"
+#~ msgstr "تنشيط الصحيفة النشطة بمحاورة التفضيلات ببرنامج DropBox"
+
+#~ msgid "Activate next Dropbox preferences dialog tab"
+#~ msgstr "تنشيط الصحيفة التالية بمحاورة التفضيلات لبرنامج DropBox"
+
+#~ msgid "drop box not found"
+#~ msgstr "لم يتم العثور على DropBox"
+
+#~ msgid ""
+#~ "If pressed once, announces Dropbox status. If pressed twice, reports the "
+#~ "Dropbox version. If pressed three times, open the Dropbox context menu by "
+#~ "clicking on its systray icon"
+#~ msgstr ""
+#~ "بالضغط عليه مرة, يعلن عن حالة DropBox. بالضغط عليه مرتين, يعلن عن إصداره. "
+#~ "بالضغط عليه ثلاث مرات, يفتح قائمته بالنقر على الأيقونة الخاصة به على "
+#~ "صينية النظام"
