@@ -1,8 +1,8 @@
 # dropbox #
 
 * مطورو الإضافة: Patrick ZAJDA, Filaos وآخرون
-* تحميل [[الإصدار النهائي][1]
-* تحميل [[الإصدار التجريبي ][2]
+* تحميل [الإصدار النهائي][1]
+* تحميل [الإصدار التجريبي ][2]
 
 ستضيف هذه الإضافة البرمجية مفتاح اختصار للإعلان عن حالة برنامج رفع الملفات
 dropBox, وإصدارهأو لفتح قائمته الموجودة على صينية النظام. كما أنها ستتيح
@@ -61,5 +61,4 @@ escape.
 
 [1]: http://addons.nvda-project.org/files/get.php?file=dx
 
-[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev[1]:
-http://addons.nvda-project.org/files/get.php?file=dx
+[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev
