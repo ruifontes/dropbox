@@ -19,10 +19,10 @@ funzionerà anche premendo Esc.
 * Se si passa da una scheda all'altra utilizzando i tasti di scelta rapida, quando si chiude la finestra delle preferenze, NVDA non sarà in grado di capire che la finestra non esiste più.
 Si tratta di un problema conosciuto di NVDA e non può essere risolto.
 
-## Changes for 4.0 ##
+## Cambiamenti nella 4.0 ##
 
-* Translations update.
-* Fixed issues with windows 8 metro app.
+* Traduzioni aggiornate
+* Risolto un problema con l'interfaccia Metro di Windows8
 
 ## Cambiamenti nella 3.1 ##
 
