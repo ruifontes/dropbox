@@ -8,6 +8,8 @@
 # or by visiting http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 import addonHandler,appModuleHandler
+from NVDAObjects import UIA
+import controlTypes
 
 # We keep it in the case it would finally be necessary to change add-on summary by language
 # _addonDir = os.path.join(os.path.dirname(__file__), "..").decode("mbcs")
