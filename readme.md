@@ -16,9 +16,11 @@ It is a known issue on NVDA and cannot be fixed.
 
 ## Changes for 4.0 ##
 
-* Change Shift+NVDA+D behavior: if pressed once announce Dropbox status, twice open the context menu, three announce the version.
+* Change Shift+NVDA+D behavior: if pressed once announce Dropbox status, twice open the context menu.
 * Translations update.
 * Fixed issues with windows 8 metro app.
+* Addon help is no longer available in the help menu, it's found in the addons manager instead.
+* As Dropbox changes his gui from version to version, all features for settings dialog were removed.
 
 ## Changes for 3.1 ##
 
