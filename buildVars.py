@@ -9,21 +9,21 @@ _ = lambda x : x
 # Add-on information variables
 addon_info = {
 # add-on Name
-	"addon-name" : "dropbox",
+	"addon_name" : "dropbox",
 	# Add-on description
-	"addon-summary" : "Dropbox",
+	"addon_summary" : "Dropbox",
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on installation and add-on information
-	"addon-description" : _("""Announces Dropbox status or open the Dropbox systray menu.
+	"addon_description" : _("""Announces Dropbox status or open the Dropbox systray menu.
 Shortcut: NVDA+Shift+D"""),
 	# version
-	"addon-version" : "4.0-dev",
+	"addon_version" : "4.0-dev",
 	# Author(s)
-	"addon-author" : "Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors",
+	"addon_author" : "Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors",
 	# URL for the add-on documentation support
-	"addon-url" : "http://addons.nvda-project.org/"
+	"addon_url" : "http://addons.nvda-project.org/",
 	# Documentation file name
-	"addon_docFileName" : "readme.html",
+	"addon_docFileName" : "readme.html"
 }
 
 
@@ -35,7 +35,7 @@ pythonSources = [os.path.join("addon", "appModules", "*.py"),
     os.path.join("addon", "globalPlugins", "*.py")]
 
 # Files that contain strings for translation. Usually your python sources
-i18nSources = pythonSources + ["buildVars.py""]
+i18nSources = pythonSources + ["buildVars.py"]
 
 # Files that will be ignored when building the nvda-addon file
 # Paths are relative to the addon directory, not to the root directory of your addon sources.
