@@ -44,7 +44,7 @@ escape.
   veces.
 * O botón escape agora funciona (só cando se utiliza Dropbox na mesma lingua
   que usa NVDA).
-* Un montón de correccións no código.
+* Un lote de correccións no código.
 * Engadida/actualizada a documentación de todos os scripts.
 * Novas linguas: Árabe, Portugués do Brasil, Checo, Holandés, Finlandés,
   Galego, Alemán, Húngaro, Xaponés, Nepalí, Polaco, Ruso, Español, Eslovaco,
