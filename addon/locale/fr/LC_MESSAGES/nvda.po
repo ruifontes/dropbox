@@ -19,77 +19,62 @@ msgstr ""
 "X-Generator: Poedit 1.5.5\n"
 
 #. Translators: the name of the dropbox general tab.
-#: addon\appModules\dropbox.py:23
 msgid "General"
 msgstr "Général"
 
 #. Translators: the name of the dropbox account tab.
-#: addon\appModules\dropbox.py:25
 msgid "Account"
 msgstr "Compte"
 
 #. Translators: the name of the dropbox bandwidth tab.
-#: addon\appModules\dropbox.py:27
 msgid "Bandwidth"
 msgstr "Bande passante"
 
 #. Translators: the name of the dropbox proxies tab.
-#: addon\appModules\dropbox.py:29
 msgid "Proxies"
 msgstr "Proxy"
 
 #. Translators: the name of the dropbox advanced tab.
-#: addon\appModules\dropbox.py:31
 msgid "Advanced"
 msgstr "Avancé"
 
 #. Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-#: addon\appModules\dropbox.py:81 addon\appModules\dropbox.py:100
-#: addon\appModules\dropbox.py:109 addon\appModules\dropbox.py:123
 msgid "Dropbox Preferences"
 msgstr "Préférences Dropbox"
 
 #. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-#: addon\appModules\dropbox.py:86 addon\appModules\dropbox.py:87
 msgid "Cancel"
 msgstr "Annuler"
 
-#: addon\appModules\dropbox.py:89
 msgid "Cancel button not found"
 msgstr "Bouton Annuler introuvable"
 
 #. Translators: message presented when user performs input help for this shortcut.
-#: addon\appModules\dropbox.py:97
 msgid "Clicks the Cancel button of the Dropbox preferences dialog"
 msgstr ""
 "Cliquez sur le bouton Annuler de la boîte de dialogue des préférences de "
 "Dropbox"
 
 #. Translators: message presented when user performs input help for this shortcut.
-#: addon\appModules\dropbox.py:106
 msgid "announce active Dropbox preferences dialog tab"
 msgstr ""
 "Annoncer l'onglet actif dans la boîte de dialogue des préférences de Dropbox"
 
 #. Translators: message presented when user performs input help for this shortcut.
-#: addon\appModules\dropbox.py:120
 msgid "Activate previous Dropbox preferences dialog tab"
 msgstr ""
 "Activer l'onglet précédent dans la boîte de dialogue des préférences de "
 "Dropbox"
 
 #. Translators: message presented when user performs input help for this shortcut.
-#: addon\appModules\dropbox.py:134
 msgid "Activate next Dropbox preferences dialog tab"
 msgstr ""
 "Activer l'onglet suivant dans la boîte de dialogue des préférences de Dropbox"
 
-#: addon\globalPlugins\SayStatedropbox.py:50
 msgid "drop box not found"
 msgstr "drop box introuvable"
 
 #. Documentation
-#: addon\globalPlugins\SayStatedropbox.py:75
 msgid ""
 "If pressed once, announces Dropbox status. If pressed twice, reports the "
 "Dropbox version. If pressed three times, open the Dropbox context menu by "
@@ -102,14 +87,12 @@ msgstr ""
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
-#: buildVars.py:13
 msgid "Announce Dropbox state and make preferences tabs accessible"
 msgstr ""
 "Annonce le statut de Dropbox et rend les onglets des préférences accessibles"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
-#: buildVars.py:16
 msgid ""
 "Announces Dropbox status, version or open the Dropbox systray menu.\n"
 "Shortcut: NVDA+Shift+D\n"
