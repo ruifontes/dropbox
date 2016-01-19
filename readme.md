@@ -21,6 +21,7 @@ It is a known issue on NVDA and cannot be fixed.
 * Fixed issues with windows 8 metro app.
 * Addon help is no longer available in the help menu, it's found in the addons manager instead.
 * As Dropbox changes his gui from version to version, all features for settings dialog were removed.
+* Modified the shortcut to get dropbox status to Alt+NVDA+D to avoid conflict with audio ducking support.
 
 ## Changes for 3.1 ##
 
