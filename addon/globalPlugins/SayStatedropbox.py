@@ -82,6 +82,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	script_announceDropbox.__doc__ = _("If pressed once, announces Dropbox status. If pressed twice, open the Dropbox context menu by clicking on its systray icon")
 
 	__gestures={
-		"kb:NVDA+shift+d": "announceDropbox",
+		"kb:NVDA+alt+d": "announceDropbox",
 	}
 
