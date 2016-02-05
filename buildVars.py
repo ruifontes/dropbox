@@ -18,12 +18,12 @@ addon_info = {
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 	"addon_description" : _("""Announces Dropbox status, version or open the Dropbox systray menu.
-Shortcut: NVDA+Shift+D
+Shortcut: NVDA+Alt+D
 Page tabs are also working in the preferences dialog with Ctrl+tab and Shift+Ctrl+Tab.
 Ctrl+Alt+T announce the active tab.
 You can activate cancel by pressing the escape key."""),
 	# version
-	"addon_version" : "4.1",
+	"addon_version" : "4.0",
 	# Author(s)
 	"addon_author" : u"Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors",
 	# URL for the add-on documentation support
