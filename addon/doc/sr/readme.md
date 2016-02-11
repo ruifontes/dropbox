@@ -1,23 +1,24 @@
 # dropbox #
 
-* autoriPatrick ZAJDA, Filaos  i drugi saradnici
+* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
 * preuзми стабилну верзију][1]
-* преузми верзију у развоју 2
 
 овај додатак додаје пречице за изговор статуса дропбокса верзије и чини
 дијалог за подешавања приступачним
 
-* пречица NVDA+Shift+D
+* Shortcut: NVDA+Alt+D
 * Ctrl+Alt+T  изговара активну картицу
 
 ## познати проблеми ##
 
 н вда неће знати да су се подешавања затворила ако користите пречице за промену картица
 
+
 ## промене у 4.0 ##
 
-* ажурирани преводи
-* поправљен проблем у виндоус 8 апликацији
+* Add-on help is available from the Add-ons Manager.
+* The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid
+  conflict with audio ducking support.
 
 ## промене у 3.1 ##
 
@@ -49,5 +50,3 @@
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=dx
-
-[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev

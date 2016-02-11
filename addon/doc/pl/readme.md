@@ -1,14 +1,13 @@
 # dropbox #
 
-* Autorzy: Patrick ZAJDA <patrick@zajda.fr>, Filaos i inni.
+* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
 * Pobierz [wersja stabilna][1]
-* Pobierz [wersja rozwojowa][2]
 
 WTyczka dodaje do NVDA skrót klawiszowy, po którego wciśnięciu otrzymujemy
 informację o statusie programu, jego wersji, a także ułatwia pracę z menu
 kontekstowym tego programu oraz jego oknem preferencji.
 
-* skrót: nvda+shift+d
+* Shortcut: NVDA+Alt+D
 * control+alt+t zgłasza aktywną zakładkę ustawień dropbox
 
 ## znane błędy ##
@@ -16,10 +15,12 @@ kontekstowym tego programu oraz jego oknem preferencji.
 *Jeśli użyjesz skrutu klawiszowego do przechodzenia między zakładkami i zamkniesz okno ustawień wtyczki, NVDA może nie odnotować zniknięcia tego okna.
 Jest to znany problem z NVDA, który nie może być poprawiony.
 
+
 ## zmiany dla 4.0 ##
 
-* Aktualizacja tłumaczeń.
-* Naprawione problemy z aplikacją metro w windows 8.
+* Add-on help is available from the Add-ons Manager.
+* The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid
+  conflict with audio ducking support.
 
 ## zmiany dla wersji 3.1 ##
 
@@ -60,5 +61,3 @@ Jest to znany problem z NVDA, który nie może być poprawiony.
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=dx
-
-[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev

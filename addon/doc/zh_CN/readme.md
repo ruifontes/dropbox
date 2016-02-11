@@ -1,13 +1,12 @@
 # dropbox #
 
-* 作者：Patrick ZAJDA, Filaos和其他贡献者。
+* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
 * 下载[稳定版 version][1]
-* 下载[开发板][2]
 
 此插件将提供一个查看 DropBox
 的版本、状态和托盘菜单的快捷方式。您可通过“TAB”或“CTRL加TAB”和“CTRL加PageUp”或者“CTRL加PageDown”组合键在“篇号”对话框的各个标签中切换。也可通过按下“ESCAPE”键取消浏览。
 
-* 快捷键： NVDA+Shift+D
+* Shortcut: NVDA+Alt+D
 * Ctrl+Alt+T 朗读激活的标签。
 
 ## 没有讨论 ##
@@ -15,10 +14,12 @@
 * 如果您使用快捷键进行选项卡切换，当您关闭“偏好”设置窗口以后，NVDA 就无法获知窗口是否存在。
 此问题与 NVDA 无关，无法修复。
 
+
 ## 版本4.0 ##
 
-* 翻译升级。
-* 修复关于windows 8 metro 应用的问题。
+* Add-on help is available from the Add-ons Manager.
+* The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid
+  conflict with audio ducking support.
 
 ## 版本3.1 ##
 
@@ -50,5 +51,3 @@
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=dx
-
-[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev

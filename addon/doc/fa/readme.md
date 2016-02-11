@@ -1,8 +1,7 @@
 # dropbox #
 
-* سازندگان: Patrick ZAJDA, Filaos و همکاران دیگر
+* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
 * Download [stable version][1]
-* Download [development version][2]
 
 هدف این افزونه ایجاد کلید میانبر برای اعلام وضعیت و نسخه فعلی Dropbox و باز
 کردن منوی Dropbox در system tray میباشد. همچنین داخل تنظیمات Dropbox با
@@ -10,7 +9,7 @@
 حرکت کرد. بعد از اتمام کار داخل تنظیمات Dropbox میتوانید با کلید گریز دکمه
 انصراف را فعال کرده از صفحه خارج شوید.
 
-* کلید میانبر: NVDA+Shift+D
+* Shortcut: NVDA+Alt+D
 * Ctrl+Alt+T صفحه فعال را اعلام میکند
 
 ## مسائل شناخته شده ##
@@ -18,10 +17,12 @@
 * اگر با استفاده از کلیدهای میانبر بین صفحات حرکت بکنید, موقعی که پنجره تنظیمات را میبندید, NVDA قادر نخواهد بود پنجره هایی را که دیگر وجود ندارند را بشناسد.
 این یک مسئله شناخته شده است و قابل حل نیست.
 
+
 ## Changes for 4.0 ##
 
-* Translations update.
-* Fixed issues with windows 8 metro app.
+* Add-on help is available from the Add-ons Manager.
+* The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid
+  conflict with audio ducking support.
 
 ## تغییرات داده شده در نسخه 3.1 ##
 
@@ -60,5 +61,3 @@
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=dx
-
-[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev

@@ -1,16 +1,14 @@
 # dropbox #
 
-* Autori: Patrick ZAJDA, Filaos a ďalší
+* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
 * Stiahnuť [stabilná verzia][1]
-* Stiahnuť [verzia vo vývoji][2]
 
 Oznamuje stav Dropboxu, jeho verziu a umožňuje otvoriť kontextové menu
 programu z klávesnice. Môžete sa tiež pohybovať po záložkách v možnostiach
 programu pomocou ctrl+tab a  Shift+Ctrl+Tab resp ctrl+page up /down. Okno s
 nastaveniami sa dá zatvoriť tlačidlom Escape.
 
-* Skratka: NVDA+Shift+D. Stlačené raz povie stav Dropboxu. Stlačené dvakrát
-  povie verziu a trikrát otvorí kontextové menu Dropboxu.
+* Shortcut: NVDA+Alt+D
 * Ctrl+Alt+T oznámi názov aktívnej záložky.
 
 ## Známe problémy ##
@@ -18,10 +16,12 @@ nastaveniami sa dá zatvoriť tlačidlom Escape.
 * Ak sa presúvate medzi záložkami pomocou klávesových skratiek a zatvoríte okno s bnastaveniami Dropboxu, NVDA si nevšimne, že okno je zatvorené.
 Toto je známa chyba a nedá sa odstrániť.
 
+
 ## Zmeny vo verzii 4.0 ##
 
-* Aktualizované preklady
-* opravené chyby v Metro aplikácii pre Windows 8.
+* Add-on help is available from the Add-ons Manager.
+* The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid
+  conflict with audio ducking support.
 
 ## Zmeny vo verzii 3.1 ##
 
@@ -60,5 +60,3 @@ Toto je známa chyba a nedá sa odstrániť.
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=dx
-
-[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev

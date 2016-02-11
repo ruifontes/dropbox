@@ -1,8 +1,7 @@
 # dropbox #
 
-* Autori: Patrick ZAJDA, Filaos i drugi doprinositelji
+* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
 * Preuzmite [Stabilnu inačicu][1]
-* Preuzmite [Razvojnu inačicu][2]
 
 Ovaj će dodatak dodati prečac koji izgovara status dropboxa, inačicu ili ili
 otvara dropboxov izbornik u području obavijesti.  Također možete se
@@ -10,7 +9,7 @@ premještati po stranicama / karticama dijaloškog okvira koristeći
 ctrl+tab/ctrl+shift+tab i/ili ctrl+pgdn /ctrl+pgup.  Kako bi zaključili,
 ovaj dodatak omogućuje da gumb odustani, radi na pritisak tipke escape.
 
-* Prečac: NVDA+Shift+D
+* Shortcut: NVDA+Alt+D
 * Ctrl+Alt+T Izgovori aktivnu karticu svojstva.
 
 ## Poznati problemi ##
@@ -18,10 +17,12 @@ ovaj dodatak omogućuje da gumb odustani, radi na pritisak tipke escape.
 * Ako se prebacujete između kartica svojstava koristeći prečac, kada zatvorite dijaloški okvir, NVDA dobiva krivu informaciju o otvorenim prozorima.
 It is a known issue on NVDA and cannot be fixed.
 
+
 ## Izmjene u inačici 4.0 ##
 
-* Osvježeni prijevodi.
-* Ispravljene greške sa windows 8 metro aplikacijom.
+* Add-on help is available from the Add-ons Manager.
+* The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid
+  conflict with audio ducking support.
 
 ## izmjene u inačici 3.1 ##
 
@@ -63,5 +64,3 @@ It is a known issue on NVDA and cannot be fixed.
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=dx
-
-[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev

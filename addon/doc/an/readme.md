@@ -1,8 +1,7 @@
 # dropbox #
 
-* Autors: Patrick ZAJDA, Filaos y atros colaboradors
+* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
 * Baixada [Versión estable][2]
-* Baixada [Versión de desembolique][2]
 
 Iste complemento adhibirá un alcorce de teclau pa anunciar l'estau d'o
 Dropbox, a versión u ubrir o menú de Dropbox d'a servilla d'o sistema.
@@ -10,7 +9,7 @@ Tamién funcionan as pestanyas en o dialogo preferencias con Ctrl+tab /
 Ctrl+Mayus+Tab y Ctrl+re Pach/av Pach.  Pa rematar, fa que funcione o botón
 cancelar con a tecla escape.
 
-* Alcorce de teclau: NVDA+Mayus+D
+* Shortcut: NVDA+Alt+D
 * Ctrl+Alt+T anuncia la pestanya activa.
 
 ## Problemas conoixius ##
@@ -18,10 +17,12 @@ cancelar con a tecla escape.
 * Si cambias entre as pestanyas fendo servir os alcorces de teclau, en que zarres a finestra preferencias, NVDA no podrá saber si as finestras ya no existen.
 Ye un problema conoixido en NVDA y no puet correchir-se.
 
+
 ## Cambios en 4.0 ##
 
-* Traduccions esvielladas
-* Problemas apanyaus con l'aplicación windows 8 metro.
+* Add-on help is available from the Add-ons Manager.
+* The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid
+  conflict with audio ducking support.
 
 ## Cambeos en 3.1 ##
 
@@ -65,5 +66,3 @@ Ye un problema conoixido en NVDA y no puet correchir-se.
 [[!tag stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=dx
-
-[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev

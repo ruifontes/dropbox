@@ -1,15 +1,14 @@
 # dropbox #
 
-* Авторы: Patrick ZAJDA, Filaos и другие учасники
+* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
 * Загрузить [стабильную версию][1]
-* Загрузить [разрабатываемую версию][2]
 
 Объявляет информацию о состоянии, версию или открывает меню Dropbox в
 системном трее Страницы вкладок также работают в диалоге настроек при помощи
 Ctrl+Tab и Shift+Ctrl+Tab.Вы можете активировать кнопку "cancel", нажав
 клавишу "escape".
 
-* Горячая клавиша: NVDA+Shift+D
+* Shortcut: NVDA+Alt+D
 * Ctrl+Alt+T объявить активную вкладку.
 
 ## Известные проблемы ##
@@ -17,10 +16,12 @@ Ctrl+Tab и Shift+Ctrl+Tab.Вы можете активировать кнопк
 * Если вы переключаетесь между вкладками с помощью горячих клавиш, когда вы Закроете окно настроек, NVDA не сможет знать о существовании окна.
 Это известная проблема, в NVDA, которая не может быть исправлена.
 
+
 ## Изменения в версии 4.0 ##
 
-* Обновлены переводы.
-* Fixed issues with windows 8 metro app.
+* Add-on help is available from the Add-ons Manager.
+* The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid
+  conflict with audio ducking support.
 
 ## Изменения в версии 3.1 ##
 
@@ -60,5 +61,3 @@ Ctrl+Tab и Shift+Ctrl+Tab.Вы можете активировать кнопк
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=dx
-
-[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev

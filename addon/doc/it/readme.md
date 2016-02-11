@@ -1,8 +1,7 @@
 # dropbox #
 
-* Autori: Patrick ZAJDA, Filaos e altri collaboratori
+* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
 * Download [stable version][1]
-* Download [development version][2]
 
 Questo componente aggiuntivo aggiungerà un tasto di scelta rapida per
 annunciare lo stato di Dropbox, il numero di versione oppure aprire il menu
@@ -11,7 +10,7 @@ control+tab control+shift+tab e control+paginaSu/giùper muoversi tra le
 schede nelle preferenze di Dropbox.   Per concludere, il tasto annulla
 funzionerà anche premendo Esc.
 
-* Tasto di scelta rapida: NVDA+Shift+D
+* Shortcut: NVDA+Alt+D
 * Ctrl+Alt+T annuncia la scheda attiva.
 
 ## Problemi noti ##
@@ -19,10 +18,12 @@ funzionerà anche premendo Esc.
 * Se si passa da una scheda all'altra utilizzando i tasti di scelta rapida, quando si chiude la finestra delle preferenze, NVDA non sarà in grado di capire che la finestra non esiste più.
 Si tratta di un problema conosciuto di NVDA e non può essere risolto.
 
+
 ## Cambiamenti nella 4.0 ##
 
-* Traduzioni aggiornate
-* Risolto un problema con l'interfaccia Metro di Windows8
+* Add-on help is available from the Add-ons Manager.
+* The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid
+  conflict with audio ducking support.
 
 ## Cambiamenti nella 3.1 ##
 
@@ -64,5 +65,3 @@ Si tratta di un problema conosciuto di NVDA e non può essere risolto.
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=dx
-
-[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev

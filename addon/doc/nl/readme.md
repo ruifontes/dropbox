@@ -1,15 +1,14 @@
 # Dropbox #
 
-* Auteurs: Patrick ZAJDA, Filaos en anderen
+* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
 * Download [stabiele versie][1]
-* Download [ontwikkelversie][2]
 
 Deze add-on voegt een sneltoets toe om de status, versie en het contextmenu
 van Dropbox op te vragen. Verder werkt het wisselen van tabbladen in de
 instellingen met ctrl+tab en kan de Annuleren knop met escape worden
 geactiveerd.
 
-* Sneltoets: NVDA+Shift+D
+* Shortcut: NVDA+Alt+D
 * Ctrl+Alt+T meldt het actieve tabblad.
 
 ## Bekende problemen ##
@@ -17,10 +16,12 @@ geactiveerd.
 * Als u van tabbladen wisselt met de sneltoetsen en het venster sluit, zal NVDA niet weten dat het venster gesloten is.
 Dit is een bekend probleem in NVDA en kan niet worden opgelost.
 
+
 ## Veranderingen voor 4.0 ##
 
-* Vertalingen bijgewerkt.
-* Problemen opgelost met Windows 8 metro-app.
+* Add-on help is available from the Add-ons Manager.
+* The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid
+  conflict with audio ducking support.
 
 ## Veranderingen voor 3.1 ##
 
@@ -61,5 +62,3 @@ Dit is een bekend probleem in NVDA en kan niet worden opgelost.
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=dx
-
-[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev

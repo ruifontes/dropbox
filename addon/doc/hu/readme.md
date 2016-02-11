@@ -1,8 +1,7 @@
 # dropbox #
 
-* Fejlesztők: Patrick ZAJDA, Filaos, és egyéb közreműködők
+* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
 * Letöltés [stabil verzió][1]
-* Letöltés [fejlesztői verzió][2]
 
 A kiegészítő segítségével lekérdezhető a Dropbox program állapota, verziója,
 valamint megnyitható a menüje egy billentyűparancs segítségével. A
@@ -10,7 +9,7 @@ beállítások párbeszédablak lapfülei helyesen hangoznak el a ctrl+tab és
 ctrl+shift+tab, vagy a ctrl+page up/down használatakor. Az Escape
 billentyűvel az ablak bezárható.
 
-* Parancsbillentyű: NVDA+Shift+D
+* Shortcut: NVDA+Alt+D
 * Ctrl+Alt+T bemondja az aktív lapfület.
 
 ## Ismert hibák ##
@@ -18,10 +17,12 @@ billentyűvel az ablak bezárható.
 * Ha a billentyűparancsok használatával vált a lapfülek között, az NVDA nem észleli a tulajdonságok ablak bezárását.
 Ez egy ismert hiba, amit nem lehet javítani.
 
+
 ## A 4.0 verzió változásai ##
 
-* Fordítások frissítése
-* A Windows 8 metro alkalmazás hibájának javítása
+* Add-on help is available from the Add-ons Manager.
+* The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid
+  conflict with audio ducking support.
 
 ## A 3.1 verzió változásai ##
 
@@ -62,5 +63,3 @@ Ez egy ismert hiba, amit nem lehet javítani.
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=dx
-
-[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev

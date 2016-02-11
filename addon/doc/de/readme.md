@@ -1,8 +1,7 @@
 # dropbox #
 
-* Autoren: Patrick ZAJDA <patrick@zajda.fr>, Filaos und andere Entwickler
+* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
 * [Stabile Version herunterladen][1]
-* [Testversion][2]
 
 Diese Erweiterung fügt ein Tastenkürzel hinzu, dass den Status von Dropbox,
 die Version ansagt oder  das Dropbox-Kontextmenü öffnet. Des weiteren kann
@@ -10,7 +9,7 @@ man in den Optionen mittels Steuerung+Tabulator und
 Steuerung+Umschalt+Tabulator sowie Steuerung+Seite rauf bzw. Steuerung+Seite
 runternavigieren. Des weiteren funktioniert nun der abbrechen-Schalter
 
-* Tastenkürzel: NVDA+Umschalt+D
+* Shortcut: NVDA+Alt+D
 * STRG+Alt+T aktive Registerkarte ansagen.
 
 ## bekannte Fehler ##
@@ -18,10 +17,12 @@ runternavigieren. Des weiteren funktioniert nun der abbrechen-Schalter
 * Wenn Sie die Tastenkombination zum Wechseln der Registerkarten verwenden, nachdem Sie das Einstellungsfenster geschlossen haben, wird NVDA nicht gewahr, dass das Fenster nicht mehr existiert.
 Dieses Problem kann zur Zeit nicht behoben werden.
 
+
 ## Änderungen bis 4.0 ##
 
-* Übersetzungen aktualisiert.
-* Fehler mit der Windows 8 Metro-App behoben.
+* Add-on help is available from the Add-ons Manager.
+* The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid
+  conflict with audio ducking support.
 
 ## Änderungen bis 3.1 ##
 
@@ -62,5 +63,3 @@ Dieses Problem kann zur Zeit nicht behoben werden.
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=dx
-
-[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev

@@ -1,8 +1,7 @@
 # dropbox #
 
-* Forfattere: Patrick ZAJDA, Filaos og andre bidragydere
+* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
 * Download [stabil version][1]
-* Download [udviklingsversion][2]
 
 Dette tilføjelsesprogram tilføjer en genvejstast, som annoncerer status for
 Dropbox, version, eller som åbner Dropbox-menuen i systembakken. Desuden
@@ -10,7 +9,7 @@ virker skift af faneblade i Indstillinger-dialogen med Ctrl+Tab og
 Shift+Ctrl+Tab samt med Ctrl+side-op/ned. Afslutningsvis virker
 Annuller-knappen med Escape.
 
-* Genvejstast: NVDA+Shift+D
+* Shortcut: NVDA+Alt+D
 * Ctrl+Alt+T annoncerer det aktive faneblad.
 
 ## Kendte problemer ##
@@ -18,10 +17,12 @@ Annuller-knappen med Escape.
 * Hvis du skifter mellem fanebladene med genvejstasterne, kan NVDA, når du lukker Indstillinger-vinduet, ikke se, at vinduet ikke eksisterer mere.
 Det er et kendt problem i NVDA, som ikke kan løses.
 
+
 ## Ændringer i4.0  ##
 
-* Opdatering af oversættelser.
-* Løst problem med Windows 8 metro app.
+* Add-on help is available from the Add-ons Manager.
+* The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid
+  conflict with audio ducking support.
 
 ## Ændringer i 3.1 ##
 
@@ -61,5 +62,3 @@ Det er et kendt problem i NVDA, som ikke kan løses.
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=dx
-
-[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev

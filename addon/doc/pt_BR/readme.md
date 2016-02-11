@@ -1,8 +1,7 @@
 # dropbox #
 
-* Autores: Patrick ZAJDA, Filaos e outros colaboradores
+* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
 * Baixe a [versão estável][1]
-* Baixe a [versão de desenvolvimento][2]
 
 Este plug-in adiciona um atalho para anunciar o status ou a versão do
 Dropbox ou abrir o menu dele na área de notificação. Também torna possível
@@ -10,7 +9,7 @@ alternar entre as guias da janela de preferências com
 Ctrl+Tab/Ctrl+Shift+Tab e Ctrl+PageUp/Down. Finalmente, faz com que o botão
 cancelar seja ativado com escape.
 
-* Atalho: NVDA+Shift+D
+* Shortcut: NVDA+Alt+D
 * Ctrl+Alt+T anuncia a guia ativa
 
 ## Problemas conhecidos ##
@@ -18,10 +17,12 @@ cancelar seja ativado com escape.
 * Se você mudar de guia usando os atalhos, quando fechar a janela de preferências o NVDA não saberá que a janela deixou de existir.
 Isso é um problema do NVDA que não tem como corrigir.
 
+
 ## Mudanças na 4.0 ##
 
-* Traduções atualizadas.
-* Consertados problemas com o aplicativo em metro para Windows 8.
+* Add-on help is available from the Add-ons Manager.
+* The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid
+  conflict with audio ducking support.
 
 ## Mudanças na 3.1 ##
 
@@ -63,5 +64,3 @@ Isso é um problema do NVDA que não tem como corrigir.
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=dx
-
-[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev
