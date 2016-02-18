@@ -1,6 +1,6 @@
 # dropbox #
 
-* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
+* Forfattere: Patrick ZAJDA, Filaos og andre bidragydere
 * Download [stabil version][1]
 
 Dette tilføjelsesprogram tilføjer en genvejstast, som annoncerer status for
@@ -9,7 +9,7 @@ virker skift af faneblade i Indstillinger-dialogen med Ctrl+Tab og
 Shift+Ctrl+Tab samt med Ctrl+side-op/ned. Afslutningsvis virker
 Annuller-knappen med Escape.
 
-* Shortcut: NVDA+Alt+D
+* Genvejstast: NVDA+Alt+D
 * Ctrl+Alt+T annoncerer det aktive faneblad.
 
 ## Kendte problemer ##
@@ -20,9 +20,10 @@ Det er et kendt problem i NVDA, som ikke kan løses.
 
 ## Ændringer i4.0  ##
 
-* Add-on help is available from the Add-ons Manager.
-* The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid
-  conflict with audio ducking support.
+* Hjælp til tilføjelsesprogrammet er til rådighed fra styring af
+  tilføjelsesprogrammer.
+* Genvejen til at få fat i status for Dropbox er blevet ændret til
+  Alt-NVDA-d for at undgå konflikt med understøttelse af audio ducking.
 
 ## Ændringer i 3.1 ##
 

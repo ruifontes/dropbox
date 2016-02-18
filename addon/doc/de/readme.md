@@ -1,6 +1,6 @@
 # dropbox #
 
-* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
+* Autoren: Patrick ZAJDA <patrick@zajda.fr>, Filaos und andere Entwickler
 * [Stabile Version herunterladen][1]
 
 Diese Erweiterung fügt ein Tastenkürzel hinzu, dass den Status von Dropbox,
@@ -9,7 +9,7 @@ man in den Optionen mittels Steuerung+Tabulator und
 Steuerung+Umschalt+Tabulator sowie Steuerung+Seite rauf bzw. Steuerung+Seite
 runternavigieren. Des weiteren funktioniert nun der abbrechen-Schalter
 
-* Shortcut: NVDA+Alt+D
+* Tastenkürzel: NVDA+Alt+D
 * STRG+Alt+T aktive Registerkarte ansagen.
 
 ## bekannte Fehler ##
@@ -20,9 +20,11 @@ Dieses Problem kann zur Zeit nicht behoben werden.
 
 ## Änderungen bis 4.0 ##
 
-* Add-on help is available from the Add-ons Manager.
-* The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid
-  conflict with audio ducking support.
+* die Hilfe zur Erweiterung ist im Dialogfeld \"Erweiterungen verwalten\"
+  abrufbar.
+* Die Tastenkombination zum Umgang mit der Erweiterung wurde auf alt+nvda+d
+  geändert, um Konflikte mit der Funktion zum Verringern der lautstärke
+  anderer Audioquellen unter Windows 8.1 und neuer zu verhindern.
 
 ## Änderungen bis 3.1 ##
 

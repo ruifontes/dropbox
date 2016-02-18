@@ -1,6 +1,6 @@
 # dropbox #
 
-* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
+* Autores: Patrick ZAJDA <patrick@zajda.fr>, Filaos e outros colaboradores
 * Baixe a [versão estável][1]
 
 Este plug-in adiciona um atalho para anunciar o status ou a versão do
@@ -9,7 +9,7 @@ alternar entre as guias da janela de preferências com
 Ctrl+Tab/Ctrl+Shift+Tab e Ctrl+PageUp/Down. Finalmente, faz com que o botão
 cancelar seja ativado com escape.
 
-* Shortcut: NVDA+Alt+D
+* Atalho: NVDA+Alt+D
 * Ctrl+Alt+T anuncia a guia ativa
 
 ## Problemas conhecidos ##
@@ -20,9 +20,9 @@ Isso é um problema do NVDA que não tem como corrigir.
 
 ## Mudanças na 4.0 ##
 
-* Add-on help is available from the Add-ons Manager.
-* The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid
-  conflict with audio ducking support.
+* A ajuda do complemento está disponível pelo gestor de complementos.
+* O atalho para ler o status do Dropbox foi alterado para Alt+NVDA+D para
+  evitar conflito com o suporte a prioridade de áudio.
 
 ## Mudanças na 3.1 ##
 
