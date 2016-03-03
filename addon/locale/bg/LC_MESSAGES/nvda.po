@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: dropbox 3.2-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-04-11 05:45+0100\n"
-"PO-Revision-Date: 2016-02-11 20:24+0200\n"
+"PO-Revision-Date: 2016-02-25 23:07-0800\n"
 "Last-Translator: Kostadin Kolev <k_kolev1985@mail.bg>\n"
 "Language-Team: Български <>\n"
 "Language: bg\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n!=1);\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
@@ -43,51 +43,3 @@ msgstr ""
 "става с Ctrl+tab и Shift+Ctrl+Tab.\n"
 "Ctrl+Alt+T Съобщава активната страница.\n"
 "Може да активирате бутона Cancel с натискане на escape."
-
-#~ msgid "General"
-#~ msgstr "Общи"
-
-#~ msgid "Account"
-#~ msgstr "Акаунт"
-
-#~ msgid "Bandwidth"
-#~ msgstr "Честотна лента"
-
-#~ msgid "Proxies"
-#~ msgstr "Посредници"
-
-#~ msgid "Advanced"
-#~ msgstr "Разширени"
-
-#~ msgid "Dropbox Preferences"
-#~ msgstr "Dropbox Preferences"
-
-#~ msgid "Cancel"
-#~ msgstr "Cancel"
-
-#~ msgid "Cancel button not found"
-#~ msgstr "Бутонът Cancel не е намерен"
-
-#~ msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-#~ msgstr "Натиска бутона Cancel в диалога за настройка на Dropbox"
-
-#~ msgid "announce active Dropbox preferences dialog tab"
-#~ msgstr "Съобщава активната страница в диалога за настройка на Dropbox"
-
-#~ msgid "Activate previous Dropbox preferences dialog tab"
-#~ msgstr "Активира предишната страница в диалога за настройка на Dropbox"
-
-#~ msgid "Activate next Dropbox preferences dialog tab"
-#~ msgstr "Активира следващата страница в диалога за настройка на Dropbox"
-
-#~ msgid "drop box not found"
-#~ msgstr "Dropbox не е намерен"
-
-#~ msgid ""
-#~ "If pressed once, announces Dropbox status. If pressed twice, reports the "
-#~ "Dropbox version. If pressed three times, open the Dropbox context menu by "
-#~ "clicking on its systray icon"
-#~ msgstr ""
-#~ "Еднократно натискане съобщава състоянието на Dropbox. Двукратно натискане "
-#~ "съобщава версията на Dropbox. Трикратно натискане отваря контекстното "
-#~ "меню на Dropbox, като симулира щракване върху иконата му в системния жлеб"

@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: dropbox 3.2-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-07-07 08:58+0200\n"
-"PO-Revision-Date: 2016-02-11 20:29+0100\n"
+"PO-Revision-Date: 2016-02-25 23:25-0800\n"
 "Last-Translator: Bue Vester-Andersen <bue@vester-andersen.dk>\n"
 "Language-Team: Dansk <bue@vester-andersen.dk>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
@@ -39,51 +39,3 @@ msgstr ""
 "Skift-Kontrol-Tab.\n"
 "Kontrol+alt+t oplæser navnet på det aktive faneblad.\n"
 "Du kan aktivere Cancel-knappen ved at trykke på Escape."
-
-#~ msgid "General"
-#~ msgstr "General"
-
-#~ msgid "Account"
-#~ msgstr "Account"
-
-#~ msgid "Bandwidth"
-#~ msgstr "Bandwidth"
-
-#~ msgid "Proxies"
-#~ msgstr "Proxies"
-
-#~ msgid "Advanced"
-#~ msgstr "Advanced"
-
-#~ msgid "Dropbox Preferences"
-#~ msgstr "Dropbox Preferences"
-
-#~ msgid "Cancel"
-#~ msgstr "Cancel"
-
-#~ msgid "Cancel button not found"
-#~ msgstr "Cancel-knap ikke fundet"
-
-#~ msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-#~ msgstr "Klikker på Cancel-knappen i Dropbox Preferences dialogen"
-
-#~ msgid "announce active Dropbox preferences dialog tab"
-#~ msgstr "Oplæs det aktive faneblad i Dropbox Preferences dialogen"
-
-#~ msgid "Activate previous Dropbox preferences dialog tab"
-#~ msgstr "Aktiverer forrige faneblad i Dropbox preferences dialogen"
-
-#~ msgid "Activate next Dropbox preferences dialog tab"
-#~ msgstr "Aktiverer næste faneblad i Dropbox preferences dialogen"
-
-#~ msgid "drop box not found"
-#~ msgstr "Dropbox ikke fundet"
-
-#~ msgid ""
-#~ "If pressed once, announces Dropbox status. If pressed twice, reports the "
-#~ "Dropbox version. If pressed three times, open the Dropbox context menu by "
-#~ "clicking on its systray icon"
-#~ msgstr ""
-#~ "Tryk en enkelt gang for at høre Dropbox status. Tryk to gange for at få "
-#~ "oplæst Dropbox versionsnummeret. Tryk tre gange for at åbne Dropbox "
-#~ "context-menuen ved at klikke på ikonet i systembakken"

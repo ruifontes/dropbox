@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: Complemento para Dropbox, 3.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-01-06 13:12+0100\n"
-"PO-Revision-Date: 2016-02-12 22:44-0300\n"
+"PO-Revision-Date: 2016-02-26 02:29-0800\n"
 "Last-Translator: Cleverson Casarin Uliana <clcaul@live.com>\n"
 "Language-Team: Equipe de tradutores do NVDA para Português do Brasil "
 "<clever97@gmail.com>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
@@ -42,52 +42,3 @@ msgstr ""
 "+Tab.\n"
 "Ctrl+Alt+T anuncia a guia ativa.\n"
 "Pode ativar o botão cancelar pressionando a tecla escape."
-
-#~ msgid "General"
-#~ msgstr "Geral"
-
-#~ msgid "Account"
-#~ msgstr "Conta"
-
-#~ msgid "Bandwidth"
-#~ msgstr "Largura de banda"
-
-#~ msgid "Proxies"
-#~ msgstr "Proxies"
-
-#~ msgid "Advanced"
-#~ msgstr "Avançado"
-
-#~ msgid "Dropbox Preferences"
-#~ msgstr "Dropbox Preferences"
-
-#~ msgid "Cancel"
-#~ msgstr "Cancel"
-
-#~ msgid "Cancel button not found"
-#~ msgstr "Botão cancelar não achado"
-
-#~ msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-#~ msgstr "Clica no botão Cancelar da janela de preferências do Dropbox"
-
-#~ msgid "announce active Dropbox preferences dialog tab"
-#~ msgstr "anunciar a guia ativa na janela de preferências do Dropbox"
-
-#~ msgid "Activate previous Dropbox preferences dialog tab"
-#~ msgstr "Ativar a guia anterior na janela de preferências do Dropbox"
-
-#~ msgid "Activate next Dropbox preferences dialog tab"
-#~ msgstr "Ativar a próxima guia na janela de preferências do Dropbox"
-
-#~ msgid "drop box not found"
-#~ msgstr "Dropbox não achado"
-
-#~ msgid ""
-#~ "If pressed once, announces Dropbox status. If pressed twice, reports the "
-#~ "Dropbox version. If pressed three times, open the Dropbox context menu by "
-#~ "clicking on its systray icon"
-#~ msgstr ""
-#~ "Pressionada uma vez, anuncia o status do Dropbox. Pressionada duas vezes "
-#~ "rapidamente, diz a versão do Dropbox. Pressionada três vezes rapidamente, "
-#~ "abre o menu de contexto do Dropbox clicando no ícone dele na área de "
-#~ "notificação"

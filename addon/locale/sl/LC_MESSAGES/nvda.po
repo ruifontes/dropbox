@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: DropboxPlugin 3.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-01-06 13:12+0100\n"
-"PO-Revision-Date: 2016-02-12 07:28+0100\n"
-"Last-Translator: Jožef Gregorc <jozko.gregorc[@]guest.arnes.si\n"
+"PO-Revision-Date: 2016-02-26 02:51-0800\n"
+"Last-Translator: Jožef Gregorc <jozko.gregorc[@]guest.arnes.si>\n"
 "Language-Team:  <LL@li.org>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
@@ -39,57 +39,3 @@ msgstr ""
 "+tab in Shift+Ctrl+Tab.\n"
 "Ctrl+Alt+T naznani aktivni zavihek.\n"
 "Gumb Prekliči lahko aktivirate s pritiskom tipke Escape."
-
-#~ msgid "General"
-#~ msgstr "Splošno"
-
-#~ msgid "Account"
-#~ msgstr "Račun"
-
-#~ msgid "Bandwidth"
-#~ msgstr "Prepustnost"
-
-#~ msgid "Proxies"
-#~ msgstr "Proxy strežniki"
-
-#~ msgid "Advanced"
-#~ msgstr "Napredno"
-
-#~ msgid "Dropbox Preferences"
-#~ msgstr "Dropbox Preferences"
-
-#~ msgid "Cancel"
-#~ msgstr "Cancel"
-
-#~ msgid "Cancel button not found"
-#~ msgstr "Gumb Prekliči se ni našel"
-
-#~ msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-#~ msgstr ""
-#~ "klikne gumb Prekliči v pogovornem oknu  prednostnih nastavitev DropBoxa"
-
-#~ msgid "announce active Dropbox preferences dialog tab"
-#~ msgstr ""
-#~ "Naznani aktiven DropBox zavihek s pogovornim oknom prednostnih nastavitev"
-
-#~ msgid "Activate previous Dropbox preferences dialog tab"
-#~ msgstr ""
-#~ "Sproži prejšnji zavihek s pogovornim oknom prednostnih nastavitev DropBoxa"
-
-#~ msgid "Activate next Dropbox preferences dialog tab"
-#~ msgstr ""
-#~ "Sproži naslednji zavihek s pogovornim oknom prednostnih nastavitev "
-#~ "DropBoxa"
-
-#~ msgid "drop box not found"
-#~ msgstr "Dropbox se ni našel."
-
-#~ msgid ""
-#~ "If pressed once, announces Dropbox status. If pressed twice, reports the "
-#~ "Dropbox version. If pressed three times, open the Dropbox context menu by "
-#~ "clicking on its systray icon"
-#~ msgstr ""
-#~ "Če pritisnete enkrat, obvesti o statusu Dropboxa. Če pritisnite dvakrat, "
-#~ "potem pove različico Dropboxa in če pritisnete trikrat, potem odbre "
-#~ "kontekstualni meni, podobno kot, če kliknemo na Dropbox v območju za "
-#~ "obvestila."

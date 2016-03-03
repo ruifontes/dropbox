@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: dropbox 3.2-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-07-14 19:20+0200\n"
-"PO-Revision-Date: 2016-02-12 16:32+0330\n"
+"PO-Revision-Date: 2016-02-25 23:37-0800\n"
 "Last-Translator: Mohammadreza Rashad <mohammadreza5712@gmail.com>\n"
 "Language-Team: NVDA Translation team <nvda-translations@freelists.org>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
@@ -41,51 +41,3 @@ msgstr ""
 "control+alt+t سر‌برگی را که فعال است اعلام میکند.\n"
 "میتوانید با فِشُردنِ کلیدِ escape دکمه‌ی cancel را فعال کرده، از پنجره بدونِ اِعمالِ "
 "تغییرات خارج شوید."
-
-#~ msgid "General"
-#~ msgstr "همگانی"
-
-#~ msgid "Account"
-#~ msgstr "کاربری"
-
-#~ msgid "Bandwidth"
-#~ msgstr "پهنای باند"
-
-#~ msgid "Proxies"
-#~ msgstr "پراکسیها"
-
-#~ msgid "Advanced"
-#~ msgstr "پیشرفته"
-
-#~ msgid "Dropbox Preferences"
-#~ msgstr "Dropbox Preferences"
-
-#~ msgid "Cancel"
-#~ msgstr "دست کشیدن"
-
-#~ msgid "Cancel button not found"
-#~ msgstr "دکمه‌ی «دست کشیدن» یافت نشد"
-
-#~ msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-#~ msgstr "دکمه‌ی «دست کشیدن» در برگه‌ی سامان‌دهی Dropbox را کلیک میکند"
-
-#~ msgid "announce active Dropbox preferences dialog tab"
-#~ msgstr "برگه‌ی کارا را درون سامان‌دهی Dropbox گزارش می‌دهد"
-
-#~ msgid "Activate previous Dropbox preferences dialog tab"
-#~ msgstr "برگه‌ی پیشین درون سامان‌دهی Dropbox را کارا می‌کند"
-
-#~ msgid "Activate next Dropbox preferences dialog tab"
-#~ msgstr "برگه‌ی پسین درون سامان‌دهی Dropbox را کارا می‌کند"
-
-#~ msgid "drop box not found"
-#~ msgstr "Dropbox پیدا نشد"
-
-#~ msgid ""
-#~ "If pressed once, announces Dropbox status. If pressed twice, reports the "
-#~ "Dropbox version. If pressed three times, open the Dropbox context menu by "
-#~ "clicking on its systray icon"
-#~ msgstr ""
-#~ "اگر یکبار فشار داده شود, وضعیت Dropbox را اعلام میکند. اگر دوبار فشار "
-#~ "داده شود, نسخه فعلی Dropbox را گزارش میدهد. اگر سه بار فشار داده شود, "
-#~ "منوی Dropbox را با کلیک کردن روی آیکون Dropbox در system tray باز میکند"

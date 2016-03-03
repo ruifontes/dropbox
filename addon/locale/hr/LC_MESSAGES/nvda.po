@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: dropbox 3.1\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-03-13 14:03+0100\n"
-"PO-Revision-Date: 2016-02-11 19:26+0100\n"
+"PO-Revision-Date: 2016-02-26 01:51-0800\n"
 "Last-Translator: zvonimir stanečić <zvonimirek222@yandex.com>\n"
 "Language-Team: HR <hrvojekatic@gmail.com>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.5.5\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. Add-on summary, usually the user visible name of the addon.
@@ -41,51 +41,3 @@ msgstr ""
 "Ctrl+tab i Shift+Ctrl+Tab prečaca.\n"
 "Ctrl+Alt+T najavljuje aktivnu karticu.\n"
 "Možete otkazati dijalog pritiskom tipke Escape."
-
-#~ msgid "General"
-#~ msgstr "Općenito"
-
-#~ msgid "Account"
-#~ msgstr "Račun"
-
-#~ msgid "Bandwidth"
-#~ msgstr "Propusnost"
-
-#~ msgid "Proxies"
-#~ msgstr "Proxy"
-
-#~ msgid "Advanced"
-#~ msgstr "Napredno"
-
-#~ msgid "Dropbox Preferences"
-#~ msgstr "Dropbox Postavke"
-
-#~ msgid "Cancel"
-#~ msgstr "Odustani"
-
-#~ msgid "Cancel button not found"
-#~ msgstr "Gumb Odustani nije pronađen"
-
-#~ msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-#~ msgstr "Aktivira gumb Odustani unutar dijaloga za Dropbox postavke"
-
-#~ msgid "announce active Dropbox preferences dialog tab"
-#~ msgstr "Najavi aktivnu karticu unutar dijaloga za Dropbox postavke"
-
-#~ msgid "Activate previous Dropbox preferences dialog tab"
-#~ msgstr "Aktiviraj prethodnu karticu unutar dijaloga za Dropbox postavke"
-
-#~ msgid "Activate next Dropbox preferences dialog tab"
-#~ msgstr "Aktiviraj sljedeću karticu unutar dijaloga za Dropbox postavke"
-
-#~ msgid "drop box not found"
-#~ msgstr "drop box nije pronađen"
-
-#~ msgid ""
-#~ "If pressed once, announces Dropbox status. If pressed twice, reports the "
-#~ "Dropbox version. If pressed three times, open the Dropbox context menu by "
-#~ "clicking on its systray icon"
-#~ msgstr ""
-#~ "Jednim pritiskom najavljuje stanje Dropbox servisa. Dvostrukim pritiskom "
-#~ "izvještava o trenutnoj Dropbox inačici. Trostrukim pritiskom otvara "
-#~ "Dropbox kontekstni izbornik klikom na njegovu ikonu u području obavijesti."

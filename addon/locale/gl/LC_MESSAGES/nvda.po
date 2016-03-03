@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: DropboxPlugin 3.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-01-06 13:12+0100\n"
-"PO-Revision-Date: 2016-02-16 19:03+0100\n"
+"PO-Revision-Date: 2016-02-26 01:56-0800\n"
 "Last-Translator: Juan C. Buño <oprisniki@gmail.com>\n"
 "Language-Team: Galician granslation team <Oprisniki@gmail.com>\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.11\n"
+"X-Generator: Poedit 1.5.5\n"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
@@ -40,51 +40,3 @@ msgstr ""
 "+Ctrl+Tab.\n"
 "Ctrl+Alt+T anuncia a pestana activa.\n"
 "Podes activar cancelar premendo a tecla escape."
-
-#~ msgid "General"
-#~ msgstr "Xeral"
-
-#~ msgid "Account"
-#~ msgstr "Conta"
-
-#~ msgid "Bandwidth"
-#~ msgstr "Ancho de banda"
-
-#~ msgid "Proxies"
-#~ msgstr "Proxy"
-
-#~ msgid "Advanced"
-#~ msgstr "Avanzado"
-
-#~ msgid "Dropbox Preferences"
-#~ msgstr "Dropbox Preferences"
-
-#~ msgid "Cancel"
-#~ msgstr "Cancelar"
-
-#~ msgid "Cancel button not found"
-#~ msgstr "Botón Cancelar non atopado"
-
-#~ msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-#~ msgstr "Fai Clic no botón Cancelar do diálogo de preferencias do Dropbox"
-
-#~ msgid "announce active Dropbox preferences dialog tab"
-#~ msgstr "anuncia a pestana activa do diálogo de preferencias do Dropbox"
-
-#~ msgid "Activate previous Dropbox preferences dialog tab"
-#~ msgstr "Activa a pestana anterior do diálogo de preferencias do Dropbox"
-
-#~ msgid "Activate next Dropbox preferences dialog tab"
-#~ msgstr "Activa a pestana seguinte do diálogo de preferencias do Dropbox"
-
-#~ msgid "drop box not found"
-#~ msgstr "drop box non atopado"
-
-#~ msgid ""
-#~ "If pressed once, announces Dropbox status. If pressed twice, reports the "
-#~ "Dropbox version. If pressed three times, open the Dropbox context menu by "
-#~ "clicking on its systray icon"
-#~ msgstr ""
-#~ "Se se preme unha vez, anuncia o estado do Dropbox. Se se preme dúas "
-#~ "veces, anuncia a versión do Dropbox. Se se preme tres veces, abre o menú "
-#~ "de contexto do Dropbox facendo clic na súa icona da bandexa do sistema"
