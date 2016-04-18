@@ -23,7 +23,7 @@ Page tabs are also working in the preferences dialog with Ctrl+tab and Shift+Ctr
 Ctrl+Alt+T announce the active tab.
 You can activate cancel by pressing the escape key."""),
 	# version
-	"addon_version" : "4.0",
+	"addon_version" : "4.1",
 	# Author(s)
 	"addon_author" : u"Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors",
 	# URL for the add-on documentation support
