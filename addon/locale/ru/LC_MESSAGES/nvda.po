@@ -8,25 +8,25 @@ msgstr ""
 "Project-Id-Version: DropboxPlugin 3.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-01-06 13:12+0100\n"
-"PO-Revision-Date: 2013-02-10 22:44+0400\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language:ru\n"
+"PO-Revision-Date: 2016-04-18 22:38+0500\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.8.7\n"
+"Last-Translator: Denis Shishkin <outsidepro@rambler.ru>\n"
+"Language-Team: \n"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Announce Dropbox state and make preferences tabs accessible"
-msgstr "Читает состояние Drobox и делает вкладку настроек доступным "
+msgstr "Читает состояние Drobox и реализует доступ к вкладкам настроек"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Announces Dropbox status, version or open the Dropbox systray menu.\n"
-"Shortcut: NVDA+Shift+D\n"
+"Shortcut: NVDA+Alt+D\n"
 "Page tabs are also working in the preferences dialog with Ctrl+tab and Shift"
 "+Ctrl+Tab.\n"
 "Ctrl+Alt+T announce the active tab.\n"
@@ -34,57 +34,8 @@ msgid ""
 msgstr ""
 "Читает статусную информацию, версию или открывает меню Dropbox в системном "
 "трее.\n"
-";Клавиши быстрого доступа: NVDA+Shift+D\n"
-";Страница вкладки также работают в диалоге настроек при помощи Ctrl+Tab и "
+"Клавиши быстрого доступа: NVDA+Shift+D\n"
+"Переключение вкладок в окне настроек также доступно при помощи Ctrl+Tab и "
 "Shift+Ctrl+Tab.\n"
-";Ctrl+Alt+T читать активную вкладк.\n"
+";Ctrl+Alt+T озвучить активную вкладку.\n"
 ";Вы можете активировать кнопку \"cancel\", нажав клавишу \"escape\"."
-
-#~ msgid "General"
-#~ msgstr "Общие"
-
-#~ msgid "Account"
-#~ msgstr "Учетная запись"
-
-#~ msgid "Bandwidth"
-#~ msgstr "Трафик"
-
-#~ msgid "Proxies"
-#~ msgstr "Прокси"
-
-#~ msgid "Advanced"
-#~ msgstr "Дополнительно"
-
-#~ msgid "Dropbox Preferences"
-#~ msgstr "Dropbox Preferences"
-
-#~ msgid "Cancel"
-#~ msgstr "Cancel"
-
-#~ msgid "Cancel button not found"
-#~ msgstr "Кнопка отмена не найдена"
-
-#~ msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-#~ msgstr "Нажимает кнопку отмена в параметрах dropbox"
-
-#~ msgid "announce active Dropbox preferences dialog tab"
-#~ msgstr "Объявляет активную вкладку в диалоге параметрах dropbox"
-
-#~ msgid "Activate previous Dropbox preferences dialog tab"
-#~ msgstr "Активировать предыдущую вкладку в диалоге параметрах dropbox"
-
-#~ msgid "Activate next Dropbox preferences dialog tab"
-#~ msgstr "Активировать следущую вкладку в диалоге параметрах dropbox"
-
-#~ msgid "drop box not found"
-#~ msgstr "dropbox не найден"
-
-#~ msgid ""
-#~ "If pressed once, announces Dropbox status. If pressed twice, reports the "
-#~ "Dropbox version. If pressed three times, open the Dropbox context menu by "
-#~ "clicking on its systray icon"
-#~ msgstr ""
-#~ "При однократном нажатии, объявляет о статусе Dropbox. ;Если нажать "
-#~ "дважды, сообщает версию Dropbox. ;При нажатии три раза, открывается "
-#~ "контекстное меню Dropbox, нажав на соответствующий значок на системном "
-#~ "трее"
