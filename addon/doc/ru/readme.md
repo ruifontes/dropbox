@@ -1,6 +1,6 @@
 # dropbox #
 
-* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
+* Авторы: Patrick ZAJDA <patrick@zajda.fr>, Filaos и другие участники
 * Загрузить [стабильную версию][1]
 
 Объявляет информацию о состоянии, версию или открывает меню Dropbox в
@@ -8,7 +8,7 @@
 Ctrl+Tab и Shift+Ctrl+Tab.Вы можете активировать кнопку "cancel", нажав
 клавишу "escape".
 
-* Shortcut: NVDA+Alt+D
+* Горячая клавиша: NVDA+Alt+D
 * Ctrl+Alt+T объявить активную вкладку.
 
 ## Известные проблемы ##
@@ -19,9 +19,9 @@ Ctrl+Tab и Shift+Ctrl+Tab.Вы можете активировать кнопк
 
 ## Изменения в версии 4.0 ##
 
-* Add-on help is available from the Add-ons Manager.
-* The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid
-  conflict with audio ducking support.
+* Справка дополнения доступна в диспетчере дополнений.
+* Горячая клавиша для выяснения состояния Dropbox была изменена на
+  Alt+NVDA+D, чтобы исключить конфликт с поддержкой приглушения звуков.
 
 ## Изменения в версии 3.1 ##
 
