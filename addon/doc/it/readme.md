@@ -1,6 +1,6 @@
 # dropbox #
 
-* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
+* Autori: Patrick ZAJDA <patrick@zajda.fr>, Filaos e altri collaboratori
 * Download [stable version][1]
 
 Questo componente aggiuntivo aggiungerà un tasto di scelta rapida per
@@ -10,7 +10,7 @@ control+tab control+shift+tab e control+paginaSu/giùper muoversi tra le
 schede nelle preferenze di Dropbox.   Per concludere, il tasto annulla
 funzionerà anche premendo Esc.
 
-* Shortcut: NVDA+Alt+D
+* Tasto di scelta rapida: NVDA+Alt+D
 * Ctrl+Alt+T annuncia la scheda attiva.
 
 ## Problemi noti ##
@@ -21,9 +21,10 @@ Si tratta di un problema conosciuto di NVDA e non può essere risolto.
 
 ## Cambiamenti nella 4.0 ##
 
-* Add-on help is available from the Add-ons Manager.
-* The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid
-  conflict with audio ducking support.
+* L'aiuto è presente a partire dal menu di gestione componenti aggiuntivi.
+* Il tasto di scelta rapida per ottenere lo stato di Dropbox è stato
+  modificato in alt+NVDA+d per evitare conflitti con il supporto
+  all'attenuazione audio.
 
 ## Cambiamenti nella 3.1 ##
 
