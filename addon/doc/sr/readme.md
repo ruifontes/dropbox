@@ -1,51 +1,62 @@
 # dropbox #
+[[!meta title="dropbox"]]
 
-* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
-* preuзми стабилну верзију][1]
+* Autori: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
+* Preuzmi [stabilnu verziju][1]
 
-овај додатак додаје пречице за изговор статуса дропбокса верзије и чини
-дијалог за подешавања приступачним
+Ovaj dodatak dodaje prečicu za izgovor dropbox statusa, verzije ili
+otvaranje menija u sistemskoj traci.  takođe možete menjati kartice u
+podešavanjima sa Ctrl+tab / Ctrl+Shift+Tab i Ctrl+PageUp/Down.  Kao
+zaključak, možete aktivirati dugme otkaži sa tasterom escape.
 
-* Shortcut: NVDA+Alt+D
-* Ctrl+Alt+T  изговара активну картицу
+* Prečica: NVDA+alt+d
+* Ctrl+Alt+T izgovara trenutnu karticu.
 
-## познати проблеми ##
+## Poznati problemi ##
 
-н вда неће знати да су се подешавања затворила ако користите пречице за промену картица
+* Ukoliko menjate kartice u podešavanjima, kada zatvorite prozor za podešavanja, NVDA neće znati da prozor više ne postoji.
+To je poznat NVDA problem i ne može biti popravljen.
 
 
-## промене у 4.0 ##
+## Promene u 4.0 ##
 
-* Add-on help is available from the Add-ons Manager.
-* The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid
-  conflict with audio ducking support.
+* Pomoć za dodatak je dostupna iz menia za upravljanje dodacima
+* Prečica za dobijanje dropbox statusa je promenjena u NVDA+alt+d kako bi se
+  izbegli konflikti sa prečicom za stišavanjem pozadinskih zvukova 
 
-## промене у 3.1 ##
+## promene u 3.1 ##
 
-* још један начин да дођемо до откажи дугмета ако није фокусирано
-* поправљен проблем са картицама када се из неког разлога не активирају
-* сада је у подешавањима могуће померање по картицама са контрол+паге довн и
-  контрол+паге уп
-* све локализације би требало да буду уреду
-* исправке
+* Koristi se drugi način da se dođe do dugmeta otkaži i kartica. Sada ne
+  moramo doći do njih pre korišćenja prečica.
+* Kada se promeni aktivna kartica, fokus će biti premešten na nju pa kada
+  pritisnete tab, Prva stavka će biti prikazana umesto da fokus ostane na
+  prethodnoj kartici iako više nije aktivna.
+* U dijalogu za podešavanja, možete menjati kartice sa prečicama
+  control+page up-down. Control+tab i shift+tab idalje rade.
+* Sve lokalizovane manifest datoteke sada treba da budu uredu.
+* Manje ispravke
 
-## промене у 3.0 ##
+## promene u 3.0 ##
 
-* исправке у главној датотеци
-* побољшана детекција контекстног мениа
-* есц дугме ради када користите нвда и дропбокс на истом језику као и нвда
-* корекције у коду
-* ажурирана документација за скрипте
-* нови језици
+* Male ispravke u glavnoj manifest datoteci (autori su ispravno prikazani).
+* Poboljšana detekcija kontekstnog menija kada pritisnete NVDA+alt+d 3 puta
+* Escape taster sada radi(samo kada koristite NVDA i dropbox na istom
+  jeziku)
+* Dosta ispravki u kodu
+* dodata-ažurirana dokumentacija svih skripti
+* Novi jezici : Arapski, Brazilsko portugalski, Češki, Belgijski, Finski,
+  Galski, Nemački, Mađarski, Japanski, Nepali, Poljski, Ruski, Španski,
+  Slovački, Tamil, Turski.
 
-## промене у 2.0 ##
+## Promene u 2.0 ##
 
-* италијански језик подржан
-* поправљени проблеми са пречицама
+* Novi jezici: Italijanski
+* Ako se pritisne NVDA+alt+d 3 puta kada ste već u kontekstnom meniju, više
+  ne dolazi do problema
 
-## промене у 1.0 ##
+## Promene u 1.0 ##
 
-* прва верзија
+* Prva verzija
 
 [[!tag dev stable]]
 
