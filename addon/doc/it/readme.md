@@ -65,4 +65,4 @@ Si tratta di un problema conosciuto di NVDA e non può essere risolto.
 
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=dx
+[1]: https://addons.nvda-project.org/files/get.php?file=dx

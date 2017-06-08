@@ -60,4 +60,4 @@ escape.
 
 [[!tag dev  stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=dx
+[1]: https://addons.nvda-project.org/files/get.php?file=dx
