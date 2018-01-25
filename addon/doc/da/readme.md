@@ -1,4 +1,4 @@
-# dropbox #
+# Dropbox #
 
 * Forfattere: Patrick ZAJDA, Filaos og andre bidragydere
 * Download [stabil version][1]
