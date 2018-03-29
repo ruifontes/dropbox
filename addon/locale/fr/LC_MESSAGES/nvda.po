@@ -1,113 +1,42 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
+# This file is distributed under the same license as the dropbox package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: dropbox.nvda-addon version 3.0\n"
-"Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
-"POT-Creation-Date: 2013-02-12 15:46+0100\n"
-"PO-Revision-Date: 2013-02-12 15:48+0100\n"
-"Last-Translator: patrick ZAJDA <patrick@zajda.fr>\n"
-"Language-Team: FR <remy.ruiz@gmail.com>\n"
-"Language: fr_FR\n"
+"Project-Id-Version: dropbox 4.3\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2017-02-03 04:05+1000\n"
+"PO-Revision-Date: 2018-03-23 14:43+0100\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.5.5\n"
+"Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.12\n"
 
-#. Translators: the name of the dropbox general tab.
-msgid "General"
-msgstr "Général"
-
-#. Translators: the name of the dropbox account tab.
-msgid "Account"
-msgstr "Compte"
-
-#. Translators: the name of the dropbox bandwidth tab.
-msgid "Bandwidth"
-msgstr "Bande passante"
-
-#. Translators: the name of the dropbox proxies tab.
-msgid "Proxies"
-msgstr "Proxy"
-
-#. Translators: the name of the dropbox advanced tab.
-msgid "Advanced"
-msgstr "Avancé"
-
-#. Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Dropbox Preferences"
-msgstr "Préférences Dropbox"
-
-#. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Cancel"
-msgstr "Annuler"
-
-msgid "Cancel button not found"
-msgstr "Bouton Annuler introuvable"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-msgstr ""
-"Cliquez sur le bouton Annuler de la boîte de dialogue des préférences de "
-"Dropbox"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "announce active Dropbox preferences dialog tab"
-msgstr ""
-"Annoncer l'onglet actif dans la boîte de dialogue des préférences de Dropbox"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate previous Dropbox preferences dialog tab"
-msgstr ""
-"Activer l'onglet précédent dans la boîte de dialogue des préférences de "
-"Dropbox"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate next Dropbox preferences dialog tab"
-msgstr ""
-"Activer l'onglet suivant dans la boîte de dialogue des préférences de Dropbox"
-
-msgid "drop box not found"
-msgstr "drop box introuvable"
-
-#. Documentation
-msgid ""
-"If pressed once, announces Dropbox status. If pressed twice, reports the "
-"Dropbox version. If pressed three times, open the Dropbox context menu by "
-"clicking on its systray icon"
-msgstr ""
-"Si vous appuyez une fois il annonce le statut de Dropbox. Si vous appuyez "
-"deux fois il signale la version de Dropbox. Si vous appuyez trois fois il "
-"ouvre le menu contextuel de Dropbox en cliquant sur l'icône de Dropbox dans "
-"la zone de notification"
-
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Announce Dropbox state and make preferences tabs accessible"
 msgstr ""
-"Annonce le statut de Dropbox et rend les onglets des préférences accessibles"
+"Annoncer l'état de Dropbox et rendre les onglets de préférences accessibles"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Announces Dropbox status, version or open the Dropbox systray menu.\n"
-"Shortcut: NVDA+Shift+D\n"
+"Shortcut: NVDA+Alt+D\n"
 "Page tabs are also working in the preferences dialog with Ctrl+tab and Shift"
 "+Ctrl+Tab.\n"
 "Ctrl+Alt+T announce the active tab.\n"
 "You can activate cancel by pressing the escape key."
 msgstr ""
-"Annonce le statut ou la version de Dropbox, ou ouvre le menu de Dropbox dans "
-"la zone de notification.\n"
-"Raccourci : NVDA+Maj+D\n"
-"Les onglets fonctionnent aussi dans la boîte de dialogue des Préférences "
-"avec Ctrl+Tab et Maj+Ctrl+Tab.\n"
+"Annonce le statut ou la version de Dropbox, mais aussi d'ouvrire le menu "
+"contextuel de l'icône Dropbox dans la zone de notification.\n"
+"Raccourci : NVDA+Alt+D\n"
+"Les onglets de la boîte de dialogue préférences fonctionnent également avec "
+"Ctrl+tab et Shift+Ctrl+Tab.\n"
 "Ctrl+Alt+T annonce l'onglet actif.\n"
-"Vous pouvez activer annuler en appuyant sur la touche Echap."
-
-#~ msgid "Announce Dropbox' status"
-#~ msgstr "Annonce le statut de Dropbox"
+"Vous pouvez activer l'annulation en appuyant sur la touche d'échappement."
