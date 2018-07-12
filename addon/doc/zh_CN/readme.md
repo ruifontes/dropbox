@@ -1,4 +1,4 @@
-# dropbox #
+# dropbox-NVDA支持插件 #
 
 * Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
 * 下载[稳定版 version][1]
@@ -17,9 +17,8 @@
 
 ## 版本4.0 ##
 
-* Add-on help is available from the Add-ons Manager.
-* The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid
-  conflict with audio ducking support.
+* 插件管理器现在提供了插件帮助。
+* 获取Dropbox状态的快捷方式已更改为Alt + NVDA + D，以避免与音频闪避支持冲突。
 
 ## 版本3.1 ##
 
