@@ -1,12 +1,12 @@
 # dropbox-NVDA支持插件 #
 
-* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
+* 作者： Patrick ZAJDA, Filaos和其他贡献者
 * 下载[稳定版 version][1]
 
 此插件将提供一个查看 DropBox
 的版本、状态和托盘菜单的快捷方式。您可通过“TAB”或“CTRL加TAB”和“CTRL加PageUp”或者“CTRL加PageDown”组合键在“篇号”对话框的各个标签中切换。也可通过按下“ESCAPE”键取消浏览。
 
-* Shortcut: NVDA+Alt+D
+* 快捷键: NVDA + Alt + D.
 * Ctrl+Alt+T 朗读激活的标签。
 
 ## 没有讨论 ##
