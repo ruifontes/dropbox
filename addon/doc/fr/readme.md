@@ -4,9 +4,9 @@
   contributeurs
 * Télécharger [version stable][1]
 
-Ce module complémentaire ajoute un raccourci permettant d'annoncer le statut
-ou la version de Dropbox, mais aussi d'ouvrire le menu contextuel de l'icône
-Dropbox dans la zone de notification.  Il rends également possible
+Cette extension ajoute un raccourci permettant d'annoncer le statut ou la
+version de Dropbox, mais aussi d'ouvrire le menu contextuel de l'icône
+Dropbox dans la zone de notification.  Elle rends également possible
 d'utiliser les onglets de la boîte de dialogue préférences avec Ctrl+tab /
 Ctrl+Maj+Tab et Ctrl+PagePréc/Suiv.  Pour conclure, ajoute échapp pour
 activer le bouton Annuler.
@@ -22,8 +22,8 @@ Ce souci est connu dans NVDA, il est probablement du à Windows et ne peut donc 
 
 ## Changements pour la version 4.0 ##
 
-* L'aide du module complémentaire est disponible à partir du Gestionnaire de
-  modules complémentaires.
+* L'aide de l'extension est disponible à partir du Gestionnaire
+  d'Extensions.
 * Le raccourci pour obtenir le statut de Dropbox a été changé par Alt+NVDA+D
   pour éviter tout conflit avec le support d'atténuation audio.
 
