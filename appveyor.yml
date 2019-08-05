@@ -1,6 +1,6 @@
 version: '{branch}-{build}'
 environment:
-  PY_PYTHON: 3.5-32
+  PY_PYTHON: 3.7-32
 install:
 - cmd: >-
     python -m pip install wheel
