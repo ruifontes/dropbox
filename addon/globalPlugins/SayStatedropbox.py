@@ -15,10 +15,10 @@ import controlTypes
 
 def findDropBoxObject():
 	# We get the systray
-	l=("shell_TrayWnd","TrayNotifyWnd","SysPager","ToolbarWindow32")
-	h,FindWindowExA =0,winUser.user32.FindWindowExA
+	l = (u"shell_TrayWnd", u"TrayNotifyWnd", u"SysPager", u"ToolbarWindow32")
+	h,FindWindowExW = 0, winUser.user32.FindWindowExW
 	for element in l:
-		h=FindWindowExA(h,0,element,0)
+		h = FindWindowExW(h, 0, element, 0)
 		if not h:
 			continue
 
@@ -52,7 +52,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 
 	def script_announceDropbox(self, gesture):
 		o = findDropBoxObject()
-		if not o :
+		if not o:
 			# Translators: the message presented when Dropbox tray icon was not found
 			ui.message(_("drop box not found"))
 			return
