@@ -10,7 +10,8 @@ _ = lambda x : x
 addon_info = {
 # add-on Name
 	"addon_name" : "dropbox",
-	# Add-on description
+	# Add-on summary, usually the user visible name of the addon.
+	# Translators: Summary for this add-on to be shown on installation and add-on information.
 	"addon_summary" : "Dropbox",
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on installation and add-on information
@@ -23,7 +24,13 @@ Shortcut: NVDA+Shift+D"""),
 	# URL for the add-on documentation support
 	"addon_url" : "http://addons.nvda-project.org/",
 	# Documentation file name
-	"addon_docFileName" : "readme.html"
+	"addon_docFileName" : "readme.html",
+	# Minimum NVDA version supported (e.g. "2018.3.0", minor version is optional)
+	"addon_minimumNVDAVersion" : "2019.1",
+	# Last NVDA version supported/tested (e.g. "2018.4.0", ideally more recent than minimum version)
+	"addon_lastTestedNVDAVersion" : "2019.3",
+	# Add-on update channel (default is stable or None)
+	"addon_updateChannel" : None,
 }
 
 
