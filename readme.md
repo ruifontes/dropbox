@@ -14,6 +14,12 @@ To conclude, make the cancel button working with escape.
 * If you switch between tabs using the shortcuts, when you'll close the preferences window, NVDA won't be able to know the windows doesn't exist anymore.
 It is a known issue on NVDA and cannot be fixed.
 
+## Changes for 4.1 ##
+
+* Python 3 compatibility
+* Use the last addon template
+* Repository change to be built with Appveyor
+
 ## Changes for 4.0 ##
 
 * Change Shift+NVDA+D behavior: if pressed once announce Dropbox status, twice open the context menu.
