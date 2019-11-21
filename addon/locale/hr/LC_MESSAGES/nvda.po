@@ -1,28 +1,29 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Hrvatska lokalizacija za NVDA.
+# Copyright (C) 2006-2019 NVDA contributors <https://www.nvda-project.org>
+# This file is distributed under the same license as the virtualRevision package.
+# Zvonimir Stanečić <zvonimirek222@yandex.com>, 2016.
+# Milo Ivir <mail@milotype.de>, 2019.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: dropbox 3.1\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-03-13 14:03+0100\n"
-"PO-Revision-Date: 2016-02-26 01:51-0800\n"
-"Last-Translator: zvonimir stanečić <zvonimirek222@yandex.com>\n"
+"PO-Revision-Date: 2019-11-15 23:33+0100\n"
+"Last-Translator: Milo Ivir <mail@milotype.de>\n"
 "Language-Team: HR <hrvojekatic@gmail.com>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
-"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.2.4\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Announce Dropbox state and make preferences tabs accessible"
-msgstr ""
-"Najavi stanje Dropbox-a i omogući pristupačne kartice njegovih postavki"
+msgstr "Najavi stanje Dropboxa i omogući pristup karticama s postavkama"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -34,10 +35,10 @@ msgid ""
 "Ctrl+Alt+T announce the active tab.\n"
 "You can activate cancel by pressing the escape key."
 msgstr ""
-"Najavljuje status Dropbox-a, inačicu, ili otvara Dropbox izbornik u "
-"platformi sustava.\n"
+"Najavljuje stanje Dropboxa, verziju ili otvara Dropbox izbornik u platformi "
+"sustava.\n"
 "Prečac: NVDA+Alt+D\n"
-"Stranice kartica također funkcioniraju u dijaloškom okviru postavki uporabom "
-"Ctrl+tab i Shift+Ctrl+Tab prečaca.\n"
+"Kartice stranica također funkcioniraju u dijaloškom okviru postavki, "
+"uporabom tipki Ctrl+tab i Shift+Ctrl+Tab.\n"
 "Ctrl+Alt+T najavljuje aktivnu karticu.\n"
-"Možete otkazati dijalog pritiskom tipke Escape."
+"Dijalog je moguće prekinuti pritiskom tipke Escape."
