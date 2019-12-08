@@ -6,7 +6,7 @@ This plugin will add a shortcut to announce Dropbox status, version or open the 
 Also page tabs working on the preferences dialog with Ctrl+tab / Ctrl+Shift+Tab and Ctrl+PageUp/Down.
 To conclude, make the cancel button working with escape.
 
-* Shortcut: NVDA+Shift+D
+* Shortcut: NVDA+Alt+D
 * Ctrl+Alt+T announce the active tab.
 
 ## Known issues ##
