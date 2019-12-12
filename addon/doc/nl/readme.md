@@ -2,6 +2,7 @@
 
 * Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
 * Download [stabiele versie][1]
+* Download [development version][2]
 
 Deze add-on voegt een sneltoets toe om de status, versie en het contextmenu
 van Dropbox op te vragen. Verder werkt het wisselen van tabbladen in de
@@ -16,6 +17,12 @@ geactiveerd.
 * Als u van tabbladen wisselt met de sneltoetsen en het venster sluit, zal NVDA niet weten dat het venster gesloten is.
 Dit is een bekend probleem in NVDA en kan niet worden opgelost.
 
+
+## Changes for 4.4 ##
+
+* Python 3 compatibility
+* Use the last addon template
+* Repository change to be built with Appveyor
 
 ## Veranderingen voor 4.0 ##
 
@@ -62,3 +69,5 @@ Dit is een bekend probleem in NVDA en kan niet worden opgelost.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=dx
+
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

@@ -2,6 +2,7 @@
 
 * Fejlesztők: Patrick ZAJDA, Filaos és egyéb közreműködők
 * Letöltés [stabil verzió][1]
+* Download [development version][2]
 
 A kiegészítő segítségével lekérdezhető a Dropbox program állapota, verziója,
 valamint megnyitható a menüje egy billentyűparancs segítségével. A
@@ -17,6 +18,12 @@ billentyűvel az ablak bezárható.
 * Ha a billentyűparancsok használatával vált a lapfülek között, az NVDA nem észleli a tulajdonságok ablak bezárását.
 Ez egy ismert hiba, amit nem lehet javítani.
 
+
+## Changes for 4.4 ##
+
+* Python 3 compatibility
+* Use the last addon template
+* Repository change to be built with Appveyor
 
 ## A 4.0 verzió változásai ##
 
@@ -63,3 +70,5 @@ Ez egy ismert hiba, amit nem lehet javítani.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=dx
+
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

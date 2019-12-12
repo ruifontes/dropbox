@@ -2,6 +2,7 @@
 
 * Autoren: Patrick ZAJDA <patrick@zajda.fr>, Filaos und andere Entwickler
 * [Stabile Version herunterladen][1]
+* [Entwicklerversion herunterladen][2]
 
 Diese Erweiterung fügt ein Tastenkürzel hinzu, dass den Status von Dropbox,
 die Version ansagt oder  das Dropbox-Kontextmenü öffnet. Des weiteren kann
@@ -17,6 +18,13 @@ abbrechen-Schalter
 * Wenn Sie nach dem Schließen des Einstellungsfensters die Tastenkombination zum Wechseln der Registerkarten verwenden, wird NVDA so reagieren, als ob das Fenster immernoch offen ist.
 Dieses Problem kann zur Zeit nicht behoben werden.
 
+
+## Änderungen in 4.4 ##
+
+* Kompatibilität zu Python 3
+* Es wird die letzte Vorlage für Erweiterungen verwendet.
+* Änderung am Repository vorgenommen, damit die Erweiterung mit Appveyor
+  erstellt wird.
 
 ## Änderungen in 4.0 ##
 
@@ -66,3 +74,5 @@ Dieses Problem kann zur Zeit nicht behoben werden.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=dx
+
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

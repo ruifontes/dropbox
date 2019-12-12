@@ -2,6 +2,7 @@
 
 * Autores: Patrick ZAJDA <patrick@zajda.fr>, Filaos y otros colaboradores
 * Descarga [versión estable][1]
+* Descargar [versión de desarrollo][2]
 
 Este plugin añadirá un atajo de teclado para anunciar el estado de Dropbox,
 la versión o abrirá el menú de Dropbox de la bandeja del sistema.  También
@@ -17,6 +18,12 @@ botón cancelar con escape.
 * Si cambias entre las pestañas utilizando los atajos de teclado, cuando cierres la ventana preferencias, NVDA no podrá saber si las ventanas ya no existen.
 Es un problema conocido en NVDA y no puede corregirse.
 
+
+## Cambios para 4.4 ##
+
+* Compatibilidad con Python 3
+* Se utiliza la plantilla de complementos más reciente
+* Cambios en el repositorio para compilar con Appveyor
 
 ## Cambios para 4.0 ##
 
@@ -36,7 +43,7 @@ Es un problema conocido en NVDA y no puede corregirse.
   avance  de página para cambiar entre pestañas. Control+tab y
   control+shift+tab todavía funcionan.
 * Todos los ficheros manifest traducidos ahora deberían estar correctos.
-* Correcciones menores
+* Correcciones menores.
 
 ## Cambios para 3.0 ##
 
@@ -65,3 +72,5 @@ Es un problema conocido en NVDA y no puede corregirse.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=dx
+
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

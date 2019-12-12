@@ -2,6 +2,7 @@
 
 * Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
 * Download [stable version][1]
+* Download [development version][2]
 
 هدف این افزونه ایجاد کلید میانبر برای اعلام وضعیت و نسخه فعلی Dropbox و باز
 کردن منوی Dropbox در system tray میباشد. همچنین داخل تنظیمات Dropbox با
@@ -17,6 +18,12 @@
 * اگر با استفاده از کلیدهای میانبر بین صفحات حرکت بکنید, موقعی که پنجره تنظیمات را میبندید, NVDA قادر نخواهد بود پنجره هایی را که دیگر وجود ندارند را بشناسد.
 این یک مسئله شناخته شده است و قابل حل نیست.
 
+
+## Changes for 4.4 ##
+
+* Python 3 compatibility
+* Use the last addon template
+* Repository change to be built with Appveyor
 
 ## Changes for 4.0 ##
 
@@ -61,3 +68,5 @@
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=dx
+
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

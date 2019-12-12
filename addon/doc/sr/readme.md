@@ -3,6 +3,7 @@
 
 * Autori: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
 * Preuzmi [stabilnu verziju][1]
+* Download [development version][2]
 
 Ovaj dodatak dodaje prečicu za izgovor dropbox statusa, verzije ili
 otvaranje menija u sistemskoj traci.  takođe možete menjati kartice u
@@ -17,6 +18,12 @@ zaključak, možete aktivirati dugme otkaži sa tasterom escape.
 * Ukoliko menjate kartice u podešavanjima, kada zatvorite prozor za podešavanja, NVDA neće znati da prozor više ne postoji.
 To je poznat NVDA problem i ne može biti popravljen.
 
+
+## Changes for 4.4 ##
+
+* Python 3 compatibility
+* Use the last addon template
+* Repository change to be built with Appveyor
 
 ## Promene u 4.0 ##
 
@@ -61,3 +68,5 @@ To je poznat NVDA problem i ne može biti popravljen.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=dx
+
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

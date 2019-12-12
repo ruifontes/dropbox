@@ -2,6 +2,7 @@
 
 * Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
 * Stiahnuť [stabilná verzia][1]
+* Download [development version][2]
 
 Oznamuje stav Dropboxu, jeho verziu a umožňuje otvoriť kontextové menu
 programu z klávesnice. Môžete sa tiež pohybovať po záložkách v možnostiach
@@ -16,6 +17,12 @@ nastaveniami sa dá zatvoriť tlačidlom Escape.
 * Ak sa presúvate medzi záložkami pomocou klávesových skratiek a zatvoríte okno s bnastaveniami Dropboxu, NVDA si nevšimne, že okno je zatvorené.
 Toto je známa chyba a nedá sa odstrániť.
 
+
+## Changes for 4.4 ##
+
+* Python 3 compatibility
+* Use the last addon template
+* Repository change to be built with Appveyor
 
 ## Zmeny vo verzii 4.0 ##
 
@@ -60,3 +67,5 @@ Toto je známa chyba a nedá sa odstrániť.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=dx
+
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

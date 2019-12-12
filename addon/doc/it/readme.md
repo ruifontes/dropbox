@@ -2,6 +2,7 @@
 
 * Autori: Patrick ZAJDA <patrick@zajda.fr>, Filaos e altri collaboratori
 * Download [stable version][1]
+* Download [development version][2]
 
 Questo componente aggiuntivo aggiungerà un tasto di scelta rapida per
 annunciare lo stato di Dropbox, il numero di versione oppure aprire il menu
@@ -18,6 +19,12 @@ funzionerà anche premendo Esc.
 * Se si passa da una scheda all'altra utilizzando i tasti di scelta rapida, quando si chiude la finestra delle preferenze, NVDA non sarà in grado di capire che la finestra non esiste più.
 Si tratta di un problema conosciuto di NVDA e non può essere risolto.
 
+
+## Changes for 4.4 ##
+
+* Python 3 compatibility
+* Use the last addon template
+* Repository change to be built with Appveyor
 
 ## Cambiamenti nella 4.0 ##
 
@@ -66,3 +73,5 @@ Si tratta di un problema conosciuto di NVDA e non può essere risolto.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=dx
+
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

@@ -2,6 +2,7 @@
 
 * Autori: Patrick ZAJDA <patrick@zajda.fr>, Filaos și alți contributori
 * Descărcați [versiunea stabilă][1]
+* Download [development version][2]
 
 Acest supliment va adăuga o scurtătură pentru a anunța starea Dropbox-ului,
 versiunea sau deschiderea meniului systray al Dropbox-ului.  De asemenea ,
@@ -17,6 +18,12 @@ anulare sau escape.
 * Dacă vă deplasați printre tag-uri folosind comenzile rapide, când veți închide fereastra de preferințe, NVDA nu va fi capabil să cunoască ferestrele care nu există.
 Este o problemă cunoscută în NVDA care nu poate fi rezolvată.
 
+
+## Changes for 4.4 ##
+
+* Python 3 compatibility
+* Use the last addon template
+* Repository change to be built with Appveyor
 
 ## Modificări aduse în versiunea 4.0 ##
 
@@ -66,3 +73,5 @@ Este o problemă cunoscută în NVDA care nu poate fi rezolvată.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=dx
+
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

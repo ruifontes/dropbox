@@ -2,6 +2,7 @@
 
 * Autores: Patrick ZAJDA <patrick@zajda.fr>, Filaos e outros colaboradores
 * Baixe a [versão estável][1]
+* Download [development version][2]
 
 Este plug-in adiciona um atalho para anunciar o status ou a versão do
 Dropbox ou abrir o menu dele na área de notificação. Também torna possível
@@ -17,6 +18,12 @@ cancelar seja ativado com escape.
 * Se você mudar de guia usando os atalhos, quando fechar a janela de preferências o NVDA não saberá que a janela deixou de existir.
 Isso é um problema do NVDA que não tem como corrigir.
 
+
+## Changes for 4.4 ##
+
+* Python 3 compatibility
+* Use the last addon template
+* Repository change to be built with Appveyor
 
 ## Mudanças na 4.0 ##
 
@@ -64,3 +71,5 @@ Isso é um problema do NVDA que não tem como corrigir.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=dx
+
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

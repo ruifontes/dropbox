@@ -2,6 +2,7 @@
 
 * Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
 * अनुबहन: [स्थिर संस्करण१.०][1]
+* Download [development version][2]
 
 यो चुकुलले खुत्रुकेको स्थिति  वा संस्करण बताउने, अथवा खुत्रुकेको प्रणाली
 थाली सुची पल्टाउने द्रुतमार्ग थप्ने छ ।.  पृष्ठ ट्याबमा प्राथमिकताहरू
@@ -17,6 +18,12 @@
 * यदि तपाई द्रुतमार्गको प्रयोग गरी ट्याबहरूको बिचमा घुमेको बेला तपाइले प्राथमिकता सन्झ्याल बन् गर्नु भयो भने, नेत्रवाणीले उक्त सन्झ्याल अब छैन भन्ने कुरा थाहा पाउन सक्दैन ।
 यो विषय नेत्रवाणीमा समाधान गर्न सकिदैन भन्ने कुरा थाहा भएकै हो ।
 
+
+## Changes for 4.4 ##
+
+* Python 3 compatibility
+* Use the last addon template
+* Repository change to be built with Appveyor
 
 ## संस्करण ४.० मा गरिएका परिवर्तनहरू  ##
 
@@ -60,3 +67,5 @@
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=dx
+
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

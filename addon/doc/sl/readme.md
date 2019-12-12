@@ -2,6 +2,7 @@
 
 * Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
 * Download [stable version][1]
+* Download [development version][2]
 
 This plugin will add a shortcut to announce Dropbox status, version or open
 the Dropbox systray menu.  Also page tabs working on the preferences dialog
@@ -16,6 +17,12 @@ cancel button working with escape.
 * If you switch between tabs using the shortcuts, when you'll close the preferences window, NVDA won't be able to know the windows doesn't exist anymore.
 It is a known issue on NVDA and cannot be fixed.
 
+
+## Changes for 4.4 ##
+
+* Python 3 compatibility
+* Use the last addon template
+* Repository change to be built with Appveyor
 
 ## Changes for 4.0 ##
 
@@ -62,3 +69,5 @@ It is a known issue on NVDA and cannot be fixed.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=dx
+
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

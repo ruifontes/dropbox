@@ -2,6 +2,7 @@
 
 * Tekijät: Patrick ZAJDA <patrick@zajda.fr>, Filaos ja muut
 * Lataa [vakaa versio][1]
+* Lataa [kehitysversio][2]
 
 Tämä lisäosa lisää pikanäppäimen Dropboxin tilan ja version ilmoittamiseksi
 tai ilmoitusalueella olevan valikon avaamiseksi.  Lisäksi välilehdet
@@ -16,6 +17,12 @@ Ctrl+Page up/down-näppäimillä, ja Peruuta-painike toimii Esc-näppäimellä.
 * Jos välilehtiä vaihdetaan pikanäppäimillä, NVDA ei voi tietää Asetukset-ikkunaa suljettaessa, että välilehtiä ei enää ole.
 Tämä on tunnettu NVDA:n ongelma, eikä sitä voida korjata.
 
+
+## Muutokset versiossa 4.4 ##
+
+* Python 3 -yhteensopivuus
+* Käytetään viimeisintä lisäosapohjaa
+* Koodivarasto muodostetaan nyt Appveyorilla
 
 ## Muutokset versiossa 4.0 ##
 
@@ -62,3 +69,5 @@ Tämä on tunnettu NVDA:n ongelma, eikä sitä voida korjata.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=dx
+
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

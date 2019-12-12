@@ -2,6 +2,7 @@
 
 * Autorzy: Patrick ZAJDA <patrick@zajda.fr>, Filaos i inni współautorzy
 * Pobierz [wersja stabilna][1]
+* Download [development version][2]
 
 WTyczka dodaje do NVDA skrót klawiszowy, po którego wciśnięciu otrzymujemy
 informację o statusie programu, jego wersji, a także ułatwia pracę z menu
@@ -15,6 +16,12 @@ kontekstowym tego programu oraz jego oknem preferencji.
 *Jeśli użyjesz skrutu klawiszowego do przechodzenia między zakładkami i zamkniesz okno ustawień wtyczki, NVDA może nie odnotować zniknięcia tego okna.
 Jest to znany problem z NVDA, który nie może być poprawiony.
 
+
+## Changes for 4.4 ##
+
+* Python 3 compatibility
+* Use the last addon template
+* Repository change to be built with Appveyor
 
 ## zmiany dla 4.0 ##
 
@@ -61,3 +68,5 @@ Jest to znany problem z NVDA, który nie może być poprawiony.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=dx
+
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

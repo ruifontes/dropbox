@@ -2,6 +2,7 @@
 
 * Авторы: Patrick ZAJDA <patrick@zajda.fr>, Filaos и другие участники
 * Загрузить [стабильную версию][1]
+* Download [development version][2]
 
 Объявляет информацию о состоянии, версию или открывает меню Dropbox в
 системном трее Страницы вкладок также работают в диалоге настроек при помощи
@@ -16,6 +17,12 @@ Ctrl+Tab и Shift+Ctrl+Tab.Вы можете активировать кнопк
 * Если вы переключаетесь между вкладками с помощью горячих клавиш, когда вы Закроете окно настроек, NVDA не сможет знать о существовании окна.
 Это известная проблема, в NVDA, которая не может быть исправлена.
 
+
+## Changes for 4.4 ##
+
+* Python 3 compatibility
+* Use the last addon template
+* Repository change to be built with Appveyor
 
 ## Изменения в версии 4.0 ##
 
@@ -61,3 +68,5 @@ Ctrl+Tab и Shift+Ctrl+Tab.Вы можете активировать кнопк
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=dx
+
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

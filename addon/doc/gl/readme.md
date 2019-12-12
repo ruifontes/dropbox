@@ -2,6 +2,7 @@
 
 * Autores: Patrick ZAJDA <patrick@zajda.fr>, Filaos e outros colaboradores
 * Descarga [versión estable][1]
+* Download [development version][2]
 
 Este plugin engadirá un atallo de teclado para anunciar o estado do Dropbox,
 a versión ou abrirá o menú do Dropbox na bandexa do sistema.  Tamén
@@ -17,6 +18,12 @@ escape.
 * Se cambias entre pestanas utilizando os atallos de teclado, cando peches a ventá de preferencias, NVDA non poderá saber se aínda existe a ventá.
 É un problema coñecido no NVDA e non se pode correxir.
 
+
+## Changes for 4.4 ##
+
+* Python 3 compatibility
+* Use the last addon template
+* Repository change to be built with Appveyor
 
 ## Cambios para 4.0 ##
 
@@ -65,3 +72,5 @@ escape.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=dx
+
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

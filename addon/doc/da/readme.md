@@ -2,6 +2,7 @@
 
 * Forfattere: Patrick ZAJDA, Filaos og andre bidragydere
 * Download [stabil version][1]
+* Download [development version][2]
 
 Dette tilføjelsesprogram tilføjer en genvejstast, som annoncerer status for
 Dropbox, version, eller som åbner Dropbox-menuen i systembakken. Desuden
@@ -17,6 +18,12 @@ Annuller-knappen med Escape.
 * Hvis du skifter mellem fanebladene med genvejstasterne, kan NVDA, når du lukker Indstillinger-vinduet, ikke se, at vinduet ikke eksisterer mere.
 Det er et kendt problem i NVDA, som ikke kan løses.
 
+
+## Changes for 4.4 ##
+
+* Python 3 compatibility
+* Use the last addon template
+* Repository change to be built with Appveyor
 
 ## Ændringer i4.0  ##
 
@@ -63,3 +70,5 @@ Det er et kendt problem i NVDA, som ikke kan løses.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=dx
+
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

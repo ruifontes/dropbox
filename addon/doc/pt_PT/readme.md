@@ -2,6 +2,7 @@
 
 * Autores: Patrick ZAJDA <patrick@zajda.fr>, Filaos e outros colaboradores.
 * Baixar [versão estável][1]
+* Download [development version][2]
 
 Este extra adicionará um atalho para anunciar o status, a versão ou o menu
 do Dropbox. Também adiciona separadores da página trabalhando na caixa de
@@ -17,6 +18,12 @@ escape.
 * Se alternar entre separadores usando os atalhos, quando fechar a janela de preferências, o NVDA não saberá que essa janela não existe mais.
 É um problema conhecido no NVDA e não pode ser resolvido.
 
+
+## Changes for 4.4 ##
+
+* Python 3 compatibility
+* Use the last addon template
+* Repository change to be built with Appveyor
 
 ## Alterações para 4.0 ##
 
@@ -65,3 +72,5 @@ escape.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=dx
+
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

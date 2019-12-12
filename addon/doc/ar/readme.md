@@ -2,6 +2,7 @@
 
 * مطورو الإضافة: Patrick ZAJDA, Filaos وآخرون
 * تحميل [الإصدار النهائي][1]
+* Download [development version][2]
 
 ستضيف هذه الإضافة البرمجية مفتاح اختصار للإعلان عن حالة برنامج رفع الملفات
 dropBox, وإصدارهأو لفتح قائمته الموجودة على صينية النظام. كما أنها ستتيح
@@ -17,6 +18,12 @@ escape.
 إذا انتقلت بين مختلف التبويبات باستخدام مفاتيح الاختصار, عند إغلاق نافذة التفضيلات, لم يستطع NVDA التعرف على أن النافذة لم تعد غير موجودة.
 فهذا خطأ برمجي معروف ب NVDA ولا يمكن إصلاحه من جانبنا.
 
+
+## Changes for 4.4 ##
+
+* Python 3 compatibility
+* Use the last addon template
+* Repository change to be built with Appveyor
 
 ## تعديلات الإصدار 4.0 ##
 
@@ -61,3 +68,5 @@ escape.
 [[!tag dev  stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=dx
+
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

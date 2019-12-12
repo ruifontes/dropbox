@@ -3,6 +3,7 @@
 * Auteurs : Patrick ZAJDA <patrick@zajda.fr>, Filaos et d'autres
   contributeurs
 * Télécharger [version stable][1]
+* Télécharger [version de développement][2]
 
 Cette extension ajoute un raccourci permettant d'annoncer le statut ou la
 version de Dropbox, mais aussi d'ouvrire le menu contextuel de l'icône
@@ -19,6 +20,12 @@ activer le bouton Annuler.
 * Si vous changez entre les onglets en utilisant les raccourcis, lorsque vous fermerez la fenêtre des préférences, NVDA ne pourra pas savoir que les fenêtres n'existent plus.
 Ce souci est connu dans NVDA, il est probablement du à Windows et ne peut donc pas être corrigé.
 
+
+## Changements pour la version 4.4 ##
+
+* Compatibilité Python 3
+* Utilisation du dernier modèle d'extension
+* Changement de dépôt pour être compatible avec Appveyor
 
 ## Changements pour la version 4.0 ##
 
@@ -67,3 +74,5 @@ Ce souci est connu dans NVDA, il est probablement du à Windows et ne peut donc 
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=dx
+
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

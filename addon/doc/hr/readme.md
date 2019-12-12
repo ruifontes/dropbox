@@ -2,25 +2,32 @@
 
 * Autori: Patrick ZAJDA <patrick@zajda.fr>, Filaos i drugi suradnici
 * Preuzmi [stabilnu verziju][1]
+* Preuzmi [razvojnu verziju][2]
 
-Ovaj će dodatak dodati prečac koji izgovara stanje Dropboxa, verziju ili
+Ovaj će dodatak dodati prečac koji javlja stanje Dropboxa, verziju ili
 otvara Dropboxov izbornik u platformi sustava. Omogućuje premještanje po
 karticama dijaloškog okvira postavki, pomoću Ctrl+tab/Ctrl+shift+tab i/ili
-Ctrl+Stranica gore/Ctrl+Stranica dolje. Ukratko, ovaj dodatak omogućuje
+Ctrl+Stranica gore/Ctrl+Stranica dolje. I na kraju, ovaj dodatak omogućuje
 upotrebu gumba „Odustani” pomoću tipke escape.
 
 * Prečac: NVDA+Shift+D
-* Ctrl+Alt+T Izgovori aktivnu karticu svojstva.
+* Ctrl+Alt+T najavljuje aktivnu karticu.
 
 ## Poznati problemi ##
 
 * Prilikom prebacivanja između kartica uz pomoć prečaca, kad se zatvori prozor s postavkama, NVDA dobiva krivu informaciju o otvorenim prozorima.
-Radi se o poznatom NVDA problemu, koji nije moguće ispraviti.
+Radi se o poznatom NVDA problemu, kojeg nije moguće ispraviti.
 
+
+## Izmjene u verziji 4.4 ##
+
+* Python 3 kompatibilnost
+* Koristi zadnji predložak dodatka
+* Promjena u repozitoriju kako bi se izgradio s Appveyor
 
 ## Izmjene u verziji 4.0 ##
 
-* Pomoć za ovaj dodatak je dostupna u Upravljaču dodataka.
+* Pomoć za ovaj dodatak je dostupna u stavci Upravljanje dodacima.
 * Prečac za dobivanje Dropbox stanja je promijenjen u Alt+NVDA+D, kako bi se
   izbjegli konflikti s podrškom za stišavanje zvukova.
 
@@ -34,7 +41,7 @@ Radi se o poznatom NVDA problemu, koji nije moguće ispraviti.
 * U dijaloškom okviru postavki je sada moguće pritisnuti control+stranica
   gore/dolje, za prebacivanje između kartica. Tipke control+tab i
   control+shift+tab rade i dalje.
-* Sve lokalizirane manifest datoteke bi sad trebale biti u redu.
+* Sve lokalizirane manifest datoteke bi sada trebale biti u redu.
 * Manji ispravci.
 
 ## Promjene u verziji 3.0 ##
@@ -63,3 +70,5 @@ Radi se o poznatom NVDA problemu, koji nije moguće ispraviti.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=dx
+
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

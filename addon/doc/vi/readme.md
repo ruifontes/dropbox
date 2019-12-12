@@ -3,6 +3,7 @@
 * Tác giả: Patrick ZAJDA <patrick@zajda.fr>, Filaos và các cộng tác viên
   khác
 * Tải về [phiên bản chính thức][1]
+* Download [development version][2]
 
 Plugin này sẽ thêm phím tắt thông báo các thông tin của Dropbox như trạng
 thái, phiên bản hay mở trình đơn Dropbox từ khay hệ thống.  Đồng thời, cũng
@@ -18,6 +19,12 @@ escape.
 * Nếu chuyển giữa các thẻ bằng phím tắt, khi đóng cửa sổ preferences, NVDA không nhận biết được rằng cửa sổ đó không còn tồn tại nữa.
 Đây là lỗi của NVDA và không thể khắc phục.
 
+
+## Changes for 4.4 ##
+
+* Python 3 compatibility
+* Use the last addon template
+* Repository change to be built with Appveyor
 
 ## Các thay đổi cho 4.0 ##
 
@@ -64,3 +71,5 @@ escape.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=dx
+
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

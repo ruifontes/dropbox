@@ -2,6 +2,7 @@
 
 * Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
 * İndir [kararlı sürüm][1]
+* Download [development version][2]
 
 Bu eklenti dropbox durumunun, versiyonunun söylenmesi ve dropbox menüsünün
 açılması için bir kısayol tuşu ekler.  Aynı zamanda, sekme sayfaları
@@ -18,6 +19,12 @@ basar.
 * Eğer sekmeler arasında kısayol tuşlarıyla dolaşırsanız, tercihler iletişim kutusunu kapattığınızda, NVDA bunu bilemeyecektir.
 Bu, NVDA hakkında bilinen bir problemdir ve çözümü bulunmamaktadır.
 
+
+## Changes for 4.4 ##
+
+* Python 3 compatibility
+* Use the last addon template
+* Repository change to be built with Appveyor
 
 ## 4.0 için değişiklikler ##
 
@@ -63,3 +70,5 @@ Bu, NVDA hakkında bilinen bir problemdir ve çözümü bulunmamaktadır.
 [[!tag dev stable]]
 
 [1]: https://addons.nvda-project.org/files/get.php?file=dx
+
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev
