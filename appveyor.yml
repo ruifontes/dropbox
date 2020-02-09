@@ -34,11 +34,10 @@ deploy:
   on:
     appveyor_repo_tag: true
 
-  deploy:
 - provider: FTP
-  protocol: sftp
+  protocol: ftps
   host:
-    secure: hxyoS2JZgrO//gQn5OUd9+JwKL2I+GNzWsMxR4bp9OI=
+    secure: zlOavGuP/Soxg/BWn/tnCA==
   username:
     secure: KRV5ary404pbCKCCRnNKMQ==
   password:
