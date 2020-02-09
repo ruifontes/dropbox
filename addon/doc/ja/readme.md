@@ -1,24 +1,25 @@
 # dropbox #
 
-* 作者: Patrick ZAJDA, Filaos and other contributors
+* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
 * Download [stable version][1]
-* Download [development version][2]
 
 このアドオンはDropboxの状態通知、バージョン通知、タスクトレイのメニューを開くショートカットを追加します。
 また、Dropboxの設定ダイアログでは、タブを Ctrl+Tab, Ctrl+Shift+Tab, Ctrl+PageUp/PageDown
 で移動できるようになり、エスケープでキャンセルのボタンを押せます。
 
-* ショートカット: NVDA+Shift+D
+* Shortcut: NVDA+Alt+D
 * Ctrl+Alt+T 選択中のタブを通知する
 
 ## 既知の問題 ##
 
 * ショートカットキーでタブを切り替えて、設定ウィンドウを閉じると、NVDAはウィンドウが閉じてしまったことを判断できません。これはNVDAの既知の問題で、修正できません。
 
+
 ## 4.0 での変更点 ##
 
-* Translations update.
-* Fixed issues with windows 8 metro app.
+* Add-on help is available from the Add-ons Manager.
+* The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid
+  conflict with audio ducking support.
 
 ## 3.1 での変更点 ##
 
@@ -56,5 +57,3 @@
 [[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=dx
-
-[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev

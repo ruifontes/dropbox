@@ -1,8 +1,8 @@
 # dropbox #
 
-* Geliştiriciler: Patrick ZAJDA, Filaos ve diğer katkıda bulunanlar
+* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
 * İndir [kararlı sürüm][1]
-* İndir [geliştirme sürümü][2]
+* Download [development version][2]
 
 Bu eklenti dropbox durumunun, versiyonunun söylenmesi ve dropbox menüsünün
 açılması için bir kısayol tuşu ekler.  Aynı zamanda, sekme sayfaları
@@ -11,7 +11,7 @@ ctrl+sonraki sayfa ve aktif sekme sayfasının söylenmesi için ctrl+alt+t
 kısayol tuşları tanımlanmıştır.  Son olarak, escape tuşu iptal butonuna
 basar.
 
-* Kısayol tuşu: NVDA+Shift+D
+* Shortcut: NVDA+Alt+D
 * Ctrl+Alt+T aktif sekme sayfasını söyler.
 
 ## Bilinen sorunlar ##
@@ -19,10 +19,18 @@ basar.
 * Eğer sekmeler arasında kısayol tuşlarıyla dolaşırsanız, tercihler iletişim kutusunu kapattığınızda, NVDA bunu bilemeyecektir.
 Bu, NVDA hakkında bilinen bir problemdir ve çözümü bulunmamaktadır.
 
+
+## Changes for 4.4 ##
+
+* Python 3 compatibility
+* Use the last addon template
+* Repository change to be built with Appveyor
+
 ## 4.0 için değişiklikler ##
 
-* Çeviriler güncellendi.
-* Windows 8 Metro uygulaması ile ilgili bir sorun çözüldü.
+* Add-on help is available from the Add-ons Manager.
+* The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid
+  conflict with audio ducking support.
 
 ## 3.1 versiyonundaki değişiklikler ##
 
@@ -61,6 +69,6 @@ Bu, NVDA hakkında bilinen bir problemdir ve çözümü bulunmamaktadır.
 
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=dx
+[1]: https://addons.nvda-project.org/files/get.php?file=dx
 
-[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

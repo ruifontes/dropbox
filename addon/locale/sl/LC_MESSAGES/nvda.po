@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: DropboxPlugin 3.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-01-06 13:12+0100\n"
-"PO-Revision-Date: 2013-02-20 18:52+0100\n"
-"Last-Translator: Jožef Gregorc <jozko.gregorc[@]guest.arnes.si\n"
+"PO-Revision-Date: 2016-02-26 02:51-0800\n"
+"Last-Translator: Jožef Gregorc <jozko.gregorc[@]guest.arnes.si>\n"
 "Language-Team:  <LL@li.org>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
@@ -17,90 +17,25 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.5\n"
 
-#. Translators: the name of the dropbox general tab.
-msgid "General"
-msgstr "Splošno"
-
-#. Translators: the name of the dropbox account tab.
-msgid "Account"
-msgstr "Račun"
-
-#. Translators: the name of the dropbox bandwidth tab.
-msgid "Bandwidth"
-msgstr "Prepustnost"
-
-#. Translators: the name of the dropbox proxies tab.
-msgid "Proxies"
-msgstr "Proxy strežniki"
-
-#. Translators: the name of the dropbox advanced tab.
-msgid "Advanced"
-msgstr "Napredno"
-
-#. Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Dropbox Preferences"
-msgstr "Dropbox Preferences"
-
-#. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Cancel"
-msgstr "Cancel"
-
-msgid "Cancel button not found"
-msgstr "Gumb Prekliči se ni našel"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-msgstr ""
-"klikne gumb Prekliči v pogovornem oknu  prednostnih nastavitev DropBoxa"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "announce active Dropbox preferences dialog tab"
-msgstr ""
-"Naznani aktiven DropBox zavihek s pogovornim oknom prednostnih nastavitev"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate previous Dropbox preferences dialog tab"
-msgstr ""
-"Sproži prejšnji zavihek s pogovornim oknom prednostnih nastavitev DropBoxa"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate next Dropbox preferences dialog tab"
-msgstr ""
-"Sproži naslednji zavihek s pogovornim oknom prednostnih nastavitev DropBoxa"
-
-msgid "drop box not found"
-msgstr "Dropbox se ni našel."
-
-#. Documentation
-msgid ""
-"If pressed once, announces Dropbox status. If pressed twice, reports the "
-"Dropbox version. If pressed three times, open the Dropbox context menu by "
-"clicking on its systray icon"
-msgstr ""
-"Če pritisnete enkrat, obvesti o statusu Dropboxa. Če pritisnite dvakrat, "
-"potem pove različico Dropboxa in če pritisnete trikrat, potem odbre "
-"kontekstualni meni, podobno kot, če kliknemo na Dropbox v območju za "
-"obvestila."
-
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Announce Dropbox state and make preferences tabs accessible"
 msgstr "Naznani aktiven Dropbox zavihek z obrazcem za nastavitve"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Announces Dropbox status, version or open the Dropbox systray menu.\n"
-"Shortcut: NVDA+Shift+D\n"
+"Shortcut: NVDA+Alt+D\n"
 "Page tabs are also working in the preferences dialog with Ctrl+tab and Shift"
 "+Ctrl+Tab.\n"
 "Ctrl+Alt+T announce the active tab.\n"
 "You can activate cancel by pressing the escape key."
 msgstr ""
-"Napove status DropBoxa, njegovo različico ali odpre DropBox meni v območju "
+"Napove stanje DropBoxa, njegovo različico ali odpre DropBox meni v območju "
 "obvestil.\n"
 "Bližnjica: NVDA+Shift+D\n"
 "Zavihki strani delujejo tudi v pogovornem oknu prednostnih nastavitev s Ctrl"
 "+tab in Shift+Ctrl+Tab.\n"
 "Ctrl+Alt+T naznani aktivni zavihek.\n"
-"Gumb Prekliči lahko aktivirate s pritiskom tipke Escape.."
+"Gumb Prekliči lahko aktivirate s pritiskom tipke Escape."

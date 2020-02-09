@@ -18,72 +18,13 @@ msgstr ""
 "X-Generator: Poedit 1.5.5\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#. Translators: the name of the dropbox general tab.
-msgid "General"
-msgstr "Genel"
-
-#. Translators: the name of the dropbox account tab.
-msgid "Account"
-msgstr "Hesap"
-
-#. Translators: the name of the dropbox bandwidth tab.
-msgid "Bandwidth"
-msgstr "Band genişliği"
-
-#. Translators: the name of the dropbox proxies tab.
-msgid "Proxies"
-msgstr "Proxy"
-
-#. Translators: the name of the dropbox advanced tab.
-msgid "Advanced"
-msgstr "Gelişmiş"
-
-#. Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Dropbox Preferences"
-msgstr "Dropbox Preferences"
-
-#. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Cancel"
-msgstr "Cancel"
-
-msgid "Cancel button not found"
-msgstr "İptal düğmesi bulunamadı"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-msgstr "Dropbox tercihler iletişim kutusunda iptal düğmesini etkinleştirir"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "announce active Dropbox preferences dialog tab"
-msgstr "Tercihler iletişim kutusunda aktif sekmeyi seslendirir"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate previous Dropbox preferences dialog tab"
-msgstr "Önceki sekmeye geçer"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate next Dropbox preferences dialog tab"
-msgstr "SOnraki sekmeye geçer"
-
-msgid "drop box not found"
-msgstr "Dropbox bulunamadı"
-
-#. Documentation
-msgid ""
-"If pressed once, announces Dropbox status. If pressed twice, reports the "
-"Dropbox version. If pressed three times, open the Dropbox context menu by "
-"clicking on its systray icon"
-msgstr ""
-"Bir kez basıldığında dropbox durumunu, iki kez basıldığında dropbox "
-"versiyonunu söyler. Üç kez basılırsa dropbox menüsünü açar."
-
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Announce Dropbox state and make preferences tabs accessible"
 msgstr "Dropbox durumunu söyler ve tercihler sekmelerini erişilebilir kılar"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Announces Dropbox status, version or open the Dropbox systray menu.\n"
 "Shortcut: NVDA+Shift+D\n"
@@ -99,3 +40,50 @@ msgstr ""
 "+Ctrl+Tab ile dolaşılabilir.\n"
 "Ctrl+Alt+T aktif sekme sayfasını söyler.\n"
 "İptal düğmesine basmak için escape tuşunu kullanabilirsiniz."
+
+#~ msgid "General"
+#~ msgstr "Genel"
+
+#~ msgid "Account"
+#~ msgstr "Hesap"
+
+#~ msgid "Bandwidth"
+#~ msgstr "Band genişliği"
+
+#~ msgid "Proxies"
+#~ msgstr "Proxy"
+
+#~ msgid "Advanced"
+#~ msgstr "Gelişmiş"
+
+#~ msgid "Dropbox Preferences"
+#~ msgstr "Dropbox Preferences"
+
+#~ msgid "Cancel"
+#~ msgstr "Cancel"
+
+#~ msgid "Cancel button not found"
+#~ msgstr "İptal düğmesi bulunamadı"
+
+#~ msgid "Clicks the Cancel button of the Dropbox preferences dialog"
+#~ msgstr "Dropbox tercihler iletişim kutusunda iptal düğmesini etkinleştirir"
+
+#~ msgid "announce active Dropbox preferences dialog tab"
+#~ msgstr "Tercihler iletişim kutusunda aktif sekmeyi seslendirir"
+
+#~ msgid "Activate previous Dropbox preferences dialog tab"
+#~ msgstr "Önceki sekmeye geçer"
+
+#~ msgid "Activate next Dropbox preferences dialog tab"
+#~ msgstr "SOnraki sekmeye geçer"
+
+#~ msgid "drop box not found"
+#~ msgstr "Dropbox bulunamadı"
+
+#~ msgid ""
+#~ "If pressed once, announces Dropbox status. If pressed twice, reports the "
+#~ "Dropbox version. If pressed three times, open the Dropbox context menu by "
+#~ "clicking on its systray icon"
+#~ msgstr ""
+#~ "Bir kez basıldığında dropbox durumunu, iki kez basıldığında dropbox "
+#~ "versiyonunu söyler. Üç kez basılırsa dropbox menüsünü açar."

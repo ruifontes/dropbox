@@ -1,8 +1,8 @@
 # dropbox #
 
 * مطورو الإضافة: Patrick ZAJDA, Filaos وآخرون
-* تحميل [[الإصدار النهائي][1]
-* تحميل [[الإصدار التجريبي ][2]
+* تحميل [الإصدار النهائي][1]
+* Download [development version][2]
 
 ستضيف هذه الإضافة البرمجية مفتاح اختصار للإعلان عن حالة برنامج رفع الملفات
 dropBox, وإصدارهأو لفتح قائمته الموجودة على صينية النظام. كما أنها ستتيح
@@ -10,7 +10,7 @@ dropBox, وإصدارهأو لفتح قائمته الموجودة على صين
 Ctrl+Shift+Tab / Ctrl+PageUp/Down كما أن أمر الإلغاء سيعمل بالضغط على مفتاح
 escape.
 
-* مفتاح الاختصار : NVDA+Shift+D
+* مفتاح الاختصار : NVDA+Alt+D
 * سيعلن مفتاح الاختصار Ctrl+Alt+Tab عن الصحيفة النشطة.
 
 ## مشكلات معروفة ##
@@ -18,10 +18,18 @@ escape.
 إذا انتقلت بين مختلف التبويبات باستخدام مفاتيح الاختصار, عند إغلاق نافذة التفضيلات, لم يستطع NVDA التعرف على أن النافذة لم تعد غير موجودة.
 فهذا خطأ برمجي معروف ب NVDA ولا يمكن إصلاحه من جانبنا.
 
+
+## Changes for 4.4 ##
+
+* Python 3 compatibility
+* Use the last addon template
+* Repository change to be built with Appveyor
+
 ## تعديلات الإصدار 4.0 ##
 
-* تحديث ترجمة الإضافة.
-* إصلاح بعض المشكلات بمتجر ويندوز 8.
+* إتاحة مساعدة للإضافة من مدير الإضافات البرمجية.
+* تم تغيير اختصار الإعلان عن حالة dropbox ليصبح Alt+NVDA+D لتجنب التعارض مع
+  اختصار دعم خفض الأصوات الأخرى.
 
 ## تعديلات الإصدار 3.1 ##
 
@@ -59,7 +67,6 @@ escape.
 
 [[!tag dev  stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=dx
+[1]: https://addons.nvda-project.org/files/get.php?file=dx
 
-[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev[1]:
-http://addons.nvda-project.org/files/get.php?file=dx
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

@@ -1,6 +1,6 @@
 # dropbox #
 
-* Autori: Patrick ZAJDA, Filaos e altri collaboratori
+* Autori: Patrick ZAJDA <patrick@zajda.fr>, Filaos e altri collaboratori
 * Download [stable version][1]
 * Download [development version][2]
 
@@ -11,7 +11,7 @@ control+tab control+shift+tab e control+paginaSu/giùper muoversi tra le
 schede nelle preferenze di Dropbox.   Per concludere, il tasto annulla
 funzionerà anche premendo Esc.
 
-* Tasto di scelta rapida: NVDA+Shift+D
+* Tasto di scelta rapida: NVDA+Alt+D
 * Ctrl+Alt+T annuncia la scheda attiva.
 
 ## Problemi noti ##
@@ -19,10 +19,19 @@ funzionerà anche premendo Esc.
 * Se si passa da una scheda all'altra utilizzando i tasti di scelta rapida, quando si chiude la finestra delle preferenze, NVDA non sarà in grado di capire che la finestra non esiste più.
 Si tratta di un problema conosciuto di NVDA e non può essere risolto.
 
-## Changes for 4.0 ##
 
-* Translations update.
-* Fixed issues with windows 8 metro app.
+## Changes for 4.4 ##
+
+* Python 3 compatibility
+* Use the last addon template
+* Repository change to be built with Appveyor
+
+## Cambiamenti nella 4.0 ##
+
+* L'aiuto è presente a partire dal menu di gestione componenti aggiuntivi.
+* Il tasto di scelta rapida per ottenere lo stato di Dropbox è stato
+  modificato in alt+NVDA+d per evitare conflitti con il supporto
+  all'attenuazione audio.
 
 ## Cambiamenti nella 3.1 ##
 
@@ -63,6 +72,6 @@ Si tratta di un problema conosciuto di NVDA e non può essere risolto.
 
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=dx
+[1]: https://addons.nvda-project.org/files/get.php?file=dx
 
-[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

@@ -1,6 +1,6 @@
 # dropbox #
 
-* Tekijät: Patrick ZAJDA, Filaos ja muut
+* Tekijät: Patrick ZAJDA <patrick@zajda.fr>, Filaos ja muut
 * Lataa [vakaa versio][1]
 * Lataa [kehitysversio][2]
 
@@ -9,7 +9,7 @@ tai ilmoitusalueella olevan valikon avaamiseksi.  Lisäksi välilehdet
 toimivat Asetukset-valintaikkunassa Ctrl+sarkain-, Ctrl+Shift+sarkain- sekä
 Ctrl+Page up/down-näppäimillä, ja Peruuta-painike toimii Esc-näppäimellä.
 
-* Pikanäppäin: NVDA+Shift+D
+* Pikanäppäin: NVDA+Alt+D
 * Ctrl+Alt+T ilmoittaa aktiivisen välilehden.
 
 ## Tunnetut ongelmat ##
@@ -17,10 +17,18 @@ Ctrl+Page up/down-näppäimillä, ja Peruuta-painike toimii Esc-näppäimellä.
 * Jos välilehtiä vaihdetaan pikanäppäimillä, NVDA ei voi tietää Asetukset-ikkunaa suljettaessa, että välilehtiä ei enää ole.
 Tämä on tunnettu NVDA:n ongelma, eikä sitä voida korjata.
 
+
+## Muutokset versiossa 4.4 ##
+
+* Python 3 -yhteensopivuus
+* Käytetään viimeisintä lisäosapohjaa
+* Koodivarasto muodostetaan nyt Appveyorilla
+
 ## Muutokset versiossa 4.0 ##
 
-* Käännöksiä päivitetty.
-* Korjattu Windows 8:n metro-sovelluksen ongelmia.
+* Ohje on käytettävissä Lisäosien hallinnasta.
+* Dropboxin tilan selvittämisen pikanäppäimeksi on muutettu Alt+NVDA+D
+  ristiriitojen välttämiseksi taustaäänien vaimennuksen tuen kanssa.
 
 ## Muutokset versiossa 3.1 ##
 
@@ -60,6 +68,6 @@ Tämä on tunnettu NVDA:n ongelma, eikä sitä voida korjata.
 
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=dx
+[1]: https://addons.nvda-project.org/files/get.php?file=dx
 
-[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

@@ -1,8 +1,8 @@
 # dropbox #
 
-* Autores: Patrick ZAJDA, Filaos y otros colaboradores
+* Autores: Patrick ZAJDA <patrick@zajda.fr>, Filaos y otros colaboradores
 * Descarga [versión estable][1]
-* Descarga [versión de desarrollo][2]
+* Descargar [versión de desarrollo][2]
 
 Este plugin añadirá un atajo de teclado para anunciar el estado de Dropbox,
 la versión o abrirá el menú de Dropbox de la bandeja del sistema.  También
@@ -10,7 +10,7 @@ funcionan las pestañas en el diálogo preferencias con Ctrl+tab /
 Ctrl+Shift+Tab y Ctrl+rePág/avPág.  Para concluir, hace que funcione el
 botón cancelar con escape.
 
-* Atajo de teclado: NVDA+Shift+D
+* Atajo de teclado: NVDA+Alt+D
 * Ctrl+Alt+T anuncia la pestaña activa.
 
 ## Problemas conocidos ##
@@ -18,10 +18,18 @@ botón cancelar con escape.
 * Si cambias entre las pestañas utilizando los atajos de teclado, cuando cierres la ventana preferencias, NVDA no podrá saber si las ventanas ya no existen.
 Es un problema conocido en NVDA y no puede corregirse.
 
+
+## Cambios para 4.4 ##
+
+* Compatibilidad con Python 3
+* Se utiliza la plantilla de complementos más reciente
+* Cambios en el repositorio para compilar con Appveyor
+
 ## Cambios para 4.0 ##
 
-* Traducciones actualizadas.
-* Corregidos problemas con la aplicación windows 8 metro.
+* La ayuda está disponible desde el Administrador de complementos.
+* El atajo de teclado para obtener el estado de Dropbox ha sido cambiado a
+  Alt+NVDA+D para evitar conflictos con el soporte de atenuación de audio.
 
 ## Cambios para 3.1 ##
 
@@ -35,7 +43,7 @@ Es un problema conocido en NVDA y no puede corregirse.
   avance  de página para cambiar entre pestañas. Control+tab y
   control+shift+tab todavía funcionan.
 * Todos los ficheros manifest traducidos ahora deberían estar correctos.
-* Correcciones menores
+* Correcciones menores.
 
 ## Cambios para 3.0 ##
 
@@ -63,6 +71,6 @@ Es un problema conocido en NVDA y no puede corregirse.
 
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=dx
+[1]: https://addons.nvda-project.org/files/get.php?file=dx
 
-[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

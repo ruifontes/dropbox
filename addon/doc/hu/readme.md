@@ -1,7 +1,7 @@
 # dropbox #
 
-* Fejlesztők: Patrick ZAJDA, Filaos, és egyéb közreműködők
-* Download [stable version][1]
+* Fejlesztők: Patrick ZAJDA, Filaos és egyéb közreműködők
+* Letöltés [stabil verzió][1]
 * Download [development version][2]
 
 A kiegészítő segítségével lekérdezhető a Dropbox program állapota, verziója,
@@ -10,7 +10,7 @@ beállítások párbeszédablak lapfülei helyesen hangoznak el a ctrl+tab és
 ctrl+shift+tab, vagy a ctrl+page up/down használatakor. Az Escape
 billentyűvel az ablak bezárható.
 
-* Parancsbillentyű: NVDA+Shift+D
+* Parancsbillentyű: NVDA+Alt+D
 * Ctrl+Alt+T bemondja az aktív lapfület.
 
 ## Ismert hibák ##
@@ -18,10 +18,18 @@ billentyűvel az ablak bezárható.
 * Ha a billentyűparancsok használatával vált a lapfülek között, az NVDA nem észleli a tulajdonságok ablak bezárását.
 Ez egy ismert hiba, amit nem lehet javítani.
 
-## Changes for 4.0 ##
 
-* Translations update.
-* Fixed issues with windows 8 metro app.
+## Changes for 4.4 ##
+
+* Python 3 compatibility
+* Use the last addon template
+* Repository change to be built with Appveyor
+
+## A 4.0 verzió változásai ##
+
+* A bővítmény súgója elérhető a bővítménykezelőben.
+* A dropbox állapotának lekérdezésére szolgáló gyorsgomb Alt+NVDA+D lett,
+  hogy ne ütközzön a hangerő-igazítás beállításával.
 
 ## A 3.1 verzió változásai ##
 
@@ -41,9 +49,9 @@ Ez egy ismert hiba, amit nem lehet javítani.
 
 * Kisebb javítások az eredeti manifest fájlban (a készítők nevei helyesen
   jelennek meg)
-* A helyi menü elérésének fejlesztése amikor a Shift+NVDA+D
+* A helyi menü elérésének fejlesztése, amikor a Shift+NVDA+D
   billentyűparancsot háromszor lenyomják.
-* Az escape gomb csak akkor működik, ha a Dropox azt a nyelvet használja
+* Az escape gomb csak akkor működik, ha a Dropbox azt a nyelvet használja
   mint az NVDA
 * Rengeteg javítás a kódban
 * A szkriptek dokumentációjának hozzáadása/frissítése
@@ -61,6 +69,6 @@ Ez egy ismert hiba, amit nem lehet javítani.
 
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=dx
+[1]: https://addons.nvda-project.org/files/get.php?file=dx
 
-[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

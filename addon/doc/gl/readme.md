@@ -1,8 +1,8 @@
 # dropbox #
 
-* Autores: Patrick ZAJDA, Filaos e outros colaboradores
+* Autores: Patrick ZAJDA <patrick@zajda.fr>, Filaos e outros colaboradores
 * Descarga [versión estable][1]
-* Descarga [versión de desenvolvemento][2]
+* Download [development version][2]
 
 Este plugin engadirá un atallo de teclado para anunciar o estado do Dropbox,
 a versión ou abrirá o menú do Dropbox na bandexa do sistema.  Tamén
@@ -10,7 +10,7 @@ funcionan as pestanas no diálogo preferencias con Ctrl+tab / Ctrl+Shift+Tab
 e Ctrl+rePáx/avPáx.  Para concluir, fai funcionar o botón cancelar co
 escape.
 
-* Atallo de teclado: NVDA+Shift+D
+* Atallo de teclado: NVDA+alt+D
 * Ctrl+Alt+T anuncia a pestana activa.
 
 ## Problemas coñecidos ##
@@ -18,10 +18,19 @@ escape.
 * Se cambias entre pestanas utilizando os atallos de teclado, cando peches a ventá de preferencias, NVDA non poderá saber se aínda existe a ventá.
 É un problema coñecido no NVDA e non se pode correxir.
 
+
+## Changes for 4.4 ##
+
+* Python 3 compatibility
+* Use the last addon template
+* Repository change to be built with Appveyor
+
 ## Cambios para 4.0 ##
 
-* Traduccións actualizadas.
-* Correxidos problemas ca app de Windows 8 metro.
+* A axuda do complemento está dispoñible dende o Administrador de
+  complementos.
+* O atallo de teclado para obter o estado de Dropbox cambiouse a Alt+NVDA+D
+  para evitar confrictos co soporte da atenuación do audio.
 
 ## Cambios para 3.1 ##
 
@@ -44,7 +53,7 @@ escape.
   veces.
 * O botón escape agora funciona (só cando se utiliza Dropbox na mesma lingua
   que usa NVDA).
-* Un montón de correccións no código.
+* Un lote de correccións no código.
 * Engadida/actualizada a documentación de todos os scripts.
 * Novas linguas: Árabe, Portugués do Brasil, Checo, Holandés, Finlandés,
   Galego, Alemán, Húngaro, Xaponés, Nepalí, Polaco, Ruso, Español, Eslovaco,
@@ -62,6 +71,6 @@ escape.
 
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=dx
+[1]: https://addons.nvda-project.org/files/get.php?file=dx
 
-[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev

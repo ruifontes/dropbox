@@ -8,85 +8,25 @@ msgstr ""
 "Project-Id-Version: DropboxPlugin 3.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-01-06 13:12+0100\n"
-"PO-Revision-Date: 2013-02-10 22:38+0400\n"
-"Last-Translator: Jani Kinnunen\n"
+"PO-Revision-Date: 2016-02-26 02:06-0800\n"
+"Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language:fi\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.4\n"
+"X-Generator: Poedit 1.5.5\n"
 
-#. Translators: the name of the dropbox general tab.
-msgid "General"
-msgstr "Yleiset"
-
-#. Translators: the name of the dropbox account tab.
-msgid "Account"
-msgstr "Tili"
-
-#. Translators: the name of the dropbox bandwidth tab.
-msgid "Bandwidth"
-msgstr "Kaistanleveys"
-
-#. Translators: the name of the dropbox proxies tab.
-msgid "Proxies"
-msgstr "Välityspalvelimet"
-
-#. Translators: the name of the dropbox advanced tab.
-msgid "Advanced"
-msgstr "Lisäasetukset"
-
-#. Translators: the title of the dropbox preferences dialog, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Dropbox Preferences"
-msgstr "Dropbox Preferences"
-
-#. Translators: the name of the dropbox preferences cancel button, it is important to have the same capitalization/spelling as in the dropbox gui. If Dropbox hasn't been translated to your language yet, leave this blank or write the original text.
-msgid "Cancel"
-msgstr "Cancel"
-
-msgid "Cancel button not found"
-msgstr "Peruuta-painiketta ei löydy"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Clicks the Cancel button of the Dropbox preferences dialog"
-msgstr "Napsauttaa Dropboxin asetusvalintaikkunan Peruuta-painiketta"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "announce active Dropbox preferences dialog tab"
-msgstr "Kertoo aktiivisen Dropboxin asetusvalintaikkunan välilehden"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate previous Dropbox preferences dialog tab"
-msgstr "Aktivoi Dropboxin asetusvalintaikkunan edellisen välilehden"
-
-#. Translators: message presented when user performs input help for this shortcut.
-msgid "Activate next Dropbox preferences dialog tab"
-msgstr "Aktivoi Dropboxin asetusvalintaikkunan seuraavan välilehden"
-
-msgid "drop box not found"
-msgstr "Dropboxia ei löydy"
-
-#. Documentation
-msgid ""
-"If pressed once, announces Dropbox status. If pressed twice, reports the "
-"Dropbox version. If pressed three times, open the Dropbox context menu by "
-"clicking on its systray icon"
-msgstr ""
-"Lukee kerran painettaessa Dropboxin tilan. Ilmoittaa kahdesti painettaessa "
-"Dropboxin version. Avaa kolmasti painettaessa Dropboxin pikavalikon "
-"napsauttamalla ilmoitusalueella olevaa kuvaketta."
-
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "Announce Dropbox state and make preferences tabs accessible"
 msgstr "Ilmoittaa Dropboxin tilan ja tekee asetusvälilehdistä saavutettavia"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Announces Dropbox status, version or open the Dropbox systray menu.\n"
-"Shortcut: NVDA+Shift+D\n"
+"Shortcut: NVDA+Alt+D\n"
 "Page tabs are also working in the preferences dialog with Ctrl+tab and Shift"
 "+Ctrl+Tab.\n"
 "Ctrl+Alt+T announce the active tab.\n"
@@ -94,8 +34,8 @@ msgid ""
 msgstr ""
 "Ilmoittaa Dropboxin tilan ja version tai avaa ilmoitusalueella olevan "
 "valikon.\n"
-"Pikanäppäin: NVDA+Shift+D\n"
+"Pikanäppäin: NVDA+Alt+D\n"
 "Välilehdet toimivat Asetukset-valintaikkunassa myös Ctrl+sarkain- ja Shift"
 "+Ctrl+sarkain-näppäimillä.\n"
 "Ctrl+Alt+T ilmoittaa aktiivisen välilehden.\n"
-"Peruuta-painike voidaan aktivoida painamalla Esc-näppäintä."
+"Voit aktivoida Peruuta-painikkeen painamalla Esc-näppäintä."

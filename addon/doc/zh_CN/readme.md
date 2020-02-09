@@ -1,39 +1,39 @@
-# dropbox #
+# dropbox-NVDA支持插件 #
 
-* Authors: Patrick ZAJDA, Filaos and other contributors
-* Download [stable version][1]
-* Download [development version][2]
+* 作者： Patrick ZAJDA, Filaos和其他贡献者
+* 下载[稳定版 version][1]
+* 下载[开发板 version][1]
 
-This plugin will add a shortcut to announce Dropbox status, version or open
-the Dropbox systray menu.  Also page tabs working on the preferences dialog
-with Ctrl+tab / Ctrl+Shift+Tab and Ctrl+PageUp/Down.  To conclude, make the
-cancel button working with escape.
+此插件将提供一个查看 DropBox
+的版本、状态和托盘菜单的快捷方式。您可通过“TAB”或“CTRL加TAB”和“CTRL加PageUp”或者“CTRL加PageDown”组合键在“篇号”对话框的各个标签中切换。也可通过按下“ESCAPE”键取消浏览。
 
-* 快捷键： NVDA+Shift+D
+* 快捷键: NVDA + Alt + D
 * Ctrl+Alt+T 朗读激活的标签。
 
-## Known issues ##
+## 没有讨论 ##
 
-* If you switch between tabs using the shortcuts, when you'll close the preferences window, NVDA won't be able to know the windows doesn't exist anymore.
-It is a known issue on NVDA and cannot be fixed.
+* 如果您使用快捷键进行选项卡切换，当您关闭“偏好”设置窗口以后，NVDA 就无法获知窗口是否存在。
+此问题与 NVDA 无关，无法修复。
 
-## Changes for 4.0 ##
 
-* Translations update.
-* Fixed issues with windows 8 metro app.
+## 版本4.4 ##
 
-## Changes for 3.1 ##
+* 兼容Python 3
+* 使用最新的插件模板
+* 现在存储库使用Appveyor构建插件
 
-* Use another way to get cancel button and page tab. Now we don't have to
-  focus them before using shortcuts.
-* When changing the active tab, the focus move to the tab page so when
-  pressing tab, the first item of the tab is activated instead of staying to
-  the previous used tab even if it is not activated anymore.
-* In the preferences dialog, it is now possible to press control+page
-  up/down to switch between tabs. Control+tab and control+shift+tab still
-  work.
-* All localized manifest files should now be OK.
-* Minor corrections.
+## 版本4.0 ##
+
+* 插件管理器现在提供了插件帮助。
+* 获取Dropbox状态的快捷方式已更改为Alt + NVDA + D，以避免与音频闪避支持冲突。
+
+## 版本3.1 ##
+
+* 使用其他方法来访问“取消”按钮和页面选项卡，我们不必一定使用快捷键聚焦在他们的上面。
+* 当更改激活的选项卡时，如果按下“Tab”键，焦点会移动到选项卡页面，第一个选项卡会被激活，而并非上次使用的选项卡，即使他从未被激活。
+* 在“偏好”对话框中，无法通过按下"“CTRL加上下光标键”在选项卡之间切换，“CTRL加Tab”和“CTRL加Shift加Tab”仍然可用。
+* 所有的本地化manifest文件现在都已经好了。
+* 小的改动。
 
 ## 3.0的更新 ##
 
@@ -56,6 +56,6 @@ It is a known issue on NVDA and cannot be fixed.
 
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=dx
+[1]: https://addons.nvda-project.org/files/get.php?file=dx
 
-[2]: http://addons.nvda-project.org/files/get.php?file=dx-dev
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev
