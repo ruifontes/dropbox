@@ -16,7 +16,7 @@ addon_info = {
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on installation and add-on information
 	"addon_description" : _("""Announces Dropbox status or open the Dropbox systray menu.
-Shortcut: NVDA+Shift+D"""),
+Shortcut: NVDA+Alt+D"""),
 	# version
 	"addon_version" : "4.4-dev",
 	# Author(s)
