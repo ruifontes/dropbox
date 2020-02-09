@@ -2,10 +2,11 @@
 
 * Authors: Patrick ZAJDA, Filaos and other contributors
 
-This plugin will add a shortcut to announce Dropbox status, version or open the Dropbox systray menu.
+This plugin add a shortcut to announce Dropbox status or open the Dropbox systray menu when pressed once or twice respectively.
 It also enhances DropBox item lists.
 
 * Shortcut: NVDA+Alt+D
+* NVDA compatibility: from 2019.1 to 2019.3 or later
 
 ## Changes for 4.4 ##
 
@@ -13,6 +14,7 @@ It also enhances DropBox item lists.
 * Use the last addon template
 * Repository change to be built with Appveyor
 * Fixed wrong and removed unused shortcuts in the documentation
+* Update the description in the documentation which still referenced the announcement of the version
 
 ## Changes for 4.0 ##
 
