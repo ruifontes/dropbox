@@ -34,7 +34,8 @@ deploy:
   on:
     appveyor_repo_tag: true
 
-  provider: FTP
+  deploy:
+- provider: FTP
   protocol: sftp
   host:
     secure: hxyoS2JZgrO//gQn5OUd9+JwKL2I+GNzWsMxR4bp9OI=
