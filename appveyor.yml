@@ -43,7 +43,7 @@ deploy:
     secure: KRV5ary404pbCKCCRnNKMQ==
   password:
     secure: HpUOJkphDWfc8nLKU/5Xmw==
-  folder: /nvda
+  folder: /web/nvda
   artifact: addon
   on:
     appveyor_repo_tag: true
