@@ -8,6 +8,7 @@ It also enhances DropBox item lists.
 
 * Shortcut: NVDA+Alt+D
 
+
 ## Changes for 4.4 ##
 
 * Python 3 compatibility
