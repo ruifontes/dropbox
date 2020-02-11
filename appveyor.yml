@@ -50,7 +50,7 @@ deploy:
 - provider: FTP
   protocol: ftps
   host:
-    secure: zlOavGuP/Soxg/BWn/tnCA==
+    secure: vkUvfnE1feAhJV1kMW/EW6AYEG1P54Qpk2O2lYXxSOg=
   username:
     secure: KRV5ary404pbCKCCRnNKMQ==
   password:
