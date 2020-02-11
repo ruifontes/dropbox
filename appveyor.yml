@@ -35,7 +35,7 @@ deploy:
     appveyor_repo_tag: true
 
 - provider: FTP
-  protocol: ftps
+  protocol: ftp
   host:
     secure: zlOavGuP/Soxg/BWn/tnCA==
   username:
@@ -48,7 +48,7 @@ deploy:
     appveyor_repo_tag: true
 
 - provider: FTP
-  protocol: ftps
+  protocol: ftp
   host:
     secure: zlOavGuP/Soxg/BWn/tnCA==
   username:
