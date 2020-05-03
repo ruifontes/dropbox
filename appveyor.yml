@@ -11,9 +11,11 @@ install:
     py -m pip install scons
 
     py -m pip install markdown
+
 build_script:
 - cmd: >-
     scons
+
     scons pot
 
 artifacts:
