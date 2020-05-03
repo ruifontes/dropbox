@@ -12,11 +12,16 @@ install:
 
     py -m pip install markdown
 build_script:
-- cmd: scons
+- cmd:
+    scons
+    scons pot
 
 artifacts:
 - path: '*.nvda-addon'
   name: addon
+  type: WebDeployPackage
+- path: '*;pot'
+  name: translation
   type: WebDeployPackage
   
 before_deploy:
@@ -56,7 +61,7 @@ deploy:
   password:
     secure: HpUOJkphDWfc8nLKU/5Xmw==
   folder: /web/nvda/addons-snapshots
-  artifact: addon
+  artifact: addon,translation
   on:
     appveyor_repo_tag: false
 
