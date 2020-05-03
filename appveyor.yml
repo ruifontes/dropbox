@@ -22,7 +22,7 @@ artifacts:
 - path: '*.nvda-addon'
   name: addon
   type: WebDeployPackage
-- path: '*;pot'
+- path: '*.pot'
   name: translation
   type: WebDeployPackage
   
