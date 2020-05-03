@@ -12,7 +12,7 @@ install:
 
     py -m pip install markdown
 build_script:
-- cmd:
+- cmd: >-
     scons
     scons pot
 
