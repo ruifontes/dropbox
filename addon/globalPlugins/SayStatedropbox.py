@@ -87,8 +87,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 					# Translators: the message reported when it is not possible to activate Dropbox context menu.
 					ui.message(_("Unable to activate Dropbox context menu"))
 	# Translators: message presented when user performes input help for the Shift+NVDA+D script
-	script_announceDropbox.__doc__ =\
-	_(
+	script_announceDropbox.__doc__ = _(
 		"If pressed once, announces Dropbox status. "
 		"If pressed twice, open the Dropbox context menu by clicking on its systray icon"
 	)
