@@ -20,17 +20,21 @@ import controlTypes
 # We initialize translations
 addonHandler.initTranslation()
 
+
 # Class for Dropbox items in the metro app
 class dropboxitem(UIA. ListItem):
 	def _get_name(self):
 		dbxList = list()
 		obj = self.firstChild
-		if obj.name != u'': dbxList.append(obj.name)
+		if obj.name != u'':
+			dbxList.append(obj.name)
 		while (obj != self.lastChild):
 			if obj.role == controlTypes.ROLE_STATICTEXT:
-				if obj.name != u'': dbxList.append(obj.name)
+				if obj.name != u'':
+					dbxList.append(obj.name)
 			obj = obj.next
 		return '; '.join(dbxList)
+
 
 class AppModule(appModuleHandler.AppModule):
 	# We set the scripts category shown on input gestures dialog

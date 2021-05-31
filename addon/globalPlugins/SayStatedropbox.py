@@ -15,29 +15,31 @@ import api
 import winUser
 import controlTypes
 
+
 def findDropBoxObject():
 	# We get the systray
-	WindowClassList = (u"shell_TrayWnd", u"TrayNotifyWnd", u"SysPager", u"ToolbarWindow32")
+	windowClassList = (u"shell_TrayWnd", u"TrayNotifyWnd", u"SysPager", u"ToolbarWindow32")
 	handle, FindWindowExW = 0, winUser.user32.FindWindowExW
 	for element in windowClassList:
 		handle = FindWindowExW(handle, 0, element, 0)
 		if not handle:
 			continue
 
-		sysTray=NVDAObjects.IAccessible.getNVDAObjectFromEvent(handle, -4, 0)
+		sysTray = NVDAObjects.IAccessible.getNVDAObjectFromEvent(handle, -4, 0)
 		trayIcon = sysTray.firstChild
 		while trayIcon:
 			iconName = trayIcon.name
-			if iconName != None and iconName.lower().startswith("dropbox"):
+			if iconName is not None and iconName.lower().startswith("dropbox"):
 				# dropbox object found , quit while loop
 				break
 
-			trayIcon=trayIcon.next
+			trayIcon = trayIcon.next
 
 		if trayIcon:
-			#dropbox object found, quit for loop
+			# dropbox object found, quit for loop
 			break
 	return trayIcon
+
 
 # We keep it for the same reason as in the app module
 # _addonDir = os.path.join(os.path.dirname(__file__), "..").decode("mbcs")
@@ -46,6 +48,7 @@ def findDropBoxObject():
 
 # We initialize translation support
 addonHandler.initTranslation()
+
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	# We initialize the scripts category shown on input gestures dialog
@@ -59,31 +62,30 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			ui.message(_("drop box not found"))
 			return
 
-		name=trayIcon.name.split()
+		name = trayIcon.name.split()
 		repeatCount = scriptHandler.getLastScriptRepeatCount()
 		if repeatCount == 0:
 			# announce dropbox state
 			del (name[1])
-			name=" ".join (name)
-			ui.message (name)
-			
+			name = " ".join(name)
+			ui.message(name)
+
 		else:
-				# activate dropbox icon
-				# If we are already inside of the context menu, stop the script
-				objFocused = api.getFocusObject()
-				currentProcess = objFocused.appModule.appName.lower()
-				if (currentProcess.lower() == u'dropbox' and objFocused.windowClassName.lower() == u'#32768') and objFocused.role in ({controlTypes.ROLE_POPUPMENU, controlTypes.ROLE_MENUITEM}):
-					return
-				else:
-					try:
-						o.doAction()
-					except NotImplementedError:
-						# Translators: the message reported when it is not possible to activate Dropbox context menu.
-						ui.message(_("Unable to activate Dropbox context menu"))
+			# activate dropbox icon
+			# If we are already inside of the context menu, stop the script
+			objFocused = api.getFocusObject()
+			currentProcess = objFocused.appModule.appName.lower()
+			if (currentProcess.lower() == u'dropbox' and objFocused.windowClassName.lower() == u'#32768') and objFocused.role in ({controlTypes.ROLE_POPUPMENU, controlTypes.ROLE_MENUITEM}):
+				return
+			else:
+				try:
+					trayIcon.doAction()
+				except NotImplementedError:
+					# Translators: the message reported when it is not possible to activate Dropbox context menu.
+					ui.message(_("Unable to activate Dropbox context menu"))
 	# Translators: message presented when user performes input help for the Shift+NVDA+D script
 	script_announceDropbox.__doc__ = _("If pressed once, announces Dropbox status. If pressed twice, open the Dropbox context menu by clicking on its systray icon")
 
-	__gestures={
+	__gestures = {
 		"kb:NVDA+alt+d": "announceDropbox",
 	}
-
