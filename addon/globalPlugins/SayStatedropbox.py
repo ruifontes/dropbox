@@ -76,7 +76,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			objFocused = api.getFocusObject()
 			currentProcess = objFocused.appModule.appName.lower()
 			if (
-				    (currentProcess.lower() == u'dropbox' and objFocused.windowClassName.lower() == u'#32768')
+				(currentProcess.lower() == u'dropbox' and objFocused.windowClassName.lower() == u'#32768')
 				and objFocused.role in ({controlTypes.ROLE_POPUPMENU, controlTypes.ROLE_MENUITEM})
 			):
 				return
@@ -88,7 +88,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 					ui.message(_("Unable to activate Dropbox context menu"))
 	# Translators: message presented when user performes input help for the Shift+NVDA+D script
 	script_announceDropbox.__doc__ =\
-	_("If pressed once, announces Dropbox status. If pressed twice, open the Dropbox context menu by clicking on its systray icon")
+	_("If pressed once, announces Dropbox status. "\
+	"If pressed twice, open the Dropbox context menu by clicking on its systray icon")
 
 	__gestures = {
 		"kb:NVDA+alt+d": "announceDropbox",
