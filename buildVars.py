@@ -18,7 +18,7 @@ addon_info = {
 	"addon_description" : _("""Announces Dropbox status or open the Dropbox systray menu.
 Shortcut: NVDA+Alt+D"""),
 	# version
-	"addon_version" : "4.6",
+	"addon_version" : ,
 	# Author(s)
 	"addon_author" : "Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors",
 	# URL for the add-on documentation support
