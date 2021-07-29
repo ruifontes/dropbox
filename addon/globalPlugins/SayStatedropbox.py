@@ -14,7 +14,7 @@ import NVDAObjects
 import api
 import winUser
 import controlTypes
-
+from typing import Callable
 
 def findDropBoxObject():
 	# We get the systray
@@ -48,7 +48,7 @@ def findDropBoxObject():
 
 # We initialize translation support
 addonHandler.initTranslation()
-
+_: Callable[[str], str]
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	# We initialize the scripts category shown on input gestures dialog
@@ -66,7 +66,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		repeatCount = scriptHandler.getLastScriptRepeatCount()
 		if repeatCount == 0:
 			# announce dropbox state
-			del (name[1])
+			del(name[1])
 			name = " ".join(name)
 			ui.message(name)
 
