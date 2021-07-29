@@ -16,6 +16,7 @@ import winUser
 import controlTypes
 from typing import Callable
 
+
 def findDropBoxObject():
 	# We get the systray
 	windowClassList = (u"shell_TrayWnd", u"TrayNotifyWnd", u"SysPager", u"ToolbarWindow32")
@@ -49,6 +50,7 @@ def findDropBoxObject():
 # We initialize translation support
 addonHandler.initTranslation()
 _: Callable[[str], str]
+
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	# We initialize the scripts category shown on input gestures dialog
