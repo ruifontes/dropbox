@@ -21,13 +21,13 @@ import controlTypes
 addonHandler.initTranslation()
 # We define roles to keep compatibility with nvda<2022.1
 if hasattr(controlTypes, 'ROLE_STATICTEXT'):
-	STATIC_TEXT=controlTypes.ROLE_STATICTEXT
+	STATIC_TEXT = controlTypes.ROLE_STATICTEXT
 else:
-	STATIC_TEXT=controlTypes.Role.STATICTEXT
+	STATIC_TEXT = controlTypes.Role.STATICTEXT
 if hasattr(controlTypes, 'ROLE_LISTITEM'):
-	LIST_ITEM=controlTypes.ROLE_LISTITEM
+	LIST_ITEM = controlTypes.ROLE_LISTITEM
 else:
-	LIST_ITEM=controlTypes.Role.LISTITEM
+	LIST_ITEM = controlTypes.Role.LISTITEM
 
 
 # Class for Dropbox items in the metro app

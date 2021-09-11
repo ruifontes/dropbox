@@ -52,14 +52,13 @@ addonHandler.initTranslation()
 _: Callable[[str], str]
 # Constents for roles to keep compatibility
 if hasattr(controlTypes, 'ROLE_POPUPMENU'):
-	POPUP_MENU=controlTypes.ROLE_POPUPMENU
+	POPUP_MENU = controlTypes.ROLE_POPUPMENU
 else:
-	POPUP_MENU=controlTypes.Role.POPUPMENU
+	POPUP_MENU = controlTypes.Role.POPUPMENU
 if hasattr(controlTypes, 'ROLE_MENUITEM'):
-	MENU_ITEM=controlTypes.ROLE_MENUITEM
+	MENU_ITEM = controlTypes.ROLE_MENUITEM
 else:
-	POPUP_MENU=controlTypes.Role.MENUITEM
-
+	POPUP_MENU = controlTypes.Role.MENUITEM
 
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
