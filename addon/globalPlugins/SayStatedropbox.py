@@ -50,6 +50,16 @@ def findDropBoxObject():
 # We initialize translation support
 addonHandler.initTranslation()
 _: Callable[[str], str]
+# Constents for roles to keep compatibility
+if hasattr(controlTypes, 'ROLE_POPUPMENU'):
+	POPUP_MENU=controlTypes.ROLE_POPUPMENU
+else:
+	POPUP_MENU=controlTypes.Role.POPUPMENU
+if hasattr(controlTypes, 'ROLE_MENUITEM'):
+	MENU_ITEM=controlTypes.ROLE_MENUITEM
+else:
+	POPUP_MENU=controlTypes.Role.MENUITEM
+
 
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
@@ -79,7 +89,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			currentProcess = objFocused.appModule.appName.lower()
 			if (
 				(currentProcess.lower() == u'dropbox' and objFocused.windowClassName.lower() == u'#32768')
-				and objFocused.role in ({controlTypes.ROLE_POPUPMENU, controlTypes.ROLE_MENUITEM})
+				and objFocused.role in ({POPUP_MENU, MENU_ITEM})
 			):
 				return
 			else:

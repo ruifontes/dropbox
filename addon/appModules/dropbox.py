@@ -19,6 +19,15 @@ import controlTypes
 
 # We initialize translations
 addonHandler.initTranslation()
+# We define roles to keep compatibility with nvda<2022.1
+if hasattr(controlTypes, 'ROLE_STATICTEXT'):
+	STATIC_TEXT=controlTypes.ROLE_STATICTEXT
+else:
+	STATIC_TEXT=controlTypes.Role.STATICTEXT
+if hasattr(controlTypes, 'ROLE_LISTITEM'):
+	LIST_ITEM=controlTypes.ROLE_LISTITEM
+else:
+	LIST_ITEM=controlTypes.Role.LISTITEM
 
 
 # Class for Dropbox items in the metro app
@@ -29,7 +38,7 @@ class dropboxitem(UIA. ListItem):
 		if obj.name != u'':
 			dbxList.append(obj.name)
 		while (obj != self.lastChild):
-			if obj.role == controlTypes.ROLE_STATICTEXT:
+			if obj.role == STATIC_TEXT:
 				if obj.name != u'':
 					dbxList.append(obj.name)
 			obj = obj.next
@@ -42,5 +51,5 @@ class AppModule(appModuleHandler.AppModule):
 	scriptCategory = u"Dropbox"
 
 	def chooseNVDAObjectOverlayClasses(self, obj, CLSList):
-		if obj.role == controlTypes.ROLE_LISTITEM:
+		if obj.role == LIST_ITEM:
 			CLSList.insert(0, dropboxitem)
