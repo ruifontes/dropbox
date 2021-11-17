@@ -18,17 +18,14 @@ msgstr ""
 "X-Generator: Geany / PoHelper 1.37\n"
 
 #. Translators: the message presented when Dropbox tray icon was not found
-#: addon/globalPlugins/SayStatedropbox.py:57
 msgid "drop box not found"
 msgstr "Dropbox non trouvé"
 
 #. Translators: the message reported when it is not possible to activate Dropbox context menu.
-#: addon/globalPlugins/SayStatedropbox.py:80
 msgid "Unable to activate Dropbox context menu"
 msgstr "Impossible d'activer le menu contextuel de Dropbox"
 
 #. Translators: message presented when user performes input help for the Shift+NVDA+D script
-#: addon/globalPlugins/SayStatedropbox.py:82
 msgid ""
 "If pressed once, announces Dropbox status. If pressed twice, open the "
 "Dropbox context menu by clicking on its systray icon"
@@ -38,7 +35,6 @@ msgstr ""
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
-#: buildVars.py:18
 msgid ""
 "Announces Dropbox status or open the Dropbox systray menu.\n"
 "Shortcut: NVDA+Alt+D"
