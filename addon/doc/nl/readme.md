@@ -1,28 +1,29 @@
 # Dropbox #
 
 * Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
+* NVDA compatibility: NVDA 2019.1 or later
 * Download [stabiele versie][1]
 * Download [development version][2]
 
-Deze add-on voegt een sneltoets toe om de status, versie en het contextmenu
-van Dropbox op te vragen. Verder werkt het wisselen van tabbladen in de
-instellingen met ctrl+tab en kan de Annuleren knop met escape worden
-geactiveerd.
+This plugin add a shortcut to announce Dropbox status or open the Dropbox
+systray menu when pressed once or twice respectively.  It also enhances
+DropBox item lists.
 
 * Shortcut: NVDA+Alt+D
-* Ctrl+Alt+T meldt het actieve tabblad.
 
-## Bekende problemen ##
 
-* Als u van tabbladen wisselt met de sneltoetsen en het venster sluit, zal NVDA niet weten dat het venster gesloten is.
-Dit is een bekend probleem in NVDA en kan niet worden opgelost.
+## Changes for 4.6 ##
 
+* Specify NVDA 2021.1 compatibility
 
 ## Changes for 4.4 ##
 
 * Python 3 compatibility
 * Use the last addon template
 * Repository change to be built with Appveyor
+* Fixed wrong and removed unused shortcuts in the documentation
+* Update the description in the documentation which still referenced the
+  announcement of the version
 
 ## Veranderingen voor 4.0 ##
 

@@ -1,6 +1,7 @@
 # dropbox #
 
 * Autori: Patrick ZAJDA <patrick@zajda.fr>, Filaos i drugi suradnici
+* NVDA kompatibilnost: NVDA 2019.1 ili novija
 * Preuzmi [stabilnu verziju][1]
 * Preuzmi [razvojnu verziju][2]
 
@@ -10,20 +11,25 @@ karticama dijaloškog okvira postavki, pomoću Ctrl+tab/Ctrl+shift+tab i/ili
 Ctrl+Stranica gore/Ctrl+Stranica dolje. I na kraju, ovaj dodatak omogućuje
 upotrebu gumba „Odustani” pomoću tipke escape.
 
-* Prečac: NVDA+Shift+D
-* Ctrl+Alt+T najavljuje aktivnu karticu.
+Ovaj dodatak dodaje prečac za objavljivanje Dropbox stanja ili za otvaranje
+Dropbox izbornik u programskoj traci, kad se pritisne jedanput, odnosno
+dvaput. Također poboljšava popise elemenata DropBoxa.
 
-## Poznati problemi ##
+* Prečac: NVDA+šift+D
 
-* Prilikom prebacivanja između kartica uz pomoć prečaca, kad se zatvori prozor s postavkama, NVDA dobiva krivu informaciju o otvorenim prozorima.
-Radi se o poznatom NVDA problemu, kojeg nije moguće ispraviti.
 
+## Izmjene u verziji 4.6 ##
+
+* Specificiraj NVDA 2021.1 kompatibilnost
 
 ## Izmjene u verziji 4.4 ##
 
 * Python 3 kompatibilnost
 * Koristi zadnji predložak dodatka
 * Promjena u repozitoriju kako bi se izgradio s Appveyor
+* U dokumentaciji su popravljeni pogrešni te uklonjeni neiskorišteni prečaci
+* Aktualiziran je opis u dokumentaciji, koji još uvijek upućuje na najavu
+  verzije
 
 ## Izmjene u verziji 4.0 ##
 
@@ -47,7 +53,7 @@ Radi se o poznatom NVDA problemu, kojeg nije moguće ispraviti.
 ## Promjene u verziji 3.0 ##
 
 * Manji ispravci u glavnoj manifest datoteci (autori se ispravno prikazuju).
-* Poboljšano otkrivanje kontekstnog izbornika, kad se Shift+NVDA+D pritisne
+* Poboljšano otkrivanje kontekstnog izbornika, kad se šift+NVDA+D pritisne
   tri puta.
 * Tipka escape sada radi (samo kad Dropbox koristi isti jezik, koji koristi
   i NVDA).

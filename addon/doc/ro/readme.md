@@ -1,29 +1,29 @@
 # dropbox #
 
 * Autori: Patrick ZAJDA <patrick@zajda.fr>, Filaos și alți contributori
+* NVDA compatibility: NVDA 2019.1 or later
 * Descărcați [versiunea stabilă][1]
-* Download [development version][2]
+* Descărcați [versiunea în dezvoltarre][2]
 
-Acest supliment va adăuga o scurtătură pentru a anunța starea Dropbox-ului,
-versiunea sau deschiderea meniului systray al Dropbox-ului.  De asemenea ,
-filele paginii de lucru în dialogul de preferințe, cu Ctrl+tab /
-Ctrl+Shift+Tab și Ctrl+PaginăSus/Jos.  Pentru a încheia, apăsați butonul
-anulare sau escape.
+This plugin add a shortcut to announce Dropbox status or open the Dropbox
+systray menu when pressed once or twice respectively.  It also enhances
+DropBox item lists.
 
 * Comandă rapidă: NVDA+Alt+D
-* Ctrl+Alt+T anunță tabul activ.
-
-## Situații cunoscute ##
-
-* Dacă vă deplasați printre tag-uri folosind comenzile rapide, când veți închide fereastra de preferințe, NVDA nu va fi capabil să cunoască ferestrele care nu există.
-Este o problemă cunoscută în NVDA care nu poate fi rezolvată.
 
 
-## Changes for 4.4 ##
+## Changes for 4.6 ##
 
-* Python 3 compatibility
-* Use the last addon template
-* Repository change to be built with Appveyor
+* Specify NVDA 2021.1 compatibility
+
+## Modificări aduse în versiunea 4.4 ##
+
+* Compatibilitate cu Python 3
+* Folosiți ultimul șablon al suplimentului
+* Schimbare de depozit pentru ca suplimentul să fie construit cu Appveyor
+* Fixed wrong and removed unused shortcuts in the documentation
+* Update the description in the documentation which still referenced the
+  announcement of the version
 
 ## Modificări aduse în versiunea 4.0 ##
 
@@ -43,7 +43,7 @@ Este o problemă cunoscută în NVDA care nu poate fi rezolvată.
   el nu este încă activat.
 * În dialogul de preferințe, este acum posibil să apeși Control+Pagină
   Sus/Jos pentru a te comuta între tabulatoare. Control+Tab și
-  Control+Shift+Tab încă funcționează. 
+  Control+Shift+Tab încă funcționează.
 * Toate fișierele Manifest locale ar trebui să fie acum OK.
 * Corecții minore.
 
@@ -62,7 +62,7 @@ Este o problemă cunoscută în NVDA care nu poate fi rezolvată.
 
 ## Modificări aduse în versiunea 2.0 ##
 
-* Limbi noi: Italiană.
+* Limbi noi: Italiană
 * Apăsând scurtătura de trei ori sau mai mult când ești deja în meniul
   context nu mai cauzează probleme.
 

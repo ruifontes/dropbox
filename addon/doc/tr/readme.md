@@ -1,36 +1,35 @@
 # dropbox #
 
-* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
+* Geliştiriciler: Patrick ZAJDA <patrick@zajda.fr>, Filaos ve diğer katkıda
+  bulunanlar
+* NVDA compatibility: NVDA 2019.1 or later
 * İndir [kararlı sürüm][1]
-* Download [development version][2]
+* [kararlı sürüm][1]ü indir
 
-Bu eklenti dropbox durumunun, versiyonunun söylenmesi ve dropbox menüsünün
-açılması için bir kısayol tuşu ekler.  Aynı zamanda, sekme sayfaları
-arasında geçiş için ctrl+tab, ctrl+shift+tab ya da ctrl+önceki sayfa,
-ctrl+sonraki sayfa ve aktif sekme sayfasının söylenmesi için ctrl+alt+t
-kısayol tuşları tanımlanmıştır.  Son olarak, escape tuşu iptal butonuna
-basar.
+Bu eklenti, Dropbox durumunu bildirmek veya sırasıyla bir veya iki kez
+basıldığında Dropbox sistem tepsisi menüsünü açmak için bir kısayol
+ekler. Ayrıca DropBox öğe listelerini geliştirir.
 
-* Shortcut: NVDA+Alt+D
-* Ctrl+Alt+T aktif sekme sayfasını söyler.
-
-## Bilinen sorunlar ##
-
-* Eğer sekmeler arasında kısayol tuşlarıyla dolaşırsanız, tercihler iletişim kutusunu kapattığınızda, NVDA bunu bilemeyecektir.
-Bu, NVDA hakkında bilinen bir problemdir ve çözümü bulunmamaktadır.
+* Kısayol tuşu: NVDA+Alt+D
 
 
-## Changes for 4.4 ##
+## Changes for 4.6 ##
 
-* Python 3 compatibility
-* Use the last addon template
-* Repository change to be built with Appveyor
+* Specify NVDA 2021.1 compatibility
 
 ## 4.0 için değişiklikler ##
 
-* Add-on help is available from the Add-ons Manager.
-* The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid
-  conflict with audio ducking support.
+* Python 3 uyumluluğu
+* Son eklenti şablonu kullanılıyor
+* Appveyor ile oluşturulacak depo değişikliği
+* Belgelerdeki yanlış ve kaldırılmış kullanılmayan kısayollar düzeltildi
+* Belgelerde sürüm bildirimine hala atıfta bulunan açıklama güncellendi
+
+## 4.0 için değişiklikler ##
+
+* Eklenti yardımı, Eklenti Yöneticisi'nden edinilebilir.
+* Dropbox durumunu öğrenme kısayolu, ses zayıflaması kısayoluyla çakışmayı
+  önlemek için Alt+NVDA+D olarak değiştirildi.
 
 ## 3.1 versiyonundaki değişiklikler ##
 

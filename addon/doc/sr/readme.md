@@ -1,35 +1,34 @@
 # dropbox #
-[[!meta title="dropbox"]]
 
-* Autori: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
+* Autori: Patrick ZAJDA <patrick@zajda.fr>, Filaos i drugi saradnici
+* NVDA kompatibilnost: NVDA 2019.1 ili noviji
 * Preuzmi [stabilnu verziju][1]
-* Download [development version][2]
+* Preuzmi [verziju u razvoju ][2]
 
-Ovaj dodatak dodaje prečicu za izgovor dropbox statusa, verzije ili
-otvaranje menija u sistemskoj traci.  takođe možete menjati kartice u
-podešavanjima sa Ctrl+tab / Ctrl+Shift+Tab i Ctrl+PageUp/Down.  Kao
-zaključak, možete aktivirati dugme otkaži sa tasterom escape.
+Ovaj dodatak dodaje prečicu za izgovor dropbox statusa ili otvaranje menija
+u sistemskoj traci.  Takođe poboljšava stavke u Dropbox listama.
 
 * Prečica: NVDA+alt+d
-* Ctrl+Alt+T izgovara trenutnu karticu.
-
-## Poznati problemi ##
-
-* Ukoliko menjate kartice u podešavanjima, kada zatvorite prozor za podešavanja, NVDA neće znati da prozor više ne postoji.
-To je poznat NVDA problem i ne može biti popravljen.
 
 
-## Changes for 4.4 ##
+## Promene u 4.6 ##
 
-* Python 3 compatibility
-* Use the last addon template
-* Repository change to be built with Appveyor
+* Naznačena NVDA 2021.1 kompatibilnost
+
+## Promene u 4.4 ##
+
+* Python 3 kompatibilnost
+* Koristi se najnoviji template za dodatke
+* Promena u repository kako bi se koristio Appveyor
+* Ispravljene netačne i uklonjene prečice koje se ne koriste iz
+  dokumentacije
+* Ažuriran opis u dokumentaciji koja je napominjala izgovor verzije
 
 ## Promene u 4.0 ##
 
-* Pomoć za dodatak je dostupna iz menia za upravljanje dodacima
+* Pomoć za dodatak je dostupna iz menia za upravljanje dodacima.
 * Prečica za dobijanje dropbox statusa je promenjena u NVDA+alt+d kako bi se
-  izbegli konflikti sa prečicom za stišavanjem pozadinskih zvukova 
+  izbegli konflikti sa prečicom za stišavanje pozadinskih zvukova.
 
 ## promene u 3.1 ##
 
@@ -39,18 +38,18 @@ To je poznat NVDA problem i ne može biti popravljen.
   pritisnete tab, Prva stavka će biti prikazana umesto da fokus ostane na
   prethodnoj kartici iako više nije aktivna.
 * U dijalogu za podešavanja, možete menjati kartice sa prečicama
-  control+page up-down. Control+tab i shift+tab idalje rade.
-* Sve lokalizovane manifest datoteke sada treba da budu uredu.
-* Manje ispravke
+  control+page up-down. Control+tab i shift+tab i dalje rade.
+* Sve lokalizovane manifest datoteke sada treba da budu u redu.
+* Manje ispravke.
 
 ## promene u 3.0 ##
 
 * Male ispravke u glavnoj manifest datoteci (autori su ispravno prikazani).
-* Poboljšana detekcija kontekstnog menija kada pritisnete NVDA+alt+d 3 puta
+* Poboljšana detekcija kontekstnog menija kada pritisnete NVDA+alt+d 3 puta.
 * Escape taster sada radi(samo kada koristite NVDA i dropbox na istom
-  jeziku)
-* Dosta ispravki u kodu
-* dodata-ažurirana dokumentacija svih skripti
+  jeziku).
+* Dosta ispravki u kodu.
+* dodata-ažurirana dokumentacija svih skripti.
 * Novi jezici : Arapski, Brazilsko portugalski, Češki, Belgijski, Finski,
   Galski, Nemački, Mađarski, Japanski, Nepali, Poljski, Ruski, Španski,
   Slovački, Tamil, Turski.
@@ -59,7 +58,7 @@ To je poznat NVDA problem i ne može biti popravljen.
 
 * Novi jezici: Italijanski
 * Ako se pritisne NVDA+alt+d 3 puta kada ste već u kontekstnom meniju, više
-  ne dolazi do problema
+  ne dolazi do problema.
 
 ## Promene u 1.0 ##
 

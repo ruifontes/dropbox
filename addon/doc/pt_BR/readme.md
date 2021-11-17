@@ -1,29 +1,29 @@
 # dropbox #
 
 * Autores: Patrick ZAJDA <patrick@zajda.fr>, Filaos e outros colaboradores
+* NVDA compatibility: NVDA 2019.1 or later
 * Baixe a [versão estável][1]
-* Download [development version][2]
+* Baixe a [versão em desenvolvimento][2]
 
-Este plug-in adiciona um atalho para anunciar o status ou a versão do
-Dropbox ou abrir o menu dele na área de notificação. Também torna possível
-alternar entre as guias da janela de preferências com
-Ctrl+Tab/Ctrl+Shift+Tab e Ctrl+PageUp/Down. Finalmente, faz com que o botão
-cancelar seja ativado com escape.
+Este plug-in adiciona um atalho para anunciar o status do Dropbox ou abrir o
+menu dele na área de notificação quando pressionado uma ou duas vezes,
+respectivamente. Ele também melhora as listas de itens do Dropbox.
 
 * Atalho: NVDA+Alt+D
-* Ctrl+Alt+T anuncia a guia ativa
-
-## Problemas conhecidos ##
-
-* Se você mudar de guia usando os atalhos, quando fechar a janela de preferências o NVDA não saberá que a janela deixou de existir.
-Isso é um problema do NVDA que não tem como corrigir.
 
 
-## Changes for 4.4 ##
+## Changes for 4.6 ##
 
-* Python 3 compatibility
-* Use the last addon template
-* Repository change to be built with Appveyor
+* Specify NVDA 2021.1 compatibility
+
+## Mudanças na 4.4 ##
+
+* Compatibilidade com Python 3
+* Usa o modelo mais recente de complemento
+* Mudança no repositório para ser compilado com Appveyor
+* Corrigido um atalho errado e removido um não usado da documentação
+* Atualizada a descrição na documentação, que ainda referenciava o anúncio
+  da versão
 
 ## Mudanças na 4.0 ##
 

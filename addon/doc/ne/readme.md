@@ -1,29 +1,29 @@
 # खुत्रुके (dropbox) #
 
 * Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
+* NVDA compatibility: NVDA 2019.1 or later
 * अनुबहन: [स्थिर संस्करण१.०][1]
 * Download [development version][2]
 
-यो चुकुलले खुत्रुकेको स्थिति  वा संस्करण बताउने, अथवा खुत्रुकेको प्रणाली
-थाली सुची पल्टाउने द्रुतमार्ग थप्ने छ ।.  पृष्ठ ट्याबमा प्राथमिकताहरू
-सम्बद्ध पातोमा  Ctrl+tab / Ctrl+Shift+Tab र Ctrl+PageUp/Down जस्ता
-द्रुतमार्ग कुञ्जी पनि सक्षम पार्छ ।  सारांसमा, 'रद्द टाँक' लाई escape कुञ्जी
-सित पनि काम गराउनु हो ।
+This plugin add a shortcut to announce Dropbox status or open the Dropbox
+systray menu when pressed once or twice respectively.  It also enhances
+DropBox item lists.
 
 * Shortcut: NVDA+Alt+D
-* Ctrl+Alt+T ले सक्रिय tab बताउने छ ।
 
-## जानेकै मुद्दाहरू ##
 
-* यदि तपाई द्रुतमार्गको प्रयोग गरी ट्याबहरूको बिचमा घुमेको बेला तपाइले प्राथमिकता सन्झ्याल बन् गर्नु भयो भने, नेत्रवाणीले उक्त सन्झ्याल अब छैन भन्ने कुरा थाहा पाउन सक्दैन ।
-यो विषय नेत्रवाणीमा समाधान गर्न सकिदैन भन्ने कुरा थाहा भएकै हो ।
+## Changes for 4.6 ##
 
+* Specify NVDA 2021.1 compatibility
 
 ## Changes for 4.4 ##
 
 * Python 3 compatibility
 * Use the last addon template
 * Repository change to be built with Appveyor
+* Fixed wrong and removed unused shortcuts in the documentation
+* Update the description in the documentation which still referenced the
+  announcement of the version
 
 ## संस्करण ४.० मा गरिएका परिवर्तनहरू  ##
 

@@ -1,29 +1,29 @@
 # dropbox #
 
 * Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
+* NVDA compatibility: NVDA 2019.1 or later
 * Download [stable version][1]
 * Download [development version][2]
 
-هدف این افزونه ایجاد کلید میانبر برای اعلام وضعیت و نسخه فعلی Dropbox و باز
-کردن منوی Dropbox در system tray میباشد. همچنین داخل تنظیمات Dropbox با
-کلیدهای Ctrl+tab / Ctrl+Shift+Tab و Ctrl+PageUp/Down میتوان بین صفحات مختلف
-حرکت کرد. بعد از اتمام کار داخل تنظیمات Dropbox میتوانید با کلید گریز دکمه
-انصراف را فعال کرده از صفحه خارج شوید.
+This plugin add a shortcut to announce Dropbox status or open the Dropbox
+systray menu when pressed once or twice respectively.  It also enhances
+DropBox item lists.
 
 * Shortcut: NVDA+Alt+D
-* Ctrl+Alt+T صفحه فعال را اعلام میکند
 
-## مسائل شناخته شده ##
 
-* اگر با استفاده از کلیدهای میانبر بین صفحات حرکت بکنید, موقعی که پنجره تنظیمات را میبندید, NVDA قادر نخواهد بود پنجره هایی را که دیگر وجود ندارند را بشناسد.
-این یک مسئله شناخته شده است و قابل حل نیست.
+## Changes for 4.6 ##
 
+* Specify NVDA 2021.1 compatibility
 
 ## Changes for 4.4 ##
 
 * Python 3 compatibility
 * Use the last addon template
 * Repository change to be built with Appveyor
+* Fixed wrong and removed unused shortcuts in the documentation
+* Update the description in the documentation which still referenced the
+  announcement of the version
 
 ## Changes for 4.0 ##
 
