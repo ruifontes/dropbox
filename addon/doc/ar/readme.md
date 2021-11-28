@@ -1,29 +1,29 @@
 # dropbox #
 
 * مطورو الإضافة: Patrick ZAJDA, Filaos وآخرون
+* NVDA compatibility: NVDA 2019.1 or later
 * تحميل [الإصدار النهائي][1]
 * Download [development version][2]
 
-ستضيف هذه الإضافة البرمجية مفتاح اختصار للإعلان عن حالة برنامج رفع الملفات
-dropBox, وإصدارهأو لفتح قائمته الموجودة على صينية النظام. كما أنها ستتيح
-التنقل بين صفحات محاورة التفضيلات الخاصة بالبرنامج بضغط مفتاح Ctrl+Tab /
-Ctrl+Shift+Tab / Ctrl+PageUp/Down كما أن أمر الإلغاء سيعمل بالضغط على مفتاح
-escape.
+This plugin add a shortcut to announce Dropbox status or open the Dropbox
+systray menu when pressed once or twice respectively.  It also enhances
+DropBox item lists.
 
 * مفتاح الاختصار : NVDA+Alt+D
-* سيعلن مفتاح الاختصار Ctrl+Alt+Tab عن الصحيفة النشطة.
 
-## مشكلات معروفة ##
 
-إذا انتقلت بين مختلف التبويبات باستخدام مفاتيح الاختصار, عند إغلاق نافذة التفضيلات, لم يستطع NVDA التعرف على أن النافذة لم تعد غير موجودة.
-فهذا خطأ برمجي معروف ب NVDA ولا يمكن إصلاحه من جانبنا.
+## Changes for 4.6 ##
 
+* Specify NVDA 2021.1 compatibility
 
 ## Changes for 4.4 ##
 
 * Python 3 compatibility
 * Use the last addon template
 * Repository change to be built with Appveyor
+* Fixed wrong and removed unused shortcuts in the documentation
+* Update the description in the documentation which still referenced the
+  announcement of the version
 
 ## تعديلات الإصدار 4.0 ##
 

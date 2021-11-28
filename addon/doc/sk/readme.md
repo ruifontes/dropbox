@@ -1,44 +1,45 @@
 # dropbox #
 
-* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
-* Stiahnuť [stabilná verzia][1]
-* Download [development version][2]
+* Autori: Patrick ZAJDA <patrick@zajda.fr>, Filaos a ďalší
+* NVDA compatibility: NVDA 2019.1 or later
+* Stiahnuť [stabilnú verziu][1]
+* Stiahnuť [vývojovú verziu][2]
 
-Oznamuje stav Dropboxu, jeho verziu a umožňuje otvoriť kontextové menu
-programu z klávesnice. Môžete sa tiež pohybovať po záložkách v možnostiach
-programu pomocou ctrl+tab a  Shift+Ctrl+Tab resp ctrl+page up /down. Okno s
-nastaveniami sa dá zatvoriť tlačidlom Escape.
+Na prvé stlačenie klávesovej skratky Oznamuje stav Dropboxu. Dvojité
+stlačenie klávesovej skratky otvorí kontextové menu. Tiež upravuje
+prístupnosť položiek v menu.
 
-* Shortcut: NVDA+Alt+D
-* Ctrl+Alt+T oznámi názov aktívnej záložky.
-
-## Známe problémy ##
-
-* Ak sa presúvate medzi záložkami pomocou klávesových skratiek a zatvoríte okno s bnastaveniami Dropboxu, NVDA si nevšimne, že okno je zatvorené.
-Toto je známa chyba a nedá sa odstrániť.
+* Skratka: NVDA+alt+D
 
 
-## Changes for 4.4 ##
+## Changes for 4.6 ##
 
-* Python 3 compatibility
-* Use the last addon template
-* Repository change to be built with Appveyor
+* Specify NVDA 2021.1 compatibility
+
+## Zmeny vo verzii 4.4 ##
+
+* Kompatibilné s prostredím Python 3
+* Používa šablónu posledného doplnku
+* Repozitár je postavený na Appveyor
+* Odstránené nepoužívané klávesové skratky z dokumentácie
+* Upravený popis v návode k doplnku a odstránená informácia o oznamovaní
+  verzie
 
 ## Zmeny vo verzii 4.0 ##
 
-* Add-on help is available from the Add-ons Manager.
-* The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid
-  conflict with audio ducking support.
+* Pomocník k doplnku je dostupný zo správcu doplnkov.
+* Klávesová skratka zmenená na nvda+alt+d, aby nedochádzalo ku konfliktom s
+  funkciou stíšenia.
 
 ## Zmeny vo verzii 3.1 ##
 
 * Používa sa lepší spôsob na získanie cesty k tlačidlu zrušiť (cancel). Nie
-  je viac potrebné naň prejsť a záložká. Nemusia viac získať fokus pred
-  použitím skratky.
+  je viac potrebné naň prejsť. Takisto záložky nemusia viac získať fokus
+  pred použitím skratiek.
 * pri zmene aktívnej záložky sa tiež zmení fokus tak, že je na prvej položke
   novej záložky a nie na položke starej záložky, ktorá viac nie je aktívna.
-* na prechod medzi záložkami sa dajú použiť skratky  control+page
-  up/down. Control+tab a control+shift+tab ostali zachované.
+* na prechod medzi záložkami sa dajú použiť skratky  ctrl+page
+  up/down. Ctrl+tab a ctrl+shift+tab ostali zachované.
 * Všetky manifest súbory by mali byť v poriadku.
 * Drobné úpravy.
 

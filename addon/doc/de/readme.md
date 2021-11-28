@@ -1,34 +1,35 @@
 # dropbox #
 
 * Autoren: Patrick ZAJDA <patrick@zajda.fr>, Filaos und andere Entwickler
+* NVDA-Kompatibilität: 2019.1 oder neuer
 * [Stabile Version herunterladen][1]
 * [Entwicklerversion herunterladen][2]
 
-Diese Erweiterung fügt ein Tastenkürzel hinzu, dass den Status von Dropbox,
-die Version ansagt oder  das Dropbox-Kontextmenü öffnet. Des weiteren kann
-man in den Optionen mittels STRG+Tab und STRG+Umschalt+Tab sowie STRG+Seite
-auf bzw. STRG+Seite ab navigieren. Außerdem funktioniert nun der
-abbrechen-Schalter
+Diese Erweiterung fügt eine Tastenkombination hinzu, um den Dropbox-Status
+anzusagen oder das Dropbox-Menü zu öffnen, wenn Sie ein- bzw. zweimal
+gedrückt wird.  Außerdem werden DropBox-Elementlisten verbessert.
 
 * Tastenkürzel: NVDA+Alt+D
-* STRG+Alt+T aktive Registerkarte ansagen.
 
-## bekannte Fehler ##
 
-* Wenn Sie nach dem Schließen des Einstellungsfensters die Tastenkombination zum Wechseln der Registerkarten verwenden, wird NVDA so reagieren, als ob das Fenster immernoch offen ist.
-Dieses Problem kann zur Zeit nicht behoben werden.
+## Änderungen in 4.6 ##
 
+* NVDA-Kompatibilität: 2021.1
 
 ## Änderungen in 4.4 ##
 
 * Kompatibilität zu Python 3
-* Es wird die letzte Vorlage für Erweiterungen verwendet.
+* Verwendung der letzten Erweiterungsvorlage
 * Änderung am Repository vorgenommen, damit die Erweiterung mit Appveyor
-  erstellt wird.
+  erstellt wird
+* Falsche Tastenkürzel korrigiert und nicht verwendete Tastenkombinationen
+  aus der Dokumentation entfernt
+* Die Beschreibung wurde in der Dokumentation aktualisiert, da diese noch
+  die Ankündigung der Version enthielt
 
 ## Änderungen in 4.0 ##
 
-* die Hilfe zur Erweiterung ist im Dialogfeld \"Erweiterungen verwalten\"
+* Die Hilfe zur Erweiterung ist im Dialogfeld \"Erweiterungen verwalten\"
   abrufbar.
 * Die Tastenkombination zum Umgang mit der Erweiterung wurde auf alt+nvda+d
   geändert, um Konflikte mit der Funktion zum Verringern der lautstärke
@@ -45,7 +46,7 @@ Dieses Problem kann zur Zeit nicht behoben werden.
   ab zwischen den Registerkarten wechseln. STRG+Tab bzw. Umschalt+Tab
   funktioniert weiterhin.
 * Alle übersetzten Manifest-Dateien sollten nun in Ordnung sein.
-* kleinere Korekturen
+* Kleinere Korekturen.
 
 ## Änderungen in 3.0 ##
 

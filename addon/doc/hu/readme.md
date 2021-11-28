@@ -1,29 +1,29 @@
 # dropbox #
 
 * Fejlesztők: Patrick ZAJDA, Filaos és egyéb közreműködők
+* NVDA compatibility: NVDA 2019.1 or later
 * Letöltés [stabil verzió][1]
 * Download [development version][2]
 
-A kiegészítő segítségével lekérdezhető a Dropbox program állapota, verziója,
-valamint megnyitható a menüje egy billentyűparancs segítségével. A
-beállítások párbeszédablak lapfülei helyesen hangoznak el a ctrl+tab és
-ctrl+shift+tab, vagy a ctrl+page up/down használatakor. Az Escape
-billentyűvel az ablak bezárható.
+This plugin add a shortcut to announce Dropbox status or open the Dropbox
+systray menu when pressed once or twice respectively.  It also enhances
+DropBox item lists.
 
 * Parancsbillentyű: NVDA+Alt+D
-* Ctrl+Alt+T bemondja az aktív lapfület.
 
-## Ismert hibák ##
 
-* Ha a billentyűparancsok használatával vált a lapfülek között, az NVDA nem észleli a tulajdonságok ablak bezárását.
-Ez egy ismert hiba, amit nem lehet javítani.
+## Changes for 4.6 ##
 
+* Specify NVDA 2021.1 compatibility
 
 ## Changes for 4.4 ##
 
 * Python 3 compatibility
 * Use the last addon template
 * Repository change to be built with Appveyor
+* Fixed wrong and removed unused shortcuts in the documentation
+* Update the description in the documentation which still referenced the
+  announcement of the version
 
 ## A 4.0 verzió változásai ##
 

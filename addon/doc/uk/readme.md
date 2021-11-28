@@ -1,29 +1,29 @@
 # dropbox #
 
 * Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
+* NVDA compatibility: NVDA 2019.1 or later
 * Завантажити [стабільну версію][1]
 * Download [development version][2]
 
-Цей плагін додає клавіатурне скорочення, за допомогою якого можна дізнатися
-про поточний стан Dropbox, його версію та відкрити меню Dropbox з системної
-панелі. Також працює сторінка вкладок над діалогом параметрів з комбінаціями
-ctrl+tab/ctrl+shift+tab та ctrl+сторінка Вгору/Вниз. Для завершення
-натисніть клавішу скасування, якою є клавіша ескейп.
+This plugin add a shortcut to announce Dropbox status or open the Dropbox
+systray menu when pressed once or twice respectively.  It also enhances
+DropBox item lists.
 
 * Shortcut: NVDA+Alt+D
-* Ctrl+Alt+T промовляє активну вкладку.
 
-## Відомі проблеми ##
 
-* Якщо ви перемикаєтеся між вкладками, використовуючи гарячі клавіші, то коли ви закриєте вікно з параметрами, NVDA не буде знати, що цього вікна більше неіснує.
-Це відома проблема в NVDA, яку неможливо виправити.
+## Changes for 4.6 ##
 
+* Specify NVDA 2021.1 compatibility
 
 ## Changes for 4.4 ##
 
 * Python 3 compatibility
 * Use the last addon template
 * Repository change to be built with Appveyor
+* Fixed wrong and removed unused shortcuts in the documentation
+* Update the description in the documentation which still referenced the
+  announcement of the version
 
 ## Зміни у версії 4.0 ##
 

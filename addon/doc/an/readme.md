@@ -1,29 +1,29 @@
 # dropbox #
 
 * Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
+* NVDA compatibility: NVDA 2019.1 or later
 * Baixada [Versión estable][2]
 * Download [development version][2]
 
-Iste complemento adhibirá un alcorce de teclau pa anunciar l'estau d'o
-Dropbox, a versión u ubrir o menú de Dropbox d'a servilla d'o sistema.
-Tamién funcionan as pestanyas en o dialogo preferencias con Ctrl+tab /
-Ctrl+Mayus+Tab y Ctrl+re Pach/av Pach.  Pa rematar, fa que funcione o botón
-cancelar con a tecla escape.
+This plugin add a shortcut to announce Dropbox status or open the Dropbox
+systray menu when pressed once or twice respectively.  It also enhances
+DropBox item lists.
 
 * Shortcut: NVDA+Alt+D
-* Ctrl+Alt+T anuncia la pestanya activa.
 
-## Problemas conoixius ##
 
-* Si cambias entre as pestanyas fendo servir os alcorces de teclau, en que zarres a finestra preferencias, NVDA no podrá saber si as finestras ya no existen.
-Ye un problema conoixido en NVDA y no puet correchir-se.
+## Changes for 4.6 ##
 
+* Specify NVDA 2021.1 compatibility
 
 ## Changes for 4.4 ##
 
 * Python 3 compatibility
 * Use the last addon template
 * Repository change to be built with Appveyor
+* Fixed wrong and removed unused shortcuts in the documentation
+* Update the description in the documentation which still referenced the
+  announcement of the version
 
 ## Cambios en 4.0 ##
 
