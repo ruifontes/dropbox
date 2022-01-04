@@ -1,29 +1,29 @@
 # dropbox #
 
 * Autores: Patrick ZAJDA <patrick@zajda.fr>, Filaos e outros colaboradores
+* Compatibilidade con NVDA: NVDA 2019.1 ou posterior
 * Descarga [versión estable][1]
-* Download [development version][2]
+* Descarga [versión de desenvolvemento][2]
 
-Este plugin engadirá un atallo de teclado para anunciar o estado do Dropbox,
-a versión ou abrirá o menú do Dropbox na bandexa do sistema.  Tamén
-funcionan as pestanas no diálogo preferencias con Ctrl+tab / Ctrl+Shift+Tab
-e Ctrl+rePáx/avPáx.  Para concluir, fai funcionar o botón cancelar co
-escape.
+Este plugin engadirá un atallo de teclado para anunciar o estado do Dropbox
+ou abrir o menú do Dropbox na bandexa do sistema cando se preme unha ou dúas
+veces respectivamente.  Tamén mellora as listas de elementos de Dropbox.
 
 * Atallo de teclado: NVDA+alt+D
-* Ctrl+Alt+T anuncia a pestana activa.
-
-## Problemas coñecidos ##
-
-* Se cambias entre pestanas utilizando os atallos de teclado, cando peches a ventá de preferencias, NVDA non poderá saber se aínda existe a ventá.
-É un problema coñecido no NVDA e non se pode correxir.
 
 
-## Changes for 4.4 ##
+## Cambios para 4.6 ##
 
-* Python 3 compatibility
-* Use the last addon template
-* Repository change to be built with Appveyor
+* Expecificar compatibilidade con NVDA 2021.1
+
+## Cambios para 4.4 ##
+
+* Compatibilidade con Python 3
+* Utilízase a última plantilla de complemento
+* Troco no repositorio para que se constrúa con Appveyor
+* Arranxadas ordes incorrectas e eliminadas aquelas sen uso na documentación
+* Actualizada a descripción na documentación que aínda referenciaba o
+  anunciado da versión
 
 ## Cambios para 4.0 ##
 
@@ -43,7 +43,7 @@ escape.
   avance de páxina para cambiar entre pestanas. Control+tab e
   control+shift+tab aínda funcionan.
 * Todos os ficheiros manifest traducidos agora deberían estár correctos.
-* Ccorreccións menores
+* Ccorreccións menores.
 
 ## Cambios para 3.0 ##
 

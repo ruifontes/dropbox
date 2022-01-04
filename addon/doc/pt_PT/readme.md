@@ -1,29 +1,29 @@
 # dropbox #
 
 * Autores: Patrick ZAJDA <patrick@zajda.fr>, Filaos e outros colaboradores.
+* Compatibilidade com NVDA: NVDA 2019.1 ou posterior
 * Baixar [versão estável][1]
-* Download [development version][2]
+* Baixar [versão de desenvolvimento][2]
 
-Este extra adicionará um atalho para anunciar o status, a versão ou o menu
-do Dropbox. Também adiciona separadores da página trabalhando na caixa de
-diálogo de preferências com a guia Ctrl + / Ctrl + Shift + Tab e Ctrl +
-PageUp / Down. Para concluir, faça com que o botão Cancelar funcione com
-escape.
+Este extra adiciona um atalho para anunciar o status do Dropbox ou abre o
+menu da bandeja do Dropbox quando pressionado uma ou duas vezes,
+respectivamente. Também melhora a leitura das as listas de itens do DropBox.
 
 * Atalho: NVDA+Alt+D
-* Ctrl + Alt + T anuncia o separador activo.
-
-## Problemas conhecidos ##
-
-* Se alternar entre separadores usando os atalhos, quando fechar a janela de preferências, o NVDA não saberá que essa janela não existe mais.
-É um problema conhecido no NVDA e não pode ser resolvido.
 
 
-## Changes for 4.4 ##
+## Alterações para 4.6 ##
 
-* Python 3 compatibility
-* Use the last addon template
-* Repository change to be built with Appveyor
+* Especifica a compatibilidade com o NVDA 2021.1
+
+## Alterações para 4.4 ##
+
+* Compatibilidade com o python 3.
+* Usa o último modelo de extras
+* mudanças do repositório criadas com o Appveyor
+* Corrigidos atalhos errados e removidos da documentação
+* Actualiza a descrição na documentação que ainda faz referência ao anúncio
+  da versão
 
 ## Alterações para 4.0 ##
 

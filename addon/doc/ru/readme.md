@@ -1,28 +1,29 @@
 # dropbox #
 
 * Авторы: Patrick ZAJDA <patrick@zajda.fr>, Filaos и другие участники
+* NVDA compatibility: NVDA 2019.1 or later
 * Загрузить [стабильную версию][1]
 * Download [development version][2]
 
-Объявляет информацию о состоянии, версию или открывает меню Dropbox в
-системном трее Страницы вкладок также работают в диалоге настроек при помощи
-Ctrl+Tab и Shift+Ctrl+Tab.Вы можете активировать кнопку "cancel", нажав
-клавишу "escape".
+This plugin add a shortcut to announce Dropbox status or open the Dropbox
+systray menu when pressed once or twice respectively.  It also enhances
+DropBox item lists.
 
 * Горячая клавиша: NVDA+Alt+D
-* Ctrl+Alt+T объявить активную вкладку.
 
-## Известные проблемы ##
 
-* Если вы переключаетесь между вкладками с помощью горячих клавиш, когда вы Закроете окно настроек, NVDA не сможет знать о существовании окна.
-Это известная проблема, в NVDA, которая не может быть исправлена.
+## Changes for 4.6 ##
 
+* Specify NVDA 2021.1 compatibility
 
 ## Changes for 4.4 ##
 
 * Python 3 compatibility
 * Use the last addon template
 * Repository change to be built with Appveyor
+* Fixed wrong and removed unused shortcuts in the documentation
+* Update the description in the documentation which still referenced the
+  announcement of the version
 
 ## Изменения в версии 4.0 ##
 

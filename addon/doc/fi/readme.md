@@ -1,28 +1,29 @@
 # dropbox #
 
 * Tekijät: Patrick ZAJDA <patrick@zajda.fr>, Filaos ja muut
+* Yhteensopivuus: NVDA 2019.1 tai uudempi
 * Lataa [vakaa versio][1]
 * Lataa [kehitysversio][2]
 
-Tämä lisäosa lisää pikanäppäimen Dropboxin tilan ja version ilmoittamiseksi
-tai ilmoitusalueella olevan valikon avaamiseksi.  Lisäksi välilehdet
-toimivat Asetukset-valintaikkunassa Ctrl+sarkain-, Ctrl+Shift+sarkain- sekä
-Ctrl+Page up/down-näppäimillä, ja Peruuta-painike toimii Esc-näppäimellä.
+Tämä lisäosa lisää pikanäppäimen Dropboxin tilan ilmoittamiseen kerran
+painettaessa tai ilmoitusalueella olevan valikon avaamiseen kahdesti
+painettaessa.  Myös Dropboxin kohdeluetteloidenn  saavutettavuutta
+parannetaan.
 
 * Pikanäppäin: NVDA+Alt+D
-* Ctrl+Alt+T ilmoittaa aktiivisen välilehden.
 
-## Tunnetut ongelmat ##
 
-* Jos välilehtiä vaihdetaan pikanäppäimillä, NVDA ei voi tietää Asetukset-ikkunaa suljettaessa, että välilehtiä ei enää ole.
-Tämä on tunnettu NVDA:n ongelma, eikä sitä voida korjata.
+## Muutokset versiossa 4.6 ##
 
+* NVDA 2021.1 -yhteensopivuus lisätty.
 
 ## Muutokset versiossa 4.4 ##
 
 * Python 3 -yhteensopivuus
 * Käytetään viimeisintä lisäosapohjaa
 * Koodivarasto muodostetaan nyt Appveyorilla
+* Ohjeen väärät pikanäppäimet korjattu ja käyttämättömät poistettu.
+* Päivitetty ohjeen kuvaus, joka viittasi edelleen versionumeron puhumiseen.
 
 ## Muutokset versiossa 4.0 ##
 

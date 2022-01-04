@@ -1,7 +1,8 @@
 # dropbox #
 
-* Auteurs : Patrick ZAJDA <patrick@zajda.fr>, Filaos et d'autres
+* Auteurs : Patrick ZAJDA <patrick@zajda.fr>, Filaos et d'autres
   contributeurs
+* Compatibilité NVDA : 2019.1 et ultérieurs
 * Télécharger [version stable][1]
 * Télécharger [version de développement][2]
 
@@ -13,19 +14,21 @@ Ctrl+Maj+Tab et Ctrl+PagePréc/Suiv.  Pour conclure, ajoute échapp pour
 activer le bouton Annuler.
 
 * Raccourci : NVDA+Alt+D
-* Ctrl+Alt+T annonce l'onglet actif.
 
-## Problèmes connus ##
 
-* Si vous changez entre les onglets en utilisant les raccourcis, lorsque vous fermerez la fenêtre des préférences, NVDA ne pourra pas savoir que les fenêtres n'existent plus.
-Ce souci est connu dans NVDA, il est probablement du à Windows et ne peut donc pas être corrigé.
+## Changements pour la version 4.6 ##
 
+* Spécifie la compatibilité avec NVDA 2021.1
 
 ## Changements pour la version 4.4 ##
 
 * Compatibilité Python 3
 * Utilisation du dernier modèle d'extension
 * Changement de dépôt pour être compatible avec Appveyor
+* Correction de raccourcis inutilisés ou incorrects et supprimés dans la
+  documentation
+* Mise à jour de la description dans la documentation qui faisait encore
+  référence à l'annonce de la version
 
 ## Changements pour la version 4.0 ##
 

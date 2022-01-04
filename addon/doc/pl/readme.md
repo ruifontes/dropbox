@@ -1,27 +1,29 @@
 # dropbox #
 
 * Autorzy: Patrick ZAJDA <patrick@zajda.fr>, Filaos i inni współautorzy
+* NVDA compatibility: NVDA 2019.1 or later
 * Pobierz [wersja stabilna][1]
-* Download [development version][2]
+* Pobierz [wersja rozwojowa][2]
 
-WTyczka dodaje do NVDA skrót klawiszowy, po którego wciśnięciu otrzymujemy
-informację o statusie programu, jego wersji, a także ułatwia pracę z menu
-kontekstowym tego programu oraz jego oknem preferencji.
+This plugin add a shortcut to announce Dropbox status or open the Dropbox
+systray menu when pressed once or twice respectively.  It also enhances
+DropBox item lists.
 
 * skrót: nvda+alt+d
-* control+alt+t zgłasza aktywną zakładkę ustawień dropbox
-
-## znane błędy ##
-
-*Jeśli użyjesz skrutu klawiszowego do przechodzenia między zakładkami i zamkniesz okno ustawień wtyczki, NVDA może nie odnotować zniknięcia tego okna.
-Jest to znany problem z NVDA, który nie może być poprawiony.
 
 
-## Changes for 4.4 ##
+## Changes for 4.6 ##
 
-* Python 3 compatibility
-* Use the last addon template
-* Repository change to be built with Appveyor
+* Specify NVDA 2021.1 compatibility
+
+## Zmiany dla wersji 4.4 ##
+
+* Zgodność z Pythonem 3
+* Używanie ostatniego szablonu dodatków
+* Zmiany repozytorium dla możliwości budowy z Appveyor
+* Fixed wrong and removed unused shortcuts in the documentation
+* Update the description in the documentation which still referenced the
+  announcement of the version
 
 ## zmiany dla 4.0 ##
 

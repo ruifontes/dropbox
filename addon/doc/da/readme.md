@@ -1,29 +1,31 @@
 # Dropbox #
 
 * Forfattere: Patrick ZAJDA, Filaos og andre bidragydere
+* NVDA -kompatibilitet: NVDA 2019.1 eller nyere
 * Download [stabil version][1]
-* Download [development version][2]
+* Download [udviklingsversion][2]
 
 Dette tilføjelsesprogram tilføjer en genvejstast, som annoncerer status for
-Dropbox, version, eller som åbner Dropbox-menuen i systembakken. Desuden
-virker skift af faneblade i Indstillinger-dialogen med Ctrl+Tab og
-Shift+Ctrl+Tab samt med Ctrl+side-op/ned. Afslutningsvis virker
-Annuller-knappen med Escape.
+Dropbox eller åbne Dropbox-menuen i systembakken ved at udføre kommandoen to
+gange lige efter hinanden. Desuden virker skift af faneblade i
+Indstillinger-dialogen med Ctrl+Tab og Shift+Ctrl+Tab samt med
+Ctrl+side-op/ned. Afslutningsvis virker Annuller-knappen med Escape.
 
 * Genvejstast: NVDA+Alt+D
-* Ctrl+Alt+T annoncerer det aktive faneblad.
-
-## Kendte problemer ##
-
-* Hvis du skifter mellem fanebladene med genvejstasterne, kan NVDA, når du lukker Indstillinger-vinduet, ikke se, at vinduet ikke eksisterer mere.
-Det er et kendt problem i NVDA, som ikke kan løses.
 
 
-## Changes for 4.4 ##
+## Ændringer for 4.6 ##
 
-* Python 3 compatibility
-* Use the last addon template
-* Repository change to be built with Appveyor
+* Angiv kompatibilitet med NVDA 2021.1
+
+## Ændringer i 4.4 ##
+
+* Python 3-kompatibilitet
+* Brug den sidste tilføjelsesskabelon
+* Lagringsændring, der skal bygges med Appveyor
+* Rettet forkert og fjernet ubrugte genveje i dokumentationen
+* Opdaterede beskrivelsen i dokumentationen, som stadig henviste til
+  annonceringen af versionen
 
 ## Ændringer i4.0  ##
 

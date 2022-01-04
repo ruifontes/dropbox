@@ -1,28 +1,29 @@
 # dropbox #
 
 * Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
+* NVDA compatibility: NVDA 2019.1 or later
 * Download [stable version][1]
 * Download [development version][2]
 
-This plugin will add a shortcut to announce Dropbox status, version or open
-the Dropbox systray menu.  Also page tabs working on the preferences dialog
-with Ctrl+tab / Ctrl+Shift+Tab and Ctrl+PageUp/Down.  To conclude, make the
-cancel button working with escape.
+This plugin add a shortcut to announce Dropbox status or open the Dropbox
+systray menu when pressed once or twice respectively.  It also enhances
+DropBox item lists.
 
 * Shortcut: NVDA+Alt+D
-* Ctrl+Alt+T naznani aktivni zavihek
 
-## Znane težave ##
 
-* If you switch between tabs using the shortcuts, when you'll close the preferences window, NVDA won't be able to know the windows doesn't exist anymore.
-It is a known issue on NVDA and cannot be fixed.
+## Changes for 4.6 ##
 
+* Specify NVDA 2021.1 compatibility
 
 ## Changes for 4.4 ##
 
 * Python 3 compatibility
 * Use the last addon template
 * Repository change to be built with Appveyor
+* Fixed wrong and removed unused shortcuts in the documentation
+* Update the description in the documentation which still referenced the
+  announcement of the version
 
 ## Changes for 4.0 ##
 
