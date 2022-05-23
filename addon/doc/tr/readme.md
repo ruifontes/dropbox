@@ -2,7 +2,7 @@
 
 * Geliştiriciler: Patrick ZAJDA <patrick@zajda.fr>, Filaos ve diğer katkıda
   bulunanlar
-* NVDA compatibility: NVDA 2019.1 or later
+* NVDA uyumluluğu: NVDA 2019.1 veya üstü
 * İndir [kararlı sürüm][1]
 * [kararlı sürüm][1]ü indir
 
@@ -13,9 +13,9 @@ ekler. Ayrıca DropBox öğe listelerini geliştirir.
 * Kısayol tuşu: NVDA+Alt+D
 
 
-## Changes for 4.6 ##
+## 4.6 için değişiklikler ##
 
-* Specify NVDA 2021.1 compatibility
+* NVDA 2021.1 uyumluluğunu belirtir
 
 ## 4.0 için değişiklikler ##
 
