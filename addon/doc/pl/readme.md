@@ -1,71 +1,73 @@
 # dropbox #
 
 * Autorzy: Patrick ZAJDA <patrick@zajda.fr>, Filaos i inni współautorzy
-* NVDA compatibility: NVDA 2019.1 or later
+* Zgodność z NVDA: NVDA 2019.1 lub nowsza
 * Pobierz [wersja stabilna][1]
 * Pobierz [wersja rozwojowa][2]
 
-This plugin add a shortcut to announce Dropbox status or open the Dropbox
-systray menu when pressed once or twice respectively.  It also enhances
-DropBox item lists.
+Ta wtyczka dodaje skrót do ogłaszania statusu Dropbox lub otwierania menu
+systray Dropbox po naciśnięciu odpowiednio raz lub dwa razy.  Ulepsza
+również listy elementów DropBox.
 
-* skrót: nvda+alt+d
+* Skrót: NVDA+Alt+D
 
 
-## Changes for 4.6 ##
+## Zmiany w wersji 4.6 ##
 
-* Specify NVDA 2021.1 compatibility
+* Określanie zgodności z NVDA 2021.1
 
 ## Zmiany dla wersji 4.4 ##
 
 * Zgodność z Pythonem 3
 * Używanie ostatniego szablonu dodatków
 * Zmiany repozytorium dla możliwości budowy z Appveyor
-* Fixed wrong and removed unused shortcuts in the documentation
-* Update the description in the documentation which still referenced the
-  announcement of the version
+* Naprawiono błędy i usunięto nieużywane skróty w dokumentacji
+* Zaktualizuj opis w dokumentacji, która nadal odnosiła się do ogłoszenia
+  wersji
 
-## zmiany dla 4.0 ##
+## Zmiany w wersji 4.0 ##
 
 * Pomoc dodatku jest dostępna z menedżera dodatków.
 * Skrót do pobierania statusu Dropbox został zmieniony na Alt+NVDA+D aby
   zapobiec konflikt z wsparciem do przyciszania głośności.
 
-## zmiany dla wersji 3.1 ##
+## Zmiany w wersji 3.1 ##
 
 * Używa innej metody do znalezienia przycisku Anuluj i zakładki
   strony. Teraz nie musimy jej lokalizować punktem uwagi przed użyciem
   skrótu.
-* Gdy zmienisz aktywną zakładkę, punkt uwagi przemieszcza się na kartę z
-  zakładkami. Zatem gdy wciśniesz tab, aktywowany zostanie pierwszy element
-  zakładki
-* w oknie ustawień można poruszać się między zakładkami używając kombinacji
-  ctrl+page up i page down
-* tłumaczone pliki.manifest nie powinny sprawiać problemów.
-* drobne poprawki.
+* Podczas zmiany aktywnej karty fokus przenosi się na stronę karty, więc po
+  naciśnięciu Tab pierwszy element karty jest aktywowany zamiast pozostawać
+  na poprzedniej używanej karcie, nawet jeśli nie jest już aktywowany.
+* W oknie dialogowym preferencji można teraz nacisnąć control+page w górę/w
+  dół, aby przełączać się między kartami. Control+tab i control+shift+tab
+  nadal działają.
+* Wszystkie zlokalizowane pliki manifestów powinny być teraz w porządku.
+* Drobne poprawki.
 
-## zmiany dla 3.0 ##
+## Zmiany w wersji 3.0 ##
 
-* poprawki pliku manifest (autorzy są pokazywani prawidłowo)
-* poprawione wykrywanie menu kontekstowego po trzykrotnym wciśnięciu
-  nvda+shift+d
-* Klawisz escape działa tylko, gdy język dropboxa jest taki sam, jak język
-  NVDA
-* wiele poprawek w kodzie skryptu
-* dodano zaktualizowaną dokumentację
+* Drobna korekta w głównym pliku manifestu (autorzy są poprawnie
+  wyświetleni).
+* Ulepszono wykrywanie menu kontekstowego po trzykrotnym naciśnięciu
+  Shift+NVDA+D.
+* Przycisk Escape działa teraz (tylko w przypadku korzystania z Dropbox w
+  tym samym języku, którego używa NVDA).
+* Dużo poprawek w kodzie.
+* Dodano/zaktualizowano dokumentację wszystkich skryptów.
 * Komunikaty w nowych językach: Arabski, Brazylijski portugalski,, Czeski,
   Duński, Fiński, Galicyjski, Niemiecki, Wengierski, Japoński, Nepalski,
   Polski, Rosyjski, Chiszpański, Słowacki, Tamil, Turecki.
 
-## zmiany dla wersji 2.0 ##
+## Zmiany w wersji 2.0 ##
 
-* nowy język: Włoski
-* trzykrotne wciśnięcie skrótu, gdy jest się już w menu kontekstowym, nie
-  sprawia problemów
+* Nowe języki: włoski
+* Naciśnięcie skrótu trzy razy lub więcej, gdy jest już w menu kontekstowym,
+  nie powoduje już problemu.
 
-## zmiany dla wersji 1.0 ##
+## Zmiany w wersji 1.0 ##
 
-* wstępne wydanie
+* Wstępne wydanie
 
 [[!tag dev stable]]
 
