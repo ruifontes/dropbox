@@ -1,27 +1,33 @@
 # dropbox #
 
-* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
-* Download [stable version][1]
+* 作者: Patrick ZAJDA <patrick@zajda.fr>, Filaos, その他の貢献者
+* NVDA 互換性: NVDA 2019.1以降
+* ダウンロード [安定版][1]
+* ダウンロード [開発版][2]
 
-このアドオンはDropboxの状態通知、バージョン通知、タスクトレイのメニューを開くショートカットを追加します。
-また、Dropboxの設定ダイアログでは、タブを Ctrl+Tab, Ctrl+Shift+Tab, Ctrl+PageUp/PageDown
-で移動できるようになり、エスケープでキャンセルのボタンを押せます。
+このプラグインは、1回押す、または2回押すことで、それぞれ、Dropboxの状態を通知、または、Dropboxシストレイメニューを開くショートカットを追加します。また、Dropboxの項目リストも拡張します。
 
-* Shortcut: NVDA+Alt+D
-* Ctrl+Alt+T 選択中のタブを通知する
-
-## 既知の問題 ##
-
-* ショートカットキーでタブを切り替えて、設定ウィンドウを閉じると、NVDAはウィンドウが閉じてしまったことを判断できません。これはNVDAの既知の問題で、修正できません。
+* ショートカット: NVDA+Alt+D
 
 
-## 4.0 での変更点 ##
+## 4.6 の変更点 ##
 
-* Add-on help is available from the Add-ons Manager.
-* The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid
-  conflict with audio ducking support.
+* NVDA 2021.1互換性を記述
 
-## 3.1 での変更点 ##
+## 4.4の変更点 ##
+
+* Python 3 互換性
+* 最新のアドオンテンプレートを使用
+* レポジトリをAppveyorでのビルドに変更
+* ドキュメント内の誤った、また、除去され使用されていないショートカットを修正しました
+* バージョンの通知をまだ参照しているドキュメントの記述を更新しました
+
+## 4.0 の変更点 ##
+
+* アドオンヘルプがアドオンマネージャーから利用可能になりました。
+* Dropboxの状態を得るショートカットが、オーディオダッキングサポートとのコンフリクトを避けるために、Alt+NVDA+Dに変更になりました。
+
+## 3.1 の変更点 ##
 
 * キャンセルボタンとページタブを操作する方法を変更しました。ショートカットを実行する前にフォーカスを設定する必要がなくなりました。
 * アクティブなタブを変更するときにフォーカスはそのタブに移動します。
@@ -31,29 +37,27 @@
 * すべてのローカライズされたマニュフェストファイルで不具合が解決しました。
 * 些細な修正を行いました。
 
-## Changes for 3.0 ##
+## 3.0の変更点 ##
 
-* Minor correction in the main manifest file (authors are correctly
-  displayed).
-* Improved context menu detection when pressing Shift+NVDA+D three times.
-* The escape button now works (only when using Dropbox in the same language
-  NVDA uses).
-* A lot of corrections in the code.
-* Added/updated documentations of all scripts.
-* New languages: Arabic, Brazilian Portuguese, Czech, Dutch, Finnish,
-  Galician, German, Hungarian, Japanese, Nepali, Polish, Russian, Spanish,
-  Slovak, Tamil, Turkish.
+* メインマニフェストファイルでの軽微な修正(作者を正確に表示)。
+* Shift+NVDA+Dを3回押した時のコンテキストメニューの検出を改善しました。
+* エスケープボタンが動作するようになりました(NVDAが使用しているのと同じ言語でDropboxを使用している時のみ)。
+* コード内の多くの修正。
+* 全てのスクリプトのドキュメントの追加/更新。
+* 新しい言語:
+  アラビア語、ブラジルポルトガル語、チェコ語、オランダ語、フィンランド語、ガリシア語、ドイツ語、ハンガリー語、日本語、ネパール語、ポーランド語、ロシア語、スペイン語、スロバキア語、タミル語、トルコ語。
 
-## Changes for 2.0 ##
+## 2.0の変更点 ##
 
-* New languages: Italian
-* Pressing the shortcut three times or more when already being in the
-  context menu doesn't cause problem anymore.
+* 新しい言語: イタリア語
+* コンテキストメニューにすでにいる時に、ショートカットを3回以上押しても、問題の原因にならなくなりました。
 
-## Changes for 1.0 ##
+## 1.0の変更点 ##
 
-* Initial Release
+* 最初のリリース
 
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=dx
+[1]: https://addons.nvda-project.org/files/get.php?file=dx
+
+[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev
