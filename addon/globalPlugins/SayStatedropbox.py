@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # Dropbox announcement Global Plugin for NVDA
-# Copyright (C) 2014 Filaos, Patrick ZAJDA <patrick@zajda.fr> and other contributors
+# Copyright (C) 2014 Filaos, Patrick ZAJDA <patrick@zajda.fr>, Rui Fontes and other contributors
 # This file is covered by the GNU General Public License.
 # You can read the licence by clicking Help->Licence in the NVDA menu
 # or by visiting http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
@@ -94,6 +94,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		path11 = ("shell_TrayWnd", "TrayNotifyWnd", "Windows.UI.Composition.DesktopWindowContentBridge")
 		try:
 			from winVersion import getWinVer, WinVersion
+			global win11_22h2
 			win11_22h2 = getWinVer() >= WinVersion(major=10, minor=0, build=22621)
 			win11 = getWinVer() >= WinVersion(major=10, minor=0, build=22000)
 		except ImportError:
@@ -106,7 +107,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			objects = self._findAccessibleLeafsFromWindowClassPath(path)
 		for trayIcon in objects:
 			iconName = trayIcon.name
-			if iconName is not None and iconName.lower().contains("dropbox"):
+			if iconName is not None and "dropbox" in iconName.lower():
 				# dropbox object found
 				return trayIcon
 		return None
@@ -122,9 +123,14 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		repeatCount = scriptHandler.getLastScriptRepeatCount()
 		if repeatCount == 0:
 			# announce dropbox state
-			del(name[1])
-			name = " ".join(name)
-			ui.message(name)
+			if win11_22h2:
+				del(name[0:3])
+				name = " ".join(name)
+				ui.message(name)
+			else:
+				del(name[1])
+				name = " ".join(name)
+				ui.message(name)
 
 		else:
 			# activate dropbox icon
