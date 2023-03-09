@@ -101,7 +101,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			objects = self._findAccessibleLeafsFromWindowClassPath(path)
 		for trayIcon in objects:
 			iconName = trayIcon.name
-			if iconName is not None and iconName.lower().startswith("dropbox"):
+			if iconName is not None and iconName.lower().contains("dropbox"):
 				# dropbox object found
 				return trayIcon
 		return None
