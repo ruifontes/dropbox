@@ -89,7 +89,7 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			o = o + 1
 		return trayObjects
 
-	def _findDdropbox(self):
+	def _findDropbox(self):
 		path = ("shell_TrayWnd", "TrayNotifyWnd", "SysPager", "ToolbarWindow32")
 		path11 = ("shell_TrayWnd", "TrayNotifyWnd", "Windows.UI.Composition.DesktopWindowContentBridge")
 		try:
