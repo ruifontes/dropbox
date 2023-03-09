@@ -5,6 +5,7 @@
 # You can read the licence by clicking Help->Licence in the NVDA menu
 # or by visiting http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 # Shortcut: NVDA+Alt+D
+# Some portion have been directly copied from the systraylist addon which is copyright (C) Rui Fontes and other contributors
 
 import globalPluginHandler
 import addonHandler
@@ -16,36 +17,6 @@ import winUser
 import controlTypes
 from typing import Callable
 
-
-def findDropBoxObject():
-	# We get the systray
-	windowClassList = (u"shell_TrayWnd", u"TrayNotifyWnd", u"SysPager", u"ToolbarWindow32")
-	handle, FindWindowExW = 0, winUser.user32.FindWindowExW
-	for element in windowClassList:
-		handle = FindWindowExW(handle, 0, element, 0)
-		if not handle:
-			continue
-
-		sysTray = NVDAObjects.IAccessible.getNVDAObjectFromEvent(handle, -4, 0)
-		trayIcon = sysTray.firstChild
-		while trayIcon:
-			iconName = trayIcon.name
-			if iconName is not None and iconName.lower().startswith("dropbox"):
-				# dropbox object found , quit while loop
-				break
-
-			trayIcon = trayIcon.next
-
-		if trayIcon:
-			# dropbox object found, quit for loop
-			break
-	return trayIcon
-
-
-# We keep it for the same reason as in the app module
-# _addonDir = os.path.join(os.path.dirname(__file__), "..").decode("mbcs")
-# _curAddon = addonHandler.Addon(_addonDir)
-# _addonSummary = _curAddon.manifest['summary']
 
 # We initialize translation support
 addonHandler.initTranslation()
@@ -63,11 +34,80 @@ else:
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 	# We initialize the scripts category shown on input gestures dialog
-	# scriptCategory = unicode(_addonSummary)
 	scriptCategory = u"Dropbox"
 
+	def _findAccessibleLeafsFromWindowClassPath(self, windowClassPath):
+		# Create a list of systray icons
+		# Copied from systray list add-on from Rui Fontes
+		h, FindWindowEx =0, winUser.user32.FindWindowExW
+		for element in windowClassPath:
+			h = FindWindowEx(h,0,element,0)
+		l = []
+		o = NVDAObjects.IAccessible.getNVDAObjectFromEvent(h,-4,1)
+		# When o.next is None it means that there is no more objects on the systray.
+		while o is not None:
+			if o.name:
+				l.append(o)
+			o = o.next
+		return l
+
+	def _findAccessibleLeafsFromWindowClassPath11(self, windowClassPath):
+		# Create a list of systray icons
+		# Copied from Systray list NVDA add-on
+		h = 0
+		for className in windowClassPath:
+			h = ctypes.windll.user32.FindWindowExA(h, 0, className, 0)
+			#if not h:
+			#	break
+		obj = NVDAObjects.IAccessible.getNVDAObjectFromEvent(h, -4, 0).firstChild.children
+		l = []
+		for o in obj:
+			l.append(o)
+		return l
+
+	def _findAccessibleLeafsFromWindowClassPath11_22h2(self):
+		"""
+		Create a list of systray icons
+		Copied from Systray list add-on
+		"""
+		# Starting to find the handle of the Shell_TrayWnd window
+		h = winUser.FindWindow("Shell_TrayWnd", None)
+		# Now, lets get the handle of Windows.UI.Input.InputSite.WindowClass window, where the icons reside...
+		hwnd = windowUtils.findDescendantWindow(h, visible=None, controlID=None, className="Windows.UI.Input.InputSite.WindowClass")
+		# Now, lets get all objects in this window and its location
+		obj = NVDAObjects.IAccessible.getNVDAObjectFromEvent(hwnd, -4, 0).children
+		l = []
+		# We start in the second object because the first object do not interesse us...
+		o = 1
+		while o in range(len(obj)):
+			l.append(obj[o])
+			o = o+1
+		return l
+
+	def _findDdropbox(self):
+		path = ("shell_TrayWnd", "TrayNotifyWnd", "SysPager", "ToolbarWindow32")
+		path11 = ("shell_TrayWnd", "TrayNotifyWnd", "Windows.UI.Composition.DesktopWindowContentBridge")
+		try:
+			from winVersion import getWinVer, WinVersion
+			win11_22h2 = getWinVer() >= WinVersion(major=10, minor=0, build=22621)
+			win11 = getWinVer() >= WinVersion(major=10, minor=0, build=22000)
+		except ImportError:
+			win11 = False
+		if win11_22h2:
+			objects = self._findAccessibleLeafsFromWindowClassPath11_22h2()
+		elif win11:
+			objects = self._findAccessibleLeafsFromWindowClassPath11(path11)
+		else:
+			objects = self._findAccessibleLeafsFromWindowClassPath(path)
+		for trayIcon in objects:
+			iconName = trayIcon.name
+			if iconName is not None and iconName.lower().startswith("dropbox"):
+				# dropbox object found
+				return trayIcon
+		return None
+
 	def script_announceDropbox(self, gesture):
-		trayIcon = findDropBoxObject()
+		trayIcon = self._findDropbox()
 		if not trayIcon:
 			# Translators: the message presented when Dropbox tray icon was not found
 			ui.message(_("drop box not found"))
