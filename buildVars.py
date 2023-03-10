@@ -28,7 +28,7 @@ Shortcut: NVDA+Alt+D"""),
 	# Author(s)
 	"addon_author" : "Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors",
 	# URL for the add-on documentation support
-	"addon_url" : "http://addons.nvda-project.org/",
+	"addon_url" : "https://addons.nvda-project.org/",
 	# URL for the add-on repository where the source code can be found
 	"addon_sourceURL": "https://github.com/Nardol/dropbox",
 	# Documentation file name
