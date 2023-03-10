@@ -3,6 +3,7 @@ addon/doc/en/
 *_docHandler.py
 *.html
 *.ini
+*.json
 *.mo
 *.pot
 *.py[co]

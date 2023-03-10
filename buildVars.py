@@ -3,12 +3,18 @@
 # Build customizations
 # Change this file instead of sconstruct, whenever possible.
 
-# Full getext (please don't change)
-_ = lambda x : x
+# Since some strings in `addon_info` are translatable,
+# we need to include them in the .po files.
+# Gettext recognizes only strings given as parameters to the `_` function.
+# To avoid initializing translations in this module we simply roll our own "fake" `_` function
+# which returns whatever is given to it as an argument.
+def _(arg):
+	return arg
+
 
 # Add-on information variables
 addon_info = {
-# add-on Name
+	# add-on Name
 	"addon_name" : "dropbox",
 	# Add-on summary, usually the user visible name of the addon.
 	# Translators: Summary for this add-on to be shown on installation and add-on information.
@@ -23,6 +29,8 @@ Shortcut: NVDA+Alt+D"""),
 	"addon_author" : "Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors",
 	# URL for the add-on documentation support
 	"addon_url" : "http://addons.nvda-project.org/",
+	# URL for the add-on repository where the source code can be found
+	"addon_sourceURL": "https://github.com/Nardol/dropbox",
 	# Documentation file name
 	"addon_docFileName" : "readme.html",
 	# Minimum NVDA version supported (e.g. "2018.3.0", minor version is optional)
@@ -31,6 +39,10 @@ Shortcut: NVDA+Alt+D"""),
 	"addon_lastTestedNVDAVersion" : "2023.1",
 	# Add-on update channel (default is stable or None)
 	"addon_updateChannel" : None,
+	# Add-on license such as GPL 2
+	"addon_license": "GPL V2",
+	# URL for the license document the ad-on is licensed under
+	"addon_licenseURL": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
 }
 
 
