@@ -125,12 +125,9 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 			# announce dropbox state
 			if win11_22h2:
 				del(name[0:3])
-				name = " ".join(name)
-				ui.message(name)
-			else:
-				del(name[1])
-				name = " ".join(name)
-				ui.message(name)
+			del(name[1])
+			name = " ".join(name)
+			ui.message(name)
 
 		else:
 			# activate dropbox icon
