@@ -66,6 +66,6 @@ u sistemskoj traci.  Takođe poboljšava stavke u Dropbox listama.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=dx
+[1]: https://www.nvaccess.org/addonStore/legacy?file=dropbox
 
-[2]: https://addons.nvda-project.org/files/get.php?file=dx-dev
+[2]: https://www.nvaccess.org/addonStore/legacy?file=dx-dev
