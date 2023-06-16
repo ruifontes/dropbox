@@ -44,11 +44,11 @@ ekler. Ayrıca DropBox öğe listelerini geliştirir.
 
 ## 3.0 versiyonundaki değişiklikler ##
 
-* ana manifest dosyasında Küçük bir düzeltme (geliştiriciler doğru olarak
+* Ana manifest dosyasında Küçük bir düzeltme (geliştiriciler doğru olarak
   gösteriliyor).
 * Üç kez NVDA+Shift+D tuşllarına basıldığında içerik menüsünün açılışıyla
   ilgili iyileştirmeler.
-* escape butonu şimdi çalışıyor (sadece NVDA ve Dropbox aynı dil arayüzüyle
+* Escape butonu şimdi çalışıyor (sadece NVDA ve Dropbox aynı dil arayüzüyle
   kullanılıyorsa).
 * Kodla ilgili çok sayıda düzeltme.
 * İşlevlerle ilgili eklenmiş ve güncellenmiş dokümantasyon.
