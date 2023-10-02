@@ -67,4 +67,6 @@ prístupnosť položiek v menu.
 
 [[!tag dev stable]]
 
-[1]: https://github.com/ruifontes/dropbox/releases/download/2023.10.01/dropbox-2023.10.01.nvda-addon
+[1]: https://www.nvaccess.org/addonStore/legacy?file=dropbox
+
+[2]: https://www.nvaccess.org/addonStore/legacy?file=dx-dev

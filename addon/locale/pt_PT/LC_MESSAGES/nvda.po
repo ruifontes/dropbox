@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: dropbox\n"
-"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2023-10-01 20:42+0100\n"
-"PO-Revision-Date: 2023-10-01 20:58+0100\n"
+"Project-Id-Version: dropbox 4.0\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
+"POT-Creation-Date: 2014-09-26 04:00+1000\n"
+"PO-Revision-Date: 2023-07-28 14:36+0100\n"
 "Last-Translator: Ângelo Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA <angelomiguelabrantes@gmail.com; "
 "rui.fontes@tiflotecnia.com>\n"
@@ -17,10 +17,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.4\n"
+"X-Generator: Poedit 3.3.2\n"
 
-#. Translators: Message to be announced during Keyboard Help
-#: addon\globalPlugins\dropbox\__init__.py:114
+#. Translators: the message presented when Dropbox tray icon was not found
+msgid "drop box not found"
+msgstr "dropbox não encontrado"
+
+#. Translators: the message reported when it is not possible to activate Dropbox context menu.
+msgid "Unable to activate Dropbox context menu"
+msgstr "Impossível activar o menu de contexto do dropbox"
+
 msgid ""
 "If pressed once, announces Dropbox status. If pressed twice, open the "
 "Dropbox context menu by clicking on its systray icon"
@@ -29,19 +35,8 @@ msgstr ""
 "vezes, abre o menu de contexto do Dropbox, activando o seu ícone na barra de "
 "sistema"
 
-#. Translators: the message presented when Dropbox tray icon was not found
-#: addon\globalPlugins\dropbox\__init__.py:122
-msgid "drop box not found"
-msgstr "dropbox não encontrado"
-
-#. Translators: the message reported when it is not possible to activate Dropbox context menu.
-#: addon\globalPlugins\dropbox\__init__.py:148
-msgid "Unable to activate Dropbox context menu"
-msgstr "Impossível activar o menu de contexto do dropbox"
-
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
-#: buildVars.py:24
 msgid ""
 "Announces Dropbox status or open the Dropbox systray menu.\n"
 "Shortcut: NVDA+Alt+D"

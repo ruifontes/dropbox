@@ -3,6 +3,7 @@
 * Forfattere: Patrick ZAJDA, Filaos og andre bidragydere
 * NVDA -kompatibilitet: NVDA 2019.1 eller nyere
 * Download [stabil version][1]
+* Download [udviklingsversion][2]
 
 Dette tilføjelsesprogram tilføjer en genvejstast, som annoncerer status for
 Dropbox eller åbne Dropbox-menuen i systembakken ved at udføre kommandoen to
@@ -70,4 +71,6 @@ Ctrl+side-op/ned. Afslutningsvis virker Annuller-knappen med Escape.
 
 [[!tag dev stable]]
 
-[1]: https://github.com/ruifontes/dropbox/releases/download/2023.10.01/dropbox-2023.10.01.nvda-addon
+[1]: https://www.nvaccess.org/addonStore/legacy?file=dropbox
+
+[2]: https://www.nvaccess.org/addonStore/legacy?file=dx-dev

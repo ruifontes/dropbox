@@ -3,6 +3,7 @@
 * Автори: Patrick ZAJDA <patrick@zajda.fr>, Filaos и други сътрудници
 * Съвместимост с NVDA: от 2019.1 и по-нови
 * Изтегляне на [стабилна версия][1]
+* Изтегляне на [тестова версия][2]
 
 Тази добавка ви предоставя бърз клавиш за достъп до състоянието на Dropbox и
 отваряне на контекстното меню на иконата на Dropbox в системния жлеб при
@@ -73,4 +74,6 @@
 
 [[!tag dev stable]]
 
-[1]: https://github.com/ruifontes/dropbox/releases/download/2023.10.01/dropbox-2023.10.01.nvda-addon
+[1]: https://www.nvaccess.org/addonStore/legacy?file=dropbox
+
+[2]: https://www.nvaccess.org/addonStore/legacy?file=dx-dev

@@ -3,6 +3,7 @@
 * Autores: Patrick ZAJDA <patrick@zajda.fr>, Filaos y otros colaboradores
 * Compatibilidad con NVDA: de 2019.1 en adelante
 * Descarga [versión estable][1]
+* Descargar [versión de desarrollo][2]
 
 Esta extensión añade un atajo para anunciar el estado de Dropbox o abrir el
 menú de la bandeja de Dropbox al pulsarlo una o dos veces,
@@ -70,4 +71,6 @@ respectivamente. También mejora las listas de elementos de Dropbox.
 
 [[!tag dev stable]]
 
-[1]: https://github.com/ruifontes/dropbox/releases/download/2023.10.01/dropbox-2023.10.01.nvda-addon
+[1]: https://www.nvaccess.org/addonStore/legacy?file=dropbox
+
+[2]: https://www.nvaccess.org/addonStore/legacy?file=dx-dev

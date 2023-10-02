@@ -1,67 +1,73 @@
-# dropbox
+# dropbox #
+
+* Geliştiriciler: Patrick ZAJDA <patrick@zajda.fr>, Filaos ve diğer katkıda
+  bulunanlar
+* NVDA uyumluluğu: NVDA 2019.1 veya üstü
+* İndir [kararlı sürüm][1]
+* [kararlı sürüm][1]ü indir
+
+Bu eklenti, Dropbox durumunu bildirmek veya sırasıyla bir veya iki kez
+basıldığında Dropbox sistem tepsisi menüsünü açmak için bir kısayol
+ekler. Ayrıca DropBox öğe listelerini geliştirir.
+
+* Kısayol tuşu: NVDA+Alt+D
 
 
-## Bilgi:
-* Geliştiriciler: Rui Fontes, Patrick ZAJDA, Filaos ve diğer katkıda bulunanlar
-* NVDA uyumluluğu: 2019.3 veya Sonrası
-* [Kararlı sürümü indirin][1]
+## 4.6 için değişiklikler ##
 
+* NVDA 2021.1 uyumluluğunu belirtir
 
-## Açıklama:
-Bu eklenti, sırasıyla bir veya iki kez basıldığında Dropbox durumunu duyurmak veya Dropbox'un sistem tepsisinde bulunan menüsünü açmak için bir kısayol ekler.
+## 4.0 için değişiklikler ##
 
-Kısayol NVDA+Alt+D'dir
-Her zaman olduğu gibi bunu Girdi hareketleri iletişim kutusunda Dropbox kategorisinden değiştirebilirsiniz.
-
-
-
-## Sürüm geçmişi
-
-
-### 4.7 için değişiklikler
-* NVDA 2022.1 ile uyumluluk
-* Son Dropbox arayüzünde sorunlara neden olduğu ve Windows 8 Microsoft tarafından desteklenmediği için Dropbox uygulama modülünü kaldırıldı.
-
-### 4.6 için değişiklikler
-* NVDA 2021.1 uyumluluğunu belirtir.
-
-### 4.4 için değişiklikler
-* Python3 uyumluluğu
-* Son eklenti şablonunu kullanılıyor.
+* Python 3 uyumluluğu
+* Son eklenti şablonu kullanılıyor
 * Appveyor ile oluşturulacak depo değişikliği
-* Belgelerdeki yanlış ve kullanılmayan kısayollar düzeltildi
-* Belgelerde sürüm bildirimine hala atıfta bulunan açıklama güncellendi.
+* Belgelerdeki yanlış ve kaldırılmış kullanılmayan kısayollar düzeltildi
+* Belgelerde sürüm bildirimine hala atıfta bulunan açıklama güncellendi
 
-### 4.0 için değişiklikler
-* Shift+NVDA+D kısayolu değiştirildi: bir kez basılırsa Dropbox durumunu duyurur, iki kez basılırsa içerik menüsünü açar.
-* Çeviriler güncellendi.
-* Windows 8 metro uygulamasıyla ilgili sorunlar düzeltildi.
-* Eklenti yardımı artık yardım menüsünde mevcut değil, bunun yerine eklenti yöneticisinde bulunuyor.
-* Dropbox, kullanıcı arayüzünü sürümden sürüme değiştirdikçe, ayarlar iletişim kutusunun tüm özellikleri kaldırıldı.
+## 4.0 için değişiklikler ##
+
+* Eklenti yardımı, Eklenti Yöneticisi'nden edinilebilir.
 * Dropbox durumunu öğrenme kısayolu, ses zayıflaması kısayoluyla çakışmayı
   önlemek için Alt+NVDA+D olarak değiştirildi.
 
-### 3.1 için değişiklikler
-* İptal düğmesini ve sayfa sekmesini almak için başka bir yol kullanın. Artık kısayolları kullanmadan önce onları odaklamamız gerekmiyor.
-* Etkin sekmeyi değiştirirken odak sekme sayfasına taşınır, böylece sekmeye basıldığında önceki kullanılan sekmede kalmak yerine sekmenin ilk öğesi etkinleştirilir. artık etkinleştirilmemişse.
-* Tercihler iletişim kutusunda artık sekmeler arasında geçiş yapmak için control+sayfa yukarı/aşağı tuşlarına basmak mümkün. Control+tab ve control+shift+tab hâlâ çalışıyor.
-* Tüm yerelleştirilmiş manifest dosyalarının artık iyi durumda olması gerekir.
+## 3.1 versiyonundaki değişiklikler ##
+
+* Use another way to get cancel button and page tab. Now we don't have to
+  focus them before using shortcuts.
+* Aktif sekme değiştiğinde, odak sekme üzerine gelir. Dolayısıyla tab tuşuna
+  basıldığında, sekmedeki ilk öge üzerine gelinebilir.
+* Tercihler iletişim kutusunda, sekme sayfaları arasında dolaşmak için artık
+  control+page up/down tuşlarına basabilirsiniz.
+* Tüm yerelleştirilmiş manifest dosyaları artık sorunsuz olmalı.
 * Küçük düzeltmeler.
 
-### 3.0 için değişiklikler
-* Ana bildirim dosyasında küçük düzeltme (yazarlar doğru şekilde görüntüleniyor).
-* Shift+NVDA+D'ye üç kez basıldığında içerik menüsü algılaması iyileştirildi.
-* Escape düğmesi artık çalışıyor (yalnızca Dropbox NVDA'nın kullandığı dilde kullanıldığında).
-* Kodda birçok düzeltme var.
-* Tüm komut dosyalarının belgeleri eklendi/güncellendi.
-* Yeni diller: Arapça, Brezilya Portekizcesi, Çekçe, Felemenkçe, Fince, Galiçyaca, Almanca, Macarca, Japonca, Nepalce, Lehçe, Rusça, İspanyolca, Slovakça, Tamilce, Türkçe.
+## 3.0 versiyonundaki değişiklikler ##
 
-### 2.0 için değişiklikler
+* Ana manifest dosyasında Küçük bir düzeltme (geliştiriciler doğru olarak
+  gösteriliyor).
+* Üç kez NVDA+Shift+D tuşllarına basıldığında içerik menüsünün açılışıyla
+  ilgili iyileştirmeler.
+* Escape butonu şimdi çalışıyor (sadece NVDA ve Dropbox aynı dil arayüzüyle
+  kullanılıyorsa).
+* Kodla ilgili çok sayıda düzeltme.
+* İşlevlerle ilgili eklenmiş ve güncellenmiş dokümantasyon.
+* Yeni diller: Arapça, Brezilya Portekizcesi, Çekçe, Flemenkçe, Fince,
+  Galiçyaca, Almanca, Macarca, Japonca, Nepalce, Lehçe, Rusça, İspanyolca,
+  Slovakça, Tamil, Türkçe.
+
+## 2.0 versiyonundaki değişiklikler ##
+
 * Yeni diller: İtalyanca
-* İçerik menüsündeyken kısayola üç kez veya daha fazla basmak artık sorun yaratmıyor.
+* Dropbox menüsü açıkken kısayol tuşuna üç ya da daha fazla basılması sorun
+  oluşturmuyor.
 
-### 1.0 için değişiklikler
+## 1.0 versiyonu ##
+
 * İlk sürüm
 
+[[!tag dev stable]]
 
-[1]: https://github.com/ruifontes/dropbox/releases/download/2023.10.01/dropbox-2023.10.01.nvda-addon
+[1]: https://www.nvaccess.org/addonStore/legacy?file=dropbox
+
+[2]: https://www.nvaccess.org/addonStore/legacy?file=dx-dev

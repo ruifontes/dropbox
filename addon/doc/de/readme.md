@@ -3,6 +3,7 @@
 * Autoren: Patrick ZAJDA <patrick@zajda.fr>, Filaos und andere Entwickler
 * NVDA-Kompatibilität: 2019.1 oder neuer
 * [Stabile Version herunterladen][1]
+* [Entwicklerversion herunterladen][2]
 
 Diese Erweiterung fügt eine Tastenkombination hinzu, um den Dropbox-Status
 anzusagen oder das Dropbox-Menü zu öffnen, wenn Sie ein- bzw. zweimal
@@ -73,4 +74,6 @@ gedrückt wird.  Außerdem werden DropBox-Elementlisten verbessert.
 
 [[!tag dev stable]]
 
-[1]: https://github.com/ruifontes/dropbox/releases/download/2023.10.01/dropbox-2023.10.01.nvda-addon
+[1]: https://www.nvaccess.org/addonStore/legacy?file=dropbox
+
+[2]: https://www.nvaccess.org/addonStore/legacy?file=dx-dev
