@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Complemento para Dropbox, 3.0\n"
-"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2013-01-06 13:12+0100\n"
-"PO-Revision-Date: 2016-02-26 02:29-0800\n"
+"Project-Id-Version: Dropbox\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2023-10-01 20:42+0100\n"
+"PO-Revision-Date: 2023-10-01 20:57+0100\n"
 "Last-Translator: Cleverson Casarin Uliana <clcaul@live.com>\n"
 "Language-Team: Equipe de tradutores do NVDA para Português do Brasil "
 "<clever97@gmail.com>\n"
@@ -17,28 +17,54 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 3.4\n"
 
-#. Add-on summary, usually the user visible name of the addon.
-#. Translators: Summary for this add-on to be shown on installation and add-on information.
-msgid "Announce Dropbox state and make preferences tabs accessible"
+#. Translators: Message to be announced during Keyboard Help
+#: addon\globalPlugins\dropbox\__init__.py:114
+msgid ""
+"If pressed once, announces Dropbox status. If pressed twice, open the "
+"Dropbox context menu by clicking on its systray icon"
 msgstr ""
-"Anuncia o status do Dropbox e torna acessíveis as guias de preferências"
+"Se pressionado uma vez, anuncia o status do Dropbox. Se pressionado duas "
+"vezes, abre o menu de contexto do Dropbox clicando em seu ícone na tela do "
+"sistema"
+
+#. Translators: the message presented when Dropbox tray icon was not found
+#: addon\globalPlugins\dropbox\__init__.py:122
+msgid "drop box not found"
+msgstr "caixa suspensa não encontrada"
+
+#. Translators: the message reported when it is not possible to activate Dropbox context menu.
+#: addon\globalPlugins\dropbox\__init__.py:148
+msgid "Unable to activate Dropbox context menu"
+msgstr "Não é possível ativar o menu de contexto do Dropbox"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+#: buildVars.py:24
 msgid ""
-"Announces Dropbox status, version or open the Dropbox systray menu.\n"
-"Shortcut: NVDA+Alt+D\n"
-"Page tabs are also working in the preferences dialog with Ctrl+tab and Shift"
-"+Ctrl+Tab.\n"
-"Ctrl+Alt+T announce the active tab.\n"
-"You can activate cancel by pressing the escape key."
+"Announces Dropbox status or open the Dropbox systray menu.\n"
+"Shortcut: NVDA+Alt+D"
 msgstr ""
-"Anuncia o status ou a versão do Dropbox ou abre o menu do mesmo da área de "
-"notificação.\n"
-"Atalho: NVDA+Alt+D\n"
-"As guias na janela de preferências também funcionam com Ctrl+tab e Shift+Ctrl"
-"+Tab.\n"
-"Ctrl+Alt+T anuncia a guia ativa.\n"
-"Pode ativar o botão cancelar pressionando a tecla escape."
+"Anuncia o status do Dropbox ou abre o menu do systray do Dropbox.\n"
+"Atalho: NVDA+Alt+D"
+
+#~ msgid "Announce Dropbox state and make preferences tabs accessible"
+#~ msgstr ""
+#~ "Anuncia o status do Dropbox e torna acessíveis as guias de preferências"
+
+#~ msgid ""
+#~ "Announces Dropbox status, version or open the Dropbox systray menu.\n"
+#~ "Shortcut: NVDA+Alt+D\n"
+#~ "Page tabs are also working in the preferences dialog with Ctrl+tab and "
+#~ "Shift+Ctrl+Tab.\n"
+#~ "Ctrl+Alt+T announce the active tab.\n"
+#~ "You can activate cancel by pressing the escape key."
+#~ msgstr ""
+#~ "Anuncia o status ou a versão do Dropbox ou abre o menu do mesmo da área "
+#~ "de notificação.\n"
+#~ "Atalho: NVDA+Alt+D\n"
+#~ "As guias na janela de preferências também funcionam com Ctrl+tab e "
+#~ "Shift+Ctrl+Tab.\n"
+#~ "Ctrl+Alt+T anuncia a guia ativa.\n"
+#~ "Pode ativar o botão cancelar pressionando a tecla escape."

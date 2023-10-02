@@ -1,75 +1,76 @@
-# dropbox #
-
-* Autores: Patrick ZAJDA <patrick@zajda.fr>, Filaos e outros colaboradores
-* NVDA compatibility: NVDA 2019.1 or later
-* Baixe a [versão estável][1]
-* Baixe a [versão em desenvolvimento][2]
-
-Este plug-in adiciona um atalho para anunciar o status do Dropbox ou abrir o
-menu dele na área de notificação quando pressionado uma ou duas vezes,
-respectivamente. Ele também melhora as listas de itens do Dropbox.
-
-* Atalho: NVDA+Alt+D
+# dropbox
 
 
-## Changes for 4.6 ##
+## Informações
+* Autores: Rui Fontes, Patrick ZAJDA, Filaos e outros colaboradores.
+* Compatibilidade com NVDA: NVDA 2019.3 ou posterior
+* Descarregar [versão estável][1]
 
-* Specify NVDA 2021.1 compatibility
 
-## Mudanças na 4.4 ##
+## Apresentação
+Este extra adiciona um atalho para anunciar o status do Dropbox ou abrir o menu do Dropbox quando pressionado uma ou duas vezes,
+respectivamente.
 
-* Compatibilidade com Python 3
-* Usa o modelo mais recente de complemento
-* Mudança no repositório para ser compilado com Appveyor
-* Corrigido um atalho errado e removido um não usado da documentação
-* Atualizada a descrição na documentação, que ainda referenciava o anúncio
-  da versão
+O comando é NVDA+Alt+D
+Como sempre, é possível alterá-lo no diálogo Definir comandos na categoria Dropbox.
 
-## Mudanças na 4.0 ##
 
-* A ajuda do complemento está disponível pelo gestor de complementos.
-* O atalho para ler o status do Dropbox foi alterado para Alt+NVDA+D para
-  evitar conflito com o suporte a prioridade de áudio.
+## Alterações
 
-## Mudanças na 3.1 ##
 
-* Usa-se outro jeito de capturar o botão cancelar e a guia de página. Agora
-  não se precisa mais focá-los antes de usar os atalhos.
-* Ao trocar a guia ativa, o foco vai para a guia de página de modo que ao
-  pressionar tab, ativa-se o primeiro item da guia ao invés de permanecer na
-  guia anteriormente usada mesmo que esta não esteja mais ativada.
-* Na janela de preferências, pode-se agora pressionar control+page up/down
-  para alternar entre guias. Control+tab e control+shift+tab continuam
-  funcionando.
-* Todos os arquivos de manifesto traduzidos devem agora estar OK.
-* Correções menores
+### Alterações na 2023.10.01
+* Compatibilidade estendida para NVDA 2024.1;
+* pequena correção no código de leitura do ícone da barra do sistema, devido à correção pela Microsoft.
 
-## Mudanças na 3.0 ##
 
-* Pequena correção no arquivo principal de manifesto (os autores são
-  exibidos corretamente).
-* Melhorada detecção do menu de contexto ao pressionar três vezes
-  shift+NVDA+b.
-* Agora o botão escape funciona (somente ao usar o Dropbox no mesmo idioma
-  que está o NVDA).
-* Uma série de correções no código.
-* Adicionada/atualizada documentação de todos os scripts.
-* Novos idiomas: Alemão, Árabe, Tcheco, Eslovaco, Espanhol, Finlandês,
-  Galego, Holandês, Húngaro, Japonês, Nepalês, Polonês, Português do Brasil,
-  Russo, Tâmil, Turco.
+### Alterações na 2023.3
+* Fixada compatibilidade para NVDA 2023.1;
+* A manutenção passou a estar a cargo de Rui Fontes e Equipa portuguesa do NVDA.
 
-## Mudanças na 2.0 ##
 
-* Novo idioma: Italiano
-* Pressionar o atalho três vezes ou mais quando já está no menu de contexto
-  não dá mais problema.
+### Alterações para 4.6
+* Especifica a compatibilidade com o NVDA 2021.1
 
-## Mudanças na 1.0 ##
 
-* Primeira versão pública
+### Alterações para 4.4
+* Compatibilidade com o python 3.
+* Usa o último modelo de extras
+* mudanças do repositório criadas com o Appveyor
+* Corrigidos atalhos errados e removidos da documentação
+* Actualiza a descrição na documentação que ainda faz referência ao anúncio da versão
 
-[[!tag dev stable]]
 
-[1]: https://www.nvaccess.org/addonStore/legacy?file=dropbox
+### Alterações para 4.0
+* A ajuda adicional do extra está, agora,  disponível no gestor de extras.
+* O atalho para obter o status do Dropbox foi alterado para Alt + NVDA + D para evitar conflitos com o suporte à diminuição de áudio.
 
-[2]: https://www.nvaccess.org/addonStore/legacy?file=dx-dev
+
+### Mudanças para 3.1
+* Usada outra maneira de obter o botão Cancelar e o separador da
+  página. Agora, não precisamos acessá-los antes de usar atalhos.
+* Ao mudar o separador activo, o foco move-se para a página de registo, então, ao pressionar o separador, o primeiro item é activado em vez de  permanecer no separador usado anteriormente, mesmo que não seja mais activado.
+* Na caixa de diálogo de preferências, agora é possível pressionar o control + página para cima / baixo para alternar entre tabs. Control + tab e control + shift + tab ainda funcionam.
+* Todos os ficheiros manifest localizados agora estão OK.
+* Correcções menores.
+
+
+### Alterações para 3.0
+* Correção menor no ficheiro manifest principal (os autores são mostrados correctamente).
+* Detecção melhorada do menu de contexto ao pressionar Shift + NVDA + D três vezes.
+* A tecla Escape agora funciona (somente quando se usa o Dropbox na mesma  língua que o NVDA usa).
+* Muitas correções no código.
+* Documentações de todos os scripts adicionadas / actualizadas.
+* Novos idiomas: árabe, brasileiro, checo, holandês, finlandês, galego,  alemão, húngaro, japonês, nepalês, polaco, russo, espanhol, eslovaco,  tamil, turco.
+
+
+### Mudanças para 2.0
+* Novo idioma: Italiano.
+* Pressionar o atalho três vezes ou mais quando já está no menu de contexto não causa mais problema.
+
+
+### Alterações para 1.0
+* Lançamento inicial
+
+
+[1]: https://github.com/ruifontes/dropbox/releases/download/2023.10.01/dropbox-2023.10.01.nvda-addon
+

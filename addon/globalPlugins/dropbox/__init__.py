@@ -1,17 +1,18 @@
 # -*- coding: utf-8 -*-
 # Dropbox announcement Global Plugin for NVDA
-# Copyright (C) 2014 Filaos, Patrick ZAJDA <patrick@zajda.fr>, Rui Fontes and other contributors
+# Copyright (C) 2014-2023 Filaos, Patrick ZAJDA <patrick@zajda.fr>, Rui Fontes and other contributors
 # This file is covered by the GNU General Public License.
 # You can read the licence by clicking Help->Licence in the NVDA menu
 # or by visiting http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 # Shortcut: NVDA+Alt+D
 # Some portion have been directly copied from the systraylist addon
-# copyright (C) Rui Fontes and other contributors
+# copyright (C) 2023 Rui Fontes and other contributors
 
 import ctypes
 import globalPluginHandler
 import addonHandler
 import scriptHandler
+from scriptHandler import script
 import ui
 import NVDAObjects
 import api
@@ -20,11 +21,10 @@ import winUser
 import controlTypes
 from typing import Callable
 
-
-# We initialize translation support
+# Start translation process
 addonHandler.initTranslation()
 _: Callable[[str], str]
-# Constents for roles to keep compatibility
+# Constants for roles to keep compatibility
 if hasattr(controlTypes, 'ROLE_POPUPMENU'):
 	POPUP_MENU = controlTypes.ROLE_POPUPMENU
 else:
@@ -36,9 +36,6 @@ else:
 
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
-	# We initialize the scripts category shown on input gestures dialog
-	scriptCategory = u"Dropbox"
-
 	def _findAccessibleLeafsFromWindowClassPath(self, windowClassPath):
 		# Create a list of systray icons
 		# Copied from systray list add-on from Rui Fontes
@@ -112,6 +109,12 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				return trayIcon
 		return None
 
+	@script(  
+		# Translators: Message to be announced during Keyboard Help  
+		description=_("If pressed once, announces Dropbox status. If pressed twice, open the Dropbox context menu by clicking on its systray icon"),
+		# Translators: Name of the section in "Input gestures" dialog.  
+		category="Dropbox",
+		gesture="kb:NVDA+alt+d")
 	def script_announceDropbox(self, gesture):
 		trayIcon = self._findDropbox()
 		if not trayIcon:
@@ -123,8 +126,6 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 		repeatCount = scriptHandler.getLastScriptRepeatCount()
 		if repeatCount == 0:
 			# announce dropbox state
-			if win11_22h2:
-				del(name[0:3])
 			del(name[1])
 			name = " ".join(name)
 			ui.message(name)
@@ -145,12 +146,4 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				except NotImplementedError:
 					# Translators: the message reported when it is not possible to activate Dropbox context menu.
 					ui.message(_("Unable to activate Dropbox context menu"))
-	# Translators: message presented when user performes input help for the Shift+NVDA+D script
-	script_announceDropbox.__doc__ = _(
-		"If pressed once, announces Dropbox status. "
-		"If pressed twice, open the Dropbox context menu by clicking on its systray icon"
-	)
-
-	__gestures = {
-		"kb:NVDA+alt+d": "announceDropbox",
-	}
+	

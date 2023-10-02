@@ -24,19 +24,19 @@ addon_info = {
 	"addon_description" : _("""Announces Dropbox status or open the Dropbox systray menu.
 Shortcut: NVDA+Alt+D"""),
 	# version
-	"addon_version" : "2023.3",
+	"addon_version" : "2023.10.01",
 	# Author(s)
-	"addon_author" : "Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors",
+	"addon_author" : "Rui Fontes <rui.fontes@tiflotecnia.com>, Patrick ZAJDA, Filaos and other contributors",
 	# URL for the add-on documentation support
-	"addon_url" : "https://addons.nvda-project.org/",
+	"addon_url" : "https://github.com/ruifontes/dropbox",
 	# URL for the add-on repository where the source code can be found
-	"addon_sourceURL": "https://github.com/Nardol/dropbox",
+	"addon_sourceURL": "https://github.com/ruifontes/dropbox",
 	# Documentation file name
 	"addon_docFileName" : "readme.html",
 	# Minimum NVDA version supported (e.g. "2018.3.0", minor version is optional)
-	"addon_minimumNVDAVersion" : "2019.1",
+	"addon_minimumNVDAVersion" : "2019.3",
 	# Last NVDA version supported/tested (e.g. "2018.4.0", ideally more recent than minimum version)
-	"addon_lastTestedNVDAVersion" : "2023.1",
+	"addon_lastTestedNVDAVersion" : "2024.1",
 	# Add-on update channel (default is stable or None)
 	"addon_updateChannel" : None,
 	# Add-on license such as GPL 2
@@ -50,7 +50,7 @@ import os.path
 
 # Define the python files that are the sources of your add-on.
 # You can use glob expressions here, they will be expanded.
-pythonSources = [os.path.join("addon", "globalPlugins", "*.py")]
+pythonSources = [os.path.join("addon", "globalPlugins", "dropbox", "*.py")]
 
 # Files that contain strings for translation. Usually your python sources
 i18nSources = pythonSources + ["buildVars.py"]

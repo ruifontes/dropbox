@@ -3,7 +3,6 @@
 * مطورو الإضافة: Patrick ZAJDA, Filaos وآخرون
 * NVDA compatibility: NVDA 2019.1 or later
 * تحميل [الإصدار النهائي][1]
-* Download [development version][2]
 
 This plugin add a shortcut to announce Dropbox status or open the Dropbox
 systray menu when pressed once or twice respectively.  It also enhances
@@ -67,6 +66,4 @@ DropBox item lists.
 
 [[!tag dev  stable]]
 
-[1]: https://www.nvaccess.org/addonStore/legacy?file=dropbox
-
-[2]: https://www.nvaccess.org/addonStore/legacy?file=dx-dev
+[1]: https://github.com/ruifontes/dropbox/releases/download/2023.10.01/dropbox-2023.10.01.nvda-addon
