@@ -1,43 +1,45 @@
 # dropbox #
 
-* Authors: Patrick ZAJDA <patrick@zajda.fr>, Filaos and other contributors
-* NVDA compatibility: NVDA 2019.1 or later
+* Автори: Patrick ZAJDA <patrick@zajda.fr>, Filaos та інші учасники
+  спільноти
+* Сумісність з NVDA: NVDA 2019.1 і пізніші
 * Завантажити [стабільну версію][1]
-* Download [development version][2]
+* Завантажити [версію в розробці][2]
 
-This plugin add a shortcut to announce Dropbox status or open the Dropbox
-systray menu when pressed once or twice respectively.  It also enhances
-DropBox item lists.
+Цей плагін додає комбінацію клавіш для повідомлення про стан Dropbox або
+відкриття меню Dropbox із системного лотка при натисканні один або два рази
+відповідно.  Він також покращує списки елементів DropBox.
 
-* Shortcut: NVDA+Alt+D
+* Гаряча клавіша: NVDA+Alt+D
 
 
-## Changes for 4.6 ##
+## Зміни у версії 4.6 ##
 
-* Specify NVDA 2021.1 compatibility
+* Вказано сумісність з NVDA 2021.1
 
-## Changes for 4.4 ##
+## Зміни у версії 4.4 ##
 
-* Python 3 compatibility
-* Use the last addon template
-* Repository change to be built with Appveyor
-* Fixed wrong and removed unused shortcuts in the documentation
-* Update the description in the documentation which still referenced the
-  announcement of the version
+* Сумісний з Python 3
+* Використовується останній шаблон додатка
+* Репозиторій змінено  для збірок за допомогою Appveyor
+* У документації виправлено неправильні й видалено невикористовувані
+  комбінації клавіш
+* Оновлений опис у документації, який все ще посилається на анонс версії
 
 ## Зміни у версії 4.0 ##
 
-* Add-on help is available from the Add-ons Manager.
-* The shortcut to get Dropbox status has been changed to Alt+NVDA+D to avoid
-  conflict with audio ducking support.
+* Довідка додатка доступна в менеджері додатків.
+* Комбінацію клавіш для отримання стану Dropbox змінено на Alt+NVDA+D, щоб
+  уникнути конфлікту з підтримкою приглушування аудіо.
 
 ## Зміни у версії 3.1 ##
 
 * Використовуйте інший спосіб щоб отримати кнопку "Скасувати" або вкладку
   сторінки. Тепер не треба їх фокусувати перед використанням гарячих клавіш.
-* When changing the active tab, the focus move to the tab page so when
-  pressing tab, the first item of the tab is activated instead of staying to
-  the previous used tab even if it is not activated anymore.
+* При зміні активної вкладки фокус переміщується на сторінку вкладки, тому
+  при натисканні на вкладку активізується перший елемент вкладки замість
+  того, щоб залишатися на попередній вкладці, навіть якщо вона більше не
+  активована.
 * У діалозі параметрів можна перемикатися між вкладками за допомогою
   комбінацій control+сторінка Вгору/control+сторінка Вниз. Крім того,
   комбінації control+tab/control+shift+tab працюють як і раніше.
