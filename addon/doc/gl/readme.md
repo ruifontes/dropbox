@@ -3,7 +3,6 @@
 * Autores: Patrick ZAJDA <patrick@zajda.fr>, Filaos e outros colaboradores
 * Compatibilidade con NVDA: NVDA 2019.1 ou posterior
 * Descarga [versión estable][1]
-* Descarga [versión de desenvolvemento][2]
 
 Este plugin engadirá un atallo de teclado para anunciar o estado do Dropbox
 ou abrir o menú do Dropbox na bandexa do sistema cando se preme unha ou dúas
@@ -71,4 +70,4 @@ veces respectivamente.  Tamén mellora as listas de elementos de Dropbox.
 
 [[!tag dev stable]]
 
-[1]: https://github.com/ruifontes/dropbox/releases/download/2023.10.01/dropbox-2023.10.01.nvda-addon
+[1]: https://github.com/ruifontes/dropbox/releases/download/2024.01.01/dropbox-2024.01.01.nvda-addon

@@ -4,7 +4,6 @@
   khác
 * NVDA compatibility: NVDA 2019.1 or later
 * Tải về [phiên bản chính thức][1]
-* tải về [phiên bản thử nghiệm][2]
 
 Plugin này thêm một phím tắt để thông báo trạng thái của Dropbox hoặc mở
 trình đơn của nó từ khay hệ thống khi bấm một hay hai lần.  Nó cũng cải
@@ -69,4 +68,4 @@ thiện các thành phần trong danh sách của DropBox.
 * Phiên bản đầu tiên
 
 
-[1]: https://github.com/ruifontes/dropbox/releases/download/2023.10.01/dropbox-2023.10.01.nvda-addon
+[1]: https://github.com/ruifontes/dropbox/releases/download/2024.01.01/dropbox-2024.01.01.nvda-addon

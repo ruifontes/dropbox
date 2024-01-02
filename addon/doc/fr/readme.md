@@ -4,7 +4,6 @@
   contributeurs
 * Compatibilité NVDA : 2019.1 et ultérieurs
 * Télécharger [version stable][1]
-* Télécharger [version de développement][2]
 
 Cette extension ajoute un raccourci permettant d'annoncer le statut ou la
 version de Dropbox, mais aussi d'ouvrire le menu contextuel de l'icône
@@ -76,4 +75,4 @@ activer le bouton Annuler.
 
 [[!tag dev stable]]
 
-[1]: https://github.com/ruifontes/dropbox/releases/download/2023.10.01/dropbox-2023.10.01.nvda-addon
+[1]: https://github.com/ruifontes/dropbox/releases/download/2024.01.01/dropbox-2024.01.01.nvda-addon

@@ -64,4 +64,4 @@ Her zaman olduğu gibi bunu Girdi hareketleri iletişim kutusunda Dropbox katego
 * İlk sürüm
 
 
-[1]: https://github.com/ruifontes/dropbox/releases/download/2023.10.01/dropbox-2023.10.01.nvda-addon
+[1]: https://github.com/ruifontes/dropbox/releases/download/2024.01.01/dropbox-2024.01.01.nvda-addon

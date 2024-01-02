@@ -3,7 +3,6 @@
 * 作者： Patrick ZAJDA, Filaos和其他贡献者
 * NVDA兼容版本： 2019.1 或更高版本
 * 下载[稳定版 version][1]
-* 下载[开发板 version][1]
 
 此插件添加了快捷方式以宣布Dropbox的状态或分别按下一次或两次时打开Dropbox的系统托盘菜单。它还增强了DropBox项目列表。
 
@@ -55,4 +54,4 @@
 * 初始版本
 
 
-[1]: https://github.com/ruifontes/dropbox/releases/download/2023.10.01/dropbox-2023.10.01.nvda-addon
+[1]: https://github.com/ruifontes/dropbox/releases/download/2024.01.01/dropbox-2024.01.01.nvda-addon

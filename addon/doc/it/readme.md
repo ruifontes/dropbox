@@ -3,7 +3,6 @@
 * Autori: Patrick ZAJDA <patrick@zajda.fr>, Filaos e altri collaboratori
 * NVDA compatibility: NVDA 2019.1 or later
 * Scarica [versione stabile][1]
-* Scarica [versione in sviluppo][2]
 
 Questo addon aggiunge un tasto rapido per vocalizzare lo stato di Dropbox,
 oppure aprire il menu di Dropbox nel System Tray, quando viene premuto una o
@@ -73,4 +72,4 @@ Dropbox.
 
 [[!tag dev stable]]
 
-[1]: https://github.com/ruifontes/dropbox/releases/download/2023.10.01/dropbox-2023.10.01.nvda-addon
+[1]: https://github.com/ruifontes/dropbox/releases/download/2024.01.01/dropbox-2024.01.01.nvda-addon

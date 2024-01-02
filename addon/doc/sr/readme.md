@@ -3,7 +3,6 @@
 * Autori: Patrick ZAJDA <patrick@zajda.fr>, Filaos i drugi saradnici
 * NVDA kompatibilnost: NVDA 2019.1 ili noviji
 * Preuzmi [stabilnu verziju][1]
-* Preuzmi [verziju u razvoju ][2]
 
 Ovaj dodatak dodaje prečicu za izgovor dropbox statusa ili otvaranje menija
 u sistemskoj traci.  Takođe poboljšava stavke u Dropbox listama.
@@ -66,4 +65,4 @@ u sistemskoj traci.  Takođe poboljšava stavke u Dropbox listama.
 
 [[!tag dev stable]]
 
-[1]: https://github.com/ruifontes/dropbox/releases/download/2023.10.01/dropbox-2023.10.01.nvda-addon
+[1]: https://github.com/ruifontes/dropbox/releases/download/2024.01.01/dropbox-2024.01.01.nvda-addon

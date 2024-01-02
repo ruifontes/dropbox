@@ -3,7 +3,6 @@
 * Autorzy: Patrick ZAJDA <patrick@zajda.fr>, Filaos i inni współautorzy
 * Zgodność z NVDA: NVDA 2019.1 lub nowsza
 * Pobierz [wersja stabilna][1]
-* Pobierz [wersja rozwojowa][2]
 
 Ta wtyczka dodaje skrót do ogłaszania statusu Dropbox lub otwierania menu
 systray Dropbox po naciśnięciu odpowiednio raz lub dwa razy.  Ulepsza
@@ -71,4 +70,4 @@ również listy elementów DropBox.
 
 [[!tag dev stable]]
 
-[1]: https://github.com/ruifontes/dropbox/releases/download/2023.10.01/dropbox-2023.10.01.nvda-addon
+[1]: https://github.com/ruifontes/dropbox/releases/download/2024.01.01/dropbox-2024.01.01.nvda-addon

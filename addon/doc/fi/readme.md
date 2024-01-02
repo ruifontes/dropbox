@@ -3,7 +3,6 @@
 * Tekijät: Patrick ZAJDA <patrick@zajda.fr>, Filaos ja muut
 * Yhteensopivuus: NVDA 2019.1 tai uudempi
 * Lataa [vakaa versio][1]
-* Lataa [kehitysversio][2]
 
 Tämä lisäosa lisää pikanäppäimen Dropboxin tilan ilmoittamiseen kerran
 painettaessa tai ilmoitusalueella olevan valikon avaamiseen kahdesti
@@ -69,4 +68,4 @@ parannetaan.
 
 [[!tag dev stable]]
 
-[1]: https://github.com/ruifontes/dropbox/releases/download/2023.10.01/dropbox-2023.10.01.nvda-addon
+[1]: https://github.com/ruifontes/dropbox/releases/download/2024.01.01/dropbox-2024.01.01.nvda-addon

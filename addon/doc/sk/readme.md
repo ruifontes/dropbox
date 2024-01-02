@@ -3,7 +3,6 @@
 * Autori: Patrick ZAJDA <patrick@zajda.fr>, Filaos a ďalší
 * NVDA compatibility: NVDA 2019.1 or later
 * Stiahnuť [stabilnú verziu][1]
-* Stiahnuť [vývojovú verziu][2]
 
 Na prvé stlačenie klávesovej skratky Oznamuje stav Dropboxu. Dvojité
 stlačenie klávesovej skratky otvorí kontextové menu. Tiež upravuje
@@ -67,4 +66,4 @@ prístupnosť položiek v menu.
 
 [[!tag dev stable]]
 
-[1]: https://github.com/ruifontes/dropbox/releases/download/2023.10.01/dropbox-2023.10.01.nvda-addon
+[1]: https://github.com/ruifontes/dropbox/releases/download/2024.01.01/dropbox-2024.01.01.nvda-addon

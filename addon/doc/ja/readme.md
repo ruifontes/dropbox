@@ -3,7 +3,6 @@
 * 作者: Patrick ZAJDA <patrick@zajda.fr>, Filaos, その他の貢献者
 * NVDA 互換性: NVDA 2019.1以降
 * ダウンロード [安定版][1]
-* ダウンロード [開発版][2]
 
 このプラグインは、1回押す、または2回押すことで、それぞれ、Dropboxの状態を通知、または、Dropboxシストレイメニューを開くショートカットを追加します。また、Dropboxの項目リストも拡張します。
 
@@ -58,4 +57,4 @@
 
 [[!tag dev stable]]
 
-[1]: https://github.com/ruifontes/dropbox/releases/download/2023.10.01/dropbox-2023.10.01.nvda-addon
+[1]: https://github.com/ruifontes/dropbox/releases/download/2024.01.01/dropbox-2024.01.01.nvda-addon
