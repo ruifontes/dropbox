@@ -4,7 +4,6 @@
   спільноти
 * Сумісність з NVDA: NVDA 2019.1 і пізніші
 * Завантажити [стабільну версію][1]
-* Завантажити [версію в розробці][2]
 
 Цей плагін додає комбінацію клавіш для повідомлення про стан Dropbox або
 відкриття меню Dropbox із системного лотка при натисканні один або два рази
@@ -72,6 +71,4 @@
 
 [[!tag dev stable]]
 
-[1]: https://www.nvaccess.org/addonStore/legacy?file=dropbox
-
-[2]: https://www.nvaccess.org/addonStore/legacy?file=dx-dev
+[1]: https://github.com/ruifontes/dropbox/releases/download/2024.03.21/dropbox-2024.03.21.nvda-addon
