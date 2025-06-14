@@ -24,7 +24,7 @@ addon_info = {
 	"addon_description" : _("""Announces Dropbox status or open the Dropbox systray menu.
 Shortcut: NVDA+Alt+D"""),
 	# version
-	"addon_version" : "2024.03.21",
+	"addon_version" : "2025.06.13",
 	# Author(s)
 	"addon_author" : "Rui Fontes <rui.fontes@tiflotecnia.com>, Patrick ZAJDA, Filaos and other contributors",
 	# URL for the add-on documentation support
@@ -36,7 +36,7 @@ Shortcut: NVDA+Alt+D"""),
 	# Minimum NVDA version supported (e.g. "2018.3.0", minor version is optional)
 	"addon_minimumNVDAVersion" : "2019.3",
 	# Last NVDA version supported/tested (e.g. "2018.4.0", ideally more recent than minimum version)
-	"addon_lastTestedNVDAVersion" : "2024.1",
+	"addon_lastTestedNVDAVersion" : "2025.1",
 	# Add-on update channel (default is stable or None)
 	"addon_updateChannel" : None,
 	# Add-on license such as GPL 2

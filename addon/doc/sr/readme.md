@@ -65,4 +65,4 @@ u sistemskoj traci.  Takođe poboljšava stavke u Dropbox listama.
 
 [[!tag dev stable]]
 
-[1]: https://github.com/ruifontes/dropbox/releases/download/2024.03.21/dropbox-2024.03.21.nvda-addon
+[1]: https://github.com/ruifontes/dropbox/releases/download/2025.06.13/dropbox-2025.06.13.nvda-addon
