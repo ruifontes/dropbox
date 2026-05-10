@@ -2,11 +2,10 @@ addon/doc/*.css
 addon/doc/en/
 *_docHandler.py
 *.html
-*.ini
-*.json
+manifest.ini
 *.mo
 *.pot
 *.py[co]
 *.nvda-addon
 .sconsign.dblite
-.python-version
+/[0-9]*.[0-9]*.[0-9]*.json
